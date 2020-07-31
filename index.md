@@ -8,41 +8,9 @@ Daher umfasst Qualitätsmanagement, wie ich es verstehe, alle notwendigen Mittel
 
 Hier möchte ich zusammenfassen wie ich beim Erreichen Ihrer Ziele helfen kann.
 
-# Schulungsformate
+{% include schulung-ohne-trademarks.md %}
 
-Häufig wiederkehrende Fragen und Anforderungen bediene ich mit einem kleinen Katalog von Schulungen:
-
-* [CMDB Modellierung](cmdb/modellierung/)
-
-* [Scrum / Agile / Lean](scrum-agile-lean-training/)
-
-* [Qualitätsklettern](qualitaetsklettern/)
-
-Schulungen führe ich zurzeit auf Anfrage zu individuell vereinbarten Terminen durch. Bitte nehmen Sie kurz [Kontakt](impressum/) mit mir auf um einen passenden Termin zu finden.
-
-Als zertifizierter ITIL® Expert organisiere ich für Sie auch jede Art von Schulung zum IT Service Management, z.B. ITIL Foundation oder fortgeschrittene Stufen.
-
-# Beratungsprojekte
-
-Individuelle Lösungen unterstütze ich temporär in Ihrer Organisation.
-
-Projekte zur Analyse und Implementierung von Verbesserungsmaßnahmen sind dann eine geeignete Form zur Zusammenarbeit.
-
-Auf dem Weg zum eigentlichen Projektziel kann ich Mitarbeiter in Ihren Teams auch in Methodik weiterentwickeln und nebenbei Wissen vermitteln.
-
-Inhalt der Projekte kann z.B. sein:
-
-* Produkt- und Projektmanagement (Scrum, RUP, PMI, PRINCE)
-* Schlankes Qualitätsmanagement (Kanban, Kaizen, 3M…) oder auf Basis der  ISO 9.000 ff Normenreihe
-* Konfigurationsmanagement (CMDB, ISO 10.007)
-* Wertschöpfung und Wertstromanalyse (Value Mapping)
-* Prozessmanagement (Jira, eEPK, jBPM, BPEL, UML)
-* Servicemanagement / IT-Service-Management (ISO 20.000 / ITIL)
-* Architekturmanagement für Unternehmen und IT (EAM, TOGAF, UML)
-* Governance, Risk & Compliance (COBIT, CRAMM, FMEA, ISO 27.000)
-* Kennzahlensysteme (IKS / ICS, MBO, Balanced Scorecard)
-sowie
-* Wissensmanagement (D-I-K, OWL, SKMS, Federated CMDB, Knowledge Graph)
+{% include beratung-ohne-trademarks.md %}
 
 # Ethikfilter
 
