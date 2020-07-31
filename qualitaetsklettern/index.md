@@ -6,9 +6,9 @@ Das Erlebnis der Höhe motiviert und es stimuliert einen natürlichen Sinn für 
 
 Dauer 	1 Tag
 
-Listenpreis (1) 	€ 800
+Listenpreis [^1] € 800
 
-Ermäßigter Preis (3) 	€ 400
+Ermäßigter Preis [^2] € 400
 
 ## Zielgruppe
 
@@ -78,8 +78,8 @@ Qualität ist ein Obergriff für viele individuelle Anforderungen. Dementspreche
 
 ## Fußnoten
 
-(1) Preis pro Teil­ne­hmer zu­züg­lich MwSt; inklusive Schu­lungs­un­ter­la­gen, Mittag­essen und Pau­sen­ver­pfle­gung; Irrtum vorbehalten
+[^1]: Preis pro Teil­ne­hmer zu­züg­lich MwSt; inklusive Schu­lungs­un­ter­la­gen, Mittag­essen und Pau­sen­ver­pfle­gung; Irrtum vorbehalten
 
-(2) Bei Früh­bucher­preisen beach­ten Sie bitte die An­melde­frist (mit gekenn­zeichnet)
+[^2]: Ermäßigter Preis für Privatpersonen sowie kleinere Unternehmen, Behörden oder Vereine. Details zur Einordnung finden Sie auf der Seite zum [Social Pricing](/social-pricing/).
 
-(3) Ermäßigter Preis für Privatpersonen sowie kleinere Unternehmen, Behörden oder Vereine. Details zur Einordnung finden Sie auf der Seite zum Social Pricing.
+[^3] falls verfügbar: bei Früh­bucher­preisen beach­ten Sie bitte die An­melde­frist
