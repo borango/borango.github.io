@@ -1,22 +1,36 @@
 Boran Goegetap
 ==============
 
-_Alpinist,  
+Alpinist,  
 ITIL Expert,  
 Scrum Master,  
 Wissenswandler
-Date of Birth February 1969 
-Languages Deutsch (first language)  
+
+Date of Birth: February 1969 
+
+Languages 
+
+Deutsch (first language)  
 English (fluent),  
 Français (basic knowledge),  
-Italiano (basic knowledge) Specialization Configuration Management,  
+Italiano (basic knowledge)
+
+Specialization
+
+Configuration Management,  
 Knowledge Management,  
-Process Management Availability single days almost any time,  
-halftime load in long-term average Contact [boran@goegetap.name](mailto:boran@goegetap.name)
+Process Management
+
+Availability
+
+single days almost any time,  
+halftime load in long-term average
+
+Contact [boran@goegetap.name](mailto:boran@goegetap.name)
 
 +49 – 8042 – 967 23 24
 
-![](http://www.goegetap.name/wp-content/uploads/2017/08/IMG_8597_2839x2839-1-300x300.jpg)Project Track
+Project Track
 ======================================================================================================
 
    
