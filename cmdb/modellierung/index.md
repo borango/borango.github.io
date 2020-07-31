@@ -8,7 +8,7 @@ Dauer: 1 Tag
 
 Listenpreis[^1]: € 1.200
 
-Ermäßigter Preis [^2]: € 600
+Ermäßigter Preis[^2]: € 600
 
 ## Zielgruppe
 
