@@ -4,11 +4,11 @@
 
 Das Erlebnis der Höhe motiviert und es stimuliert einen natürlichen Sinn für die Notwendigkeit (von Qualität). Moderne Sicherungstechniken (Ausrüstung und Prozeduren) demonstrieren den Einsatz eines wirksamen und dennoch schlanken Qualitätssystems.
 
-Dauer 	1 Tag
+Dauer: 1 Tag
 
-Listenpreis [^1] € 800
+Listenpreis[^1]: € 800
 
-Ermäßigter Preis [^2] € 400
+Ermäßigter Preis[^2]: € 400
 
 ## Zielgruppe
 
