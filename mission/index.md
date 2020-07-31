@@ -16,9 +16,9 @@ Becoming aware of an **essential structure** is sometimes hard. Because some con
 
 My contribution is: **discovering such essential structures**.
 
-## How can I help?
+## How does it work?
 
-Most of the knowledge about things and their structure already exists. The knowledge lives in people or somewhere in the client’s organization. But often that knowledge is partitioned (not connected), or it is remembered (not documented), or it is stored in databases (not readably by humans), or it is kept in documents and not readably by machines.
+Most of the knowledge about things and their structure already exists. The knowledge lives in people or somewhere in the client’s organization. But often that knowledge is partitioned (not connected), or it is remembered (not documented), or it is stored in databases (not readably by humans), or it is kept in styled documents (and not readable by machines).
 
 What I typically do is to transform such pieces of knowledge into a greater body of knowledge. We can call that a configuration model or enterprise continuum or knowledge graph or a quality manamagent system or many other terms.
 
