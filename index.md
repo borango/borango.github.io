@@ -55,17 +55,3 @@ Details zu meinen Tagessätzen in Projekten finden Sie [hier](social-pricing/).
 ---
 
 {% include trademarks.html %}
-
----
-
-[Social Pricing](/social-pricing/)
-
----
-
-[Kontinuierliche Verbesserung](/kvp/)
-
----
-
-[Impressum und Kontakt](/impressum/)
-
----
