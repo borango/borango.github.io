@@ -4,11 +4,11 @@
 
 Teilnehmer entwickeln ihr eigenes CMDB Datenmodell und pflegen anschließend Configuration Items in einer Opensource CMDB Software.
 
-Dauer 	1 Tag
+Dauer: 1 Tag
 
-Listenpreis (1) 	€ 1.200
+Listenpreis[^1]: € 1.200
 
-Ermäßigter Preis (3) 	€ 600
+Ermäßigter Preis [^2]: € 600
 
 ## Zielgruppe
 
@@ -84,10 +84,4 @@ Der Workshop enthält eine praktische Prüfung und führt zum Configuration Expe
 
 Teilnehmer erhalten die Schulungsunterlagen sowohl auf Papier als auch in elektronischer Form, so dass Begriffe und Zusammenhänge per Volltextsuche recherchiert werden können.
 
-## Fußnoten
-
-(1) Preis pro Teil­ne­hmer zu­züg­lich MwSt; inklusive Schu­lungs­un­ter­la­gen, Mittag­essen und Pau­sen­ver­pfle­gung; Irrtum vorbehalten
-
-(2) Bei Früh­bucher­preisen beach­ten Sie bitte die An­melde­frist (mit gekenn­zeichnet)
-
-(3) Ermäßigter Preis für Privatpersonen sowie kleinere Unternehmen, Behörden oder Vereine. Details zur Einordnung finden Sie auf der Seite zum Social Pricing.
+{% include training-footnotes.md %}
