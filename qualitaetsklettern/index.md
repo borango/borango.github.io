@@ -76,4 +76,4 @@ Qualität ist ein Obergriff für viele individuelle Anforderungen. Dementspreche
 
 > „The event was a huge success and I received a very positive feedback. The agenda we built together helped everyone to think about service quality in a different way, and I am sure it will have positive knock-on effects to how we do Incident, Problem and Change Mgmt. The climbing itself was a unique experience and along with our dinner together, contributed greatly to our „team-building“ goal.“
 
-{# include training-footnotes.html #}
+{% include training-footnotes.html %}
