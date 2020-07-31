@@ -4,11 +4,11 @@
 
 Dieser Kurs zeigt dass Management-Methoden nicht kompliziert sein müssen. Wenn sich Menschen auf die eigentliche Arbeit konzentrieren dürfen dann liefern sie bessere Ergebnisse in kürzerer Zeit bei maximaler Freude (im Vergleich zu einer bürokratischeren Arbeitsweise).
 
-Dauer 	2 Tage
+Dauer: 2 Tage
 
-Listenpreis (1) 	€ 2.400
+Listenpreis[^1]: 	€ 2.400
 
-Ermäßigter Preis (3) 	€ 1.200
+Ermäßigter Preis[^2]: € 1.200
 
 ## Zielgruppe
 
@@ -47,10 +47,4 @@ Agile Methoden können wir auf viele Anforderungen anwenden, aber nicht auf alle
 
 Mit ein bisschen Theorie, etlichen Anekdoten und vielen praktischen Übungen erleben wir verblüffend einfach die schlanke, agile Arbeitsweise.
 
-## Fußnoten
-
-(1) Preis pro Teil­ne­hmer zu­züg­lich MwSt; inklusive Schu­lungs­un­ter­la­gen, Mittag­essen und Pau­sen­ver­pfle­gung; Irrtum vorbehalten
-
-(2) Bei Früh­bucher­preisen beach­ten Sie bitte die An­melde­frist (mit gekenn­zeichnet)
-
-(3) Ermäßigter Preis für Privatpersonen sowie kleinere Unternehmen, Behörden oder Vereine. Details zur Einordnung finden Sie auf der Seite zum Social Pricing.
+{% include training-footnotes.md %}
