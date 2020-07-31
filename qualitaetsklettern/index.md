@@ -76,10 +76,4 @@ Qualität ist ein Obergriff für viele individuelle Anforderungen. Dementspreche
 
 > „The event was a huge success and I received a very positive feedback. The agenda we built together helped everyone to think about service quality in a different way, and I am sure it will have positive knock-on effects to how we do Incident, Problem and Change Mgmt. The climbing itself was a unique experience and along with our dinner together, contributed greatly to our „team-building“ goal.“
 
-## Fußnoten
-
-[^1]: Preis pro Teil­ne­hmer zu­züg­lich MwSt; inklusive Schu­lungs­un­ter­la­gen, Mittag­essen und Pau­sen­ver­pfle­gung; Irrtum vorbehalten
-
-[^2]: Ermäßigter Preis für Privatpersonen sowie kleinere Unternehmen, Behörden oder Vereine. Details zur Einordnung finden Sie auf der Seite zum [Social Pricing](/social-pricing/).
-
-[^3] falls verfügbar: bei Früh­bucher­preisen beach­ten Sie bitte die An­melde­frist
+{# include training-footnotes.html #}
