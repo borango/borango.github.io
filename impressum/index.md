@@ -2,8 +2,8 @@
 
 ## verantwortlich im Sinne des Telemediengesetzes (TMG)
 
-> Boran Gögetap\
-> Am Sagbach 25a\
+> Boran Gögetap  
+> Am Sagbach 25a  
 > 83661 Lenggries
 
 contact via email
