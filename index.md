@@ -54,7 +54,7 @@ Details zu meinen Tagessätzen in Projekten finden Sie [hier](social-pricing/).
 
 ---
 
-{% include trademarks.txt %}
+{% include trademarks.html %}
 
 ---
 
