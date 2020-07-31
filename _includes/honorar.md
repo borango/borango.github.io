@@ -1,5 +1,5 @@
 # Honorar
 
-Details zu meinen Tagessätzen in Projekten finden Sie [hier](social-pricing/).
+Mein Honorar passe ich sozio-ökonomisch auf die Situation meiner Klienten an.
 
-Mein resultierendes Honorar für Schulungen, für Vorträge oder für Werkverträge kann von den Projekttagessätzen abweichen.
+Details zu meinen Tagessätzen in Projekten und Rabatte für Schulungsteilnehmer finden Sie auf der Seite zum [Social Pricing](social-pricing/).
