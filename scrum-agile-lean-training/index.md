@@ -38,7 +38,8 @@ Nicht nur Projekte sondern auch jeden operativen Betrieb, formale Prozesse genau
 Ob man jetzt [ ej-dscheil ] dazu sagt oder [ ah-gil ] ist Geschmacksache. In jedem Fall geht es um rasche, kleine Schritte die in der Summe einen erheblich größeren Durchsatz ergeben können als endlose Planerei.
 
 Kleine Schritte ergeben mehr Messpunkte, die Chance Fehler früh zu erkennen und abzustellen – oder abzubrechen. Kleine Schritte ergeben mehr Wiederholungen, mehr Routine und dadurch höhere Qualität… mal auf die Schnelle zusammengefasst.
-Grenzen der Agilität
+
+## Grenzen der Agilität
 
 Agile Methoden können wir auf viele Anforderungen anwenden, aber nicht auf alle. Was sich nicht in kleine Schritte zerlegen lässt, das ist kein Kandidat für Agilität. Ein bemannter Mondflug ist ein gutes Beispiel für ein Projekt das auf Anhieb gelingen sollte und daher einen großen Anteil sorgfältigster Vorausplanung erfordert.
 
