@@ -4,8 +4,7 @@
 
 > Boran Gögetap  
 > Am Sagbach 25a  
-> 83661 Lenggries 
-> Deutschland 
+> DE -- 83661 Lenggries 
 
 contact via email
 
