@@ -1,3 +1,5 @@
+---
+---
 # Qualitätsklettern Workshop
 
 > dieses hybride Format kombiniert Bewegungsfreude und Lernziele des klassischen Qualitätsmanagements (ISO 9000 und andere)

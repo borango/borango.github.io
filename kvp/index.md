@@ -1,3 +1,5 @@
+---
+---
 # Kontinuierliche Verbesserung und Kundenzufriedenheit
 
 Kann ich etwas für Sie besser machen? Dann wenden Sie sich bitte telefonisch, per Email, per Kommentar oder per Briefpost an mich:

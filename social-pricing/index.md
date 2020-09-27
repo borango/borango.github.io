@@ -1,3 +1,5 @@
+---
+---
 # Social Pricing
 
 > Ökonomische Preisfindung mit gesellschaftlicher Verantwortung: je nach Zielgruppe biete ich meine Leistungen zu gestaffelten Preisen an.

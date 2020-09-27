@@ -1,3 +1,6 @@
+---
+title: Einstieg
+---
 # Einstieg
 
 Hallo, mein Name ist Boran Gögetap. Rund ums Qualitätsmanagement berate ich zu allen möglichen Themen.

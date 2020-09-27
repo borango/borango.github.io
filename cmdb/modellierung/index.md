@@ -1,3 +1,5 @@
+---
+---
 # CMDB Modellierung
 
 > Praktischer, herstellerunabhängiger Workshop mit Best Practices für Aufbau, Einführung und Betrieb der Configuration Management Database (CMDB) als zentrales Tool im IT Service Management (ITSM)

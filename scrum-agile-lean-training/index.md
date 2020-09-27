@@ -1,3 +1,5 @@
+---
+---
 # Scrum / Agile / Lean Training
 
 > Schlanke und agile Methoden praktisch erlernen: beim Jonglieren und beim Errichten einer Kleinstadt aus Papier.
