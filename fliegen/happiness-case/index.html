@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Glück und Leid: Gemischte Gefühle am Beispiel Gleitschirmfliegen</title>
+<script src="https://www.gstatic.com/charts/loader.js" type="text/ecmascript" ></script>
+<script src="mixed-feelings.js" type="text/ecmascript" ></script>
+</head>
+<body>
+<div id="sankey_basic" style="width: 100%; height: 1250px; float:left"></div>
+<span id="params" style="float:right">
+<small>
+<p>Parameter (verändern die Gewichtung der Ursachen welche zu Glücks-/Leidensgefühlen führen)</p>
+<form>
+Ist das Fliegen schon immer Dein Traum gewesen?<fieldset>
+<input type="radio" name="Traum" value="2.00" onclick="drawChart()" >ja
+<input type="radio" name="Traum" value="0.00" onclick="drawChart()" checked="checked">nein
+</fieldset>
+Wie viel Thermik erwarten wir?<fieldset>
+<input type="radio" name="Thermik" value="0.00" onclick="drawChart()" >keine
+<input type="radio" name="Thermik" value="1.00" onclick="drawChart()" checked="checked">geringe
+<input type="radio" name="Thermik" value="3.00" onclick="drawChart()" >starke
+</fieldset>
+Wird es Dir leicht übel oder schwindelig?<fieldset>
+<input type="radio" name="Dizzy" value="0.00" onclick="drawChart()" >selten
+<input type="radio" name="Dizzy" value="1.00" onclick="drawChart()" checked="checked">manchmal
+<input type="radio" name="Dizzy" value="2.00" onclick="drawChart()" >regelmäßig
+</fieldset>
+Leidest Du unter Höhenangst?<fieldset>
+<input type="radio" name="vertigo" value="0.00" onclick="drawChart()" >gar nicht
+<input type="radio" name="vertigo" value="0.30" onclick="drawChart()" checked="checked">ein wenig
+<input type="radio" name="vertigo" value="0.99" onclick="drawChart()" >sehr
+</fieldset>
+Wirst Du warm angezogen sein?<fieldset>
+<input type="radio" name="cold" value="0.00" onclick="drawChart()" checked="checked">ja
+<input type="radio" name="cold" value="0.99" onclick="drawChart()" >nein
+</fieldset>
+Wie schätzt Du die Anstrengung beim Zustieg (verglichen mit Deinen üblichen sportlichen Aktivitäten) ein?<fieldset>
+<input type="radio" name="Anstrengung" value="0.5" onclick="drawChart()" >gering 
+<input type="radio" name="Anstrengung" value="1.0" onclick="drawChart()" checked="checked">mittel
+<input type="radio" name="Anstrengung" value="2.0" onclick="drawChart()" >hoch
+</fieldset>
+</form>
+</small>
+</span>
+</body>
+</html>
