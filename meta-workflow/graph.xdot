@@ -1,0 +1,1083 @@
+digraph {
+	graph [_draw_="c 9 -#fffffe00 C 7 -#ffffff P 4 0 0 0 1136.5 1941 1136.5 1941 0 ",
+		bb="0,0,1941,1136.5",
+		color=whitesmoke,
+		fontname=Helvetica,
+		labelloc=b,
+		newrank=true,
+		nodesep=0.4,
+		rankdir=LR,
+		ranksep=0.2,
+		remincross=true,
+		splines=true,
+		style="filled,rounded",
+		target=details,
+		tooltip=" ",
+		xdotversion=1.7
+	];
+	node [fillcolor=white,
+		fontname=Helvetica,
+		height=0,
+		id="\N",
+		label="\N",
+		margin=0.1,
+		shape=none,
+		style="filled,rounded",
+		tooltip=" ",
+		width=0
+	];
+	edge [id="\T___\H"];
+	{
+		node [fillcolor="#deebf7",
+			margin=0.2,
+			shape=none,
+			style=filled
+		];
+		grap		 [_draw_="c 9 -#fffffe00 C 7 -#deebf7 P 4 223 89 107 89 107 0 223 0 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 165 63.8 0 35 5 -graph F 14 9 -Helvetica c 7 -#000000 T 165 48.8 0 88 13 -(mathematics) F 14 9 \
+-Helvetica c 7 -#000000 T 165 17.8 0 75 12 --conceptual- ",
+			fillcolor="#deebf7",
+			height=1.2361,
+			label="graph\n(mathematics)\n\n-conceptual-",
+			margin=0.2,
+			pos="165,44.5",
+			style=filled,
+			width=1.6111];
+		FSM		 [_draw_="c 9 -#fffffe00 C 7 -#deebf7 P 4 238 192.5 92 192.5 92 118.5 238 118.5 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 165 167.3 0 118 20 -finite-state machine F 14 9 -Helvetica c 7 -#000000 T 165 136.3 0 75 12 --conceptual- ",
+			fillcolor="#deebf7",
+			height=1.0278,
+			label="finite-state machine\n\n-conceptual-",
+			margin=0.2,
+			pos="165,155.5",
+			style=filled,
+			width=2.0278];
+		evnt		 [_draw_="c 9 -#fffffe00 C 7 -#deebf7 P 4 239 295.5 91 295.5 91 221.5 239 221.5 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 165 270.3 0 114 20 -Definition of Event: F 14 9 -Helvetica c 7 -#000000 T 165 239.3 0 120 19 -\"\
+a Change of State\" ",
+			fillcolor="#deebf7",
+			height=1.0278,
+			label="Definition of Event:\n\n\"a Change of State\"",
+			margin=0.2,
+			pos="165,258.5",
+			style=filled,
+			width=2.0556];
+		EPK		 [_draw_="c 9 -#fffffe00 C 7 -#deebf7 P 4 208 414 122 414 122 325 208 325 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 165 388.8 0 28 3 -EPK F 14 9 -Helvetica c 7 -#000000 T 165 373.8 0 41 6 -(ARIS) F 14 9 -Helvetica \
+c 7 -#000000 T 165 342.8 0 58 10 --notation- ",
+			fillcolor="#deebf7",
+			height=1.2361,
+			label="EPK\n(ARIS)\n\n-notation-",
+			margin=0.2,
+			pos="165,369.5",
+			style=filled,
+			width=1.1944];
+		BPMN		 [_draw_="c 9 -#fffffe00 C 7 -#deebf7 P 4 208 540 122 540 122 451 208 451 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 165 514.8 0 40 4 -BPMN F 14 9 -Helvetica c 7 -#000000 T 165 499.8 0 44 5 -(OMG) F 14 9 -Helvetica \
+c 7 -#000000 T 165 468.8 0 58 10 --notation- ",
+			fillcolor="#deebf7",
+			height=1.2361,
+			label="BPMN\n(OMG)\n\n-notation-",
+			margin=0.2,
+			pos="165,495.5",
+			style=filled,
+			width=1.1944];
+		UML		 [_draw_="c 9 -#fffffe00 C 7 -#deebf7 P 4 226.5 695.5 103.5 695.5 103.5 621.5 226.5 621.5 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 165 670.3 0 95 14 -UML Statechart F 14 9 -Helvetica c 7 -#000000 T 165 639.3 0 58 10 --notation- ",
+			fillcolor="#deebf7",
+			height=1.0278,
+			label="UML Statechart\n\n-notation-",
+			margin=0.2,
+			pos="165,658.5",
+			style=filled,
+			width=1.7083];
+		Jira		 [_draw_="c 9 -#fffffe00 C 7 -#deebf7 P 4 212.5 866.5 117.5 866.5 117.5 792.5 212.5 792.5 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 165 841.3 0 22 4 -Jira F 14 9 -Helvetica c 7 -#000000 T 165 810.3 0 67 11 --execution- ",
+			fillcolor="#deebf7",
+			height=1.0278,
+			label="Jira\n\n-execution-",
+			margin=0.2,
+			pos="165,829.5",
+			style=filled,
+			width=1.3194];
+		META		 [_draw_="c 9 -#fffffe00 C 7 -#deebf7 P 4 225 1076.5 105 1076.5 105 972.5 225 972.5 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 165 1051.3 0 67 9 -Knowledge F 14 9 -Helvetica c 7 -#000000 T 165 1036.3 0 92 14 -Transformation \
+F 14 9 -Helvetica c 7 -#000000 T 165 1021.3 0 45 6 -(BoGo) F 14 9 -Helvetica c 7 -#000000 T 165 990.3 0 40 6 --meta- ",
+			fillcolor="#deebf7",
+			height=1.4444,
+			label="Knowledge\nTransformation\n(BoGo)\n\n-meta-",
+			margin=0.2,
+			pos="165,1024.5",
+			style=filled,
+			width=1.6667];
+	}
+	{
+		node [label=State];
+		m_s1		 [_draw_="c 7 -#000000 C 7 -#ffffff b 25 303.33 1039 303.33 1039 276.67 1039 276.67 1039 271.83 1039 267 1034.17 267 1029.33 267 1029.33 267 \
+1019.67 267 1019.67 267 1014.83 271.83 1010 276.67 1010 276.67 1010 303.33 1010 303.33 1010 308.17 1010 313 1014.83 313 1019.67 \
+313 1019.67 313 1029.33 313 1029.33 313 1034.17 308.17 1039 303.33 1039 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 290 1020.8 0 32 5 -State ",
+			height=0.40278,
+			label=State,
+			pos="290,1024.5",
+			shape=box,
+			width=0.63889];
+		m_s2		 [_draw_="c 7 -#000000 C 7 -#ffffff b 25 1074.33 1063 1074.33 1063 1047.67 1063 1047.67 1063 1042.83 1063 1038 1058.17 1038 1053.33 1038 1053.33 \
+1038 1043.67 1038 1043.67 1038 1038.83 1042.83 1034 1047.67 1034 1047.67 1034 1074.33 1034 1074.33 1034 1079.17 1034 1084 1038.83 \
+1084 1043.67 1084 1043.67 1084 1053.33 1084 1053.33 1084 1058.17 1079.17 1063 1074.33 1063 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1061 1044.8 0 32 5 -State ",
+			height=0.40278,
+			label=State,
+			pos="1061,1048.5",
+			shape=box,
+			width=0.63889];
+	}
+	{
+		node [label=Event];
+		m_s1e		 [_draw_="c 7 -#000000 C 7 -#ffffff b 25 460.33 1039 460.33 1039 430.67 1039 430.67 1039 425.83 1039 421 1034.17 421 1029.33 421 1029.33 421 \
+1019.67 421 1019.67 421 1014.83 425.83 1010 430.67 1010 430.67 1010 460.33 1010 460.33 1010 465.17 1010 470 1014.83 470 1019.67 \
+470 1019.67 470 1029.33 470 1029.33 470 1034.17 465.17 1039 460.33 1039 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 445.5 1020.8 0 35 5 -Event ",
+			height=0.40278,
+			label=Event,
+			pos="445.5,1024.5",
+			shape=box,
+			width=0.68056];
+		m_es2		 [_draw_="c 7 -#000000 C 7 -#ffffff b 25 928.33 1004 928.33 1004 898.67 1004 898.67 1004 893.83 1004 889 999.17 889 994.33 889 994.33 889 \
+984.67 889 984.67 889 979.83 893.83 975 898.67 975 898.67 975 928.33 975 928.33 975 933.17 975 938 979.83 938 984.67 938 984.67 \
+938 994.33 938 994.33 938 999.17 933.17 1004 928.33 1004 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 913.5 985.8 0 35 5 -Event ",
+			height=0.40278,
+			label=Event,
+			pos="913.5,989.5",
+			shape=box,
+			width=0.68056];
+	}
+	{
+		node [label="",
+			shape=circle,
+			width=0.4,
+			xlabel=Event
+		];
+		b_e1		 [_draw_="S 15 -setlinewidth(2) c 7 -#000000 C 7 -#ffffff E 445.5 495.5 14.5 14.5 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 413.5 469.8 0 35 5 -Event ",
+			height=0.40278,
+			label="",
+			penwidth=2,
+			pos="445.5,495.5",
+			shape=circle,
+			width=0.40278,
+			xlabel=Event,
+			xlp="413.5,473.5"];
+		b_e2		 [_draw_="S 15 -setlinewidth(4) c 7 -#000000 C 7 -#ffffff E 913.5 495.5 14.5 14.5 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 881.5 469.8 0 35 5 -Event ",
+			height=0.40278,
+			label="",
+			penwidth=4,
+			pos="913.5,495.5",
+			shape=circle,
+			width=0.40278,
+			xlabel=Event,
+			xlp="881.5,473.5"];
+	}
+	{
+		node [fillcolor=plum1,
+			label=Event,
+			shape=hexagon,
+			style=filled
+		];
+		a_e1		 [_draw_="c 7 -#000000 C 7 -#ffbbff P 6 485.52 369.5 465.51 393.36 425.49 393.36 405.48 369.5 425.49 345.64 465.51 345.64 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 445.5 365.8 0 35 5 -Event ",
+			fillcolor=plum1,
+			height=0.65773,
+			label=Event,
+			pos="445.5,369.5",
+			shape=hexagon,
+			style=filled,
+			width=1.1113];
+		a_e2		 [_draw_="c 7 -#000000 C 7 -#ffbbff P 6 953.52 369.5 933.51 393.36 893.49 393.36 873.48 369.5 893.49 345.64 933.51 345.64 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 913.5 365.8 0 35 5 -Event ",
+			fillcolor=plum1,
+			height=0.65773,
+			label=Event,
+			pos="913.5,369.5",
+			shape=hexagon,
+			style=filled,
+			width=1.1113];
+	}
+	{
+		node [label="node",
+			style=none
+		];
+		g_n2		 [_draw_="S 4 -none c 7 -#000000 p 4 312.5 59 267.5 59 267.5 30 312.5 30 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 290 40.8 0 31 4 -node ",
+			height=0.40278,
+			label="node",
+			pos="290,44.5",
+			shape=box,
+			style=none,
+			width=0.625];
+		g_n3		 [_draw_="S 4 -none c 7 -#000000 p 4 468 59 423 59 423 30 468 30 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 445.5 40.8 0 31 4 -node ",
+			height=0.40278,
+			label="node",
+			pos="445.5,44.5",
+			shape=box,
+			style=none,
+			width=0.625];
+		g_n4		 [_draw_="S 4 -none c 7 -#000000 p 4 706 59 661 59 661 30 706 30 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 683.5 40.8 0 31 4 -node ",
+			height=0.40278,
+			label="node",
+			pos="683.5,44.5",
+			shape=box,
+			style=none,
+			width=0.625];
+		g_n5		 [_draw_="S 4 -none c 7 -#000000 p 4 936 59 891 59 891 30 936 30 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 913.5 40.8 0 31 4 -node ",
+			height=0.40278,
+			label="node",
+			pos="913.5,44.5",
+			shape=box,
+			style=none,
+			width=0.625];
+		g_n6		 [_draw_="S 4 -none c 7 -#000000 p 4 1083.5 59 1038.5 59 1038.5 30 1083.5 30 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1061 40.8 0 31 4 -node ",
+			height=0.40278,
+			label="node",
+			pos="1061,44.5",
+			shape=box,
+			style=none,
+			width=0.625];
+	}
+	{
+		node [label=STATUS,
+			penwidth=2
+		];
+		j_s1		 [_draw_="S 15 -setlinewidth(2) c 7 -#0052cc C 7 -#ffffff b 25 314.33 844 314.33 844 265.67 844 265.67 844 260.83 844 256 839.17 256 834.33 \
+256 834.33 256 824.67 256 824.67 256 819.83 260.83 815 265.67 815 265.67 815 314.33 815 314.33 815 319.17 815 324 819.83 324 824.67 \
+324 824.67 324 834.33 324 834.33 324 839.17 319.17 844 314.33 844 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 290 825.8 0 54 6 -STATUS ",
+			color="#0052cc",
+			height=0.40278,
+			label=STATUS,
+			penwidth=2,
+			pos="290,829.5",
+			shape=box,
+			width=0.94444];
+		j_s2		 [_draw_="S 15 -setlinewidth(2) c 7 -#00875a C 7 -#ffffff b 25 1085.33 812 1085.33 812 1036.67 812 1036.67 812 1031.83 812 1027 807.17 1027 \
+802.33 1027 802.33 1027 792.67 1027 792.67 1027 787.83 1031.83 783 1036.67 783 1036.67 783 1085.33 783 1085.33 783 1090.17 783 1095 \
+787.83 1095 792.67 1095 792.67 1095 802.33 1095 802.33 1095 807.17 1090.17 812 1085.33 812 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1061 793.8 0 54 6 -STATUS ",
+			color="#00875a",
+			height=0.40278,
+			label=STATUS,
+			penwidth=2,
+			pos="1061,797.5",
+			shape=box,
+			width=0.94444];
+	}
+	{
+		node [label="",
+			penwidth=2,
+			shape=circle,
+			width=0.4,
+			xlabel=State
+		];
+		f_s1		 [_draw_="S 15 -setlinewidth(2) c 7 -#000000 C 7 -#ffffff E 290 155.5 14.5 14.5 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 259.5 129.8 0 32 5 -State ",
+			height=0.40278,
+			label="",
+			penwidth=2,
+			pos="290,155.5",
+			shape=circle,
+			width=0.40278,
+			xlabel=State,
+			xlp="259.5,133.5"];
+		f_s2		 [_draw_="S 15 -setlinewidth(2) c 7 -#000000 C 7 -#ffffff E 1061 155.5 14.5 14.5 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1030.5 129.8 0 32 5 -State ",
+			height=0.40278,
+			label="",
+			penwidth=2,
+			pos="1061,155.5",
+			shape=circle,
+			width=0.40278,
+			xlabel=State,
+			xlp="1030.5,133.5"];
+	}
+	{
+		node [label="",
+			penwidth=2,
+			shape=circle,
+			width=0.4,
+			xlabel=State
+		];
+		e_s1		 [_draw_="S 15 -setlinewidth(2) c 7 -#000000 C 7 -#ffffff E 290 258.5 14.5 14.5 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 259.5 232.8 0 32 5 -State ",
+			height=0.40278,
+			label="",
+			penwidth=2,
+			pos="290,258.5",
+			shape=circle,
+			width=0.40278,
+			xlabel=State,
+			xlp="259.5,236.5"];
+		e_s2		 [_draw_="S 15 -setlinewidth(2) c 7 -#000000 C 7 -#ffffff E 1061 258.5 14.5 14.5 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1030.5 232.8 0 32 5 -State ",
+			height=0.40278,
+			label="",
+			penwidth=2,
+			pos="1061,258.5",
+			shape=circle,
+			width=0.40278,
+			xlabel=State,
+			xlp="1030.5,236.5"];
+	}
+	{
+		node [label=State];
+		u_s1		 [_draw_="c 7 -#000000 C 7 -#ffffff b 25 303.33 673 303.33 673 276.67 673 276.67 673 271.83 673 267 668.17 267 663.33 267 663.33 267 653.67 \
+267 653.67 267 648.83 271.83 644 276.67 644 276.67 644 303.33 644 303.33 644 308.17 644 313 648.83 313 653.67 313 653.67 313 663.33 \
+313 663.33 313 668.17 308.17 673 303.33 673 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 290 654.8 0 32 5 -State ",
+			height=0.40278,
+			label=State,
+			pos="290,658.5",
+			shape=box,
+			width=0.63889];
+		u_s2		 [_draw_="c 7 -#000000 C 7 -#ffffff b 25 1074.33 673 1074.33 673 1047.67 673 1047.67 673 1042.83 673 1038 668.17 1038 663.33 1038 663.33 1038 \
+653.67 1038 653.67 1038 648.83 1042.83 644 1047.67 644 1047.67 644 1074.33 644 1074.33 644 1079.17 644 1084 648.83 1084 653.67 1084 \
+653.67 1084 663.33 1084 663.33 1084 668.17 1079.17 673 1074.33 673 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1061 654.8 0 32 5 -State ",
+			height=0.40278,
+			label=State,
+			pos="1061,658.5",
+			shape=box,
+			width=0.63889];
+	}
+	{
+		node [fillcolor="#edf8e9",
+			margin=0.2,
+			shape=none,
+			style=filled
+		];
+		g_ex		 [_draw_="c 9 -#fffffe00 C 7 -#edf8e9 P 4 1916 66 1567 66 1567 23 1916 23 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1741.5 40.8 0 321 52 -\"something leads to something leads to something...\" ",
+			fillcolor="#edf8e9",
+			height=0.59722,
+			label="\"something leads to something leads to something...\"",
+			margin=0.2,
+			pos="1741.5,44.5",
+			style=filled,
+			width=4.8472];
+		f_ex		 [_draw_="c 9 -#fffffe00 C 7 -#edf8e9 P 4 1817.5 177 1665.5 177 1665.5 134 1817.5 134 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1741.5 151.8 0 124 22 -\"ice turns into water\" ",
+			fillcolor="#edf8e9",
+			height=0.59722,
+			label="\"ice turns into water\"",
+			margin=0.2,
+			pos="1741.5,155.5",
+			style=filled,
+			width=2.1111];
+		e_ex		 [_draw_="c 9 -#fffffe00 C 7 -#edf8e9 P 4 1855.5 280 1627.5 280 1627.5 237 1855.5 237 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1741.5 254.8 0 200 32 -\"ice MELTS and turns into water\" ",
+			fillcolor="#edf8e9",
+			height=0.59722,
+			label="\"ice MELTS and turns into water\"",
+			margin=0.2,
+			pos="1741.5,258.5",
+			style=filled,
+			width=3.1667];
+		a_ex		 [_draw_="c 9 -#fffffe00 C 7 -#edf8e9 P 4 1902.5 391 1580.5 391 1580.5 348 1902.5 348 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1741.5 365.8 0 294 47 -\"when thirsty then START A FIRE to change ...?\" ",
+			fillcolor="#edf8e9",
+			height=0.59722,
+			label="\"when thirsty then START A FIRE to change ...?\"",
+			margin=0.2,
+			pos="1741.5,369.5",
+			style=filled,
+			width=4.4722];
+		b_ex		 [_draw_="c 9 -#fffffe00 C 7 -#edf8e9 P 4 1847.5 548 1635.5 548 1635.5 443 1847.5 443 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1741.5 522.8 0 108 18 -\"when thirsty then F 14 9 -Helvetica c 7 -#000000 T 1741.5 491.8 0 184 30 \
+-you could change that yourself F 14 9 -Helvetica c 7 -#000000 T 1741.5 460.8 0 166 26 -OR with help of a machine\" ",
+			fillcolor="#edf8e9",
+			height=1.4583,
+			label="\"when thirsty then\n\nyou could change that yourself\n\nOR with help of a machine\"",
+			margin=0.2,
+			pos="1741.5,495.5",
+			style=filled,
+			width=2.9444];
+		u_ex		 [_draw_="c 9 -#fffffe00 C 7 -#edf8e9 P 4 1941 680 1542 680 1542 637 1941 637 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1741.5 654.8 0 371 57 -\"when thirsty then WRITE SOFTWARE to melt ice into water\" ",
+			fillcolor="#edf8e9",
+			height=0.59722,
+			label="\"when thirsty then WRITE SOFTWARE to melt ice into water\"",
+			margin=0.2,
+			pos="1741.5,658.5",
+			style=filled,
+			width=5.5417];
+		j_ex		 [_draw_="c 9 -#fffffe00 C 7 -#edf8e9 P 4 1887 834.5 1596 834.5 1596 760.5 1887 760.5 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1741.5 809.3 0 196 35 -\"when thirsty then raise a ticket - F 14 9 -Helvetica c 7 -#000000 T 1741.5 \
+778.3 0 263 44 -we will somehow turn ice into water for you\" ",
+			fillcolor="#edf8e9",
+			height=1.0278,
+			label="\"when thirsty then raise a ticket -\n\nwe will somehow turn ice into water for you\"",
+			margin=0.2,
+			pos="1741.5,797.5",
+			style=filled,
+			width=4.0417];
+		m_ex		 [_draw_="c 9 -#fffffe00 C 7 -#edf8e9 P 4 1824.5 1116.5 1658.5 1116.5 1658.5 980.5 1824.5 980.5 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1741.5 1091.3 0 109 18 -\"when I am thirsty F 14 9 -Helvetica c 7 -#000000 T 1741.5 1060.3 0 138 \
+22 -and have access to ice F 14 9 -Helvetica c 7 -#000000 T 1741.5 1029.3 0 98 19 -then I start a fire F 14 9 -Helvetica c 7 -#000000 \
+T 1741.5 998.3 0 84 14 -to melt water\" ",
+			fillcolor="#edf8e9",
+			height=1.8889,
+			label="\"when I am thirsty\n\nand have access to ice\n\nthen I start a fire\n\nto melt water\"",
+			margin=0.2,
+			pos="1741.5,1048.5",
+			style=filled,
+			width=2.3056];
+	}
+	{
+		node [fillcolor="#ffffcc",
+			margin=0.2,
+			shape=none,
+			style=filled
+		];
+		edge [style=invis];
+		{
+			node [label="?"];
+			a_q			 [_draw_="c 9 -#fffffe00 C 7 -#ffffcc P 4 1079 391 1043 391 1043 348 1079 348 ",
+				_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1061 365.8 0 8 1 -? ",
+				fillcolor="#ffffcc",
+				height=0.59722,
+				label="?",
+				margin=0.2,
+				pos="1061,369.5",
+				style=filled,
+				width=0.5];
+			b_q			 [_draw_="c 9 -#fffffe00 C 7 -#ffffcc P 4 1079 517 1043 517 1043 474 1079 474 ",
+				_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1061 491.8 0 8 1 -? ",
+				fillcolor="#ffffcc",
+				height=0.59722,
+				label="?",
+				margin=0.2,
+				pos="1061,495.5",
+				style=filled,
+				width=0.5];
+		}
+		m_s2;
+		m_int		 [_draw_="c 9 -#fffffe00 C 7 -#ffffcc P 4 1525 1116.5 1112 1116.5 1112 980.5 1525 980.5 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1318.5 1091.3 0 343 53 -a meta model for workflow, state and event management F 14 9 -Helvetica \
+c 7 -#000000 T 1318.5 1060.3 0 385 57 -which can express the other methods (FSM, UML, EPK, BPMN) F 14 9 -Helvetica c 7 -#000000 \
+T 1318.5 1029.3 0 189 31 -as well as tool implementations F 14 9 -Helvetica c 7 -#000000 T 1318.5 998.3 0 202 31 -and help migrating \
+between them ",
+			fillcolor="#ffffcc",
+			height=1.8889,
+			label="a meta model for workflow, state and event management\n\nwhich can express the other methods (FSM, UML, EPK, BPMN)\n\nas well as \
+tool implementations\n\nand help migrating between them",
+			margin=0.2,
+			pos="1318.5,1048.5",
+			style=filled,
+			width=5.7361];
+		m_s2 -> m_int		 [pos="e,1111.8,1048.5 1084.3,1048.5 1089.4,1048.5 1095.2,1048.5 1101.5,1048.5",
+			style=invis];
+		b_e2;
+		b_e2 -> b_q		 [pos="e,1042.7,495.5 928.18,495.5 952.43,495.5 1001.3,495.5 1032.5,495.5",
+			style=invis];
+		a_e2;
+		a_e2 -> a_q		 [pos="e,1042.7,369.5 953.81,369.5 978.73,369.5 1010.1,369.5 1032.5,369.5",
+			style=invis];
+		g_n6;
+		g_int		 [_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1318.5 40.8 0 193 33 -(a generic information structure) ",
+			fillcolor="#ffffcc",
+			height=0.59722,
+			label="(a generic information structure)",
+			margin=0.2,
+			pos="1318.5,44.5",
+			style=none,
+			width=3.0694];
+		g_n6 -> g_int		 [pos="e,1207.9,44.5 1083.9,44.5 1109.9,44.5 1154.5,44.5 1197.8,44.5",
+			style=invis];
+		j_s2;
+		j_int		 [_draw_="c 9 -#fffffe00 C 7 -#ffffcc P 4 1458.5 849.5 1178.5 849.5 1178.5 745.5 1458.5 745.5 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1318.5 824.3 0 252 39 -supports manual and automatic execution F 14 9 -Helvetica c 7 -#000000 T \
+1318.5 809.3 0 220 36 -of Event = State change = Transition F 14 9 -Helvetica c 7 -#000000 T 1318.5 778.3 0 166 27 -but has no obvious \
+notation F 14 9 -Helvetica c 7 -#000000 T 1318.5 763.3 0 165 29 -(only a finite-state diagram) ",
+			fillcolor="#ffffcc",
+			height=1.4444,
+			label="supports manual and automatic execution\nof Event = State change = Transition\n\nbut has no obvious notation\n(only a finite-state \
+diagram)",
+			margin=0.2,
+			pos="1318.5,797.5",
+			style=filled,
+			width=3.8889];
+		j_s2 -> j_int		 [pos="e,1178.3,797.5 1095.2,797.5 1114.7,797.5 1140.8,797.5 1168.2,797.5",
+			style=invis];
+		f_s2;
+		f_int		 [_draw_="c 9 -#fffffe00 C 7 -#ffffcc P 4 1442 177 1195 177 1195 134 1442 134 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1318.5 151.8 0 219 34 -explains THAT a Transition happens ",
+			fillcolor="#ffffcc",
+			height=0.59722,
+			label="explains THAT a Transition happens",
+			margin=0.2,
+			pos="1318.5,155.5",
+			style=filled,
+			width=3.4306];
+		f_s2 -> f_int		 [pos="e,1194.8,155.5 1075.6,155.5 1097.4,155.5 1140.7,155.5 1184.7,155.5",
+			style=invis];
+		e_s2;
+		e_int		 [_draw_="c 9 -#fffffe00 C 7 -#ffffcc P 4 1465 303 1172 303 1172 214 1465 214 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1318.5 277.8 0 152 23 -explains WHY it happens F 14 9 -Helvetica c 7 -#000000 T 1318.5 246.8 0 \
+265 45 -(technically re-ifies the FSM Transition edge F 14 9 -Helvetica c 7 -#000000 T 1318.5 231.8 0 215 35 -into something that \
+we can discuss) ",
+			fillcolor="#ffffcc",
+			height=1.2361,
+			label="explains WHY it happens\n\n(technically re-ifies the FSM Transition edge\ninto something that we can discuss)",
+			margin=0.2,
+			pos="1318.5,258.5",
+			style=filled,
+			width=4.0694];
+		e_s2 -> e_int		 [pos="e,1171.9,258.5 1075.6,258.5 1093.6,258.5 1126.2,258.5 1161.8,258.5",
+			style=invis];
+		u_s2;
+		u_int		 [_draw_="c 9 -#fffffe00 C 7 -#ffffcc P 4 1463.5 711 1173.5 711 1173.5 606 1463.5 606 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1318.5 685.8 0 262 40 -explains HOW States change automatically F 14 9 -Helvetica c 7 -#000000 \
+T 1318.5 654.8 0 235 38 -and supports model-driven architecture F 14 9 -Helvetica c 7 -#000000 T 1318.5 623.8 0 215 37 -but fails \
+to explain user involvement ",
+			fillcolor="#ffffcc",
+			height=1.4583,
+			label="explains HOW States change automatically\n\nand supports model-driven architecture\n\nbut fails to explain user involvement",
+			margin=0.2,
+			pos="1318.5,658.5",
+			style=filled,
+			width=4.0278];
+		u_s2 -> u_int		 [pos="e,1173.4,658.5 1084.3,658.5 1103.4,658.5 1132.3,658.5 1163.3,658.5",
+			style=invis];
+		g_ex;
+		f_ex;
+		e_ex;
+		a_ex;
+		b_ex;
+		u_ex;
+		j_ex;
+		m_ex;
+		a_int		 [_draw_="c 9 -#fffffe00 C 7 -#ffffcc P 4 1435 406.5 1202 406.5 1202 332.5 1435 332.5 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1318.5 381.3 0 205 30 -explains HOW the Event happens F 14 9 -Helvetica c 7 -#000000 T 1318.5 350.3 \
+0 151 27 -but fails to explain States ",
+			fillcolor="#ffffcc",
+			height=1.0278,
+			label="explains HOW the Event happens\n\nbut fails to explain States",
+			margin=0.2,
+			pos="1318.5,369.5",
+			style=filled,
+			width=3.2361];
+		a_q -> a_int		 [pos="e,1201.8,369.5 1079.1,369.5 1103.1,369.5 1147.6,369.5 1191.8,369.5",
+			style=invis];
+		b_int		 [_draw_="c 9 -#fffffe00 C 7 -#ffffcc P 4 1424 555.5 1213 555.5 1213 435.5 1424 435.5 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 1318.5 530.3 0 143 23 -further details the HOW F 14 9 -Helvetica c 7 -#000000 T 1318.5 499.3 0 \
+183 29 - by distinction between human F 14 9 -Helvetica c 7 -#000000 T 1318.5 484.3 0 123 18 -and machine agents F 14 9 -Helvetica \
+c 7 -#000000 T 1318.5 453.3 0 151 27 -but fails to explain States ",
+			fillcolor="#ffffcc",
+			height=1.6667,
+			label="further details the HOW\n\n by distinction between human\nand machine agents\n\nbut fails to explain States",
+			margin=0.2,
+			pos="1318.5,495.5",
+			style=filled,
+			width=2.9306];
+		b_q -> b_int		 [pos="e,1212.7,495.5 1079.1,495.5 1105.1,495.5 1155,495.5 1202.6,495.5",
+			style=invis];
+		g_int -> g_ex		 [pos="e,1566.9,44.5 1429.1,44.5 1468.1,44.5 1513.2,44.5 1556.7,44.5",
+			style=invis];
+		f_int -> f_ex		 [pos="e,1665.2,155.5 1442.3,155.5 1510.6,155.5 1593.9,155.5 1655.2,155.5",
+			style=invis];
+		e_int -> e_ex		 [pos="e,1627.3,258.5 1465.3,258.5 1514.8,258.5 1569.6,258.5 1617.3,258.5",
+			style=invis];
+		a_int -> a_ex		 [pos="e,1580.5,369.5 1435.2,369.5 1476.9,369.5 1524.8,369.5 1570.2,369.5",
+			style=invis];
+		b_int -> b_ex		 [pos="e,1635.4,495.5 1424.1,495.5 1485.2,495.5 1562.2,495.5 1625,495.5",
+			style=invis];
+		u_int -> u_ex		 [pos="e,1542,658.5 1463.8,658.5 1485.7,658.5 1508.8,658.5 1531.8,658.5",
+			style=invis];
+		j_int -> j_ex		 [pos="e,1595.8,797.5 1458.8,797.5 1499.4,797.5 1544.1,797.5 1585.6,797.5",
+			style=invis];
+		m_int -> m_ex		 [pos="e,1658.4,1048.5 1525,1048.5 1568.3,1048.5 1611.8,1048.5 1648.3,1048.5",
+			style=invis];
+	}
+	{
+		edge [color=forestgreen,
+			penwidth=2
+		];
+		META;
+		m_s1;
+		META -> m_s1		 [color=forestgreen,
+			penwidth=2,
+			pos="e,266.71,1024.5 225.3,1024.5 236.01,1024.5 246.8,1024.5 256.42,1024.5",
+			style=invis];
+		m_s2;
+		m_s1 -> m_s2		 [_draw_="S 15 -setlinewidth(2) S 6 -dashed c 7 -#228b22 B 10 302.46 1039.23 326.89 1066.37 384.09 1121.5 445.5 1121.5 445.5 1121.5 445.5 \
+1121.5 913.5 1121.5 960.63 1121.5 1008.25 1091.2 1036.18 1069.64 ",
+			_hdraw_="S 15 -setlinewidth(2) S 5 -solid c 7 -#228b22 C 7 -#228b22 P 3 1038.54 1072.23 1044.19 1063.27 1034.18 1066.75 ",
+			_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 683.5 1125.3 0 97 16 -(FSM Transition) ",
+			color=forestgreen,
+			label="(FSM Transition)",
+			lp="683.5,1129",
+			penwidth=2,
+			pos="e,1044.2,1063.3 302.46,1039.2 326.89,1066.4 384.09,1121.5 445.5,1121.5 445.5,1121.5 445.5,1121.5 913.5,1121.5 960.63,1121.5 1008.3,\
+1091.2 1036.2,1069.6",
+			style=dashed];
+		m_s1e;
+		m_s1 -> m_s1e		 [_draw_="S 15 -setlinewidth(2) c 7 -#228b22 B 4 313.28 1024.5 339.01 1024.5 380.74 1024.5 410.43 1024.5 ",
+			_hdraw_="S 15 -setlinewidth(2) S 5 -solid c 7 -#228b22 C 7 -#228b22 P 3 410.77 1028 420.77 1024.5 410.77 1021 ",
+			color=forestgreen,
+			penwidth=2,
+			pos="e,420.77,1024.5 313.28,1024.5 339.01,1024.5 380.74,1024.5 410.43,1024.5"];
+		m_es2;
+		m_s1 -> m_es2		 [_draw_="S 15 -setlinewidth(2) S 6 -dotted c 7 -#228b22 B 10 313.04 1014.64 328.81 1008.27 350.34 1000.31 370 995.5 527.02 957.12 570.87 \
+947.71 732 960.5 783.53 964.59 842.53 975.12 878.91 982.3 ",
+			_hdraw_="S 15 -setlinewidth(2) S 5 -solid c 7 -#228b22 C 7 -#228b22 P 3 878.5 985.78 888.99 984.32 879.87 978.92 ",
+			_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 574 966.3 0 106 18 -(Event completion) ",
+			color=forestgreen,
+			label="(Event completion)",
+			lp="574,970",
+			penwidth=2,
+			pos="e,888.99,984.32 313.04,1014.6 328.81,1008.3 350.34,1000.3 370,995.5 527.02,957.12 570.87,947.71 732,960.5 783.53,964.59 842.53,975.12 \
+878.91,982.3",
+			style=dotted];
+		m_s1e -> m_s2		 [_draw_="S 15 -setlinewidth(2) S 6 -dotted c 7 -#228b22 B 7 470.32 1025.49 485.05 1026.08 504.09 1026.84 521 1027.5 712.94 1035.05 943.27 \
+1043.95 1027.81 1047.22 ",
+			_hdraw_="S 15 -setlinewidth(2) S 5 -solid c 7 -#228b22 C 7 -#228b22 P 3 1027.71 1050.72 1037.84 1047.61 1027.98 1043.72 ",
+			_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 793 1043.3 0 106 18 -(Event completion) ",
+			color=forestgreen,
+			label="(Event completion)",
+			lp="793,1047",
+			penwidth=2,
+			pos="e,1037.8,1047.6 470.32,1025.5 485.05,1026.1 504.09,1026.8 521,1027.5 712.94,1035 943.27,1044 1027.8,1047.2",
+			style=dotted];
+		m_a		 [_draw_="c 7 -#000000 C 7 -#ffffff b 25 702.33 1004 702.33 1004 664.67 1004 664.67 1004 659.83 1004 655 999.17 655 994.33 655 994.33 655 \
+984.67 655 984.67 655 979.83 659.83 975 664.67 975 664.67 975 702.33 975 702.33 975 707.17 975 712 979.83 712 984.67 712 984.67 \
+712 994.33 712 994.33 712 999.17 707.17 1004 702.33 1004 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 683.5 985.8 0 43 8 -Activity ",
+			height=0.40278,
+			label=Activity,
+			pos="683.5,989.5",
+			shape=box,
+			width=0.79167];
+		m_s1e -> m_a		 [_draw_="S 15 -setlinewidth(2) c 7 -#228b22 B 4 470.07 1020.89 511.43 1014.8 595.26 1002.48 644.66 995.21 ",
+			_hdraw_="S 15 -setlinewidth(2) S 5 -solid c 7 -#228b22 C 7 -#228b22 P 3 645.26 998.66 654.65 993.74 644.24 991.74 ",
+			color=forestgreen,
+			penwidth=2,
+			pos="e,654.65,993.74 470.07,1020.9 511.43,1014.8 595.26,1002.5 644.66,995.21"];
+		m_es2 -> m_s2		 [_draw_="S 15 -setlinewidth(2) c 7 -#228b22 B 7 938.19 997.04 959.82 1003.9 991.94 1014.74 1019 1026.5 1022.19 1027.89 1025.48 1029.42 1028.73 \
+1031 ",
+			_hdraw_="S 15 -setlinewidth(2) S 5 -solid c 7 -#228b22 C 7 -#228b22 P 3 1027.24 1034.17 1037.75 1035.55 1030.4 1027.92 ",
+			color=forestgreen,
+			penwidth=2,
+			pos="e,1037.7,1035.6 938.19,997.04 959.82,1003.9 991.94,1014.7 1019,1026.5 1022.2,1027.9 1025.5,1029.4 1028.7,1031"];
+		m_a -> m_es2		 [_draw_="S 15 -setlinewidth(2) c 7 -#228b22 B 4 712.16 989.5 754.31 989.5 832.9 989.5 878.42 989.5 ",
+			_hdraw_="S 15 -setlinewidth(2) S 5 -solid c 7 -#228b22 C 7 -#228b22 P 3 878.7 993 888.7 989.5 878.7 986 ",
+			color=forestgreen,
+			penwidth=2,
+			pos="e,888.7,989.5 712.16,989.5 754.31,989.5 832.9,989.5 878.42,989.5"];
+		"~ 2014"		 [_draw_="c 9 -#fffffe00 C 7 -#ffffff b 25 55.83 1039 55.83 1039 18.17 1039 18.17 1039 13.33 1039 8.5 1034.17 8.5 1029.33 8.5 1029.33 8.5 \
+1019.67 8.5 1019.67 8.5 1014.83 13.33 1010 18.17 1010 18.17 1010 55.83 1010 55.83 1010 60.67 1010 65.5 1014.83 65.5 1019.67 65.5 \
+1019.67 65.5 1029.33 65.5 1029.33 65.5 1034.17 60.67 1039 55.83 1039 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 37 1020.8 0 43 6 -~ 2014 ",
+			height=0.40278,
+			pos="37,1024.5",
+			width=0.79167];
+		"~ 2014" -> META		 [color=forestgreen,
+			penwidth=2,
+			pos="e,104.95,1024.5 65.726,1024.5 74.46,1024.5 84.469,1024.5 94.695,1024.5",
+			style=invis];
+	}
+	{
+		edge [color=gray];
+		Jira;
+		j_s1;
+		Jira -> j_s1		 [color=gray,
+			pos="e,255.73,829.5 212.61,829.5 223.38,829.5 234.77,829.5 245.4,829.5",
+			style=invis];
+		j_s1eb		 [_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 445.5 858.8 0 29 4 -APIs ",
+			height=0.40278,
+			label=APIs,
+			pos="445.5,862.5",
+			style=none,
+			width=0.59722];
+		j_s1 -> j_s1eb		 [_draw_="c 7 -#c0c0c0 B 4 324.13 836.74 354.52 843.19 398.07 852.43 423.9 857.92 ",
+			arrowhead=none,
+			color=gray,
+			pos="324.13,836.74 354.52,843.19 398.07,852.43 423.9,857.92"];
+		j_s1ec		 [_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 445.5 793.8 0 25 3 -GUI ",
+			height=0.40278,
+			label=GUI,
+			pos="445.5,797.5",
+			style=none,
+			width=0.54167];
+		j_s1 -> j_s1ec		 [_draw_="c 7 -#c0c0c0 B 4 324.13 822.48 355.24 816.07 400.13 806.84 425.69 801.58 ",
+			arrowhead=none,
+			color=gray,
+			pos="324.13,822.48 355.24,816.07 400.13,806.84 425.69,801.58"];
+		j_s2;
+		j_es2		 [_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 913.5 801.3 0 76 13 -3. Validators F 14 9 -Helvetica c 7 -#000000 T 913.5 786.3 0 105 17 -4. Post \
+Functions ",
+			height=0.61111,
+			label="3. Validators\n4. Post Functions",
+			pos="913.5,797.5",
+			style=none,
+			width=1.6528];
+		j_s1eb -> j_es2		 [_draw_="c 7 -#c0c0c0 B 4 467.13 859.5 533.4 850.29 735.61 822.21 843.67 807.2 ",
+			_hdraw_="S 5 -solid c 7 -#c0c0c0 C 7 -#c0c0c0 P 3 844.4 810.63 853.83 805.79 843.44 803.7 ",
+			_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 683.5 838.3 0 47 10 - 'service' ",
+			arrowhead=normal,
+			color=gray,
+			label=" 'service'",
+			lp="683.5,842",
+			pos="e,853.83,805.79 467.13,859.5 533.4,850.29 735.61,822.21 843.67,807.2"];
+		j_sc		 [_draw_="S 4 -none c 7 -#000000 p 4 712 739 655 739 655 710 712 710 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 683.5 720.8 0 43 6 -Screen ",
+			height=0.40278,
+			label=Screen,
+			pos="683.5,724.5",
+			shape=box,
+			style=none,
+			width=0.79167];
+		j_s1ec -> j_sc		 [_draw_="c 7 -#c0c0c0 B 4 465.38 791.4 504.87 779.29 593.78 752.02 645.06 736.29 ",
+			_hdraw_="S 5 -solid c 7 -#c0c0c0 C 7 -#c0c0c0 P 3 646.25 739.58 654.79 733.31 644.2 732.89 ",
+			_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 574 777.3 0 31 7 - 'user' ",
+			arrowhead=normal,
+			color=gray,
+			label=" 'user'",
+			lp="574,781",
+			pos="e,654.79,733.31 465.38,791.4 504.87,779.29 593.78,752.02 645.06,736.29"];
+		j_s1ec -> j_es2		 [_draw_="c 7 -#c0c0c0 B 4 465.01 797.5 528.95 797.5 734.26 797.5 843.54 797.5 ",
+			_hdraw_="S 5 -solid c 7 -#c0c0c0 C 7 -#c0c0c0 P 3 843.81 801 853.81 797.5 843.81 794 ",
+			_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 683.5 801.3 0 49 9 - 'manual' ",
+			arrowhead=normal,
+			color=gray,
+			label=" 'manual'",
+			lp="683.5,805",
+			pos="e,853.81,797.5 465.01,797.5 528.95,797.5 734.26,797.5 843.54,797.5"];
+		j_sc -> j_es2		 [_draw_="c 7 -#c0c0c0 B 4 712.16 733.6 745.04 744.03 800.09 761.5 844.32 775.54 ",
+			_hdraw_="S 5 -solid c 7 -#c0c0c0 C 7 -#c0c0c0 P 3 843.28 778.88 853.87 778.57 845.4 772.21 ",
+			arrowhead=normal,
+			color=gray,
+			pos="e,853.87,778.57 712.16,733.6 745.04,744.03 800.09,761.5 844.32,775.54"];
+		j_es2 -> j_s2		 [_draw_="c 7 -#c0c0c0 B 4 973.07 797.5 987.6 797.5 1002.89 797.5 1016.57 797.5 ",
+			_hdraw_="S 5 -solid c 7 -#c0c0c0 C 7 -#c0c0c0 P 3 1016.68 801 1026.68 797.5 1016.68 794 ",
+			arrowhead=normal,
+			color=gray,
+			pos="e,1026.7,797.5 973.07,797.5 987.6,797.5 1002.9,797.5 1016.6,797.5"];
+		"(ongoing)"		 [_draw_="c 9 -#fffffe00 C 7 -#ffffff b 25 63.33 844 63.33 844 10.67 844 10.67 844 5.83 844 1 839.17 1 834.33 1 834.33 1 824.67 1 824.67 1 \
+819.83 5.83 815 10.67 815 10.67 815 63.33 815 63.33 815 68.17 815 73 819.83 73 824.67 73 824.67 73 834.33 73 834.33 73 839.17 68.17 \
+844 63.33 844 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 37 825.8 0 58 9 -(ongoing) ",
+			height=0.40278,
+			pos="37,829.5",
+			width=1];
+		"(ongoing)" -> Jira		 [color=gray,
+			pos="e,117.09,829.5 73.337,829.5 83.749,829.5 95.371,829.5 106.75,829.5",
+			style=invis];
+	}
+	{
+		graph [rank=same];
+		FSM;
+		EPK;
+		BPMN;
+		UML;
+		Jira;
+		META;
+	}
+	{
+		graph [rank=same];
+		m_s1e;
+		b_e1;
+		a_e1;
+		j_s1eb;
+		j_s1ec;
+		u_s1e		 [_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 445.5 662.3 0 22 4 -exit F 14 9 -Helvetica c 7 -#000000 T 445.5 647.3 0 37 6 -action ",
+			height=0.61111,
+			label="exit\naction",
+			pos="445.5,658.5",
+			style=none,
+			width=0.70833];
+	}
+	{
+		graph [rank=same];
+		m_es2;
+		b_e2;
+		a_e2;
+		u_es2		 [_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 913.5 662.3 0 31 5 -entry F 14 9 -Helvetica c 7 -#000000 T 913.5 647.3 0 37 6 -action ",
+			height=0.61111,
+			label="entry\naction",
+			pos="913.5,658.5",
+			style=none,
+			width=0.70833];
+	}
+	{
+		graph [rank=same];
+		m_s1;
+		j_s1;
+		f_s1;
+		e_s1;
+		u_s1;
+	}
+	{
+		graph [rank=same];
+		m_s2;
+		j_s2;
+		f_s2;
+		e_s2;
+		u_s2;
+	}
+	{
+		graph [rank=same];
+		m_a;
+		b_a		 [_draw_="c 7 -#000000 C 7 -#ffffff b 25 665.5 444 665.5 444 701.5 444 701.5 444 707.5 444 713.5 450 713.5 456 713.5 456 713.5 535 713.5 535 \
+713.5 541 707.5 547 701.5 547 701.5 547 665.5 547 665.5 547 659.5 547 653.5 541 653.5 535 653.5 535 653.5 456 653.5 456 653.5 450 \
+659.5 444 665.5 444 c 7 -#000000 L 2 653.5 518 713.5 518 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 683.5 528.8 0 43 8 -Activity F 14 9 -Helvetica c 7 -#000000 T 683.5 499.8 0 46 7 -Service F 14 \
+9 -Helvetica c 7 -#000000 T 683.5 484.8 0 29 4 -User F 14 9 -Helvetica c 7 -#000000 T 683.5 469.8 0 46 6 -Manual F 14 9 -Helvetica \
+c 7 -#000000 T 683.5 454.8 0 38 6 -- Task ",
+			height=1.4444,
+			label="Activity | Service\nUser\nManual\n- Task",
+			pos="683.5,495.5",
+			rects="653.5,518,713.5,547 653.5,444,713.5,518",
+			shape=record,
+			width=0.83333];
+		a_f		 [_draw_="c 7 -#000000 C 7 -#98fb98 b 25 706.83 384 706.83 384 660.17 384 660.17 384 655.33 384 650.5 379.17 650.5 374.33 650.5 374.33 650.5 \
+364.67 650.5 364.67 650.5 359.83 655.33 355 660.17 355 660.17 355 706.83 355 706.83 355 711.67 355 716.5 359.83 716.5 364.67 716.5 \
+364.67 716.5 374.33 716.5 374.33 716.5 379.17 711.67 384 706.83 384 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 683.5 365.8 0 52 8 -Function ",
+			fillcolor=palegreen,
+			height=0.40278,
+			label=Function,
+			pos="683.5,369.5",
+			shape=box,
+			width=0.91667];
+		j_sc;
+		e_e		 [_draw_="c 7 -#000000 C 7 -#ffffff b 25 698.33 273 698.33 273 668.67 273 668.67 273 663.83 273 659 268.17 659 263.33 659 263.33 659 253.67 \
+659 253.67 659 248.83 663.83 244 668.67 244 668.67 244 698.33 244 698.33 244 703.17 244 708 248.83 708 253.67 708 253.67 708 263.33 \
+708 263.33 708 268.17 703.17 273 698.33 273 ",
+			_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 683.5 254.8 0 35 5 -Event ",
+			height=0.40278,
+			label=Event,
+			pos="683.5,258.5",
+			shape=box,
+			width=0.68056];
+		u_a		 [_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 683.5 662.3 0 55 10 -transition F 14 9 -Helvetica c 7 -#000000 T 683.5 647.3 0 37 6 -action ",
+			height=0.61111,
+			label="transition\naction",
+			pos="683.5,658.5",
+			style=none,
+			width=0.95833];
+	}
+	{
+		graph [rank=same];
+		j_es2;
+		j_legend		 [_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 913.5 724.8 0 83 10 -TRANSITION ",
+			height=0.40278,
+			label=TRANSITION,
+			pos="913.5,728.5",
+			style=none,
+			width=1.3472];
+		u_legend		 [_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 913.5 581.8 0 83 10 -TRANSITION ",
+			height=0.40278,
+			label=TRANSITION,
+			pos="913.5,585.5",
+			style=none,
+			width=1.3472];
+	}
+	{
+		graph [rank=same];
+		j_s1eb;
+		j_legen2		 [_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 445.5 735.3 0 65 11 -1. Triggers F 14 9 -Helvetica c 7 -#000000 T 445.5 720.3 0 79 13 -2. Conditions ",
+			height=0.61111,
+			label="1. Triggers\n2. Conditions",
+			pos="445.5,731.5",
+			style=none,
+			width=1.2917];
+		u_legen2		 [_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 445.5 589.3 0 65 11 -1. Triggers F 14 9 -Helvetica c 7 -#000000 T 445.5 574.3 0 121 19 -2. Guard \
+Conditions ",
+			height=0.61111,
+			label="1. Triggers\n2. Guard Conditions",
+			pos="445.5,585.5",
+			style=none,
+			width=1.875];
+	}
+	subgraph cluster_jira_transition {
+		graph [_draw_="c 7 -#f5f5f5 C 7 -#f5f5f5 b 25 403 701.5 403 701.5 969 701.5 969 701.5 975 701.5 981 707.5 981 713.5 981 713.5 981 881.5 981 881.5 \
+981 887.5 975 893.5 969 893.5 969 893.5 403 893.5 403 893.5 397 893.5 391 887.5 391 881.5 391 881.5 391 713.5 391 713.5 391 707.5 \
+397 701.5 403 701.5 ",
+			bb="391,701.5,981,893.5"
+		];
+		node [shape=none,
+			style=none
+		];
+		j_s1eb;
+		j_es2;
+		j_s1eb -> j_es2;
+		j_s1ec;
+		j_sc;
+		j_s1ec -> j_sc;
+		j_s1ec -> j_es2;
+		j_sc -> j_es2;
+		j_legend;
+		j_legen2;
+	}
+	subgraph cluster_uml_transition {
+		graph [_draw_="c 7 -#f5f5f5 C 7 -#f5f5f5 b 25 382 555.5 382 555.5 958 555.5 958 555.5 964 555.5 970 561.5 970 567.5 970 567.5 970 676.5 970 676.5 \
+970 682.5 964 688.5 958 688.5 958 688.5 382 688.5 382 688.5 376 688.5 370 682.5 370 676.5 370 676.5 370 567.5 370 567.5 370 561.5 \
+376 555.5 382 555.5 ",
+			bb="370,555.5,970,688.5"
+		];
+		node [shape=none,
+			style=none
+		];
+		u_s1e;
+		u_a;
+		u_s1e -> u_a		 [_draw_="c 7 -#000000 B 4 471.42 658.5 514.43 658.5 600.57 658.5 648.78 658.5 ",
+			arrowhead=none,
+			pos="471.42,658.5 514.43,658.5 600.57,658.5 648.78,658.5"];
+		u_es2;
+		u_a -> u_es2		 [_draw_="c 7 -#000000 B 4 718.43 658.5 765.05 658.5 846.53 658.5 887.87 658.5 ",
+			arrowhead=none,
+			pos="718.43,658.5 765.05,658.5 846.53,658.5 887.87,658.5"];
+		u_legend;
+		u_legen2;
+	}
+	grap -> g_n2	 [pos="e,267.3,44.5 223.11,44.5 234.75,44.5 246.59,44.5 257.02,44.5",
+		style=invis];
+	FSM -> f_s1	 [pos="e,275.18,155.5 238.07,155.5 247.77,155.5 257.12,155.5 265.15,155.5",
+		style=invis];
+	evnt -> e_s1	 [pos="e,275.11,258.5 239.16,258.5 248.45,258.5 257.38,258.5 265.1,258.5",
+		style=invis];
+	EPK -> a_e1	 [pos="e,405.42,369.5 208.21,369.5 258.64,369.5 341.89,369.5 395.18,369.5",
+		style=invis];
+	BPMN -> b_e1	 [pos="e,430.94,495.5 208.21,495.5 267.81,495.5 373.25,495.5 420.9,495.5",
+		style=invis];
+	UML -> u_s1	 [pos="e,266.75,658.5 226.77,658.5 237.02,658.5 247.31,658.5 256.51,658.5",
+		style=invis];
+	b_a -> b_e2	 [_draw_="c 7 -#000000 B 4 713.57 495.5 759.49 495.5 846.25 495.5 888.76 495.5 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 888.8 499 898.8 495.5 888.8 492 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 793 499.3 0 32 5 - Flow ",
+		label=" Flow",
+		lp="793,503",
+		pos="e,898.8,495.5 713.57,495.5 759.49,495.5 846.25,495.5 888.76,495.5"];
+	b_e1 -> b_a	 [_draw_="c 7 -#000000 B 4 460.03 495.5 495.79 495.5 589.11 495.5 643.17 495.5 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 643.43 499 653.43 495.5 643.43 492 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 574 499.3 0 32 5 - Flow ",
+		label=" Flow",
+		lp="574,503",
+		pos="e,653.43,495.5 460.03,495.5 495.79,495.5 589.11,495.5 643.17,495.5"];
+	a_f -> a_e2	 [_draw_="c 7 -#000000 B 4 716.94 369.5 755.43 369.5 819.04 369.5 863.43 369.5 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 9 873.44 369.5 863.44 374 868.44 369.5 863.44 369.5 863.44 369.5 863.44 369.5 868.44 369.5 \
+863.44 365 873.44 369.5 ",
+		arrowhead=vee,
+		pos="e,873.44,369.5 716.94,369.5 755.43,369.5 819.04,369.5 863.43,369.5"];
+	a_e1 -> a_f	 [_draw_="c 7 -#000000 B 4 485.6 369.5 528.41 369.5 596 369.5 640.04 369.5 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 9 650.16 369.5 640.16 374 645.16 369.5 640.16 369.5 640.16 369.5 640.16 369.5 645.16 369.5 \
+640.16 365 650.16 369.5 ",
+		arrowhead=vee,
+		pos="e,650.16,369.5 485.6,369.5 528.41,369.5 596,369.5 640.04,369.5"];
+	g_n2 -> g_n3	 [_draw_="c 7 -#000000 B 4 312.61 44.5 338.98 44.5 382.79 44.5 412.85 44.5 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 412.86 48 422.86 44.5 412.86 41 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 347 48.3 0 30 5 - edge ",
+		label=" edge",
+		lp="347,52",
+		pos="e,422.86,44.5 312.61,44.5 338.98,44.5 382.79,44.5 412.85,44.5"];
+	g_n3 -> g_n4	 [_draw_="c 7 -#000000 B 4 468.32 44.5 510.7 44.5 601.7 44.5 650.68 44.5 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 650.75 48 660.75 44.5 650.75 41 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 574 48.3 0 30 5 - edge ",
+		label=" edge",
+		lp="574,52",
+		pos="e,660.75,44.5 468.32,44.5 510.7,44.5 601.7,44.5 650.68,44.5"];
+	g_n4 -> g_n5	 [_draw_="c 7 -#000000 B 4 706.39 44.5 747.38 44.5 833.41 44.5 880.68 44.5 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 880.7 48 890.7 44.5 880.7 41 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 793 48.3 0 30 5 - edge ",
+		label=" edge",
+		lp="793,52",
+		pos="e,890.7,44.5 706.39,44.5 747.38,44.5 833.41,44.5 880.68,44.5"];
+	g_n5 -> g_n6	 [_draw_="c 7 -#000000 B 4 936.22 44.5 960.87 44.5 1000.44 44.5 1028.4 44.5 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 1028.49 48 1038.49 44.5 1028.49 41 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 1004 48.3 0 30 5 - edge ",
+		label=" edge",
+		lp="1004,52",
+		pos="e,1038.5,44.5 936.22,44.5 960.87,44.5 1000.4,44.5 1028.4,44.5"];
+	f_s1 -> f_s2	 [_draw_="S 15 -setlinewidth(2) c 7 -#000000 B 10 304.58 155.5 332.11 155.5 393.67 155.5 445.5 155.5 445.5 155.5 445.5 155.5 913.5 155.5 956.64 \
+155.5 1006.88 155.5 1036.19 155.5 ",
+		_hdraw_="S 15 -setlinewidth(2) S 5 -solid c 7 -#000000 C 7 -#000000 P 3 1036.35 159 1046.35 155.5 1036.35 152 ",
+		_ldraw_="F 14 11 -Times-Roman c 7 -#000000 T 683.5 159.3 0 56 10 -Transition ",
+		label=Transition,
+		lp="683.5,163",
+		penwidth=2,
+		pos="e,1046.3,155.5 304.58,155.5 332.11,155.5 393.67,155.5 445.5,155.5 445.5,155.5 445.5,155.5 913.5,155.5 956.64,155.5 1006.9,155.5 \
+1036.2,155.5"];
+	e_s1 -> e_e	 [_draw_="S 15 -setlinewidth(2) c 7 -#000000 B 4 304.95 258.5 361.9 258.5 566.29 258.5 648.7 258.5 ",
+		_hdraw_="S 15 -setlinewidth(2) S 5 -solid c 7 -#000000 C 7 -#000000 P 3 648.81 262 658.81 258.5 648.81 255 ",
+		penwidth=2,
+		pos="e,658.81,258.5 304.95,258.5 361.9,258.5 566.29,258.5 648.7,258.5"];
+	e_e -> e_s2	 [_draw_="S 15 -setlinewidth(2) c 7 -#000000 B 4 708.27 258.5 776.64 258.5 967.44 258.5 1036.04 258.5 ",
+		_hdraw_="S 15 -setlinewidth(2) S 5 -solid c 7 -#000000 C 7 -#000000 P 3 1036.32 262 1046.32 258.5 1036.32 255 ",
+		penwidth=2,
+		pos="e,1046.3,258.5 708.27,258.5 776.64,258.5 967.44,258.5 1036,258.5"];
+	u_s1 -> u_s1e	 [_draw_="c 7 -#000000 B 4 313.28 658.5 341.92 658.5 390.37 658.5 419.99 658.5 ",
+		arrowhead=none,
+		pos="313.28,658.5 341.92,658.5 390.37,658.5 419.99,658.5"];
+	u_es2 -> u_s2	 [_draw_="c 7 -#000000 B 4 939.19 658.5 963.68 658.5 1000.67 658.5 1027.47 658.5 ",
+		_hdraw_="S 5 -solid c 7 -#000000 C 7 -#000000 P 3 1027.55 662 1037.55 658.5 1027.55 655 ",
+		pos="e,1037.5,658.5 939.19,658.5 963.68,658.5 1000.7,658.5 1027.5,658.5"];
+	"~ 2000"	 [_draw_="c 9 -#fffffe00 C 7 -#ffffff b 25 55.83 673 55.83 673 18.17 673 18.17 673 13.33 673 8.5 668.17 8.5 663.33 8.5 663.33 8.5 653.67 8.5 \
+653.67 8.5 648.83 13.33 644 18.17 644 18.17 644 55.83 644 55.83 644 60.67 644 65.5 648.83 65.5 653.67 65.5 653.67 65.5 663.33 65.5 \
+663.33 65.5 668.17 60.67 673 55.83 673 ",
+		_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 37 654.8 0 43 6 -~ 2000 ",
+		height=0.40278,
+		pos="37,658.5",
+		width=0.79167];
+	"~ 2000" -> UML	 [pos="e,103.4,658.5 65.726,658.5 74.041,658.5 83.511,658.5 93.224,658.5",
+		style=invis];
+	"~ 2005"	 [_draw_="c 9 -#fffffe00 C 7 -#ffffff b 25 55.83 510 55.83 510 18.17 510 18.17 510 13.33 510 8.5 505.17 8.5 500.33 8.5 500.33 8.5 490.67 8.5 \
+490.67 8.5 485.83 13.33 481 18.17 481 18.17 481 55.83 481 55.83 481 60.67 481 65.5 485.83 65.5 490.67 65.5 490.67 65.5 500.33 65.5 \
+500.33 65.5 505.17 60.67 510 55.83 510 ",
+		_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 37 491.8 0 43 6 -~ 2005 ",
+		height=0.40278,
+		pos="37,495.5",
+		width=0.79167];
+	"~ 2005" -> BPMN	 [pos="e,121.78,495.5 65.726,495.5 79.27,495.5 95.879,495.5 111.61,495.5",
+		style=invis];
+	"~ 1990"	 [_draw_="c 9 -#fffffe00 C 7 -#ffffff b 25 55.83 384 55.83 384 18.17 384 18.17 384 13.33 384 8.5 379.17 8.5 374.33 8.5 374.33 8.5 364.67 8.5 \
+364.67 8.5 359.83 13.33 355 18.17 355 18.17 355 55.83 355 55.83 355 60.67 355 65.5 359.83 65.5 364.67 65.5 364.67 65.5 374.33 65.5 \
+374.33 65.5 379.17 60.67 384 55.83 384 ",
+		_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 37 365.8 0 43 6 -~ 1990 ",
+		height=0.40278,
+		pos="37,369.5",
+		width=0.79167];
+	"~ 1990" -> EPK	 [pos="e,121.78,369.5 65.726,369.5 79.27,369.5 95.879,369.5 111.61,369.5",
+		style=invis];
+	"(timeless)"	 [_draw_="c 9 -#fffffe00 C 7 -#ffffff b 25 64.33 273 64.33 273 9.67 273 9.67 273 4.83 273 0 268.17 0 263.33 0 263.33 0 253.67 0 253.67 0 248.83 \
+4.83 244 9.67 244 9.67 244 64.33 244 64.33 244 69.17 244 74 248.83 74 253.67 74 253.67 74 263.33 74 263.33 74 268.17 69.17 273 64.33 \
+273 ",
+		_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 37 254.8 0 60 10 -(timeless) ",
+		height=0.40278,
+		pos="37,258.5",
+		width=1.0278];
+	"(timeless)" -> evnt	 [pos="e,90.692,258.5 74.023,258.5 76.183,258.5 78.392,258.5 80.64,258.5",
+		style=invis];
+	"~ 1950"	 [_draw_="c 9 -#fffffe00 C 7 -#ffffff b 25 55.83 170 55.83 170 18.17 170 18.17 170 13.33 170 8.5 165.17 8.5 160.33 8.5 160.33 8.5 150.67 8.5 \
+150.67 8.5 145.83 13.33 141 18.17 141 18.17 141 55.83 141 55.83 141 60.67 141 65.5 145.83 65.5 150.67 65.5 150.67 65.5 160.33 65.5 \
+160.33 65.5 165.17 60.67 170 55.83 170 ",
+		_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 37 151.8 0 43 6 -~ 1950 ",
+		height=0.40278,
+		pos="37,155.5",
+		width=0.79167];
+	"~ 1950" -> FSM	 [pos="e,91.983,155.5 65.726,155.5 70.701,155.5 76.09,155.5 81.697,155.5",
+		style=invis];
+	1735	 [_draw_="c 9 -#fffffe00 C 7 -#ffffff b 25 49.83 59 49.83 59 24.17 59 24.17 59 19.33 59 14.5 54.17 14.5 49.33 14.5 49.33 14.5 39.67 14.5 39.67 \
+14.5 34.83 19.33 30 24.17 30 24.17 30 49.83 30 49.83 30 54.67 30 59.5 34.83 59.5 39.67 59.5 39.67 59.5 49.33 59.5 49.33 59.5 54.17 \
+54.67 59 49.83 59 ",
+		_ldraw_="F 14 9 -Helvetica c 7 -#000000 T 37 40.8 0 31 4 -1735 ",
+		height=0.40278,
+		pos="37,44.5",
+		width=0.625];
+	1735 -> grap	 [pos="e,106.9,44.5 59.589,44.5 70.112,44.5 83.253,44.5 96.65,44.5",
+		style=invis];
+}

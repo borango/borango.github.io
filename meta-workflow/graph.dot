@@ -1,0 +1,221 @@
+#
+# Workflow / Lifecycle / State Comparison
+# 
+# sources
+# https://en.wikipedia.org/wiki/Finite-state_machine
+# http://www.bpmn.org/
+#
+
+digraph 
+{
+  splines    = true
+  remincross = true
+
+  nodesep="0.4"
+  ranksep="0.2"
+
+  rankdir=LR
+
+  newrank=true
+  #concentrate=true
+
+  tooltip = " "
+  node  [ tooltip = " "    fontname=Helvetica margin=0.1 width=0 height=0 ]
+  graph [ target="details" style="filled,rounded"     color=whitesmoke labelloc=b fontname=Helvetica ]
+  node  [ shape=box        style="filled,rounded" fillcolor=white ]
+  
+
+
+  node  [ id="\N"      ] # essential for JavaScript traversing SVG
+  edge  [ id="\T___\H" ] # essential for JavaScript traversing SVG
+
+  #
+  # method / standard names
+  #
+
+  {node [ shape=none fillcolor="#deebf7" style=filled margin=0.2 ]
+  grap [ label="graph\n(mathematics)\n\n-conceptual-"]
+  FSM  [ label="finite-state machine\n\n-conceptual-"]
+  evnt [ label="Definition of Event:\n\n\"a Change of State\"" ]
+  EPK  [ label="EPK\n(ARIS)\n\n-notation-"]
+  BPMN [ label="BPMN\n(OMG)\n\n-notation-"]
+  UML  [ label="UML Statechart\n\n-notation-"]
+  Jira [ label="Jira\n\n-execution-" ]
+  META [ label="Knowledge\nTransformation\n(BoGo)\n\n-meta-" ]
+  }
+
+
+  #
+  # WOC notation
+  #
+
+  { node [label=State] m_s1 m_s2 }
+  { node [label=Event] m_s1e m_es2 }
+  m_a [label=Activity]
+
+  #
+  # BPMN notation
+  #
+
+  b_a [ label="Activity | Service\nUser\nManual\n- Task" shape=record ]
+
+  { node [xlabel=Event label="" width=0.4 shape=circle ]
+  b_e1 [penwidth=2]
+  b_e2 [penwidth=4]
+  }
+
+  #
+  # ARIS eEPK notation
+  #
+
+  a_f [label=Function fillcolor=palegreen]
+
+  { node [label=Event fillcolor=plum1 shape=hexagon style=filled]
+  a_e1 
+  a_e2
+  }
+
+  #
+  # graph (mathematics) model
+  #
+
+  { node [label="node" style=none] g_n2 g_n3 g_n4 g_n5 g_n6 }
+
+  #
+  # Jira terminology
+  #
+
+  { node [ label=STATUS penwidth=2 ] j_s1 j_s2 }
+  j_s1 [ color="#0052cc"]
+  j_s2 [ color="#00875a"]
+  subgraph cluster_jira_transition { node [shape=none style=none ] 
+  j_s1eb [label=APIs]
+  j_s1ec [label=GUI]
+  j_sc  [label=Screen shape=box ]
+  j_es2 [label="3. Validators\n4. Post Functions"]
+  j_legend [label=TRANSITION shape=none style=none]
+  j_legen2 [label="1. Triggers\n2. Conditions" shape=none style=none]
+  }
+
+  #
+  # FSM & Event terminology
+  #
+
+  { node [xlabel=State label="" width=0.4 shape=circle penwidth=2 ] f_s1 f_s2 }
+  
+  { node [xlabel=State label="" width=0.4 shape=circle penwidth=2 ] e_s1 e_s2 }
+  e_e [ label="Event" ]
+
+  #
+  # UML notation
+  #
+
+  { node [ label=State ] u_s1 u_s2 }
+  subgraph cluster_uml_transition { node [shape=none style=none ] # label=TRANSITION
+  u_s1e [label="exit\naction"]
+  u_es2 [label="entry\naction"]
+  u_a [label="transition\naction"]
+  u_legend [label=TRANSITION shape=none style=none]
+  u_legen2 [label="1. Triggers\n2. Guard Conditions" shape=none style=none]
+  }
+
+  { node [ shape=none style=filled fillcolor="#edf8e9" margin=0.2 ] 
+  g_ex  [ label="\"something leads to something leads to something...\"" ]
+  f_ex  [ label="\"ice turns into water\"" ]
+  e_ex  [ label="\"ice MELTS and turns into water\"" ]
+  a_ex  [ label="\"when thirsty then START A FIRE to change ...?\"" ]
+  b_ex  [ label="\"when thirsty then\n\nyou could change that yourself\n\nOR with help of a machine\"" ]
+  u_ex  [ label="\"when thirsty then WRITE SOFTWARE to melt ice into water\"" ]
+  j_ex  [ label="\"when thirsty then raise a ticket -\n\nwe will somehow turn ice into water for you\"" ]
+  m_ex  [ label="\"when I am thirsty\n\nand have access to ice\n\nthen I start a fire\n\nto melt water\"" ]
+  }
+  { node [ shape=none style=filled fillcolor="#ffffcc" margin=0.2 ] edge [ style=invis ]
+  { node [label="?"] a_q b_q } 
+  g_int [ label="(a generic information structure)" style=none ]
+  g_n6 -> g_int -> g_ex
+
+  f_int [ label="explains THAT a Transition happens" ]
+  f_s2 -> f_int -> f_ex
+
+  e_int [ label="explains WHY it happens\n\n(technically re-ifies the FSM Transition edge\ninto something that we can discuss)" ]
+  e_s2 -> e_int -> e_ex
+
+  a_int [ label="explains HOW the Event happens\n\nbut fails to explain States" ]
+  a_e2 -> a_q -> a_int -> a_ex
+
+  b_int [ label="further details the HOW\n\n by distinction between human\nand machine agents\n\nbut fails to explain States" ]
+  b_e2 -> b_q -> b_int -> b_ex
+ 
+  u_int [ label="explains HOW States change automatically\n\nand supports model-driven architecture\n\nbut fails to explain user involvement" ]
+  u_s2 -> u_int -> u_ex
+ 
+  j_int [ label="supports manual and automatic execution\nof Event = State change = Transition\n\nbut has no obvious notation\n(only a finite-state diagram)" ]
+  j_s2 -> j_int -> j_ex
+ 
+  m_int [ label="a meta model for workflow, state and event management\n\nwhich can express the other methods (FSM, UML, EPK, BPMN)\n\nas well as tool implementations\n\nand help migrating between them" ]
+  m_s2 -> m_int -> m_ex
+ 
+  }
+
+  #
+  # edge / chains
+  #
+
+node [ shape=none ]
+
+{ edge [ color=forestgreen penwidth=2 ] 
+"~ 2014"  ->  META -> m_s1                [ style=invis ]
+          m_s1 -> m_s1e -> m_a -> m_es2 -> m_s2 
+          m_s1e -> m_s2 [ style=dotted label="(Event completion)" ]
+          m_s1 -> m_es2 [ style=dotted label="(Event completion)" ]
+          m_s1 -> m_s2  [ style=dashed label="(FSM Transition)" ]
+# too d.  m_s1 -> m_a   [ style=dashed label="(shortcut)" ]
+# too d.  m_a  -> m_s2  [ style=dashed label="(shortcut)" ]
+}
+
+"~ 2000" -> UML  -> u_s1                [ style=invis]
+          u_s1 -> u_s1e -> u_a -> u_es2 [ arrowhead=none ]
+                                  u_es2 -> u_s2
+
+"~ 2005" -> BPMN -> b_e1                [ style=invis ]
+          b_e1 -> b_a -> b_e2 [ label=" Flow" ]
+
+"~ 1990" -> EPK -> a_e1                [style=invis]
+          a_e1 -> a_f -> a_e2 [ arrowhead=vee ]
+
+"(timeless)" -> evnt -> e_s1 [ style=invis ]
+          e_s1 -> e_e -> e_s2 [ penwidth=2 ]
+
+"~ 1950" -> FSM  -> f_s1                [ style=invis ]
+          f_s1 -> f_s2        [ label=Transition penwidth=2 ]
+
+"1735" -> grap -> g_n2                [ style=invis ]
+          g_n2 -> g_n3 -> g_n4 -> g_n5 -> g_n6  [label=" edge"]
+
+  { edge [color=gray ]
+"(ongoing)" -> Jira -> j_s1                  [style=invis]
+          j_s1 -> j_s1eb                          [ arrowhead=none                         ]
+                  j_s1eb -> j_es2                 [ arrowhead=normal label=" 'service'"    ]
+                  j_s1ec -> j_es2                 [ arrowhead=normal label=" 'manual'"     ]
+          j_s1 -> j_s1ec                          [ arrowhead=none                         ]         
+                  j_s1ec -> j_sc                  [ arrowhead=normal label=" 'user'"       ]          
+                            j_sc -> j_es2         [ arrowhead=normal ] # correct but too dense # label=" OK click"     ] 
+                                    j_es2 -> j_s2 [ arrowhead=normal                       ]
+  #                         j_sc ->          j_s1 [ arrowhead=normal label=" Cancel click" ]
+  #                                 j_es2 -> j_s1 [ arrowhead=normal label=" invalid"      ]
+  }
+
+  { rank=same META EPK Jira BPMN FSM UML }
+  { rank=same a_e1 m_s1e j_s1eb j_s1ec b_e1 u_s1e }
+  { rank=same a_e2 m_es2        u_es2  b_e2 }
+  { rank=same m_s1 j_s1 f_s1 u_s1 e_s1 }
+  { rank=same m_s2 j_s2 f_s2 u_s2 e_s2 }
+  { rank=same m_a  j_sc a_f u_a b_a e_e }
+
+# meant as legend but increases visual density #  m_a -> j_sc -> u_a -> b_a -> a_f [ constraint=none arrowhead=none style=dotted color=gray ]
+
+# this break the order # m_s2 -> j_s2 -> u_s2 -> f_s2 [ constraint=none arrowhead=none style=dotted color=gray ]
+
+  { rank=same j_legend u_legend j_es2  }
+  { rank=same j_legen2 u_legen2 j_s1eb }
+}
