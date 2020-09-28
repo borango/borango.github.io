@@ -19,13 +19,13 @@ And that disctinction made something clear to me: Some notations omit State (EPK
 
 Yes you can mimic State by modeling Events for it. But it does not make the model intuitive to understand. Because _"melting"_ and _"liquid water"_ are two different phenomena. 
 
-As a conclusion I added a simple hyper-notation which can express all facets of workflow / state machines. That Knowledge-Transformatoin (KxFm) notation can act as an interchange notation for migrating between notations or tools. Because all models of the other analyzed notations can be expressed in the KxFm notation.
+As a conclusion I added a simple hyper-notation which can express all facets of workflow / state machines. That Knowledge-Transformation (KxFm) notation can act as an interchange notation for migrating between notations or tools. Because all models of the other analyzed notations can be expressed in the KxFm notation.
 
-I hope that this overview helps you to understand your favourite notation a littel better.
+I hope that this overview helps you to understand your favourite notation a little better.
 
 Please send me comments on this paper so that I can improve it. Thank you for reading!
 
-<object width="100%" data="graph.svg" type="image/svg+xml" ></object>
+<object data="graph.svg" type="image/svg+xml" ></object>
 
 ---
 Copyright © 2020 Boran Gögetap [boran@goegetap.name](mailto:boran@goegetap.name), licensed under // lizenziert unter [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.html)
