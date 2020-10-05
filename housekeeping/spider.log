@@ -1,0 +1,33 @@
+2020-10-05 11:30:16 URL:https://www.goegetap.name/ [5546/5546] -> "index.html.tmp.tmp" [1]
+http://www.goegetap.name/robots.txt:
+2020-10-05 11:30:16 FEHLER 404: Not Found.
+https://www.goegetap.name/robots.txt:
+2020-10-05 11:30:16 FEHLER 404: Not Found.
+2020-10-05 11:30:17 URL:http://www.goegetap.name/ [5546/5546] -> "index.html.tmp.tmp" [1]
+2020-10-05 11:30:17 URL: https://www.goegetap.name/assets/css/style.css?v=560ad68f3e309c878e875190a5f907bf00b30daf 200 OK
+style.css?v=560ad68f3e309c878e875190a5f907bf00b30daf.tmp: Datei oder Verzeichnis nicht gefunden
+unlink: Datei oder Verzeichnis nicht gefunden
+2020-10-05 11:30:17 URL:https://www.goegetap.name/schulung/ [3616/3616] -> "index.html.tmp.tmp" [1]
+2020-10-05 11:30:18 URL:https://www.goegetap.name/projekte/ [4298/4298] -> "index.html.tmp.tmp" [1]
+2020-10-05 11:30:18 URL:https://www.goegetap.name/cmdb/modellierung/ [7986/7986] -> "index.html.tmp.tmp" [1]
+2020-10-05 11:30:18 URL:https://www.goegetap.name/scrum-agile-lean-training/ [5750/5750] -> "index.html.tmp.tmp" [1]
+2020-10-05 11:30:18 URL:https://www.goegetap.name/qualitaetsklettern/ [7715/7715] -> "index.html.tmp.tmp" [1]
+2020-10-05 11:30:19 URL:https://www.goegetap.name/social-pricing/ [4450/4450] -> "index.html.tmp.tmp" [1]
+2020-10-05 11:30:19 URL:https://www.goegetap.name/kvp/ [2473/2473] -> "index.html.tmp.tmp" [1]
+2020-10-05 11:30:19 URL:https://www.goegetap.name/impressum/ [3247/3247] -> "index.html.tmp.tmp" [1]
+2020-10-05 11:30:19 URL: http://www.goegetap.name/assets/css/style.css?v=560ad68f3e309c878e875190a5f907bf00b30daf 200 OK
+style.css?v=560ad68f3e309c878e875190a5f907bf00b30daf.tmp: Datei oder Verzeichnis nicht gefunden
+unlink: Datei oder Verzeichnis nicht gefunden
+2020-10-05 11:30:20 URL:http://www.goegetap.name/schulung/ [3616/3616] -> "index.html.tmp.tmp" [1]
+2020-10-05 11:30:20 URL:http://www.goegetap.name/projekte/ [4298/4298] -> "index.html.tmp.tmp" [1]
+2020-10-05 11:30:20 URL:http://www.goegetap.name/cmdb/modellierung/ [7986/7986] -> "index.html.tmp.tmp" [1]
+2020-10-05 11:30:20 URL:http://www.goegetap.name/scrum-agile-lean-training/ [5750/5750] -> "index.html.tmp.tmp" [1]
+2020-10-05 11:30:21 URL:http://www.goegetap.name/qualitaetsklettern/ [7715/7715] -> "index.html.tmp.tmp" [1]
+2020-10-05 11:30:21 URL:http://www.goegetap.name/social-pricing/ [4450/4450] -> "index.html.tmp.tmp" [1]
+2020-10-05 11:30:21 URL:http://www.goegetap.name/kvp/ [2473/2473] -> "index.html.tmp.tmp" [1]
+2020-10-05 11:30:21 URL:http://www.goegetap.name/impressum/ [3247/3247] -> "index.html.tmp.tmp" [1]
+Found no broken links.
+
+BEENDET --2020-10-05 11:30:21--
+Verstrichene Zeit: 6,5s
+Geholt: 18 Dateien, 88K in 0,04s (2,04 MB/s)
