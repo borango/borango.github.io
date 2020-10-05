@@ -8,4 +8,4 @@ Tracking Richtlinie
 
 > Diese Website verwendet keinerlei Tracking (analytische Skripte oder andere Mittel) um das Verhalten von Besuchern aufzuzeichnen oder sonstwie auszuwerten.
 
-Ich wüncshe Ihnen einen angenehmen weitere Besuch :-)
+Ich wünsche allen einen angenehmen weiteren Besuch :-)
