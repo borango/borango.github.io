@@ -6,6 +6,14 @@
 > Am Sagbach 25a  
 > DE -- 83661 Lenggries 
 
+VAT-ID / USt-IdNr.
+
+> DE 130347186
+
+IBAN
+
+> DE 7283094495 000 3310191
+
 contact via email
 
 > [office@goegetap.name](mailto:office@goegetap.name)
