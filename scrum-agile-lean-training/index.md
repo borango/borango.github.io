@@ -1,16 +1,15 @@
 ---
+title: Scrum / Agile / Lean Training
+days: 1
+daylistprice: 1200
 ---
-# Scrum / Agile / Lean Training
+# {{ page.title }} 
 
 > Schlanke und agile Methoden praktisch erlernen: beim Jonglieren und beim Errichten einer Kleinstadt aus Papier.
 
 Dieser Kurs zeigt dass Management-Methoden nicht kompliziert sein müssen. Wenn sich Menschen auf die eigentliche Arbeit konzentrieren dürfen dann liefern sie bessere Ergebnisse in kürzerer Zeit bei maximaler Freude (im Vergleich zu einer bürokratischeren Arbeitsweise).
 
-Dauer: 2 Tage
-
-Listenpreis[^1]: 	€ 2.400
-
-Ermäßigter Preis[^2]: € 1.200
+{% include training-numbers.md %}
 
 ## Zielgruppe
 

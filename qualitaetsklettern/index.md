@@ -1,16 +1,15 @@
 ---
+title: Qualitätsklettern Workshop
+days: 1
+daylistprice: 800
 ---
-# Qualitätsklettern Workshop
+# {{ page.title }} 
 
 > dieses hybride Format kombiniert Bewegungsfreude und Lernziele des klassischen Qualitätsmanagements (ISO 9000 und andere)
 
-Das Erlebnis der Höhe motiviert und es stimuliert einen natürlichen Sinn für die Notwendigkeit (von Qualität). Moderne Sicherungstechniken (Ausrüstung und Prozeduren) demonstrieren den Einsatz eines wirksamen und dennoch schlanken Qualitätssystems.
+Das Erlebnis der Höhe motiviert. Höhe stimuliert einen natürlichen Sinn für die Notwendigkeit von Qualität. Moderne Sicherungstechniken (Ausrüstung, Verfahren und Schulung) sind Beispiele für ein wirksames und dennoch schlankes Qualitätssystem.
 
-Dauer: 1 Tag
-
-Listenpreis[^1]: € 800
-
-Ermäßigter Preis[^2]: € 400
+{% include training-numbers.md %}
 
 ## Zielgruppe
 

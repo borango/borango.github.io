@@ -1,16 +1,15 @@
 ---
+title: CMDB Modellierung
+days: 1
+daylistprice: 1200
 ---
-# CMDB Modellierung
+# {{ page.title }} 
 
 > Praktischer, herstellerunabhängiger Workshop mit Best Practices für Aufbau, Einführung und Betrieb der Configuration Management Database (CMDB) als zentrales Tool im IT Service Management (ITSM)
 
 Teilnehmer entwickeln ihr eigenes CMDB Datenmodell und pflegen anschließend Configuration Items in einer Opensource CMDB Software.
 
-Dauer: 1 Tag
-
-Listenpreis[^1]: € 1.200
-
-Ermäßigter Preis[^2]: € 600
+{% include training-numbers.md %}
 
 ## Zielgruppe
 
