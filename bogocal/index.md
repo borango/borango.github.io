@@ -10,4 +10,4 @@ You can integrate the above free/busy information into your favourite calendar a
 
 https://calendar.google.com/calendar/ical/boran%40goegetap.name/public/basic.ics
 
-For urgent matters let us make an [appointment](/impressum/).
+Channels for contacting me are listed on the [impressum](/impressum/) page.
