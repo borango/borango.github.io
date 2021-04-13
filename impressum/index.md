@@ -10,7 +10,8 @@ VAT-ID
 > SE 690221603201
 
 
-contact via email
+
+contact via Email
 
 > [office@goegetap.name](mailto:office@goegetap.name)
 
@@ -22,9 +23,11 @@ contact via Element
 
 > @borango:nerdsin.space
 
+
 contact via ticket
 
 > [https://goegetap.atlassian.net/servicedesk/customer/portals](https://goegetap.atlassian.net/servicedesk/customer/portals)
+
 
 lookup my free / busy times
 
