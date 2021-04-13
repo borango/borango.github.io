@@ -1,32 +1,31 @@
-# Impressum und Kontakt
+# Imprint + Contact Information
 
-## verantwortlich im Sinne des Telemediengesetzes (TMG)
 
 > Boran Gögetap  
-> Am Sagbach 25a  
-> DE -- 83661 Lenggries 
+> Bertilstorp 255
+> SE -- 273 55 Brösarp
 
-VAT-ID / USt-IdNr.
+VAT-ID 
 
-> DE 130347186
+> SE 690221603201
 
-IBAN
-
-> DE 7283094495 000 3310191
 
 contact via email
 
 > [office@goegetap.name](mailto:office@goegetap.name)
 
-contact via phone
+contact via Telegram
 
-> [+49 8042 569 00 85](tel:+4980425690085)
+> [https://t.me/bogoe](https://t.me/bogoe)
 
-contact via Ticket
+contact via Element
+
+> @borango:nerdsin.space
+
+contact via ticket
 
 > [https://goegetap.atlassian.net/servicedesk/customer/portals](https://goegetap.atlassian.net/servicedesk/customer/portals)
 
-Terminabfrage und verfügbare Zeiten\
 lookup my free / busy times
 
 > [on my calendar page](/bogocal/)
