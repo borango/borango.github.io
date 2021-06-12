@@ -2,8 +2,8 @@
 
 
 > Boran Gögetap  
-> Bertilstorp 255
-> SE -- 273 55 Brösarp
+> Frösjöhult 1
+> SE -- 36 295 Urshult
 
 VAT-ID 
 
