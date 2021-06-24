@@ -66,7 +66,8 @@ wissenswandler.de speichert die übertragenen Daten in seinem Rechenzentrum in d
 wissenswandler.de speichert die Daten mit dem einzigen Zweck der Transformation und Auslieferung (TA), welche in gesonderten Aufträgen vereinbart sind.
 
 Ohne Auftrag zur Transformation und Auslieferung (TA) erfolgt kein Zugriff auf die gespeicherten Kundendaten, weder durch Boran Gögetap noch durch Dritte.
-Beginn
+
+## Beginn
 
 Aufträge zur Übertragung und Speicherung beginnen entweder mit einem Auftrag im Status Vereinbart (Agreed) oder durch Übertragung von Kundendaten.
 
@@ -79,7 +80,7 @@ Die Beendigung des jeweils letzten aktiven Verarbeitungsauftrages ÜS zu einem G
 Falls 30 Tage lang kein aktiver Verarbeitungsauftrag TA zu den Daten im Geltungsbereich eines Verarbeitungsauftrag ÜS besteht, ist kein Zweck für die Speicherung erkennbar. Auch in diesem Fall endet der Verarbeitungsauftrag ÜS.
 Löschung
 
-Mit dem der Ende des letzten Verarbeitungsauftrags ÜS zu einem Geltungsbereich löscht Boran Gögetap sämtliche übertragenen und gespeicherten Daten die zum Geltungsbereich des Verarbeitungsauftrages gehören.
+Mit dem Ende des letzten Verarbeitungsauftrags ÜS zu einem Geltungsbereich löscht Boran Gögetap sämtliche übertragenen und gespeicherten Daten die zum Geltungsbereich des Verarbeitungsauftrages gehören.
 
 Abschließend setzt Boran Gögetap den Status des Auftrages auf Geschlossen (Closed).
 
@@ -195,4 +196,4 @@ Abschließend setzt Boran Gögetap den Status des Auftrages auf Geschlossen (Clo
 
 ---
 
-Stand dieser Erklärung: Version 1 vom 22.10.2019
+Stand dieser Erklärung: Version 1.01 vom 24.06.2021
