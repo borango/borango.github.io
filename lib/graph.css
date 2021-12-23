@@ -192,13 +192,13 @@ g.edge:hover polygon	{ stroke: #0000ff; stroke-width: 3 }
 [tag1$="0"][colorank="6-7"] :not(text):not(a):not(g) { animation-name: b6-7 } @keyframes b6-7 { to { fill:rgb(177,0,38) ; stroke:rgb(177,0,38) } }
 
 [tag1$="0"][colorank="0-8"] :not(text):not(a):not(g) { animation-name: b0-8 } @keyframes b0-8 { to { fill:rgb(255,255,204) ; stroke:rgb(255,255,204) } } 
-[tag1$="0"][colorank="1-8"] :not(text):not(a):not(g) { animation-name: b1-8 } @keyframes b0-8 { to { fill:rgb(255,237,160) ; stroke:rgb(255,237,160) } } 
-[tag1$="0"][colorank="2-8"] :not(text):not(a):not(g) { animation-name: b2-8 } @keyframes b0-8 { to { fill:rgb(254,217,118) ; stroke:rgb(254,217,118) } } 
-[tag1$="0"][colorank="3-8"] :not(text):not(a):not(g) { animation-name: b3-8 } @keyframes b0-8 { to { fill:rgb(254,178,76) ; stroke:rgb(254,178,76) } } 
-[tag1$="0"][colorank="4-8"] :not(text):not(a):not(g) { animation-name: b4-8 } @keyframes b0-8 { to { fill:rgb(253,141,60) ; stroke:rgb(253,141,60) } } 
-[tag1$="0"][colorank="5-8"] :not(text):not(a):not(g) { animation-name: b5-8 } @keyframes b0-8 { to { fill:rgb(252,78,42) ; stroke:rgb(252,78,42) } } 
-[tag1$="0"][colorank="6-8"] :not(text):not(a):not(g) { animation-name: b6-8 } @keyframes b0-8 { to { fill:rgb(227,26,28) ; stroke:rgb(227,26,28) } } 
-[tag1$="0"][colorank="7-8"] :not(text):not(a):not(g) { animation-name: b7-8 } @keyframes b0-8 { to { fill:rgb(177,0,38) ; stroke:rgb(177,0,38) } }
+[tag1$="0"][colorank="1-8"] :not(text):not(a):not(g) { animation-name: b1-8 } @keyframes b1-8 { to { fill:rgb(255,237,160) ; stroke:rgb(255,237,160) } } 
+[tag1$="0"][colorank="2-8"] :not(text):not(a):not(g) { animation-name: b2-8 } @keyframes b2-8 { to { fill:rgb(254,217,118) ; stroke:rgb(254,217,118) } } 
+[tag1$="0"][colorank="3-8"] :not(text):not(a):not(g) { animation-name: b3-8 } @keyframes b3-8 { to { fill:rgb(254,178,76) ; stroke:rgb(254,178,76) } } 
+[tag1$="0"][colorank="4-8"] :not(text):not(a):not(g) { animation-name: b4-8 } @keyframes b4-8 { to { fill:rgb(253,141,60) ; stroke:rgb(253,141,60) } } 
+[tag1$="0"][colorank="5-8"] :not(text):not(a):not(g) { animation-name: b5-8 } @keyframes b5-8 { to { fill:rgb(252,78,42) ; stroke:rgb(252,78,42) } } 
+[tag1$="0"][colorank="6-8"] :not(text):not(a):not(g) { animation-name: b6-8 } @keyframes b6-8 { to { fill:rgb(227,26,28) ; stroke:rgb(227,26,28) } } 
+[tag1$="0"][colorank="7-8"] :not(text):not(a):not(g) { animation-name: b7-8 } @keyframes b7-8 { to { fill:rgb(177,0,38) ; stroke:rgb(177,0,38) } }
 
 [tag1$="0"][colorank="0-9"] :not(text):not(a):not(g) { animation-name: b0-9 } @keyframes b0-9 { to { fill:rgb(255,255,204) ; stroke:rgb(255,255,204) } } 
 [tag1$="0"][colorank="1-9"] :not(text):not(a):not(g) { animation-name: b1-9 } @keyframes b1-9 { to { fill:rgb(255,237,160) ; stroke:rgb(255,237,160) } } 
