@@ -19,10 +19,6 @@ contact via Telegram
 
 > [https://t.me/bogoe](https://t.me/bogoe)
 
-contact via Element
-
-> @borango:nerdsin.space
-
 
 contact via ticket
 
