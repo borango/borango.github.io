@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" sizes="any" /> <!--ignored by Firefox on Android -->
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+
+    <meta property="og:title"       content="{{ page.title     }}" />
+    <meta property="og:image"       content="{{ page.ogimage   }}" />
+    <meta property="og:description" content="{{ page.abstract  }}" />
+    <meta property="og:site_name"   content="Wissenswandler" />
+
+    <style type="text/css">
+     .left  { float: left  }
+     .right, object { float: right }
+     hr { clear: both }
+    </style>
+  </head>
+  <body>
+    {{ content }}
+    <hr/>
+    <p><small>
+	Copyright © 2020, 2021 Boran Gögetap <a href="mailto:boran@goegetap.name">boran@goegetap.name</a>;
+	Knowledgegraph (boxes and lines) maintained in public Jira project;
+	Diagrams created by KTS <a href="https://bitbucket.org/wissenswandler/kts-jira-extract-transform/src/master/">(Knowledge Transformation System)</a> and <a href="https://graphviz.org/">GraphViz</a>;
+	HTML created by Jekyll;
+	This paper licensed under <a href="https://www.gnu.org/licenses/agpl-3.0.html">GNU Affero General Public License</a>
+       </small>
+    </p>
+  </body>
+</html>
