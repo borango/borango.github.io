@@ -4,7 +4,7 @@ layout: kts-paper
 ogimage: panbesy-1/graph.png
 abstract: "We agree on much more than we thought we do."
 ---
-<script src="../../lib/graph.js" type="text/ecmascript"></script>
+<script src="/lib/graph.js" type="text/ecmascript"></script>
 <script>
   window.addEventListener("load", function()
   {
@@ -24,7 +24,7 @@ abstract: "We agree on much more than we thought we do."
 # <center>Pandemic Belief Systems</center>
 <center>*We agree on much more than we thought we do.*</center>
 
-<object class="clear" id="graph_1" width="50%" data="../panbesy_1/graph-local.svg" type="image/svg+xml"></object>
+<object class="clear" id="graph_1" width="50%" data="../panbesy_1/graph-local.svg" type="image/svg+xml" alt="simplified knowledge map containing assumed causes and effects for both corona believers and conspiracy believers" ></object>
 
 I am not vaccinated against the corona virus. Perhaps you are. This could divide us into two different classes of people who can't understand each other.
 
@@ -57,7 +57,7 @@ If you would like to discuss future versions of this article then I invite you t
 
 Map with more (but not all) details:
 
-<object class="clear" id="graph" width="100%" data="graph-local.svg" type="image/svg+xml"></object>
+<object class="clear" id="graph" width="100%" data="graph-local.svg" type="image/svg+xml" alt="knowledge map containing assumed causes and effects for both corona believers and conspiracy believers"></object>
 
 ---
 draft version 2021-12-25
