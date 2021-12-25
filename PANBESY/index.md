@@ -23,7 +23,7 @@ abstract: "We agree on much more than we thought we do."
 
 # <center>Pandemic Belief Systems</center>
 
-<center>*We agree on much more than we thought we do.*</center>
+<center> *We agree on much more than we thought we do.* </center>
 
 <object class="clear" id="graph_1" width="50%" data="../panbesy_1/graph-local.svg" type="image/svg+xml" alt="simplified knowledge map containing assumed causes and effects for both corona believers and conspiracy believers" ></object>
 
@@ -51,7 +51,7 @@ The map to the right highlights these beliefs that we may have, or had, in commo
 
 ## To be continued...
 
-If you would like to discuss future versions of this article then I invite you to work with me here:
+If you would like to discuss future versions of this article then I invite you to work with me here:  
 \> <https://t.me/+0lkzlWB0UtgxM2Yy>
 
 ---
