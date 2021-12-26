@@ -11,23 +11,27 @@ abstract: "We agree on much more than we thought we do."
     let
     sdoc = document.getElementById("graph_1").getSVGDocument()
     execute_keyboard_function( sdoc, "s" )
-    onclick(  sdoc, sdoc.getElementById( "PANBESY-58" )  )
+    onclick(  sdoc, sdoc.getElementById( "PANBESY-3" )  )
     execute_keyboard_function( sdoc, "n" )
-    onclick(  sdoc, sdoc.getElementById( "PANBESY-58" )  )
+    onclick(  sdoc, sdoc.getElementById( "PANBESY-3" )  )
     execute_keyboard_function( sdoc, "s" )
-    onclick(  sdoc, sdoc.getElementById( "PANBESY-59" )  )
+    onclick(  sdoc, sdoc.getElementById( "PANBESY-4" )  )
     execute_keyboard_function( sdoc, "n" )
-    onclick(  sdoc, sdoc.getElementById( "PANBESY-59" )  )
+    onclick(  sdoc, sdoc.getElementById( "PANBESY-4" )  )
     execute_keyboard_function( sdoc, "j" )
 
     sdoc = document.getElementById("graph_3").getSVGDocument()
-    onclick(  sdoc, sdoc.getElementById( "PANBESY-58" )  )
-    onclick(  sdoc, sdoc.getElementById( "PANBESY-59" )  )
+    onclick(  sdoc, sdoc.getElementById( "PANBESY-3" )  )
+    onclick(  sdoc, sdoc.getElementById( "PANBESY-3" )  )
+    onclick(  sdoc, sdoc.getElementById( "PANBESY-4" )  )
+    onclick(  sdoc, sdoc.getElementById( "PANBESY-4" )  )
     execute_keyboard_function( sdoc, "j" )
 
     sdoc = document.getElementById("graph").getSVGDocument()
-    onclick(  sdoc, sdoc.getElementById( "PANBESY-58" )  )
-    onclick(  sdoc, sdoc.getElementById( "PANBESY-59" )  )
+    onclick(  sdoc, sdoc.getElementById( "PANBESY-3" )  )
+    onclick(  sdoc, sdoc.getElementById( "PANBESY-3" )  )
+    onclick(  sdoc, sdoc.getElementById( "PANBESY-4" )  )
+    onclick(  sdoc, sdoc.getElementById( "PANBESY-4" )  )
     execute_keyboard_function( sdoc, "j" )
   });
 </script>
@@ -56,7 +60,7 @@ The map to the right highlights these values that we have in common.
 
 ---
 
-<object class="clear" id="graph_3" width="50%" data="../panbesy_1/graph-local.svg" type="image/svg+xml" alt="simplified knowledge map containing assumed causes and effects from immune system to pandemic" ></object>
+<object class="clear" id="graph_3" width="50%" data="../panbesy_3/graph-local.svg" type="image/svg+xml" alt="simplified knowledge map containing assumed causes and effects from immune system to pandemic" ></object>
 
 I guess that we agree on our immune system. At least that it exists and how it used to work.
 
