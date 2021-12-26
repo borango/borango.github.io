@@ -56,7 +56,7 @@ For example, I assume that we all believe in, and aspire, **health**.
 
 In our belief systems we hold different assumptions about what is needed to achieve *health*. _Some people smoke. Some exercise. Some smoke and exercise._ But we do agree on the general concept of health, and that health is an important value for us. As it is for every human being.
 
-Similar case for **solidarity**. Like every human, we all want to contribute to the wellbeing of our society's members. 
+Similar case for **solidarity**. Like every human, we all want to contribute to the wellbeing of our society's members. Based on our own assumptions, we all believe in our own ways of achieving solidarity.
 
 The map to the right highlights these values that we have in common.
 
