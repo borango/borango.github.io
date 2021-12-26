@@ -52,9 +52,11 @@ Some while ago we have chosen to believe in certain assumptions. Since then we k
 
 **Fortunately we agree on much more than we thought we do.**
 
-For example, I assume that we all believe in, and aspire, health.
+For example, I assume that we all believe in, and aspire, **health**.
 
-In our belief systems we hold different assumptions about what is needed to achieve *health*. But we do agree on the general concept of health, and that health is an important value for us. As it is for every human being.
+In our belief systems we hold different assumptions about what is needed to achieve *health*. _Some people smoke. Some exercise. Some smoke and exercise._ But we do agree on the general concept of health, and that health is an important value for us. As it is for every human being.
+
+Similar case for **solidarity**. Like every human, we all want to contribute to the wellbeing of our society's members. 
 
 The map to the right highlights these values that we have in common.
 
