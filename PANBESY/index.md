@@ -40,7 +40,7 @@ abstract: "We agree on much more than we thought we do."
 
 <center>research shows: "we agree on much more than we thought we do"</center>
 
-<object class="clear" id="graph_1" width="30%" data="../panbesy_1/graph-local.svg" type="image/svg+xml" alt="simplified knowledge map containing mostly shared values for both corona believers and conspiracy believers" ></object>
+<object class="clear" id="graph_1" width="40%" data="../panbesy_1/graph-local.svg" type="image/svg+xml" alt="simplified knowledge map containing mostly shared values for both corona believers and conspiracy believers" ></object>
 
 I am not vaccinated against the corona virus. Perhaps you are. This could divide us into two different classes of people who can't understand each other.
 
@@ -66,7 +66,7 @@ The map to the right highlights these values that we have in common.
 
 I guess that we agree on our immune system. At least that it exists and how it used to work.
 
-We do not agree on the *corona pandemic*. But we do, or once did, agree on the general concept of a pandemic. A pandemic occurs when a (new) virus appears &CirclePlus; the population has no immunity to prevent it &amp;rightarrow; then infections of a new desease occur at an exponential rate → causing severe cases and → enormous numbers of deaths worldwide.
+We do not agree on the *corona pandemic*. But we do, or once did, agree on the general concept of a pandemic. A pandemic occurs when a (new) virus appears ⊕ the population has no immunity to prevent it → then infections of a new desease occur at an exponential rate → causing severe cases and → enormous numbers of deaths worldwide.
 
 I guess that until the year 2008 the WHO, you and I agreed on this causal model and definition of a pandemic.
 
