@@ -2,8 +2,8 @@
 
 
 > Boran Gögetap  
-> Frösjöhult 1  
-> SE -- 36 295 Urshult   
+> Stora Rådmansgatan 22  
+> SE -- 272 31 Simrishamn  
 
 VAT-ID 
 
