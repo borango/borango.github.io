@@ -40,7 +40,7 @@ abstract: "We agree on much more than we thought we do."
 
 <center>research shows: "we agree on much more than we thought we do"</center>
 
-<object class="clear" id="graph_1" width="40%" data="../panbesy_1/graph-local.svg" type="image/svg+xml" alt="simplified knowledge map containing mostly shared values for both corona believers and conspiracy believers" ></object>
+<object class="clear" id="graph_1" width="40%" data="../panbesy-1/graph-local.svg" type="image/svg+xml" alt="simplified knowledge map containing mostly shared values for both corona believers and conspiracy believers" ></object>
 
 I am not vaccinated against the corona virus. Perhaps you are. This could divide us into two different classes of people who can't understand each other.
 
@@ -62,7 +62,7 @@ The map to the right highlights these values that we have in common.
 
 ---
 
-<object class="clear" id="graph_3" width="50%" data="../panbesy_3/graph-local.svg" type="image/svg+xml" alt="simplified knowledge map containing assumed causes and effects from immune system to pandemic" ></object>
+<object class="clear" id="graph_3" width="50%" data="../panbesy-3/graph-local.svg" type="image/svg+xml" alt="simplified knowledge map containing assumed causes and effects from immune system to pandemic" ></object>
 
 I guess that we agree on our immune system. At least that it exists and how it used to work.
 
