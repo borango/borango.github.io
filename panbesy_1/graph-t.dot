@@ -1,0 +1,177 @@
+digraph 
+{
+  splines    = true
+  remincross = true
+
+  nodesep="0.2"
+  ranksep="0.2"
+
+  rankdir =BT	                # most 'valuable' (or value-enriched) things go on top;
+                                # supporting things (infrastructure) go to the bottom
+          
+          tooltip = " "         # graph and node tooltips shall not use default ids (edge tooltips are always set by KTS)
+  node  [ tooltip = " " ]
+
+  node  [ fontname=Helvetica margin=0.1 width=0 height=0 ] # render nodes as compact as possible
+
+  graph [ style="filled,rounded"     color=whitesmoke labelloc=b fontname=Helvetica ]
+
+  graph [ target="details" ]    # open hyperlinks in a separate browser tab named 'details'
+  node  [ target="details" ]
+  edge  [ target="details" ]
+
+  node  [ shape=box        style="filled,rounded" fillcolor=white ]
+
+  edge	[ color=forestgreen	# represents positive effects (adding value)
+	  penwidth=2		# width 2 is easier to click on
+ 	  fontsize=10		# smaller than the default of 12 in nodes
+
+	  dir=both              # draw bidirectional edges by default...
+          arrowtail=none        # ... but without an arrowtail, typically.
+                                # This is useful for edges which have different shapes e.g. UML aggregation
+  ]
+
+  node  [ id="\N"      ] # essential for KTS JavaScript traversing SVG
+  edge  [ id="\T___\H" ] # essential for KTS JavaScript traversing SVG
+<PANBESY-1> [URL="https://knowhere.atlassian.net/browse/PANBESY-1"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11505.png" />
+</TD>
+  <TD COLSPAN='3'><B>pandemic (in general)</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ colorscheme=ylorrd5 color=3
+ ]
+<PANBESY-2> [URL="https://knowhere.atlassian.net/browse/PANBESY-2"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11505.png" />
+</TD>
+  <TD COLSPAN='3'><B>corona conspiracy</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<PANBESY-3> [URL="https://knowhere.atlassian.net/browse/PANBESY-3"
+ tooltip="a.k.a. “Conspiracy Denier”"
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11491.png" />
+</TD>
+  <TD COLSPAN='3'><B>Corona Pandemic Believer</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<PANBESY-4> [URL="https://knowhere.atlassian.net/browse/PANBESY-4"
+ tooltip="a.k.a. “Corona Denier”"
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11491.png" />
+</TD>
+  <TD COLSPAN='3'><B>Corona Conspiracy Believer</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<PANBESY-60> [URL="https://knowhere.atlassian.net/browse/PANBESY-60"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11505.png" />
+</TD>
+  <TD COLSPAN='3'><B>corona pandemic</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ colorscheme=ylorrd5 color=3
+ ]
+<UNIVERSAL-12> [URL="https://knowhere.atlassian.net/browse/UNIVERSAL-12"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11491.png" />
+</TD>
+  <TD COLSPAN='3'><B>Human</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<UNIVERSAL-16> [URL="https://knowhere.atlassian.net/browse/UNIVERSAL-16"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Value%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10309.png" />
+</TD>
+  <TD COLSPAN='3'><B>Health</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<UNIVERSAL-19> [URL="https://knowhere.atlassian.net/browse/UNIVERSAL-19"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Value%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10309.png" />
+</TD>
+  <TD COLSPAN='3'><B>Solidarity</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<UNIVERSAL-20> [URL="https://knowhere.atlassian.net/browse/UNIVERSAL-20"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Value%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10309.png" />
+</TD>
+  <TD COLSPAN='3'><B>Trust</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<PANBESY-60> -> <PANBESY-3> [ labeltooltip="corona pandemic → convinces  → Corona Pandemic Believer → believes  ↩" tooltip="corona pandemic → convinces  → Corona Pandemic Believer → believes  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-3,PANBESY-60)" label="convinces " 
+ ]
+<UNIVERSAL-12> -> <PANBESY-3> [ labeltooltip="Human → generalizes △ → Corona Pandemic Believer → specializes ▽ ↩" tooltip="Human → generalizes △ → Corona Pandemic Believer → specializes ▽ ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-3,UNIVERSAL-12)" arrowhead=empty penwidth=1 color=blue
+ ]
+<PANBESY-1> -> <PANBESY-4> [ labeltooltip="pandemic (in general) → convinces  → Corona Conspiracy Believer → believes  ↩" tooltip="pandemic (in general) → convinces  → Corona Conspiracy Believer → believes  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-4,PANBESY-1)" label="convinces " 
+ ]
+<PANBESY-2> -> <PANBESY-4> [ labeltooltip="corona conspiracy → convinces  → Corona Conspiracy Believer → believes  ↩" tooltip="corona conspiracy → convinces  → Corona Conspiracy Believer → believes  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-4,PANBESY-2)" label="convinces " 
+ ]
+<UNIVERSAL-12> -> <PANBESY-4> [ labeltooltip="Human → generalizes △ → Corona Conspiracy Believer → specializes ▽ ↩" tooltip="Human → generalizes △ → Corona Conspiracy Believer → specializes ▽ ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-4,UNIVERSAL-12)" arrowhead=empty penwidth=1 color=blue
+ ]
+<PANBESY-1> -> <PANBESY-60> [ labeltooltip="pandemic (in general) → generalizes △ → corona pandemic → specializes ▽ ↩" tooltip="pandemic (in general) → generalizes △ → corona pandemic → specializes ▽ ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-60,PANBESY-1)" arrowhead=empty penwidth=1 color=blue
+ ]
+<PANBESY-3> -> <UNIVERSAL-16> [ labeltooltip="Corona Pandemic Believer → aspires  → Health → sought by  ↩" tooltip="Corona Pandemic Believer → aspires  → Health → sought by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(UNIVERSAL-16,PANBESY-3)" label="aspires " 
+ ]
+<PANBESY-4> -> <UNIVERSAL-16> [ labeltooltip="Corona Conspiracy Believer → aspires  → Health → sought by  ↩" tooltip="Corona Conspiracy Believer → aspires  → Health → sought by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(UNIVERSAL-16,PANBESY-4)" label="aspires " 
+ ]
+<UNIVERSAL-12> -> <UNIVERSAL-16> [ labeltooltip="Human → aspires  → Health → sought by  ↩" tooltip="Human → aspires  → Health → sought by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(UNIVERSAL-16,UNIVERSAL-12)" label="aspires " 
+ ]
+<PANBESY-3> -> <UNIVERSAL-19> [ labeltooltip="Corona Pandemic Believer → contributes to  → Solidarity → receives from  ↩" tooltip="Corona Pandemic Believer → contributes to  → Solidarity → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(UNIVERSAL-19,PANBESY-3)" label="contributes to " 
+ ]
+<PANBESY-4> -> <UNIVERSAL-19> [ labeltooltip="Corona Conspiracy Believer → contributes to  → Solidarity → receives from  ↩" tooltip="Corona Conspiracy Believer → contributes to  → Solidarity → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(UNIVERSAL-19,PANBESY-4)" label="contributes to " 
+ ]
+<UNIVERSAL-12> -> <UNIVERSAL-19> [ labeltooltip="Human → contributes to  → Solidarity → receives from  ↩" tooltip="Human → contributes to  → Solidarity → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(UNIVERSAL-19,UNIVERSAL-12)" label="contributes to " 
+ ]
+<PANBESY-3> -> <UNIVERSAL-20> [ labeltooltip="Corona Pandemic Believer → contributes to  → Trust → receives from  ↩" tooltip="Corona Pandemic Believer → contributes to  → Trust → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(UNIVERSAL-20,PANBESY-3)" label="contributes to " 
+ ]
+<PANBESY-4> -> <UNIVERSAL-20> [ labeltooltip="Corona Conspiracy Believer → contributes to  → Trust → receives from  ↩" tooltip="Corona Conspiracy Believer → contributes to  → Trust → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(UNIVERSAL-20,PANBESY-4)" label="contributes to " 
+ ]
+<UNIVERSAL-12> -> <UNIVERSAL-20> [ labeltooltip="Human → contributes to  → Trust → receives from  ↩" tooltip="Human → contributes to  → Trust → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(UNIVERSAL-20,UNIVERSAL-12)" label="contributes to " 
+ ]
+
+}
