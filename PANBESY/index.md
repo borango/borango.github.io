@@ -1,7 +1,7 @@
 ---
 title: Pandemic Belief Systems
 layout: kts-paper
-ogimage: panbesy-1/graph.png
+ogimage: /panbesy-1/graph.png
 abstract: "We agree on much more than we thought we do."
 ---
 <script src="/lib/graph.js" type="text/ecmascript"></script>
