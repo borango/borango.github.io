@@ -17,9 +17,9 @@
 <g id="PANBESY&#45;1" class="node">
 <title>PANBESY&#45;1</title>
 <g id="a_PANBESY&#45;1"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-1" xlink:title=" " target="details">
-<path fill="white" stroke="#fd8d3c" d="M586,-33C586,-33 399,-33 399,-33 393.5,-33 388,-27.5 388,-22 388,-22 388,-11 388,-11 388,-5.5 393.5,0 399,0 399,0 586,0 586,0 591.5,0 597,-5.5 597,-11 597,-11 597,-22 597,-22 597,-27.5 591.5,-33 586,-33"/>
-<g id="a_PANBESY&#45;1_0"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary" xlink:title=" " target="details">
-<image xlink:href="https://knowhere.atlassian.net/secure/viewavatar?size=small&amp;avatarId=11505&amp;avatarType=issuetype" width="16px" height="12px" preserveAspectRatio="xMinYMin meet" x="396.5" y="-26.5"/>
+<path fill="white" stroke="black" d="M586,-33C586,-33 399,-33 399,-33 393.5,-33 388,-27.5 388,-22 388,-22 388,-11 388,-11 388,-5.5 393.5,0 399,0 399,0 586,0 586,0 591.5,0 597,-5.5 597,-11 597,-11 597,-22 597,-22 597,-27.5 591.5,-33 586,-33"/>
+<g id="a_PANBESY&#45;1_0"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary" xlink:title=" " target="details">
+<image xlink:href="https://knowhere.atlassian.net/secure/viewavatar?size=small&amp;avatarId=10303&amp;avatarType=issuetype" width="18px" height="19px" preserveAspectRatio="xMinYMin meet" x="395.5" y="-26.5"/>
 </a>
 </g>
 <text text-anchor="start" x="415.5" y="-13.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="14.00">pandemic (in general)</text>
@@ -56,9 +56,9 @@
 <g id="PANBESY&#45;60" class="node">
 <title>PANBESY&#45;60</title>
 <g id="a_PANBESY&#45;60"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-60" xlink:title=" " target="details">
-<path fill="white" stroke="#fd8d3c" d="M315,-83C315,-83 164,-83 164,-83 158.5,-83 153,-77.5 153,-72 153,-72 153,-61 153,-61 153,-55.5 158.5,-50 164,-50 164,-50 315,-50 315,-50 320.5,-50 326,-55.5 326,-61 326,-61 326,-72 326,-72 326,-77.5 320.5,-83 315,-83"/>
-<g id="a_PANBESY&#45;60_2"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary" xlink:title=" " target="details">
-<image xlink:href="https://knowhere.atlassian.net/secure/viewavatar?size=small&amp;avatarId=11505&amp;avatarType=issuetype" width="16px" height="12px" preserveAspectRatio="xMinYMin meet" x="161.5" y="-76.5"/>
+<path fill="white" stroke="black" d="M315,-83C315,-83 164,-83 164,-83 158.5,-83 153,-77.5 153,-72 153,-72 153,-61 153,-61 153,-55.5 158.5,-50 164,-50 164,-50 315,-50 315,-50 320.5,-50 326,-55.5 326,-61 326,-61 326,-72 326,-72 326,-77.5 320.5,-83 315,-83"/>
+<g id="a_PANBESY&#45;60_2"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary" xlink:title=" " target="details">
+<image xlink:href="https://knowhere.atlassian.net/secure/viewavatar?size=small&amp;avatarId=10303&amp;avatarType=issuetype" width="18px" height="19px" preserveAspectRatio="xMinYMin meet" x="160.5" y="-76.5"/>
 </a>
 </g>
 <text text-anchor="start" x="181.5" y="-63.3" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="14.00">corona pandemic</text>

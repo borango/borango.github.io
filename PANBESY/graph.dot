@@ -1,0 +1,1383 @@
+digraph {
+	graph [color=whitesmoke,
+		fontname=Helvetica,
+		labelloc=b,
+		nodesep=0.2,
+		rankdir=BT,
+		ranksep=0.2,
+		remincross=true,
+		splines=true,
+		style="filled,rounded",
+		target=details,
+		tooltip=" "
+	];
+	node [fillcolor=white,
+		fontname=Helvetica,
+		height=0,
+		id="\N",
+		margin=0.1,
+		shape=box,
+		style="filled,rounded",
+		target=details,
+		tooltip=" ",
+		width=0
+	];
+	edge [arrowtail=none,
+		color=forestgreen,
+		dir=both,
+		fontsize=10,
+		id="\T___\H",
+		penwidth=2,
+		target=details
+	];
+	<PANBESY-1>	[URL="https://knowhere.atlassian.net/browse/PANBESY-1",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>pandemic (in general)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-4>	[URL="https://knowhere.atlassian.net/browse/PANBESY-4",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11491.png" />
+</TD>
+  <TD COLSPAN='3'><B>Corona Conspiracy Believer</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="a.k.a. “Corona Denier”"];
+	<PANBESY-1> -> <PANBESY-4>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-4,PANBESY-1)",
+		label="convinces ",
+		labeltooltip="pandemic (in general) → convinces  → Corona Conspiracy Believer → believes  ↩",
+		tooltip="pandemic (in general) → convinces  → Corona Conspiracy Believer → believes  ↩"];
+	<PANBESY-60>	[URL="https://knowhere.atlassian.net/browse/PANBESY-60",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>corona pandemic</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-1> -> <PANBESY-60>	[arrowhead=empty,
+		color=blue,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-60,PANBESY-1)",
+		labeltooltip="pandemic (in general) → generalizes △ → corona pandemic → specializes ▽ ↩",
+		penwidth=1,
+		tooltip="pandemic (in general) → generalizes △ → corona pandemic → specializes ▽ ↩"];
+	<PANBESY-10>	[URL="https://knowhere.atlassian.net/browse/PANBESY-10",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10308.png" />
+</TD>
+  <TD COLSPAN='3'><B>Vaccines reduce risk</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="{quote}Vaccines continue to reduce a person's risk of contracting the virus that cause COVID-19.{quote}"];
+	<PANBESY-65>	[URL="https://knowhere.atlassian.net/browse/PANBESY-65",
+		color=4,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Ding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11502.png" />
+</TD>
+  <TD COLSPAN='3'><B>corona infection</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-10> -> <PANBESY-65>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-10,PANBESY-65)",
+		label="wird ansatzweise behoben durch  ▼",
+		labeltooltip="corona infection → wird ansatzweise behoben durch  ▼ → Vaccines reduce risk → behebt ansatzweise ▲ ↩",
+		tooltip="corona infection → wird ansatzweise behoben durch  ▼ → Vaccines reduce risk → behebt ansatzweise ▲ ↩"];
+	<PANBESY-11>	[URL="https://knowhere.atlassian.net/browse/PANBESY-11",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11504.png" />
+</TD>
+  <TD COLSPAN='3'><B>CDC</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="Centers for Disease Control and Prevention"];
+	<PANBESY-12>	[URL="https://knowhere.atlassian.net/browse/PANBESY-12",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11472.png" />
+</TD>
+  <TD COLSPAN='3'><B>How COVID-19 Spreads</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="[https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/how-covid-spreads.html|https://www.cdc.gov/coronavirus/2019-ncov/\
+prevent-getting-sick/how-covid-spreads.html|smart-link]"];
+	<PANBESY-11> -> <PANBESY-12>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-12,PANBESY-11)",
+		label="publishes ",
+		labeltooltip="CDC → publishes  → How COVID-19 Spreads → published by  ↩",
+		tooltip="CDC → publishes  → How COVID-19 Spreads → published by  ↩"];
+	<PANBESY-20>	[URL="https://knowhere.atlassian.net/browse/PANBESY-20",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11472.png" />
+</TD>
+  <TD COLSPAN='3'><B>Immunization: The Basics (→ 2021)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dashed",
+		tooltip=""];
+	<PANBESY-11> -> <PANBESY-20>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-20,PANBESY-11)",
+		label="publishes ",
+		labeltooltip="CDC → publishes  → Immunization: The Basics (→ 2021) → published by  ↩",
+		tooltip="CDC → publishes  → Immunization: The Basics (→ 2021) → published by  ↩"];
+	<PANBESY-27>	[URL="https://knowhere.atlassian.net/browse/PANBESY-27",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11504.png" />
+</TD>
+  <TD COLSPAN='3'><B>HHS</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="{quote}U.S. Department of Health and Human Services{quote}
+
+The United States Department of Health and Human Services (HHS), is \
+a cabinet-level executive branch department of the U.S. federal government (source:[https://en.wikipedia.org/wiki/United_States_\
+Department_of_Health_and_Human_Services|https://en.wikipedia.org/wiki/United_States_Department_of_Health_and_Human_Services|smart-link])"];
+	<PANBESY-11> -> <PANBESY-27>	[arrowhead=diamond,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-27,PANBESY-11)",
+		labeltooltip="CDC → is part of ◆  → HHS → contains ◆  ↩",
+		minlen=1,
+		tooltip="CDC → is part of ◆  → HHS → contains ◆  ↩"];
+	<PANBESY-34>	[URL="https://knowhere.atlassian.net/browse/PANBESY-34",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11472.png" />
+</TD>
+  <TD COLSPAN='3'><B>Safety of COVID-19 Vaccines</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="[https://www.cdc.gov/coronavirus/2019-ncov/vaccines/safety/safety-of-vaccines.html|https://www.cdc.gov/coronavirus/2019-ncov/vaccines/\
+safety/safety-of-vaccines.html|smart-link] "];
+	<PANBESY-11> -> <PANBESY-34>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-34,PANBESY-11)",
+		label="publishes ",
+		labeltooltip="CDC → publishes  → Safety of COVID-19 Vaccines → published by  ↩",
+		tooltip="CDC → publishes  → Safety of COVID-19 Vaccines → published by  ↩"];
+	<PANBESY-12> -> <PANBESY-10>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-10,PANBESY-12)",
+		label="claims ",
+		labeltooltip="How COVID-19 Spreads → claims  → Vaccines reduce risk → claimed by  ↩",
+		tooltip="How COVID-19 Spreads → claims  → Vaccines reduce risk → claimed by  ↩"];
+	<PANBESY-13>	[URL="https://knowhere.atlassian.net/browse/PANBESY-13",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10308.png" />
+</TD>
+  <TD COLSPAN='3'><B>Vaccines are effective</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="{quote}Vaccines are highly effective against severe illness.{quote}"];
+	<PANBESY-12> -> <PANBESY-13>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-13,PANBESY-12)",
+		label="claims ",
+		labeltooltip="How COVID-19 Spreads → claims  → Vaccines are effective → claimed by  ↩",
+		tooltip="How COVID-19 Spreads → claims  → Vaccines are effective → claimed by  ↩"];
+	<PANBESY-63>	[URL="https://knowhere.atlassian.net/browse/PANBESY-63",
+		color=4,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11505.png" />
+</TD>
+  <TD COLSPAN='3'><B>severe corona case</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="one hospitalized person who had been tested corona-positive, independent of other potential or actual causes for this person’s \
+hospitalization"];
+	<PANBESY-13> -> <PANBESY-63>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-63,PANBESY-13)",
+		label="solves ",
+		labeltooltip="Vaccines are effective → solves  → severe corona case → solved by  ↩",
+		tooltip="Vaccines are effective → solves  → severe corona case → solved by  ↩"];
+	<PANBESY-14>	[URL="https://knowhere.atlassian.net/browse/PANBESY-14",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11504.png" />
+</TD>
+  <TD COLSPAN='3'><B>WHO</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="World Health Organization"];
+	<PANBESY-16>	[URL="https://knowhere.atlassian.net/browse/PANBESY-16",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11472.png" />
+</TD>
+  <TD COLSPAN='3'><B>Pandemic preparedness (→ 2009)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dashed",
+		tooltip=""];
+	<PANBESY-14> -> <PANBESY-16>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-16,PANBESY-14)",
+		label="publishes ",
+		labeltooltip="WHO → publishes  → Pandemic preparedness (→ 2009) → published by  ↩",
+		tooltip="WHO → publishes  → Pandemic preparedness (→ 2009) → published by  ↩"];
+	<PANBESY-72>	[URL="https://knowhere.atlassian.net/browse/PANBESY-72",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11472.png" />
+</TD>
+  <TD COLSPAN='3'><B>opening remarks at the media briefing</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="{quote}WHO Director-General's opening remarks at the media briefing on COVID-19 - 11 March 2020{quote}"];
+	<PANBESY-14> -> <PANBESY-72>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-72,PANBESY-14)",
+		label="publishes ",
+		labeltooltip="WHO → publishes  → opening remarks at the media briefing → published by  ↩",
+		tooltip="WHO → publishes  → opening remarks at the media briefing → published by  ↩"];
+	<PANBESY-15>	[URL="https://knowhere.atlassian.net/browse/PANBESY-15",
+		color=5,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10308.png" />
+</TD>
+  <TD COLSPAN='3'><B>[...] enormous numbers of deaths [...]</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dashed",
+		tooltip="{quote}*An influenza pandemic*
+
+An influenza pandemic occurs when a new influenza virus appears against which the human population \
+has *no immunity*, resulting in epidemics worldwide with *enormous numbers of deaths and illness*. With the increase in global transport, \
+as well as urbanization and overcrowded conditions, epidemics due the new influenza virus are likely to quickly take hold around \
+the world.{quote}"];
+	<PANBESY-18>	[URL="https://knowhere.atlassian.net/browse/PANBESY-18",
+		color=3,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10308.png" />
+</TD>
+  <TD COLSPAN='3'><B>[...] more cases than normal [...]</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="{quote}What is an influenza pandemic?
+
+A disease epidemic occurs when there are *more cases* of that disease *than normal*. A pandemic \
+is a worldwide epidemic of a disease. An influenza pandemic may occur when a new influenza virus appears against which the human \
+population has no immunity. With the increase in global transport, as well as urbanization and overcrowded conditions in some areas, \
+epidemics due to a new influenza virus are likely to take hold around the world, and become a pandemic faster than before. WHO has \
+defined the phases of a pandemic to provide a global framework to aid countries in pandemic preparedness and response planning. \
+Pandemics *can be either mild or severe* in the illness and death they cause, and the severity of a pandemic can change over the \
+course of that pandemic.{quote}"];
+	<PANBESY-15> -> <PANBESY-18>	[arrowhead=onormalonormal,
+		color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-18,PANBESY-15)",
+		labeltooltip="[...] enormous numbers of deaths [...] → replaced by  → [...] more cases than normal [...] → replaces  ↩",
+		penwidth=1,
+		style=dashed,
+		tooltip="[...] enormous numbers of deaths [...] → replaced by  → [...] more cases than normal [...] → replaces  ↩"];
+	<PANBESY-67>	[URL="https://knowhere.atlassian.net/browse/PANBESY-67",
+		label=<+>,
+		shape=circle];
+	<PANBESY-15> -> <PANBESY-67>	[dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-67,PANBESY-15)",
+		label="supports ",
+		labeltooltip="[...] enormous numbers of deaths [...] → supports  → + → based on  ↩",
+		tooltip="[...] enormous numbers of deaths [...] → supports  → + → based on  ↩"];
+	<PANBESY-16> -> <PANBESY-15>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-15,PANBESY-16)",
+		label="claims ",
+		labeltooltip="Pandemic preparedness (→ 2009) → claims  → [...] enormous numbers of deaths [...] → claimed by  ↩",
+		tooltip="Pandemic preparedness (→ 2009) → claims  → [...] enormous numbers of deaths [...] → claimed by  ↩"];
+	<PANBESY-17>	[URL="https://knowhere.atlassian.net/browse/PANBESY-17",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11472.png" />
+</TD>
+  <TD COLSPAN='3'><B>Pandemic preparedness (2009 →)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip=""];
+	<PANBESY-16> -> <PANBESY-17>	[arrowhead=onormalonormal,
+		color="",
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-17,PANBESY-16)",
+		labeltooltip="Pandemic preparedness (→ 2009) → preceeds  → Pandemic preparedness (2009 →) → follows  ↩",
+		penwidth=1,
+		tooltip="Pandemic preparedness (→ 2009) → preceeds  → Pandemic preparedness (2009 →) → follows  ↩"];
+	<PANBESY-17> -> <PANBESY-18>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-18,PANBESY-17)",
+		label="publishes ",
+		labeltooltip="Pandemic preparedness (2009 →) → publishes  → [...] more cases than normal [...] → published by  ↩",
+		tooltip="Pandemic preparedness (2009 →) → publishes  → [...] more cases than normal [...] → published by  ↩"];
+	<PANBESY-68>	[URL="https://knowhere.atlassian.net/browse/PANBESY-68",
+		label=<+>,
+		shape=circle];
+	<PANBESY-18> -> <PANBESY-68>	[dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-68,PANBESY-18)",
+		label="supports ",
+		labeltooltip="[...] more cases than normal [...] → supports  → + → based on  ↩",
+		tooltip="[...] more cases than normal [...] → supports  → + → based on  ↩"];
+	<PANBESY-2>	[URL="https://knowhere.atlassian.net/browse/PANBESY-2",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11505.png" />
+</TD>
+  <TD COLSPAN='3'><B>corona conspiracy</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-2> -> <PANBESY-4>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-4,PANBESY-2)",
+		label="convinces ",
+		labeltooltip="corona conspiracy → convinces  → Corona Conspiracy Believer → believes  ↩",
+		tooltip="corona conspiracy → convinces  → Corona Conspiracy Believer → believes  ↩"];
+	<PANBESY-21>	[URL="https://knowhere.atlassian.net/browse/PANBESY-21",
+		color=5,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10308.png" />
+</TD>
+  <TD COLSPAN='3'><B>[...] to produce immunity [...] </B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dashed",
+		tooltip="{quote}*Vaccine:* A product that stimulates a person’s immune system *to produce immunity* to a specific disease, protecting the \
+person from that disease.{quote}"];
+	<PANBESY-20> -> <PANBESY-21>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-21,PANBESY-20)",
+		label="claims ",
+		labeltooltip="Immunization: The Basics (→ 2021) → claims  → [...] to produce immunity [...]  → claimed by  ↩",
+		tooltip="Immunization: The Basics (→ 2021) → claims  → [...] to produce immunity [...]  → claimed by  ↩"];
+	<PANBESY-25>	[URL="https://knowhere.atlassian.net/browse/PANBESY-25",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11472.png" />
+</TD>
+  <TD COLSPAN='3'><B>Immunization: The Basics (2021 →)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-20> -> <PANBESY-25>	[arrowhead=onormalonormal,
+		color="",
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-25,PANBESY-20)",
+		labeltooltip="Immunization: The Basics (→ 2021) → preceeds  → Immunization: The Basics (2021 →) → follows  ↩",
+		penwidth=1,
+		tooltip="Immunization: The Basics (→ 2021) → preceeds  → Immunization: The Basics (2021 →) → follows  ↩"];
+	<PANBESY-26>	[URL="https://knowhere.atlassian.net/browse/PANBESY-26",
+		color=3,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10308.png" />
+</TD>
+  <TD COLSPAN='3'><B>[...] to stimulate [...] immune response [...]  (not immunity!)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="{quote}Vaccine: A preparation that is used to stimulate the body’s immune response against diseases.{quote}
+
+The term _immunity_ \
+is missing from WHO’s definition of a vaccine.
+
+Since August 2021 a vaccine is not required to produce immunity any more, by definition, \
+according to the CDC."];
+	<PANBESY-21> -> <PANBESY-26>	[arrowhead=onormalonormal,
+		color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-26,PANBESY-21)",
+		labeltooltip="[...] to produce immunity [...]  → replaced by  → [...] to stimulate [...] immune response [...]  (not immunity!) → replaces  \
+↩",
+		penwidth=1,
+		style=dashed,
+		tooltip="[...] to produce immunity [...]  → replaced by  → [...] to stimulate [...] immune response [...]  (not immunity!) → replaces  \
+↩"];
+	<PANBESY-41>	[URL="https://knowhere.atlassian.net/browse/PANBESY-41",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Ding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11502.png" />
+</TD>
+  <TD COLSPAN='3'><B>immunity</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-21> -> <PANBESY-41>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-41,PANBESY-21)",
+		label="supports ",
+		labeltooltip="[...] to produce immunity [...]  → supports  → immunity → based on  ↩",
+		tooltip="[...] to produce immunity [...]  → supports  → immunity → based on  ↩"];
+	<PANBESY-23>	[URL="https://knowhere.atlassian.net/browse/PANBESY-23",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11472.png" />
+</TD>
+  <TD COLSPAN='3'><B>CDC continues dishonest [...] reporting [...]</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="Full title: CDC continues dishonest vaccine, COVID data reporting to hide danger of COVID jabs"];
+	<PANBESY-28>	[URL="https://knowhere.atlassian.net/browse/PANBESY-28",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10308.png" />
+</TD>
+  <TD COLSPAN='3'><B>80% of deaths occur within 14 days post-injection</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="{quote}80% of deaths after the vaccines occur before being \"fully vaccinatinated\"{quote}"];
+	<PANBESY-23> -> <PANBESY-28>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-28,PANBESY-23)",
+		label="claims ",
+		labeltooltip="CDC continues dishonest [...] reporting [...] → claims  → 80% of deaths occur within 14 days post-injection → claimed by  \
+↩",
+		tooltip="CDC continues dishonest [...] reporting [...] → claims  → 80% of deaths occur within 14 days post-injection → claimed by  \
+↩"];
+	<PANBESY-29>	[URL="https://knowhere.atlassian.net/browse/PANBESY-29",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10308.png" />
+</TD>
+  <TD COLSPAN='3'><B>death within 14 days post-injection counted as an &quot;unvaccinated&quot;</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="{quote}Anyone who dies within the first 14 days post-injection is counted as an unvaccinated death{quote}"];
+	<PANBESY-23> -> <PANBESY-29>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-29,PANBESY-23)",
+		label="claims ",
+		labeltooltip="CDC continues dishonest [...] reporting [...] → claims  → death within 14 days post-injection counted as an \"unvaccinated\" → \
+claimed by  ↩",
+		tooltip="CDC continues dishonest [...] reporting [...] → claims  → death within 14 days post-injection counted as an \"unvaccinated\" → \
+claimed by  ↩"];
+	<PANBESY-33>	[URL="https://knowhere.atlassian.net/browse/PANBESY-33",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10308.png" />
+</TD>
+  <TD COLSPAN='3'><B>two different sets of testing guidelines</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="{quote}The CDC also has two different sets of testing guidelines — one for vaccinated patients and another for the unvaccinated. \
+If you’re unvaccinated, CDC guidance says to use a cycle threshold (CT) of 40, known to result in false positives. If you’re \
+vaccinated, they recommend using a CT of 28 or less, which minimizes the risk of false positives{quote}"];
+	<PANBESY-23> -> <PANBESY-33>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-33,PANBESY-23)",
+		label="claims ",
+		labeltooltip="CDC continues dishonest [...] reporting [...] → claims  → two different sets of testing guidelines → claimed by  ↩",
+		tooltip="CDC continues dishonest [...] reporting [...] → claims  → two different sets of testing guidelines → claimed by  ↩"];
+	<PANBESY-24>	[URL="https://knowhere.atlassian.net/browse/PANBESY-24",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11491.png" />
+</TD>
+  <TD COLSPAN='3'><B> Dr. Joseph Mercola</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-24> -> <PANBESY-23>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-23,PANBESY-24)",
+		label="publishes ",
+		labeltooltip=" Dr. Joseph Mercola → publishes  → CDC continues dishonest [...] reporting [...] → published by  ↩",
+		minlen=1,
+		tooltip=" Dr. Joseph Mercola → publishes  → CDC continues dishonest [...] reporting [...] → published by  ↩"];
+	<PANBESY-25> -> <PANBESY-26>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-26,PANBESY-25)",
+		label="claims ",
+		labeltooltip="Immunization: The Basics (2021 →) → claims  → [...] to stimulate [...] immune response [...]  (not immunity!) → claimed \
+by  ↩",
+		tooltip="Immunization: The Basics (2021 →) → claims  → [...] to stimulate [...] immune response [...]  (not immunity!) → claimed \
+by  ↩"];
+	<PANBESY-26> -> <PANBESY-13>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-13,PANBESY-26)",
+		label="supports ",
+		labeltooltip="[...] to stimulate [...] immune response [...]  (not immunity!) → supports  → Vaccines are effective → based on  ↩",
+		tooltip="[...] to stimulate [...] immune response [...]  (not immunity!) → supports  → Vaccines are effective → based on  ↩"];
+	<PANBESY-30>	[URL="https://knowhere.atlassian.net/browse/PANBESY-30",
+		label=<+>,
+		shape=circle];
+	<PANBESY-28> -> <PANBESY-30>	[dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-30,PANBESY-28)",
+		label="contributes to ",
+		labeltooltip="80% of deaths occur within 14 days post-injection → contributes to  → + → receives from  ↩",
+		tooltip="80% of deaths occur within 14 days post-injection → contributes to  → + → receives from  ↩"];
+	<PANBESY-29> -> <PANBESY-30>	[dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-30,PANBESY-29)",
+		label="contributes to ",
+		labeltooltip="death within 14 days post-injection counted as an \"unvaccinated\" → contributes to  → + → receives from  ↩",
+		tooltip="death within 14 days post-injection counted as an \"unvaccinated\" → contributes to  → + → receives from  ↩"];
+	<PANBESY-3>	[URL="https://knowhere.atlassian.net/browse/PANBESY-3",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11491.png" />
+</TD>
+  <TD COLSPAN='3'><B>Corona Pandemic Believer</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="a.k.a. “Conspiracy Denier”"];
+	<UNIVERSAL-16>	[URL="https://knowhere.atlassian.net/browse/UNIVERSAL-16",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Value%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10309.png" />
+</TD>
+  <TD COLSPAN='3'><B>Health</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-3> -> <UNIVERSAL-16>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(UNIVERSAL-16,PANBESY-3)",
+		label="aspires ",
+		labeltooltip="Corona Pandemic Believer → aspires  → Health → sought by  ↩",
+		tooltip="Corona Pandemic Believer → aspires  → Health → sought by  ↩"];
+	<UNIVERSAL-19>	[URL="https://knowhere.atlassian.net/browse/UNIVERSAL-19",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Value%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10309.png" />
+</TD>
+  <TD COLSPAN='3'><B>Solidarity</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-3> -> <UNIVERSAL-19>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(UNIVERSAL-19,PANBESY-3)",
+		label="contributes to ",
+		labeltooltip="Corona Pandemic Believer → contributes to  → Solidarity → receives from  ↩",
+		tooltip="Corona Pandemic Believer → contributes to  → Solidarity → receives from  ↩"];
+	<UNIVERSAL-20>	[URL="https://knowhere.atlassian.net/browse/UNIVERSAL-20",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Value%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10309.png" />
+</TD>
+  <TD COLSPAN='3'><B>Trust</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-3> -> <UNIVERSAL-20>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(UNIVERSAL-20,PANBESY-3)",
+		label="contributes to ",
+		labeltooltip="Corona Pandemic Believer → contributes to  → Trust → receives from  ↩",
+		tooltip="Corona Pandemic Believer → contributes to  → Trust → receives from  ↩"];
+	<PANBESY-31>	[URL="https://knowhere.atlassian.net/browse/PANBESY-31",
+		color=4,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10308.png" />
+</TD>
+  <TD COLSPAN='3'><B>inaccurately inflate[s] the unvaccinated death toll</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-30> -> <PANBESY-31>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-31,PANBESY-30)",
+		label="causes ▲ 	",
+		labeltooltip="+ → causes ▲ 	 → inaccurately inflate[s] the unvaccinated death toll → caused (-) by  ↩",
+		tooltip="+ → causes ▲ 	 → inaccurately inflate[s] the unvaccinated death toll → caused (-) by  ↩"];
+	<PANBESY-32>	[URL="https://knowhere.atlassian.net/browse/PANBESY-32",
+		color=4,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10308.png" />
+</TD>
+  <TD COLSPAN='3'><B>hides the real dangers of the COVID shots</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-30> -> <PANBESY-32>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-32,PANBESY-30)",
+		label="causes ▲ 	",
+		labeltooltip="+ → causes ▲ 	 → hides the real dangers of the COVID shots → caused (-) by  ↩",
+		tooltip="+ → causes ▲ 	 → hides the real dangers of the COVID shots → caused (-) by  ↩"];
+	<PANBESY-57>	[URL="https://knowhere.atlassian.net/browse/PANBESY-57",
+		color=4,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Information%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11501.png" />
+</TD>
+  <TD COLSPAN='3'><B>inflated death toll of unvaccinated</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-31> -> <PANBESY-57>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-57,PANBESY-31)",
+		label="causes ▲ 	",
+		labeltooltip="inaccurately inflate[s] the unvaccinated death toll → causes ▲ 	 → inflated death toll of unvaccinated → caused (-) by  \
+↩",
+		tooltip="inaccurately inflate[s] the unvaccinated death toll → causes ▲ 	 → inflated death toll of unvaccinated → caused (-) by  \
+↩"];
+	<PANBESY-32> -> <PANBESY-2>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-2,PANBESY-32)",
+		label="supports ",
+		labeltooltip="hides the real dangers of the COVID shots → supports  → corona conspiracy → based on  ↩",
+		tooltip="hides the real dangers of the COVID shots → supports  → corona conspiracy → based on  ↩"];
+	<PANBESY-35>	[URL="https://knowhere.atlassian.net/browse/PANBESY-35",
+		color=3,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10308.png" />
+</TD>
+  <TD COLSPAN='3'><B>COVID-19 vaccines are safe</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-32> -> <PANBESY-35>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-35,PANBESY-32)",
+		label=disproves,
+		labeltooltip="hides the real dangers of the COVID shots → disproves ▲  → COVID-19 vaccines are safe → disproved by ▼ 	 ↩",
+		style=dashed,
+		tooltip="hides the real dangers of the COVID shots → disproves ▲  → COVID-19 vaccines are safe → disproved by ▼ 	 ↩"];
+	<PANBESY-33> -> <PANBESY-2>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-2,PANBESY-33)",
+		label="supports ",
+		labeltooltip="two different sets of testing guidelines → supports  → corona conspiracy → based on  ↩",
+		tooltip="two different sets of testing guidelines → supports  → corona conspiracy → based on  ↩"];
+	<PANBESY-34> -> <PANBESY-35>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-35,PANBESY-34)",
+		label="claims ",
+		labeltooltip="Safety of COVID-19 Vaccines → claims  → COVID-19 vaccines are safe → claimed by  ↩",
+		tooltip="Safety of COVID-19 Vaccines → claims  → COVID-19 vaccines are safe → claimed by  ↩"];
+	<PANBESY-35> -> <PANBESY-3>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-3,PANBESY-35)",
+		label="convinces ",
+		labeltooltip="COVID-19 vaccines are safe → convinces  → Corona Pandemic Believer → believes  ↩",
+		tooltip="COVID-19 vaccines are safe → convinces  → Corona Pandemic Believer → believes  ↩"];
+	<PANBESY-38>	[URL="https://knowhere.atlassian.net/browse/PANBESY-38",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11504.png" />
+</TD>
+  <TD COLSPAN='3'><B>Wikipedia</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-39>	[URL="https://knowhere.atlassian.net/browse/PANBESY-39",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11472.png" />
+</TD>
+  <TD COLSPAN='3'><B>Vaccine</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-38> -> <PANBESY-39>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-39,PANBESY-38)",
+		label="publishes ",
+		labeltooltip="Wikipedia → publishes  → Vaccine → published by  ↩",
+		minlen=1,
+		tooltip="Wikipedia → publishes  → Vaccine → published by  ↩"];
+	<PANBESY-40>	[URL="https://knowhere.atlassian.net/browse/PANBESY-40",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10308.png" />
+</TD>
+  <TD COLSPAN='3'><B>[...] provides active acquired immunity [...]</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="{quote}A vaccine is a biological preparation that provides active acquired immunity to a particular infectious disease.{quote}
+
+\
+Wikipedia referring to _Iowa Administrative Code_ as of 2019 per footnote"];
+	<PANBESY-39> -> <PANBESY-40>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-40,PANBESY-39)",
+		label="claims ",
+		labeltooltip="Vaccine → claims  → [...] provides active acquired immunity [...] → claimed by  ↩",
+		tooltip="Vaccine → claims  → [...] provides active acquired immunity [...] → claimed by  ↩"];
+	<PANBESY-4> -> <UNIVERSAL-16>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(UNIVERSAL-16,PANBESY-4)",
+		label="aspires ",
+		labeltooltip="Corona Conspiracy Believer → aspires  → Health → sought by  ↩",
+		tooltip="Corona Conspiracy Believer → aspires  → Health → sought by  ↩"];
+	<PANBESY-4> -> <UNIVERSAL-19>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(UNIVERSAL-19,PANBESY-4)",
+		label="contributes to ",
+		labeltooltip="Corona Conspiracy Believer → contributes to  → Solidarity → receives from  ↩",
+		tooltip="Corona Conspiracy Believer → contributes to  → Solidarity → receives from  ↩"];
+	<PANBESY-4> -> <UNIVERSAL-20>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(UNIVERSAL-20,PANBESY-4)",
+		label="contributes to ",
+		labeltooltip="Corona Conspiracy Believer → contributes to  → Trust → receives from  ↩",
+		tooltip="Corona Conspiracy Believer → contributes to  → Trust → receives from  ↩"];
+	<PANBESY-40> -> <PANBESY-41>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-41,PANBESY-40)",
+		label="supports ",
+		labeltooltip="[...] provides active acquired immunity [...] → supports  → immunity → based on  ↩",
+		tooltip="[...] provides active acquired immunity [...] → supports  → immunity → based on  ↩"];
+	<PANBESY-6>	[URL="https://knowhere.atlassian.net/browse/PANBESY-6",
+		color=4,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Ding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11502.png" />
+</TD>
+  <TD COLSPAN='3'><B>infection</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-41> -> <PANBESY-6>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-6,PANBESY-41)",
+		label="prevents ",
+		labeltooltip="immunity → prevents  → infection → prevented by  ↩",
+		tooltip="immunity → prevents  → infection → prevented by  ↩"];
+	<PANBESY-42>	[URL="https://knowhere.atlassian.net/browse/PANBESY-42",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Ding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11502.png" />
+</TD>
+  <TD COLSPAN='3'><B>immune system</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="see [https://en.wikipedia.org/wiki/Immune_system|https://en.wikipedia.org/wiki/Immune_system|smart-link] "];
+	<PANBESY-42> -> <PANBESY-41>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-41,PANBESY-42)",
+		label="supplies ",
+		labeltooltip="immune system → supplies  → immunity → supplied by  ↩",
+		minlen=1,
+		tooltip="immune system → supplies  → immunity → supplied by  ↩"];
+	<PANBESY-43>	[URL="https://knowhere.atlassian.net/browse/PANBESY-43",
+		color=5,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11472.png" />
+</TD>
+  <TD COLSPAN='3'><B>Vaccine administration by pharmacists (→ 2021)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dashed",
+		tooltip="{quote}Vaccine administration by pharmacists—statewide protocol{quote}"];
+	<PANBESY-43> -> <PANBESY-40>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-40,PANBESY-43)",
+		label="cited by ",
+		labeltooltip="Vaccine administration by pharmacists (→ 2021) → cited by  → [...] provides active acquired immunity [...] → quotes  ↩",
+		tooltip="Vaccine administration by pharmacists (→ 2021) → cited by  → [...] provides active acquired immunity [...] → quotes  ↩"];
+	<PANBESY-44>	[URL="https://knowhere.atlassian.net/browse/PANBESY-44",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10308.png" />
+</TD>
+  <TD COLSPAN='3'><B>“vaccine” = “immunization”</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dashed",
+		tooltip="bq. “Immunization” shall have the same meaning as, and shall be interchangeable with, the term “vaccine.”"];
+	<PANBESY-43> -> <PANBESY-44>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-44,PANBESY-43)",
+		label="claims ",
+		labeltooltip="Vaccine administration by pharmacists (→ 2021) → claims  → “vaccine” = “immunization” → claimed by  ↩",
+		tooltip="Vaccine administration by pharmacists (→ 2021) → claims  → “vaccine” = “immunization” → claimed by  ↩"];
+	<PANBESY-45>	[URL="https://knowhere.atlassian.net/browse/PANBESY-45",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10308.png" />
+</TD>
+  <TD COLSPAN='3'><B>&quot;Vaccine&quot; [...] providing immunity.</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dashed",
+		tooltip="bq. “Vaccine” means a specially prepared antigen administered to a person for the purpose of providing immunity."];
+	<PANBESY-43> -> <PANBESY-45>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-45,PANBESY-43)",
+		label="claims ",
+		labeltooltip="Vaccine administration by pharmacists (→ 2021) → claims  → \"Vaccine\" [...] providing immunity. → claimed by  ↩",
+		tooltip="Vaccine administration by pharmacists (→ 2021) → claims  → \"Vaccine\" [...] providing immunity. → claimed by  ↩"];
+	<PANBESY-46>	[URL="https://knowhere.atlassian.net/browse/PANBESY-46",
+		color=3,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11472.png" />
+</TD>
+  <TD COLSPAN='3'><B>rescinded 2021-12-15</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="
+
+{quote}IAC  Ch39,p.1
+657—39.11(155A) Vaccine administration by pharmacists—statewide protocol. Rescinded ARC
+6076C, IAB 12/\
+15/21, effective 1/19/22.{quote}"];
+	<PANBESY-43> -> <PANBESY-46>	[arrowhead=onormalonormal,
+		color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-46,PANBESY-43)",
+		labeltooltip="Vaccine administration by pharmacists (→ 2021) → replaced by  → rescinded 2021-12-15 → replaces  ↩",
+		minlen=1,
+		penwidth=1,
+		style=dashed,
+		tooltip="Vaccine administration by pharmacists (→ 2021) → replaced by  → rescinded 2021-12-15 → replaces  ↩"];
+	<PANBESY-44> -> <PANBESY-41>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-41,PANBESY-44)",
+		label="supports ",
+		labeltooltip="“vaccine” = “immunization” → supports  → immunity → based on  ↩",
+		tooltip="“vaccine” = “immunization” → supports  → immunity → based on  ↩"];
+	<PANBESY-45> -> <PANBESY-41>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-41,PANBESY-45)",
+		label="supports ",
+		labeltooltip="\"Vaccine\" [...] providing immunity. → supports  → immunity → based on  ↩",
+		tooltip="\"Vaccine\" [...] providing immunity. → supports  → immunity → based on  ↩"];
+	<PANBESY-47>	[URL="https://knowhere.atlassian.net/browse/PANBESY-47",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10308.png" />
+</TD>
+  <TD COLSPAN='3'><B>?</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted"];
+	<PANBESY-45> -> <PANBESY-47>	[arrowhead=onormalonormal,
+		color="",
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-47,PANBESY-45)",
+		labeltooltip="\"Vaccine\" [...] providing immunity. → preceeds  → ? → follows  ↩",
+		minlen=1,
+		penwidth=1,
+		tooltip="\"Vaccine\" [...] providing immunity. → preceeds  → ? → follows  ↩"];
+	<PANBESY-48>	[URL="https://knowhere.atlassian.net/browse/PANBESY-48",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11504.png" />
+</TD>
+  <TD COLSPAN='3'><B>iowa.gov</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-48> -> <PANBESY-43>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-43,PANBESY-48)",
+		label="publishes ",
+		labeltooltip="iowa.gov → publishes  → Vaccine administration by pharmacists (→ 2021) → published by  ↩",
+		minlen=1,
+		tooltip="iowa.gov → publishes  → Vaccine administration by pharmacists (→ 2021) → published by  ↩"];
+	<PANBESY-49>	[URL="https://knowhere.atlassian.net/browse/PANBESY-49",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11472.png" />
+</TD>
+  <TD COLSPAN='3'><B>vaccine</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip=""];
+	<PANBESY-50>	[URL="https://knowhere.atlassian.net/browse/PANBESY-50",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10308.png" />
+</TD>
+  <TD COLSPAN='3'><B>[...] confer active immunity [...]</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-49> -> <PANBESY-50>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-50,PANBESY-49)",
+		label="claims ",
+		labeltooltip="vaccine → claims  → [...] confer active immunity [...] → claimed by  ↩",
+		tooltip="vaccine → claims  → [...] confer active immunity [...] → claimed by  ↩"];
+	<PANBESY-5>	[URL="https://knowhere.atlassian.net/browse/PANBESY-5",
+		color=5,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Ding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11502.png" />
+</TD>
+  <TD COLSPAN='3'><B>virus</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-5> -> <PANBESY-6>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-6,PANBESY-5)",
+		label="causes ▲ 	",
+		labeltooltip="virus → causes ▲ 	 → infection → caused (-) by  ↩",
+		tooltip="virus → causes ▲ 	 → infection → caused (-) by  ↩"];
+	<PANBESY-66>	[URL="https://knowhere.atlassian.net/browse/PANBESY-66",
+		color=5,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Ding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11502.png" />
+</TD>
+  <TD COLSPAN='3'><B>corona virus</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-5> -> <PANBESY-66>	[arrowhead=empty,
+		color=blue,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-66,PANBESY-5)",
+		labeltooltip="virus → generalizes △ → corona virus → specializes ▽ ↩",
+		penwidth=1,
+		tooltip="virus → generalizes △ → corona virus → specializes ▽ ↩"];
+	<PANBESY-50> -> <PANBESY-41>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-41,PANBESY-50)",
+		label="supports ",
+		labeltooltip="[...] confer active immunity [...] → supports  → immunity → based on  ↩",
+		tooltip="[...] confer active immunity [...] → supports  → immunity → based on  ↩"];
+	<PANBESY-51>	[URL="https://knowhere.atlassian.net/browse/PANBESY-51",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11504.png" />
+</TD>
+  <TD COLSPAN='3'><B>Encyclopædia Britannica, Inc.</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-51> -> <PANBESY-49>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-49,PANBESY-51)",
+		label="publishes ",
+		labeltooltip="Encyclopædia Britannica, Inc. → publishes  → vaccine → published by  ↩",
+		minlen=1,
+		tooltip="Encyclopædia Britannica, Inc. → publishes  → vaccine → published by  ↩"];
+	<PANBESY-52>	[URL="https://knowhere.atlassian.net/browse/PANBESY-52",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10308.png" />
+</TD>
+  <TD COLSPAN='3'><B>[...] Pandemie der Ungeimpften [...]</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="{quote}„Wir erleben gerade eben eine Pandemie der Ungeimpften und die ist massiv“. Mit diesen Worten [läutete vor einer Woche|\
+https://www.zeit.de/video/2021-11/6280093298001/jens-spahn-wir-erleben-gerade-eine-pandemie-der-ungeimpften] Bundesgesundheitsminister \
+Spahn die vierte Welle ein.{quote}"];
+	<PANBESY-53>	[URL="https://knowhere.atlassian.net/browse/PANBESY-53",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11472.png" />
+</TD>
+  <TD COLSPAN='3'><B>Pandemie der Ungeimpften?</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-53> -> <PANBESY-52>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-52,PANBESY-53)",
+		label="publishes ",
+		labeltooltip="Pandemie der Ungeimpften? → publishes  → [...] Pandemie der Ungeimpften [...] → published by  ↩",
+		tooltip="Pandemie der Ungeimpften? → publishes  → [...] Pandemie der Ungeimpften [...] → published by  ↩"];
+	<PANBESY-54>	[URL="https://knowhere.atlassian.net/browse/PANBESY-54",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11491.png" />
+</TD>
+  <TD COLSPAN='3'><B>Jens Berger</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-54> -> <PANBESY-53>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-53,PANBESY-54)",
+		label="publishes ",
+		labeltooltip="Jens Berger → publishes  → Pandemie der Ungeimpften? → published by  ↩",
+		minlen=1,
+		tooltip="Jens Berger → publishes  → Pandemie der Ungeimpften? → published by  ↩"];
+	<PANBESY-55>	[URL="https://knowhere.atlassian.net/browse/PANBESY-55",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11472.png" />
+</TD>
+  <TD COLSPAN='3'><B>Dokument nicht gefunden</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dashed"];
+	<PANBESY-55> -> <PANBESY-52>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-52,PANBESY-55)",
+		label="cited by ",
+		labeltooltip="Dokument nicht gefunden → cited by  → [...] Pandemie der Ungeimpften [...] → quotes  ↩",
+		tooltip="Dokument nicht gefunden → cited by  → [...] Pandemie der Ungeimpften [...] → quotes  ↩"];
+	<PANBESY-56>	[URL="https://knowhere.atlassian.net/browse/PANBESY-56",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11504.png" />
+</TD>
+  <TD COLSPAN='3'><B>ZEIT ONLINE GmbH</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-56> -> <PANBESY-55>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-55,PANBESY-56)",
+		label="publishes ",
+		labeltooltip="ZEIT ONLINE GmbH → publishes  → Dokument nicht gefunden → published by  ↩",
+		minlen=1,
+		tooltip="ZEIT ONLINE GmbH → publishes  → Dokument nicht gefunden → published by  ↩"];
+	<PANBESY-57> -> <PANBESY-2>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-2,PANBESY-57)",
+		label="supports ",
+		labeltooltip="inflated death toll of unvaccinated → supports  → corona conspiracy → based on  ↩",
+		tooltip="inflated death toll of unvaccinated → supports  → corona conspiracy → based on  ↩"];
+	<PANBESY-57> -> <PANBESY-52>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-52,PANBESY-57)",
+		label="supports ",
+		labeltooltip="inflated death toll of unvaccinated → supports  → [...] Pandemie der Ungeimpften [...] → based on  ↩",
+		tooltip="inflated death toll of unvaccinated → supports  → [...] Pandemie der Ungeimpften [...] → based on  ↩"];
+	<PANBESY-62>	[URL="https://knowhere.atlassian.net/browse/PANBESY-62",
+		color=3,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11505.png" />
+</TD>
+  <TD COLSPAN='3'><B>death</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-57> -> <PANBESY-62>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-62,PANBESY-57)",
+		label=falsifies,
+		labeltooltip="inflated death toll of unvaccinated → falsifies  → death → falsified by  ↩",
+		style=dashed,
+		tooltip="inflated death toll of unvaccinated → falsifies  → death → falsified by  ↩"];
+	<PANBESY-61>	[URL="https://knowhere.atlassian.net/browse/PANBESY-61",
+		color=4,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11505.png" />
+</TD>
+  <TD COLSPAN='3'><B>severe case</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-6> -> <PANBESY-61>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-61,PANBESY-6)",
+		label="causes ▲ 	",
+		labeltooltip="infection → causes ▲ 	 → severe case → caused (-) by  ↩",
+		tooltip="infection → causes ▲ 	 → severe case → caused (-) by  ↩"];
+	<PANBESY-6> -> <PANBESY-65>	[arrowhead=empty,
+		color=blue,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-65,PANBESY-6)",
+		labeltooltip="infection → generalizes △ → corona infection → specializes ▽ ↩",
+		penwidth=1,
+		tooltip="infection → generalizes △ → corona infection → specializes ▽ ↩"];
+	<PANBESY-7>	[URL="https://knowhere.atlassian.net/browse/PANBESY-7",
+		color=4,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Prozess%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10700.png" />
+</TD>
+  <TD COLSPAN='3'><B>exponential growth</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="Exponential growth in the number of infected people causes a pandemic.
+
+Growth is exponential exactly when the [https://en.wikipedia.org/\
+wiki/Basic_reproduction_number|https://en.wikipedia.org/wiki/Basic_reproduction_number|smart-link]  is significantly greater than \
+1."];
+	<PANBESY-6> -> <PANBESY-7>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-7,PANBESY-6)",
+		label="causes ▲ 	",
+		labeltooltip="infection → causes ▲ 	 → exponential growth → caused (-) by  ↩",
+		tooltip="infection → causes ▲ 	 → exponential growth → caused (-) by  ↩"];
+	<PANBESY-60> -> <PANBESY-3>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-3,PANBESY-60)",
+		label="convinces ",
+		labeltooltip="corona pandemic → convinces  → Corona Pandemic Believer → believes  ↩",
+		tooltip="corona pandemic → convinces  → Corona Pandemic Believer → believes  ↩"];
+	<PANBESY-9>	[URL="https://knowhere.atlassian.net/browse/PANBESY-9",
+		color=4,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11505.png" />
+</TD>
+  <TD COLSPAN='3'><B>death</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-61> -> <PANBESY-9>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-9,PANBESY-61)",
+		label="causes ▲ 	",
+		labeltooltip="severe case → causes ▲ 	 → death → caused (-) by  ↩",
+		tooltip="severe case → causes ▲ 	 → death → caused (-) by  ↩"];
+	<PANBESY-63> -> <PANBESY-62>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-62,PANBESY-63)",
+		label="causes ▲ 	",
+		labeltooltip="severe corona case → causes ▲ 	 → death → caused (-) by  ↩",
+		tooltip="severe corona case → causes ▲ 	 → death → caused (-) by  ↩"];
+	<PANBESY-63> -> <PANBESY-68>	[color=4,
+		colorscheme=ylorrd5,
+		dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-68,PANBESY-63)",
+		label="causes ▲ 	",
+		labeltooltip="severe corona case → causes ▲ 	 → + → caused (-) by  ↩",
+		tooltip="severe corona case → causes ▲ 	 → + → caused (-) by  ↩"];
+	<PANBESY-65> -> <PANBESY-63>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-63,PANBESY-65)",
+		label="causes ▲ 	",
+		labeltooltip="corona infection → causes ▲ 	 → severe corona case → caused (-) by  ↩",
+		tooltip="corona infection → causes ▲ 	 → severe corona case → caused (-) by  ↩"];
+	<PANBESY-66> -> <PANBESY-65>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-65,PANBESY-66)",
+		label="causes ▲ 	",
+		labeltooltip="corona virus → causes ▲ 	 → corona infection → caused (-) by  ↩",
+		tooltip="corona virus → causes ▲ 	 → corona infection → caused (-) by  ↩"];
+	<PANBESY-67> -> <PANBESY-1>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-1,PANBESY-67)",
+		label="contributes to ",
+		labeltooltip="+ → contributes to  → pandemic (in general) → receives from  ↩",
+		tooltip="+ → contributes to  → pandemic (in general) → receives from  ↩"];
+	<PANBESY-68> -> <PANBESY-60>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-60,PANBESY-68)",
+		label="contributes to ",
+		labeltooltip="+ → contributes to  → corona pandemic → receives from  ↩",
+		tooltip="+ → contributes to  → corona pandemic → receives from  ↩"];
+	<PANBESY-7> -> <PANBESY-67>	[color=4,
+		colorscheme=ylorrd5,
+		dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-67,PANBESY-7)",
+		label="causes ▲ 	",
+		labeltooltip="exponential growth → causes ▲ 	 → + → caused (-) by  ↩",
+		tooltip="exponential growth → causes ▲ 	 → + → caused (-) by  ↩"];
+	<PANBESY-71>	[URL="https://knowhere.atlassian.net/browse/PANBESY-71",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10308.png" />
+</TD>
+  <TD COLSPAN='3'><B>COVID-19 can be characterized as a pandemic</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-71> -> <PANBESY-60>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-60,PANBESY-71)",
+		label="supports ",
+		labeltooltip="COVID-19 can be characterized as a pandemic → supports  → corona pandemic → based on  ↩",
+		tooltip="COVID-19 can be characterized as a pandemic → supports  → corona pandemic → based on  ↩"];
+	<PANBESY-72> -> <PANBESY-71>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-71,PANBESY-72)",
+		label="claims ",
+		labeltooltip="opening remarks at the media briefing → claims  → COVID-19 can be characterized as a pandemic → claimed by  ↩",
+		tooltip="opening remarks at the media briefing → claims  → COVID-19 can be characterized as a pandemic → claimed by  ↩"];
+	<PANBESY-73>	[URL="https://knowhere.atlassian.net/browse/PANBESY-73",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11472.png" />
+</TD>
+  <TD COLSPAN='3'><B>Canine coronavirus S gene and uses therefor (2000)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="{quote}The present invention provides the amino acid and nucleotide sequences of a CCV spike gene, and compositions containing one \
+or more fragments of the spike gene and encoded polypeptide for prophylaxis, diagnostic purposes and treatment of CCV infections.{\
+quote}"];
+	<PANBESY-75>	[URL="https://knowhere.atlassian.net/browse/PANBESY-75",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Rechtsnorm%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11487.png" />
+</TD>
+  <TD COLSPAN='3'><B>US Patent 6372224 (2002)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="{quote}*Patent History*
+
+*Patent number*: 6372224
+*Type:* Grant 
+*Filed*: Jan 28, 2000
+*Date of Patent*: Apr 16, 2002
+*Assignee*: [\
+Pfizer Inc.|https://patents.justia.com/assignee/pfizer-inc] (New York, NY) 
+*Inventors*: [Timothy J. Miller|https://patents.justia.com/\
+inventor/timothy-j-miller] (Lincoln, NE), [Sharon Klepfer|https://patents.justia.com/inventor/sharon-klepfer] (Broomall, PA), [Albert \
+Paul Reed|https://patents.justia.com/inventor/albert-paul-reed] (Exton, PA), [Elaine V. Jones|https://patents.justia.com/inventor/\
+elaine-v-jones] (Wynnewood, PA) 
+*Primary Examiner*: [Laurie Scheiner|https://patents.justia.com/examiner/laurie-scheiner] 
+*Attorney, \
+Agent or Law Firms*: [Peter C. Richardson|https://patents.justia.com/agent/peter-c-richardson], [Paul H. Ginsburg|https://patents.justia.com/\
+agent/paul-h-ginsburg], [E. Victor Donahue|https://patents.justia.com/agent/e-victor-donahue]
+*Application Number*: 09/494,151{quote}"];
+	<PANBESY-73> -> <PANBESY-75>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-75,PANBESY-73)",
+		label="supports ",
+		labeltooltip="Canine coronavirus S gene and uses therefor (2000) → supports  → US Patent 6372224 (2002) → based on  ↩",
+		tooltip="Canine coronavirus S gene and uses therefor (2000) → supports  → US Patent 6372224 (2002) → based on  ↩"];
+	<PANBESY-74>	[URL="https://knowhere.atlassian.net/browse/PANBESY-74",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11504.png" />
+</TD>
+  <TD COLSPAN='3'><B> Pfizer Inc.</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="[https://patents.justia.com/assignee/pfizer-inc|https://patents.justia.com/assignee/pfizer-inc|smart-link] "];
+	<PANBESY-74> -> <PANBESY-73>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-73,PANBESY-74)",
+		label="publishes ",
+		labeltooltip=" Pfizer Inc. → publishes  → Canine coronavirus S gene and uses therefor (2000) → published by  ↩",
+		minlen=1,
+		tooltip=" Pfizer Inc. → publishes  → Canine coronavirus S gene and uses therefor (2000) → published by  ↩"];
+	<PANBESY-75> -> <PANBESY-66>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-66,PANBESY-75)",
+		label="supports ",
+		labeltooltip="US Patent 6372224 (2002) → supports  → corona virus → based on  ↩",
+		tooltip="US Patent 6372224 (2002) → supports  → corona virus → based on  ↩"];
+	<PANBESY-80>	[URL="https://knowhere.atlassian.net/browse/PANBESY-80",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10308.png" />
+</TD>
+  <TD COLSPAN='3'><B>coronavirus is not new</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="4000 patents around the coronavirus
+
+{quote}120 patented pieces of evidence (before 2020) to suggest that the declaration of the \
+novelty of the coronavirus is a fallacy{quote}
+
+SARS is not a natural progression
+
+{quote}You cannot patent a naturally occurring \
+substance{quote}"];
+	<PANBESY-75> -> <PANBESY-80>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-80,PANBESY-75)",
+		label="supports ",
+		labeltooltip="US Patent 6372224 (2002) → supports  → coronavirus is not new → based on  ↩",
+		tooltip="US Patent 6372224 (2002) → supports  → coronavirus is not new → based on  ↩"];
+	<PANBESY-76>	[URL="https://knowhere.atlassian.net/browse/PANBESY-76",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11504.png" />
+</TD>
+  <TD COLSPAN='3'><B>USPTO</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="full name:
+
+{quote}United States Patent and Trademark Office{quote}
+
+see also [https://en.wikipedia.org/wiki/United_States_Patent_\
+and_Trademark_Office|https://en.wikipedia.org/wiki/United_States_Patent_and_Trademark_Office|smart-link] "];
+	<PANBESY-76> -> <PANBESY-75>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-75,PANBESY-76)",
+		label="publishes ",
+		labeltooltip="USPTO → publishes  → US Patent 6372224 (2002) → published by  ↩",
+		minlen=1,
+		tooltip="USPTO → publishes  → US Patent 6372224 (2002) → published by  ↩"];
+	<PANBESY-77>	[URL="https://knowhere.atlassian.net/browse/PANBESY-77",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11472.png" />
+</TD>
+  <TD COLSPAN='3'><B>Dr. David Martin interviewed by Dr. Reiner Fuellmich</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-77> -> <PANBESY-80>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-80,PANBESY-77)",
+		label="claims ",
+		labeltooltip="Dr. David Martin interviewed by Dr. Reiner Fuellmich → claims  → coronavirus is not new → claimed by  ↩",
+		tooltip="Dr. David Martin interviewed by Dr. Reiner Fuellmich → claims  → coronavirus is not new → claimed by  ↩"];
+	<PANBESY-78>	[URL="https://knowhere.atlassian.net/browse/PANBESY-78",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11504.png" />
+</TD>
+  <TD COLSPAN='3'><B>German Corona Investigative</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-78> -> <PANBESY-77>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-77,PANBESY-78)",
+		label="publishes ",
+		labeltooltip="German Corona Investigative → publishes  → Dr. David Martin interviewed by Dr. Reiner Fuellmich → published by  ↩",
+		minlen=1,
+		tooltip="German Corona Investigative → publishes  → Dr. David Martin interviewed by Dr. Reiner Fuellmich → published by  ↩"];
+	<PANBESY-79>	[URL="https://knowhere.atlassian.net/browse/PANBESY-79",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11491.png" />
+</TD>
+  <TD COLSPAN='3'><B>Dr. David Martin</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<PANBESY-79> -> <PANBESY-77>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-77,PANBESY-79)",
+		label="contributes to ",
+		labeltooltip="Dr. David Martin → contributes to  → Dr. David Martin interviewed by Dr. Reiner Fuellmich → receives from  ↩",
+		minlen=2,
+		tooltip="Dr. David Martin → contributes to  → Dr. David Martin interviewed by Dr. Reiner Fuellmich → receives from  ↩"];
+	<PANBESY-9> -> <PANBESY-67>	[color=4,
+		colorscheme=ylorrd5,
+		dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-67,PANBESY-9)",
+		label="causes ▲ 	",
+		labeltooltip="death → causes ▲ 	 → + → caused (-) by  ↩",
+		tooltip="death → causes ▲ 	 → + → caused (-) by  ↩"];
+	<UNIVERSAL-12>	[URL="https://knowhere.atlassian.net/browse/UNIVERSAL-12",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11491.png" />
+</TD>
+  <TD COLSPAN='3'><B>Human</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<UNIVERSAL-12> -> <PANBESY-3>	[arrowhead=empty,
+		color=blue,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-3,UNIVERSAL-12)",
+		labeltooltip="Human → generalizes △ → Corona Pandemic Believer → specializes ▽ ↩",
+		penwidth=1,
+		tooltip="Human → generalizes △ → Corona Pandemic Believer → specializes ▽ ↩"];
+	<UNIVERSAL-12> -> <PANBESY-4>	[arrowhead=empty,
+		color=blue,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(PANBESY-4,UNIVERSAL-12)",
+		labeltooltip="Human → generalizes △ → Corona Conspiracy Believer → specializes ▽ ↩",
+		penwidth=1,
+		tooltip="Human → generalizes △ → Corona Conspiracy Believer → specializes ▽ ↩"];
+	<UNIVERSAL-12> -> <UNIVERSAL-16>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(UNIVERSAL-16,UNIVERSAL-12)",
+		label="aspires ",
+		labeltooltip="Human → aspires  → Health → sought by  ↩",
+		tooltip="Human → aspires  → Health → sought by  ↩"];
+	<UNIVERSAL-12> -> <UNIVERSAL-19>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(UNIVERSAL-19,UNIVERSAL-12)",
+		label="contributes to ",
+		labeltooltip="Human → contributes to  → Solidarity → receives from  ↩",
+		tooltip="Human → contributes to  → Solidarity → receives from  ↩"];
+	<UNIVERSAL-12> -> <UNIVERSAL-20>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(UNIVERSAL-20,UNIVERSAL-12)",
+		label="contributes to ",
+		labeltooltip="Human → contributes to  → Trust → receives from  ↩",
+		tooltip="Human → contributes to  → Trust → receives from  ↩"];
+}

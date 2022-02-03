@@ -1,0 +1,3099 @@
+digraph {
+	graph [color=whitesmoke,
+		fontname=Helvetica,
+		labelloc=b,
+		nodesep=0.2,
+		rankdir=BT,
+		ranksep=0.2,
+		remincross=true,
+		splines=true,
+		style="filled,rounded",
+		target=details,
+		tooltip=" "
+	];
+	node [fillcolor=white,
+		fontname=Helvetica,
+		height=0,
+		id="\N",
+		margin=0.1,
+		shape=box,
+		style="filled,rounded",
+		target=details,
+		tooltip=" ",
+		width=0
+	];
+	edge [arrowtail=none,
+		color=forestgreen,
+		dir=both,
+		fontsize=10,
+		id="\T___\H",
+		penwidth=2,
+		target=details
+	];
+	<BOGOI-843>	[URL="https://knowhere.atlassian.net/browse/BOGOI-843",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>charge controller 100/20</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="very flexible (universal) solar charge controller: suitable for 12 / 24 / 48 V batteries
+
+limited by charge current / PV short circuit \
+current of 20 A, resulting in *max nominal power > 1 kW* in case of 48 V battery system"];
+	<MARU-176>	[URL="https://knowhere.atlassian.net/browse/MARU-176",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22energy%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>48 Volt backbone</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<BOGOI-843> -> <MARU-176>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-176,BOGOI-843)",
+		label="contributes to ",
+		labeltooltip="charge controller 100/20 → contributes to  → 48 Volt backbone → receives from  ↩",
+		tooltip="charge controller 100/20 → contributes to  → 48 Volt backbone → receives from  ↩"];
+	<CMDBG-259>	[URL="https://knowhere.atlassian.net/browse/CMDBG-259",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11491.png" />
+</TD>
+  <TD COLSPAN='3'><B>Blacksmith</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted"];
+	<MARU-106>	[URL="https://knowhere.atlassian.net/browse/MARU-106",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Story%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>build turbine mast</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted"];
+	<CMDBG-259> -> <MARU-106>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-106,CMDBG-259)",
+		label="serves ",
+		labeltooltip="Blacksmith → serves  → build turbine mast → requires  ↩",
+		tooltip="Blacksmith → serves  → build turbine mast → requires  ↩"];
+	<MARU-112>	[URL="https://knowhere.atlassian.net/browse/MARU-112",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Story%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>build tiller drive mount</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted"];
+	<CMDBG-259> -> <MARU-112>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-112,CMDBG-259)",
+		label="serves ",
+		labeltooltip="Blacksmith → serves  → build tiller drive mount → requires  ↩",
+		tooltip="Blacksmith → serves  → build tiller drive mount → requires  ↩"];
+	<MARU-117>	[URL="https://knowhere.atlassian.net/browse/MARU-117",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Story%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>mount engine hold</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted"];
+	<CMDBG-259> -> <MARU-117>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-117,CMDBG-259)",
+		label="serves ",
+		labeltooltip="Blacksmith → serves  → mount engine hold → requires  ↩",
+		tooltip="Blacksmith → serves  → mount engine hold → requires  ↩"];
+	<MARU-86>	[URL="https://knowhere.atlassian.net/browse/MARU-86",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Story%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>move tiller connector under tillers</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted",
+		tooltip="... so that tiller extension can rest on top of tiller"];
+	<CMDBG-259> -> <MARU-86>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-86,CMDBG-259)",
+		label="serves ",
+		labeltooltip="Blacksmith → serves  → move tiller connector under tillers → requires  ↩",
+		tooltip="Blacksmith → serves  → move tiller connector under tillers → requires  ↩"];
+	<CMDBG-260>	[URL="https://knowhere.atlassian.net/browse/CMDBG-260",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11491.png" />
+</TD>
+  <TD COLSPAN='3'><B>Carpenter</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted"];
+	<MARU-124>	[URL="https://knowhere.atlassian.net/browse/MARU-124",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Story%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>build battery case(s)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted"];
+	<CMDBG-260> -> <MARU-124>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-124,CMDBG-260)",
+		label="serves ",
+		labeltooltip="Carpenter → serves  → build battery case(s) → requires  ↩",
+		minlen=1,
+		tooltip="Carpenter → serves  → build battery case(s) → requires  ↩"];
+	<CMDBG-270>	[URL="https://knowhere.atlassian.net/browse/CMDBG-270",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22energy%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>20 A max input</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<CMDBG-270> -> <BOGOI-843>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-843,CMDBG-270)",
+		label="contributes to ",
+		labeltooltip="20 A max input → contributes to  → charge controller 100/20 → receives from  ↩",
+		tooltip="20 A max input → contributes to  → charge controller 100/20 → receives from  ↩"];
+	<KNOWPUB-1>	[URL="https://knowhere.atlassian.net/browse/KNOWPUB-1",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Erkenntnis%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10701.png" />
+</TD>
+  <TD COLSPAN='3'><B>voltage requirements for solar panels</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-175>	[URL="https://knowhere.atlassian.net/browse/MARU-175",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>1000 W solar panels</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted",
+		tooltip="two solar panels, 36 Volt each, in sequence to deliver 72 Volt, for charging the 48 V batteries or powering the engine directly (\
+without going through 12 V system)
+
+for uninterrupted solar harvest these could be mounted aft, on top of the last beam"];
+	<KNOWPUB-1> -> <MARU-175>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-175,KNOWPUB-1)",
+		label="supports ",
+		labeltooltip="voltage requirements for solar panels → supports  → 1000 W solar panels → based on  ↩",
+		minlen=1,
+		tooltip="voltage requirements for solar panels → supports  → 1000 W solar panels → based on  ↩"];
+	<MARU-10>	[URL="https://knowhere.atlassian.net/browse/MARU-10",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>wind turbine</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-69>	[URL="https://knowhere.atlassian.net/browse/MARU-69",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Cord%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10312.png" />
+</TD>
+  <TD COLSPAN='3'><B>Rutland Turbine - Controller cable</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip=""];
+	<MARU-10> -> <MARU-69>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-69,MARU-10)",
+		label="contributes to ",
+		labeltooltip="wind turbine → contributes to  → Rutland Turbine - Controller cable → receives from  ↩",
+		tooltip="wind turbine → contributes to  → Rutland Turbine - Controller cable → receives from  ↩"];
+	<MARU-101>	[URL="https://knowhere.atlassian.net/browse/MARU-101",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>AIS Transponder</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted",
+		tooltip="braucht vielleicht Integration:
+
+[https://www.quark-elec.com/product/qk-a034-nmea-0183-seatalk-multiplexer-with-nmea-2000-usb-wifi-outputs/|\
+https://www.quark-elec.com/product/qk-a034-nmea-0183-seatalk-multiplexer-with-nmea-2000-usb-wifi-outputs/|smart-link] 
+
+siehe Doku [\
+https://www.quark-elec.com/a034-seatalk1-and-nmea-2000-to-wifi-and-opencpn-setup/|https://www.quark-elec.com/a034-seatalk1-and-nmea-2000-to-wifi-and-opencpn-setup/|\
+smart-link] "];
+	<MARU-104>	[URL="https://knowhere.atlassian.net/browse/MARU-104",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Story%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>receive AIS information on Android Tablet</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted"];
+	<MARU-101> -> <MARU-104>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-104,MARU-101)",
+		label="serves ",
+		labeltooltip="AIS Transponder → serves  → receive AIS information on Android Tablet → requires  ↩",
+		minlen=1,
+		tooltip="AIS Transponder → serves  → receive AIS information on Android Tablet → requires  ↩"];
+	<MARU-103>	[URL="https://knowhere.atlassian.net/browse/MARU-103",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>VHF antenna</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted"];
+	<MARU-103> -> <MARU-101>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-101,MARU-103)",
+		label="serves ",
+		labeltooltip="VHF antenna → serves  → AIS Transponder → requires  ↩",
+		tooltip="VHF antenna → serves  → AIS Transponder → requires  ↩"];
+	<MARU-105>	[URL="https://knowhere.atlassian.net/browse/MARU-105",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>tiller drive mount</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted"];
+	<MARU-30>	[URL="https://knowhere.atlassian.net/browse/MARU-30",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>Tiller drive (actuator)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="[https://drive.google.com/file/d/1Q5h7_lHzLRraVrKSk-ROVp_28EPu0bg7/view?usp=drivesdk|https://drive.google.com/file/d/1Q5h7_lHzLRraVrKSk-ROVp_\
+28EPu0bg7/view?usp=drivesdk|smart-link] "];
+	<MARU-105> -> <MARU-30>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-30,MARU-105)",
+		label="serves ",
+		labeltooltip="tiller drive mount → serves  → Tiller drive (actuator) → requires  ↩",
+		tooltip="tiller drive mount → serves  → Tiller drive (actuator) → requires  ↩"];
+	<MARU-96>	[URL="https://knowhere.atlassian.net/browse/MARU-96",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>turbine mast</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted",
+		tooltip="position a bit off center so that main mast can be laid in parallel
+
+bottom structure: mount on custom hinge to lay turbine mast
+
+\
+h2. Stabilization
+
+sideways (lateral): steel wire attaching at terminators of Achterstag 
+
+forward (a/p): some bar, attaching [https://\
+knowhere.atlassian.net/browse/MARU-94|https://knowhere.atlassian.net/browse/MARU-94|smart-link]  - *mind new engine location + tiller*"];
+	<MARU-106> -> <MARU-96>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-96,MARU-106)",
+		label="supplies ",
+		labeltooltip="build turbine mast → supplies  → turbine mast → supplied by  ↩",
+		tooltip="build turbine mast → supplies  → turbine mast → supplied by  ↩"];
+	<MARU-107>	[URL="https://knowhere.atlassian.net/browse/MARU-107",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Gruppe%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10300.png" />
+</TD>
+  <TD COLSPAN='3'><B>Tiller connector assembly 2021</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-108>	[URL="https://knowhere.atlassian.net/browse/MARU-108",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Gruppe%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10300.png" />
+</TD>
+  <TD COLSPAN='3'><B>Tiller connector assembly 2022</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted"];
+	<MARU-107> -> <MARU-108>	[arrowhead=onormalonormal,
+		color="",
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-108,MARU-107)",
+		labeltooltip="Tiller connector assembly 2021 → preceeds  → Tiller connector assembly 2022 → follows  ↩",
+		penwidth=1,
+		tooltip="Tiller connector assembly 2021 → preceeds  → Tiller connector assembly 2022 → follows  ↩"];
+	<MARU-109>	[URL="https://knowhere.atlassian.net/browse/MARU-109",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Tiller Extension 2022 x2</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted",
+		tooltip="für betriebssicheres Steuern, d.h. ohne dass sich der Ausleger verhaken kann
+
+Bezugsquellen:
+
+818kr [https://www.benns.se/dacksutrustning/\
+rorkultsforlangare/rorkultsforlangare-1070-1770mm|https://www.benns.se/dacksutrustning/rorkultsforlangare/rorkultsforlangare-1070-1770mm|\
+smart-link] "];
+	<MARU-84>	[URL="https://knowhere.atlassian.net/browse/MARU-84",
+		color=3,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Tiller (x2)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="tiller length (virtual straight line, roughly): 167 cm"];
+	<MARU-109> -> <MARU-84>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-84,MARU-109)",
+		label="serves ",
+		labeltooltip="Tiller Extension 2022 x2 → serves  → Tiller (x2) → requires  ↩",
+		tooltip="Tiller Extension 2022 x2 → serves  → Tiller (x2) → requires  ↩"];
+	<MARU-11>	[URL="https://knowhere.atlassian.net/browse/MARU-11",
+		color=3,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>front position lights (old)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dashed"];
+	<MARU-188>	[URL="https://knowhere.atlassian.net/browse/MARU-188",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>navigation light (portside, LED)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-11> -> <MARU-188>	[arrowhead=onormalonormal,
+		color="",
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-188,MARU-11)",
+		labeltooltip="front position lights (old) → preceeds  → navigation light (portside, LED) → follows  ↩",
+		penwidth=1,
+		tooltip="front position lights (old) → preceeds  → navigation light (portside, LED) → follows  ↩"];
+	<MARU-74>	[URL="https://knowhere.atlassian.net/browse/MARU-74",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>navigation light (starboard, LED)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-11> -> <MARU-74>	[arrowhead=onormalonormal,
+		color="",
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-74,MARU-11)",
+		labeltooltip="front position lights (old) → preceeds  → navigation light (starboard, LED) → follows  ↩",
+		penwidth=1,
+		tooltip="front position lights (old) → preceeds  → navigation light (starboard, LED) → follows  ↩"];
+	<MARU-110>	[URL="https://knowhere.atlassian.net/browse/MARU-110",
+		color=4,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>BLOCKS</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-110> -> <MARU-84>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-84,MARU-110)",
+		label="impacts ",
+		labeltooltip="BLOCKS → impacts  → Tiller (x2) → impacted by  ↩",
+		tooltip="BLOCKS → impacts  → Tiller (x2) → impacted by  ↩"];
+	<MARU-112> -> <MARU-105>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-105,MARU-112)",
+		label="supplies ",
+		labeltooltip="build tiller drive mount → supplies  → tiller drive mount → supplied by  ↩",
+		tooltip="build tiller drive mount → supplies  → tiller drive mount → supplied by  ↩"];
+	<MARU-113>	[URL="https://knowhere.atlassian.net/browse/MARU-113",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>Deck Light as LED</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted"];
+	<MARU-114>	[URL="https://knowhere.atlassian.net/browse/MARU-114",
+		color=3,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Engine Lift</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-115>	[URL="https://knowhere.atlassian.net/browse/MARU-115",
+		color=5,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>slows down boat in waves</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="this happens at speed between 7.5 knots and 10 knots on running course with waves from behind"];
+	<MARU-114> -> <MARU-115>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-114,MARU-115)",
+		label="is caused by X ▼",
+		labeltooltip="slows down boat in waves → is caused by X ▼ → Engine Lift → causes X ▲ ↩",
+		minlen=1,
+		tooltip="slows down boat in waves → is caused by X ▼ → Engine Lift → causes X ▲ ↩"];
+	<MARU-5>	[URL="https://knowhere.atlassian.net/browse/MARU-5",
+		color=3,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>Navy 6.0 EVO</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-114> -> <MARU-5>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-5,MARU-114)",
+		label="supports ",
+		labeltooltip="Engine Lift → supports  → Navy 6.0 EVO → based on  ↩",
+		tooltip="Engine Lift → supports  → Navy 6.0 EVO → based on  ↩"];
+	<MARU-87>	[URL="https://knowhere.atlassian.net/browse/MARU-87",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Story%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>move engine to the back</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted",
+		tooltip="will require longer engine cables"];
+	<MARU-114> -> <MARU-87>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-87,MARU-114)",
+		label="contributes to ",
+		labeltooltip="Engine Lift → contributes to  → move engine to the back → receives from  ↩",
+		tooltip="Engine Lift → contributes to  → move engine to the back → receives from  ↩"];
+	<MARU-116>	[URL="https://knowhere.atlassian.net/browse/MARU-116",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>engine hold</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted",
+		tooltip="Utbordarfäste
+
+see https://www.hjertmans.se/produkter/motor-tillbehor/utombordsmotorer/utombordarfaste/utbordarfaste-aluminium-max-35kg"];
+	<MARU-116> -> <MARU-5>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-5,MARU-116)",
+		label="supports ",
+		labeltooltip="engine hold → supports  → Navy 6.0 EVO → based on  ↩",
+		tooltip="engine hold → supports  → Navy 6.0 EVO → based on  ↩"];
+	<MARU-117> -> <MARU-116>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-116,MARU-117)",
+		label="supplies ",
+		labeltooltip="mount engine hold → supplies  → engine hold → supplied by  ↩",
+		tooltip="mount engine hold → supplies  → engine hold → supplied by  ↩"];
+	<MARU-117> -> <MARU-87>	[arrowhead=onormalonormal,
+		color="",
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-87,MARU-117)",
+		labeltooltip="mount engine hold → preceeds  → move engine to the back → follows  ↩",
+		penwidth=1,
+		tooltip="mount engine hold → preceeds  → move engine to the back → follows  ↩"];
+	<MARU-118>	[URL="https://knowhere.atlassian.net/browse/MARU-118",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Capability%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>steering hands-free</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted"];
+	<MARU-120>	[URL="https://knowhere.atlassian.net/browse/MARU-120",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Capability%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>sailing single-handed no-stress</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="performing all typical manoeuvrers from one of the cockpit benches
+
+AND ideally
+
+being free to walk around the boat or under deck \
+for minutes or longer "];
+	<MARU-118> -> <MARU-120>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-120,MARU-118)",
+		label="serves ",
+		labeltooltip="steering hands-free → serves  → sailing single-handed no-stress → requires  ↩",
+		tooltip="steering hands-free → serves  → sailing single-handed no-stress → requires  ↩"];
+	<MARU-119>	[URL="https://knowhere.atlassian.net/browse/MARU-119",
+		label=<|>,
+		shape=circle];
+	<MARU-119> -> <MARU-118>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-118,MARU-119)",
+		label="serves ",
+		labeltooltip="| → serves  → steering hands-free → requires  ↩",
+		tooltip="| → serves  → steering hands-free → requires  ↩"];
+	<MARU-12>	[URL="https://knowhere.atlassian.net/browse/MARU-12",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>back position light</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip=""];
+	<MARU-139>	[URL="https://knowhere.atlassian.net/browse/MARU-139",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Prozess%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10700.png" />
+</TD>
+  <TD COLSPAN='3'><B>Sailing</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-120> -> <MARU-139>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-139,MARU-120)",
+		label="contributes to ",
+		labeltooltip="sailing single-handed no-stress → contributes to  → Sailing → receives from  ↩",
+		tooltip="sailing single-handed no-stress → contributes to  → Sailing → receives from  ↩"];
+	<MARU-121>	[URL="https://knowhere.atlassian.net/browse/MARU-121",
+		label=<|>,
+		shape=circle];
+	<MARU-121> -> <MARU-120>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-120,MARU-121)",
+		label="serves ",
+		labeltooltip="| → serves  → sailing single-handed no-stress → requires  ↩",
+		tooltip="| → serves  → sailing single-handed no-stress → requires  ↩"];
+	<MARU-122>	[URL="https://knowhere.atlassian.net/browse/MARU-122",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Story%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>relocate jib halyard clutch</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted",
+		tooltip="{quote}relocate halyard clutch (Fallenstopper) for Jib Sail to stern end of mast foot
+
+so that I can more easily set sail
+
+or retrieve \
+sail  
+
+from a position that is closer to the cockpit benches{quote}
+
+some potential products:
+
+[https://www.der-wassersportladen.de/\
+spinlock-t38-2-fall-umlenker.html|https://www.der-wassersportladen.de/spinlock-t38-2-fall-umlenker.html|smart-link] 
+
+[https://www.svb.de/\
+de/spinlock-fallenstopper-xts-2-fach-8-14-mm.html|https://www.svb.de/de/spinlock-fallenstopper-xts-2-fach-8-14-mm.html|smart-link]
+
+\
+or [https://www.v-rigger.com/epages/es140267.sf/en_GB/?ObjectPath=/Shops/es140267/Products/SPINZR1014|https://www.v-rigger.com/epages/\
+es140267.sf/en_GB/?ObjectPath=/Shops/es140267/Products/SPINZR1014|smart-link] 
+
+_(Spinlock recommended by Rolf)_
+
+Also to apply \
+the winch (on the mast) I need to use the existing mast clutch. Could then transfer load to mast-foot-clutch."];
+	<MARU-122> -> <MARU-121>	[dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-121,MARU-122)",
+		label="serves ",
+		labeltooltip="relocate jib halyard clutch → serves  → | → requires  ↩",
+		tooltip="relocate jib halyard clutch → serves  → | → requires  ↩"];
+	<MARU-146>	[URL="https://knowhere.atlassian.net/browse/MARU-146",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Jib Halyard</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-122> -> <MARU-146>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-146,MARU-122)",
+		label="contributes to ",
+		labeltooltip="relocate jib halyard clutch → contributes to  → Jib Halyard → receives from  ↩",
+		tooltip="relocate jib halyard clutch → contributes to  → Jib Halyard → receives from  ↩"];
+	<MARU-123>	[URL="https://knowhere.atlassian.net/browse/MARU-123",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Story%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>mounting eProp Remote</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dashed"];
+	<MARU-45>	[URL="https://knowhere.atlassian.net/browse/MARU-45",
+		color=3,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>Evo Remote Controller</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-123> -> <MARU-45>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-45,MARU-123)",
+		label="contributes to ",
+		labeltooltip="mounting eProp Remote → contributes to  → Evo Remote Controller → receives from  ↩",
+		minlen=1,
+		tooltip="mounting eProp Remote → contributes to  → Evo Remote Controller → receives from  ↩"];
+	<MARU-75>	[URL="https://knowhere.atlassian.net/browse/MARU-75",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>E80 battery shelter</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted",
+		tooltip="either in standing position like now (no new cable needed)
+
+or laying flat on each hull, in front of the deck house (preferred solution, \
+requires more building and wiring)"];
+	<MARU-124> -> <MARU-75>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-75,MARU-124)",
+		label="supplies ",
+		labeltooltip="build battery case(s) → supplies  → E80 battery shelter → supplied by  ↩",
+		tooltip="build battery case(s) → supplies  → E80 battery shelter → supplied by  ↩"];
+	<MARU-125>	[URL="https://knowhere.atlassian.net/browse/MARU-125",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22energy%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>0 - 20 A</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-37>	[URL="https://knowhere.atlassian.net/browse/MARU-37",
+		label=<|>,
+		shape=circle];
+	<MARU-125> -> <MARU-37>	[dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-37,MARU-125)",
+		label="contributes to ",
+		labeltooltip="0 - 20 A → contributes to  → | → receives from  ↩",
+		tooltip="0 - 20 A → contributes to  → | → receives from  ↩"];
+	<MARU-126>	[URL="https://knowhere.atlassian.net/browse/MARU-126",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22energy%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>30 A output</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-126> -> <MARU-37>	[dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-37,MARU-126)",
+		label="contributes to ",
+		labeltooltip="30 A output → contributes to  → | → receives from  ↩",
+		tooltip="30 A output → contributes to  → | → receives from  ↩"];
+	<MARU-127>	[URL="https://knowhere.atlassian.net/browse/MARU-127",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22energy%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>12 V x 15 A input</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-58>	[URL="https://knowhere.atlassian.net/browse/MARU-58",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>12 V to 48 V Step-up Converter</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="{quote}ANGEEK  12-80V 600W 10A DC-DC Wandler Stromversorgung Step-up Konverter Modul Netzteil
+
+Eingangsspannung: 12 V-60 V. Eingangsstrom: \
+Maximaler Eingangsstrom von 15 A. Ausgangsspannung: 12 V-80 V stufenlos einstellbar.
+
+Eingebauter Radiator - Schnelle Wärmeableitung， \
+Hat eine konstante Spannung, konstante Stand
+
+Kurzschlussschutz - Eingangsstrom von Sicherung ist 15A für sichere Bedienung.
+
+Maße: \
+85 x 60 mm Lieferumfang: 1* Wandler Modul{quote}"];
+	<MARU-127> -> <MARU-58>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-58,MARU-127)",
+		label="contributes to ",
+		labeltooltip="12 V x 15 A input → contributes to  → 12 V to 48 V Step-up Converter → receives from  ↩",
+		tooltip="12 V x 15 A input → contributes to  → 12 V to 48 V Step-up Converter → receives from  ↩"];
+	<MARU-128>	[URL="https://knowhere.atlassian.net/browse/MARU-128",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22energy%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>48 V x 3.6 A output</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-129>	[URL="https://knowhere.atlassian.net/browse/MARU-129",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22energy%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>6 A combined output</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-128> -> <MARU-129>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-129,MARU-128)",
+		label="contributes to ",
+		labeltooltip="48 V x 3.6 A output → contributes to  → 6 A combined output → receives from  ↩",
+		tooltip="48 V x 3.6 A output → contributes to  → 6 A combined output → receives from  ↩"];
+	<MARU-129> -> <MARU-37>	[dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-37,MARU-129)",
+		label="contributes to ",
+		labeltooltip="6 A combined output → contributes to  → | → receives from  ↩",
+		tooltip="6 A combined output → contributes to  → | → receives from  ↩"];
+	<MARU-13>	[URL="https://knowhere.atlassian.net/browse/MARU-13",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>engine light</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-73>	[URL="https://knowhere.atlassian.net/browse/MARU-73",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>engine light LED</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted"];
+	<MARU-13> -> <MARU-73>	[arrowhead=onormalonormal,
+		color="",
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-73,MARU-13)",
+		labeltooltip="engine light → preceeds  → engine light LED → follows  ↩",
+		penwidth=1,
+		tooltip="engine light → preceeds  → engine light LED → follows  ↩"];
+	<MARU-130>	[URL="https://knowhere.atlassian.net/browse/MARU-130",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22energy%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>48 V x 3.6 A output</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-130> -> <MARU-129>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-129,MARU-130)",
+		label="contributes to ",
+		labeltooltip="48 V x 3.6 A output → contributes to  → 6 A combined output → receives from  ↩",
+		tooltip="48 V x 3.6 A output → contributes to  → 6 A combined output → receives from  ↩"];
+	<MARU-131>	[URL="https://knowhere.atlassian.net/browse/MARU-131",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>12 V to 48 V Step-up Converter</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="{quote}ANGEEK  12-80V 600W 10A DC-DC Wandler Stromversorgung Step-up Konverter Modul Netzteil
+
+Eingangsspannung: 12 V-60 V. Eingangsstrom: \
+Maximaler Eingangsstrom von 15 A. Ausgangsspannung: 12 V-80 V stufenlos einstellbar.
+
+Eingebauter Radiator - Schnelle Wärmeableitung， \
+Hat eine konstante Spannung, konstante Stand
+
+Kurzschlussschutz - Eingangsstrom von Sicherung ist 15A für sichere Bedienung.
+
+Maße: \
+85 x 60 mm Lieferumfang: 1* Wandler Modul{quote}"];
+	<MARU-131> -> <MARU-130>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-130,MARU-131)",
+		label="contributes to ",
+		labeltooltip="12 V to 48 V Step-up Converter → contributes to  → 48 V x 3.6 A output → receives from  ↩",
+		tooltip="12 V to 48 V Step-up Converter → contributes to  → 48 V x 3.6 A output → receives from  ↩"];
+	<MARU-132>	[URL="https://knowhere.atlassian.net/browse/MARU-132",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22energy%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>12 V x 15 A input</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-132> -> <MARU-131>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-131,MARU-132)",
+		label="contributes to ",
+		labeltooltip="12 V x 15 A input → contributes to  → 12 V to 48 V Step-up Converter → receives from  ↩",
+		tooltip="12 V x 15 A input → contributes to  → 12 V to 48 V Step-up Converter → receives from  ↩"];
+	<MARU-133>	[URL="https://knowhere.atlassian.net/browse/MARU-133",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Rutland Hybrid Controller</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-134>	[URL="https://knowhere.atlassian.net/browse/MARU-134",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22energy%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>35 A at 15 m/s + PV</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-133> -> <MARU-134>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-134,MARU-133)",
+		label="contributes to ",
+		labeltooltip="Rutland Hybrid Controller → contributes to  → 35 A at 15 m/s + PV → receives from  ↩",
+		tooltip="Rutland Hybrid Controller → contributes to  → 35 A at 15 m/s + PV → receives from  ↩"];
+	<MARU-68>	[URL="https://knowhere.atlassian.net/browse/MARU-68",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Cord%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10312.png" />
+</TD>
+  <TD COLSPAN='3'><B>Rutland Controller - Battery cable</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted",
+		tooltip=""];
+	<MARU-134> -> <MARU-68>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-68,MARU-134)",
+		label="contributes to ",
+		labeltooltip="35 A at 15 m/s + PV → contributes to  → Rutland Controller - Battery cable → receives from  ↩",
+		tooltip="35 A at 15 m/s + PV → contributes to  → Rutland Controller - Battery cable → receives from  ↩"];
+	<MARU-135>	[URL="https://knowhere.atlassian.net/browse/MARU-135",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22energy%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>12 Volt backbone</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-135> -> <MARU-127>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-127,MARU-135)",
+		label="contributes to ",
+		labeltooltip="12 Volt backbone → contributes to  → 12 V x 15 A input → receives from  ↩",
+		tooltip="12 Volt backbone → contributes to  → 12 V x 15 A input → receives from  ↩"];
+	<MARU-135> -> <MARU-132>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-132,MARU-135)",
+		label="contributes to ",
+		labeltooltip="12 Volt backbone → contributes to  → 12 V x 15 A input → receives from  ↩",
+		tooltip="12 Volt backbone → contributes to  → 12 V x 15 A input → receives from  ↩"];
+	<MARU-136>	[URL="https://knowhere.atlassian.net/browse/MARU-136",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22energy%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>7 A max input</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-135> -> <MARU-136>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-136,MARU-135)",
+		label="contributes to ",
+		labeltooltip="12 Volt backbone → contributes to  → 7 A max input → receives from  ↩",
+		tooltip="12 Volt backbone → contributes to  → 7 A max input → receives from  ↩"];
+	<MARU-189>	[URL="https://knowhere.atlassian.net/browse/MARU-189",
+		label=<6>,
+		shape=circle,
+		tooltip="{quote}Instrumente{quote}"];
+	<MARU-135> -> <MARU-189>	[dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-189,MARU-135)",
+		label="contributes to ",
+		labeltooltip="12 Volt backbone → contributes to  → 6 → receives from  ↩",
+		tooltip="12 Volt backbone → contributes to  → 6 → receives from  ↩"];
+	<MARU-190>	[URL="https://knowhere.atlassian.net/browse/MARU-190",
+		label=2,
+		shape=circle,
+		tooltip="{quote}Navigationslicht{quote}"];
+	<MARU-135> -> <MARU-190>	[dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-190,MARU-135)",
+		label="contributes to ",
+		labeltooltip="12 Volt backbone → contributes to  → 2 → receives from  ↩",
+		tooltip="12 Volt backbone → contributes to  → 2 → receives from  ↩"];
+	<MARU-28>	[URL="https://knowhere.atlassian.net/browse/MARU-28",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>ACU-100</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-136> -> <MARU-28>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-28,MARU-136)",
+		label="contributes to ",
+		labeltooltip="7 A max input → contributes to  → ACU-100 → receives from  ↩",
+		tooltip="7 A max input → contributes to  → ACU-100 → receives from  ↩"];
+	<MARU-46>	[URL="https://knowhere.atlassian.net/browse/MARU-46",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Prozess%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10700.png" />
+</TD>
+  <TD COLSPAN='3'><B>recuperation</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-139> -> <MARU-46>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-46,MARU-139)",
+		label="serves ",
+		labeltooltip="Sailing → serves  → recuperation → requires  ↩",
+		tooltip="Sailing → serves  → recuperation → requires  ↩"];
+	<MARU-140>	[URL="https://knowhere.atlassian.net/browse/MARU-140",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22energy%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>8 kW (160 A) max combined output</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip=""];
+	<MARU-140> -> <MARU-176>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-176,MARU-140)",
+		label="contributes to ",
+		labeltooltip="8 kW (160 A) max combined output → contributes to  → 48 Volt backbone → receives from  ↩",
+		tooltip="8 kW (160 A) max combined output → contributes to  → 48 Volt backbone → receives from  ↩"];
+	<MARU-141>	[URL="https://knowhere.atlassian.net/browse/MARU-141",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Prozess%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10700.png" />
+</TD>
+  <TD COLSPAN='3'><B>Driving (motor)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-142>	[URL="https://knowhere.atlassian.net/browse/MARU-142",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22energy%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>6 kW (120 A) max input</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="Marschfahrt ~ 800 W, results in 3.5 knots"];
+	<MARU-142> -> <MARU-141>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-141,MARU-142)",
+		label="serves ",
+		labeltooltip="6 kW (120 A) max input → serves  → Driving (motor) → requires  ↩",
+		tooltip="6 kW (120 A) max input → serves  → Driving (motor) → requires  ↩"];
+	<MARU-143>	[URL="https://knowhere.atlassian.net/browse/MARU-143",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Jib Sail</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="Fock
+
+area = 7 m²"];
+	<MARU-148>	[URL="https://knowhere.atlassian.net/browse/MARU-148",
+		label=<+>,
+		shape=circle];
+	<MARU-143> -> <MARU-148>	[arrowtail=odiamond,
+		dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-148,MARU-143)",
+		labeltooltip="Jib Sail → ist gebündelt in ◇  → + → aggregiert ◇  ↩",
+		tooltip="Jib Sail → ist gebündelt in ◇  → + → aggregiert ◇  ↩"];
+	<MARU-144>	[URL="https://knowhere.atlassian.net/browse/MARU-144",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Jibstay (Fockstag)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-145>	[URL="https://knowhere.atlassian.net/browse/MARU-145",
+		label=<|>,
+		shape=circle];
+	<MARU-144> -> <MARU-145>	[dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-145,MARU-144)",
+		label="supports ",
+		labeltooltip="Jibstay (Fockstag) → supports  → | → based on  ↩",
+		tooltip="Jibstay (Fockstag) → supports  → | → based on  ↩"];
+	<MARU-35>	[URL="https://knowhere.atlassian.net/browse/MARU-35",
+		color=5,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>jib roller furlex</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted,bold",
+		tooltip=""];
+	<MARU-144> -> <MARU-35>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-35,MARU-144)",
+		label="supports ",
+		labeltooltip="Jibstay (Fockstag) → supports  → jib roller furlex → based on  ↩",
+		tooltip="Jibstay (Fockstag) → supports  → jib roller furlex → based on  ↩"];
+	<MARU-145> -> <MARU-143>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-143,MARU-145)",
+		label="supports ",
+		labeltooltip="| → supports  → Jib Sail → based on  ↩",
+		tooltip="| → supports  → Jib Sail → based on  ↩"];
+	<MARU-147>	[URL="https://knowhere.atlassian.net/browse/MARU-147",
+		color=3,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Storm Sail</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="Sturmfock
+
+very high and narrow cut
+
+area x < 7 m²
+
+perhaps 3 m² (?)"];
+	<MARU-145> -> <MARU-147>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-147,MARU-145)",
+		label="supports ",
+		labeltooltip="| → supports  → Storm Sail → based on  ↩",
+		tooltip="| → supports  → Storm Sail → based on  ↩"];
+	<MARU-146> -> <MARU-145>	[dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-145,MARU-146)",
+		label="supports ",
+		labeltooltip="Jib Halyard → supports  → | → based on  ↩",
+		tooltip="Jib Halyard → supports  → | → based on  ↩"];
+	<MARU-147> -> <MARU-148>	[arrowtail=odiamond,
+		dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-148,MARU-147)",
+		labeltooltip="Storm Sail → ist gebündelt in ◇  → + → aggregiert ◇  ↩",
+		tooltip="Storm Sail → ist gebündelt in ◇  → + → aggregiert ◇  ↩"];
+	<MARU-149>	[URL="https://knowhere.atlassian.net/browse/MARU-149",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Canvas%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10700.png" />
+</TD>
+  <TD COLSPAN='3'><B>total sail (area...)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="... area, wind force & center of effort
+
+In standard Kutter Rig, the typical total sail area is 11 + 10 + 7 = 28 m²
+
+In stronger \
+wind less sail area is used. For light wind from behind, Spinnaker or Gennaker (Blister) can be used in stead of Genoa to increase \
+the total sail area significantly."];
+	<MARU-148> -> <MARU-149>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-149,MARU-148)",
+		label="supports ",
+		labeltooltip="+ → supports  → total sail (area...) → based on  ↩",
+		tooltip="+ → supports  → total sail (area...) → based on  ↩"];
+	<MARU-149> -> <MARU-139>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-139,MARU-149)",
+		label="contributes to ",
+		labeltooltip="total sail (area...) → contributes to  → Sailing → receives from  ↩",
+		tooltip="total sail (area...) → contributes to  → Sailing → receives from  ↩"];
+	<MARU-150>	[URL="https://knowhere.atlassian.net/browse/MARU-150",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Genoa Furling System</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-152>	[URL="https://knowhere.atlassian.net/browse/MARU-152",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Genoa Sail</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="Klüver
+area = 10.2 m²"];
+	<MARU-150> -> <MARU-152>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-152,MARU-150)",
+		label="supports ",
+		labeltooltip="Genoa Furling System → supports  → Genoa Sail → based on  ↩",
+		tooltip="Genoa Furling System → supports  → Genoa Sail → based on  ↩"];
+	<MARU-151>	[URL="https://knowhere.atlassian.net/browse/MARU-151",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Genoa Stay (Klüverstag)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-151> -> <MARU-150>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-150,MARU-151)",
+		label="supports ",
+		labeltooltip="Genoa Stay (Klüverstag) → supports  → Genoa Furling System → based on  ↩",
+		tooltip="Genoa Stay (Klüverstag) → supports  → Genoa Furling System → based on  ↩"];
+	<MARU-152> -> <MARU-148>	[arrowtail=odiamond,
+		dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-148,MARU-152)",
+		labeltooltip="Genoa Sail → ist gebündelt in ◇  → + → aggregiert ◇  ↩",
+		tooltip="Genoa Sail → ist gebündelt in ◇  → + → aggregiert ◇  ↩"];
+	<MARU-153>	[URL="https://knowhere.atlassian.net/browse/MARU-153",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Backstay [x2]</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="Achterstag, permanent"];
+	<MARU-32>	[URL="https://knowhere.atlassian.net/browse/MARU-32",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>Swedish Flag</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-153> -> <MARU-32>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-32,MARU-153)",
+		label="supports ",
+		labeltooltip="Backstay [x2] → supports  → Swedish Flag → based on  ↩",
+		tooltip="Backstay [x2] → supports  → Swedish Flag → based on  ↩"];
+	<MARU-154>	[URL="https://knowhere.atlassian.net/browse/MARU-154",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22energy%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>30 A output</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-154> -> <MARU-135>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-135,MARU-154)",
+		label="contributes to ",
+		labeltooltip="30 A output → contributes to  → 12 Volt backbone → receives from  ↩",
+		tooltip="30 A output → contributes to  → 12 Volt backbone → receives from  ↩"];
+	<MARU-155>	[URL="https://knowhere.atlassian.net/browse/MARU-155",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22energy%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>8 A input</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-59>	[URL="https://knowhere.atlassian.net/browse/MARU-59",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>48 V to 12 V Step-down Converter</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="DC 48 V zu 12 V Buck Converter Abwärtswandler Spannungsreduzierer Auto Step Down Regler 30A 360 Watt Netzteil Transformatormodul, \
+Wasserdicht Spannung Konverter"];
+	<MARU-155> -> <MARU-59>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-59,MARU-155)",
+		label="contributes to ",
+		labeltooltip="8 A input → contributes to  → 48 V to 12 V Step-down Converter → receives from  ↩",
+		tooltip="8 A input → contributes to  → 48 V to 12 V Step-down Converter → receives from  ↩"];
+	<MARU-156>	[URL="https://knowhere.atlassian.net/browse/MARU-156",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Windex</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-157>	[URL="https://knowhere.atlassian.net/browse/MARU-157",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Boom</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip=Baum];
+	<MARU-158>	[URL="https://knowhere.atlassian.net/browse/MARU-158",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Cord%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10312.png" />
+</TD>
+  <TD COLSPAN='3'><B>Outhaul</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip=Unterliekstrecker];
+	<MARU-157> -> <MARU-158>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-158,MARU-157)",
+		label="supports ",
+		labeltooltip="Boom → supports  → Outhaul → based on  ↩",
+		tooltip="Boom → supports  → Outhaul → based on  ↩"];
+	<MARU-161>	[URL="https://knowhere.atlassian.net/browse/MARU-161",
+		color=3,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Reefing Hook</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dashed"];
+	<MARU-157> -> <MARU-161>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-161,MARU-157)",
+		label="supports ",
+		labeltooltip="Boom → supports  → Reefing Hook → based on  ↩",
+		tooltip="Boom → supports  → Reefing Hook → based on  ↩"];
+	<MARU-99>	[URL="https://knowhere.atlassian.net/browse/MARU-99",
+		color=3,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Canvas%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10700.png" />
+</TD>
+  <TD COLSPAN='3'><B>Main Sail</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip=""];
+	<MARU-158> -> <MARU-99>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-99,MARU-158)",
+		label="supports ",
+		labeltooltip="Outhaul → supports  → Main Sail → based on  ↩",
+		tooltip="Outhaul → supports  → Main Sail → based on  ↩"];
+	<MARU-159>	[URL="https://knowhere.atlassian.net/browse/MARU-159",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Jib Block [x2]</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dashed"];
+	<MARU-63>	[URL="https://knowhere.atlassian.net/browse/MARU-63",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>Jib Sheet [x2]</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="Fockschot
+
+diameter = 13 mm"];
+	<MARU-159> -> <MARU-63>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-63,MARU-159)",
+		label="supports ",
+		labeltooltip="Jib Block [x2] → supports  → Jib Sheet [x2] → based on  ↩",
+		tooltip="Jib Block [x2] → supports  → Jib Sheet [x2] → based on  ↩"];
+	<MARU-80>	[URL="https://knowhere.atlassian.net/browse/MARU-80",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Jib Cleat Block [x2]</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="have ordered this for jib:
+
+[https://www.benns.se/dacksutrustning/block/rutgerson/block-50-enkel-skotlas|https://www.benns.se/dacksutrustning/\
+block/rutgerson/block-50-enkel-skotlas|smart-link]  "];
+	<MARU-159> -> <MARU-80>	[arrowhead=onormalonormal,
+		color="",
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-80,MARU-159)",
+		labeltooltip="Jib Block [x2] → preceeds  → Jib Cleat Block [x2] → follows  ↩",
+		penwidth=1,
+		tooltip="Jib Block [x2] → preceeds  → Jib Cleat Block [x2] → follows  ↩"];
+	<MARU-160>	[URL="https://knowhere.atlassian.net/browse/MARU-160",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Cord%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10312.png" />
+</TD>
+  <TD COLSPAN='3'><B>battery communication cable</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="2 conductors guessed because the connection from battery to charger has definitely 2 conductors"];
+	<MARU-42>	[URL="https://knowhere.atlassian.net/browse/MARU-42",
+		color=5,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>Batterien entladen ungleichmäßig </B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dashed"];
+	<MARU-160> -> <MARU-42>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-42,MARU-160)",
+		label="solves ",
+		labeltooltip="battery communication cable → solves  → Batterien entladen ungleichmäßig  → solved by  ↩",
+		tooltip="battery communication cable → solves  → Batterien entladen ungleichmäßig  → solved by  ↩"];
+	<MARU-161> -> <MARU-99>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-99,MARU-161)",
+		label="supports ",
+		labeltooltip="Reefing Hook → supports  → Main Sail → based on  ↩",
+		tooltip="Reefing Hook → supports  → Main Sail → based on  ↩"];
+	<MARU-162>	[URL="https://knowhere.atlassian.net/browse/MARU-162",
+		color=5,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>lost reefing hook</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-162> -> <MARU-161>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-161,MARU-162)",
+		label="impacts ",
+		labeltooltip="lost reefing hook → impacts  → Reefing Hook → impacted by  ↩",
+		tooltip="lost reefing hook → impacts  → Reefing Hook → impacted by  ↩"];
+	<MARU-163>	[URL="https://knowhere.atlassian.net/browse/MARU-163",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Story%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>replace reefing hook</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted"];
+	<MARU-163> -> <MARU-162>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-162,MARU-163)",
+		label="solves ",
+		labeltooltip="replace reefing hook → solves  → lost reefing hook → solved by  ↩",
+		minlen=1,
+		tooltip="replace reefing hook → solves  → lost reefing hook → solved by  ↩"];
+	<MARU-164>	[URL="https://knowhere.atlassian.net/browse/MARU-164",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>engine hole</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-164> -> <MARU-114>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-114,MARU-164)",
+		label="supports ",
+		labeltooltip="engine hole → supports  → Engine Lift → based on  ↩",
+		tooltip="engine hole → supports  → Engine Lift → based on  ↩"];
+	<MARU-164> -> <MARU-162>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-162,MARU-164)",
+		label="contributes to ",
+		labeltooltip="engine hole → contributes to  → lost reefing hook → receives from  ↩",
+		tooltip="engine hole → contributes to  → lost reefing hook → receives from  ↩"];
+	<MARU-165>	[URL="https://knowhere.atlassian.net/browse/MARU-165",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>lost actioncam</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-164> -> <MARU-165>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-165,MARU-164)",
+		label="contributes to ",
+		labeltooltip="engine hole → contributes to  → lost actioncam → receives from  ↩",
+		minlen=1,
+		tooltip="engine hole → contributes to  → lost actioncam → receives from  ↩"];
+	<MARU-166>	[URL="https://knowhere.atlassian.net/browse/MARU-166",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Cord%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10312.png" />
+</TD>
+  <TD COLSPAN='3'><B>Remote Communication Cable</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-40>	[URL="https://knowhere.atlassian.net/browse/MARU-40",
+		color=5,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>Remote Control verliert Verbindung mit Motor (5 x)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dashed"];
+	<MARU-166> -> <MARU-40>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-40,MARU-166)",
+		label="solves ",
+		labeltooltip="Remote Communication Cable → solves  → Remote Control verliert Verbindung mit Motor (5 x) → solved by  ↩",
+		tooltip="Remote Communication Cable → solves  → Remote Control verliert Verbindung mit Motor (5 x) → solved by  ↩"];
+	<MARU-167>	[URL="https://knowhere.atlassian.net/browse/MARU-167",
+		color=3,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>corroded</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-168>	[URL="https://knowhere.atlassian.net/browse/MARU-168",
+		color=5,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>fails completely</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-167> -> <MARU-168>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-167,MARU-168)",
+		label="is caused by X ▼",
+		labeltooltip="fails completely → is caused by X ▼ → corroded → causes X ▲ ↩",
+		minlen=1,
+		tooltip="fails completely → is caused by X ▼ → corroded → causes X ▲ ↩"];
+	<MARU-168> -> <MARU-11>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-11,MARU-168)",
+		label="impacts ",
+		labeltooltip="fails completely → impacts  → front position lights (old) → impacted by  ↩",
+		tooltip="fails completely → impacts  → front position lights (old) → impacted by  ↩"];
+	<MARU-169>	[URL="https://knowhere.atlassian.net/browse/MARU-169",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Ding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11502.png" />
+</TD>
+  <TD COLSPAN='3'><B>Wind</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-169> -> <MARU-149>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-149,MARU-169)",
+		label="contributes to ",
+		labeltooltip="Wind → contributes to  → total sail (area...) → receives from  ↩",
+		tooltip="Wind → contributes to  → total sail (area...) → receives from  ↩"];
+	<MARU-169> -> <MARU-156>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-156,MARU-169)",
+		label="contributes to ",
+		labeltooltip="Wind → contributes to  → Windex → receives from  ↩",
+		tooltip="Wind → contributes to  → Windex → receives from  ↩"];
+	<MARU-169> -> <MARU-32>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-32,MARU-169)",
+		label="contributes to ",
+		labeltooltip="Wind → contributes to  → Swedish Flag → receives from  ↩",
+		tooltip="Wind → contributes to  → Swedish Flag → receives from  ↩"];
+	<MARU-170>	[URL="https://knowhere.atlassian.net/browse/MARU-170",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>mattress</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-171>	[URL="https://knowhere.atlassian.net/browse/MARU-171",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>mattress</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-172>	[URL="https://knowhere.atlassian.net/browse/MARU-172",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>mattress</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-174>	[URL="https://knowhere.atlassian.net/browse/MARU-174",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>carbon mast</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted",
+		tooltip="inner diameter (for turbine) must exactly be 41 mm
+
+length for safety at least 2700 mm, better 3000 mm or more"];
+	<MARU-174> -> <MARU-96>	[arrowhead=diamond,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-96,MARU-174)",
+		labeltooltip="carbon mast → is part of ◆  → turbine mast → contains ◆  ↩",
+		minlen=1,
+		tooltip="carbon mast → is part of ◆  → turbine mast → contains ◆  ↩"];
+	<MARU-175> -> <CMDBG-270>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(CMDBG-270,MARU-175)",
+		label="contributes to ",
+		labeltooltip="1000 W solar panels → contributes to  → 20 A max input → receives from  ↩",
+		tooltip="1000 W solar panels → contributes to  → 20 A max input → receives from  ↩"];
+	<MARU-176> -> <MARU-142>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-142,MARU-176)",
+		label="contributes to ",
+		labeltooltip="48 Volt backbone → contributes to  → 6 kW (120 A) max input → receives from  ↩",
+		tooltip="48 Volt backbone → contributes to  → 6 kW (120 A) max input → receives from  ↩"];
+	<MARU-176> -> <MARU-155>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-155,MARU-176)",
+		label="contributes to ",
+		labeltooltip="48 Volt backbone → contributes to  → 8 A input → receives from  ↩",
+		tooltip="48 Volt backbone → contributes to  → 8 A input → receives from  ↩"];
+	<MARU-177>	[URL="https://knowhere.atlassian.net/browse/MARU-177",
+		color=5,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>Batterien entladen ungleichmäßig</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dashed"];
+	<MARU-4>	[URL="https://knowhere.atlassian.net/browse/MARU-4",
+		color=3,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>E80 batteries [x2]</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="E40/E80/E175 Battery
+Type of battery Lithium iron phosphate battery
+Nominal capacity 40Ah(E40) / *80Ah*(E80) / 175Ah(E175)
+Rated \
+voltage 51.2V
+Rated power 2048Wh(E40) / *4096Wh*(E80) / 8960Wh(E175)
+Charging voltage 57.6V
+Discharging cut-off voltage 41.6V
+Maximum \
+charging current 20A(E40) / *40A*(E80) / 80A(E175)
+Maximum continuous discharging current 40A(E40) / *80A*(E80) / 150A(E175)
+Parallel \
+connection Max 16 E-Series Batteries
+Series connection Not support
+Storage temperature -20~60°C
+Charging temperature 0~55°C
+Discharging \
+temperature -10~55°C
+Dimensions (w handle) 420 x _390 x_ 207mm(E40) / *555 x* *_440 x_* *212mm*(E80) / 500 x _565 x_ 277mm(E175)
+\
+Weight 29kg(E40) / *49kg*(E80) / 87kg(E175)
+Ingress protection rating IP67
+Recommended battery level during storage 45%~50%"];
+	<MARU-177> -> <MARU-4>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-4,MARU-177)",
+		label="impacts ",
+		labeltooltip="Batterien entladen ungleichmäßig → impacts  → E80 batteries [x2] → impacted by  ↩",
+		minlen=1,
+		tooltip="Batterien entladen ungleichmäßig → impacts  → E80 batteries [x2] → impacted by  ↩"];
+	<MARU-178>	[URL="https://knowhere.atlassian.net/browse/MARU-178",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Tabernacle</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="german: Mastfuß"];
+	<MARU-89>	[URL="https://knowhere.atlassian.net/browse/MARU-89",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Mast</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-178> -> <MARU-89>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-89,MARU-178)",
+		label="supports ",
+		labeltooltip="Tabernacle → supports  → Mast → based on  ↩",
+		tooltip="Tabernacle → supports  → Mast → based on  ↩"];
+	<MARU-179>	[URL="https://knowhere.atlassian.net/browse/MARU-179",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Beam #3</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="same strength as #1, #2, #4 + #5 but does not penetrate hull / deck"];
+	<MARU-179> -> <MARU-114>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-114,MARU-179)",
+		label="supports ",
+		labeltooltip="Beam #3 → supports  → Engine Lift → based on  ↩",
+		tooltip="Beam #3 → supports  → Engine Lift → based on  ↩"];
+	<MARU-179> -> <MARU-178>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-178,MARU-179)",
+		label="supports ",
+		labeltooltip="Beam #3 → supports  → Tabernacle → based on  ↩",
+		tooltip="Beam #3 → supports  → Tabernacle → based on  ↩"];
+	<MARU-180>	[URL="https://knowhere.atlassian.net/browse/MARU-180",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>hull (starboard)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-180> -> <MARU-144>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-144,MARU-180)",
+		label="supports ",
+		labeltooltip="hull (starboard) → supports  → Jibstay (Fockstag) → based on  ↩",
+		tooltip="hull (starboard) → supports  → Jibstay (Fockstag) → based on  ↩"];
+	<MARU-180> -> <MARU-179>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-179,MARU-180)",
+		label="supports ",
+		labeltooltip="hull (starboard) → supports  → Beam #3 → based on  ↩",
+		tooltip="hull (starboard) → supports  → Beam #3 → based on  ↩"];
+	<MARU-182>	[URL="https://knowhere.atlassian.net/browse/MARU-182",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>bunk (bow)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-180> -> <MARU-182>	[arrowhead=none,
+		arrowtail=diamond,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-182,MARU-180)",
+		labeltooltip="hull (starboard) → contains (and supports) ◆  → bunk (bow) → part of (and depends on) ◆  ↩",
+		tooltip="hull (starboard) → contains (and supports) ◆  → bunk (bow) → part of (and depends on) ◆  ↩"];
+	<MARU-183>	[URL="https://knowhere.atlassian.net/browse/MARU-183",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>bunk (stern)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-180> -> <MARU-183>	[arrowhead=none,
+		arrowtail=diamond,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-183,MARU-180)",
+		labeltooltip="hull (starboard) → contains (and supports) ◆  → bunk (stern) → part of (and depends on) ◆  ↩",
+		tooltip="hull (starboard) → contains (and supports) ◆  → bunk (stern) → part of (and depends on) ◆  ↩"];
+	<MARU-186>	[URL="https://knowhere.atlassian.net/browse/MARU-186",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>deck house</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-180> -> <MARU-186>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-186,MARU-180)",
+		label="supports ",
+		labeltooltip="hull (starboard) → supports  → deck house → based on  ↩",
+		tooltip="hull (starboard) → supports  → deck house → based on  ↩"];
+	<MARU-90>	[URL="https://knowhere.atlassian.net/browse/MARU-90",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Beam #0</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="the foremost, called *_Netting Beam_* in James Wharram’s blueprint - Sheet 8"];
+	<MARU-180> -> <MARU-90>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-90,MARU-180)",
+		label="supports ",
+		labeltooltip="hull (starboard) → supports  → Beam #0 → based on  ↩",
+		tooltip="hull (starboard) → supports  → Beam #0 → based on  ↩"];
+	<MARU-91>	[URL="https://knowhere.atlassian.net/browse/MARU-91",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Beam #1</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-180> -> <MARU-91>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-91,MARU-180)",
+		label="supports ",
+		labeltooltip="hull (starboard) → supports  → Beam #1 → based on  ↩",
+		tooltip="hull (starboard) → supports  → Beam #1 → based on  ↩"];
+	<MARU-92>	[URL="https://knowhere.atlassian.net/browse/MARU-92",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Beam #2</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-180> -> <MARU-92>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-92,MARU-180)",
+		label="supports ",
+		labeltooltip="hull (starboard) → supports  → Beam #2 → based on  ↩",
+		tooltip="hull (starboard) → supports  → Beam #2 → based on  ↩"];
+	<MARU-93>	[URL="https://knowhere.atlassian.net/browse/MARU-93",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Beam #4</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-180> -> <MARU-93>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-93,MARU-180)",
+		label="supports ",
+		labeltooltip="hull (starboard) → supports  → Beam #4 → based on  ↩",
+		tooltip="hull (starboard) → supports  → Beam #4 → based on  ↩"];
+	<MARU-94>	[URL="https://knowhere.atlassian.net/browse/MARU-94",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Beam #5</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-180> -> <MARU-94>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-94,MARU-180)",
+		label="supports ",
+		labeltooltip="hull (starboard) → supports  → Beam #5 → based on  ↩",
+		tooltip="hull (starboard) → supports  → Beam #5 → based on  ↩"];
+	<MARU-95>	[URL="https://knowhere.atlassian.net/browse/MARU-95",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Beam #6</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="This is an extension. It is not part of Wharram’s design. Backstays were supposed to be attached to stern posts, which would have \
+limited the range for the rudders.
+
+I call it *_Backstay Beam_* now."];
+	<MARU-180> -> <MARU-95>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-95,MARU-180)",
+		label="supports ",
+		labeltooltip="hull (starboard) → supports  → Beam #6 → based on  ↩",
+		tooltip="hull (starboard) → supports  → Beam #6 → based on  ↩"];
+	<MARU-181>	[URL="https://knowhere.atlassian.net/browse/MARU-181",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>hull (portside)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-181> -> <MARU-144>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-144,MARU-181)",
+		label="supports ",
+		labeltooltip="hull (portside) → supports  → Jibstay (Fockstag) → based on  ↩",
+		tooltip="hull (portside) → supports  → Jibstay (Fockstag) → based on  ↩"];
+	<MARU-181> -> <MARU-179>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-179,MARU-181)",
+		label="supports ",
+		labeltooltip="hull (portside) → supports  → Beam #3 → based on  ↩",
+		tooltip="hull (portside) → supports  → Beam #3 → based on  ↩"];
+	<MARU-184>	[URL="https://knowhere.atlassian.net/browse/MARU-184",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>bunk (bow)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-181> -> <MARU-184>	[arrowhead=none,
+		arrowtail=diamond,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-184,MARU-181)",
+		labeltooltip="hull (portside) → contains (and supports) ◆  → bunk (bow) → part of (and depends on) ◆  ↩",
+		tooltip="hull (portside) → contains (and supports) ◆  → bunk (bow) → part of (and depends on) ◆  ↩"];
+	<MARU-185>	[URL="https://knowhere.atlassian.net/browse/MARU-185",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>bunk (stern)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="no mattress - dog’s place or space for storage / clothes"];
+	<MARU-181> -> <MARU-185>	[arrowhead=none,
+		arrowtail=diamond,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-185,MARU-181)",
+		labeltooltip="hull (portside) → contains (and supports) ◆  → bunk (stern) → part of (and depends on) ◆  ↩",
+		minlen=1,
+		tooltip="hull (portside) → contains (and supports) ◆  → bunk (stern) → part of (and depends on) ◆  ↩"];
+	<MARU-187>	[URL="https://knowhere.atlassian.net/browse/MARU-187",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>deck house</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-181> -> <MARU-187>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-187,MARU-181)",
+		label="supports ",
+		labeltooltip="hull (portside) → supports  → deck house → based on  ↩",
+		tooltip="hull (portside) → supports  → deck house → based on  ↩"];
+	<MARU-181> -> <MARU-90>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-90,MARU-181)",
+		label="supports ",
+		labeltooltip="hull (portside) → supports  → Beam #0 → based on  ↩",
+		tooltip="hull (portside) → supports  → Beam #0 → based on  ↩"];
+	<MARU-181> -> <MARU-91>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-91,MARU-181)",
+		label="supports ",
+		labeltooltip="hull (portside) → supports  → Beam #1 → based on  ↩",
+		tooltip="hull (portside) → supports  → Beam #1 → based on  ↩"];
+	<MARU-181> -> <MARU-92>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-92,MARU-181)",
+		label="supports ",
+		labeltooltip="hull (portside) → supports  → Beam #2 → based on  ↩",
+		tooltip="hull (portside) → supports  → Beam #2 → based on  ↩"];
+	<MARU-181> -> <MARU-93>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-93,MARU-181)",
+		label="supports ",
+		labeltooltip="hull (portside) → supports  → Beam #4 → based on  ↩",
+		tooltip="hull (portside) → supports  → Beam #4 → based on  ↩"];
+	<MARU-181> -> <MARU-94>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-94,MARU-181)",
+		label="supports ",
+		labeltooltip="hull (portside) → supports  → Beam #5 → based on  ↩",
+		tooltip="hull (portside) → supports  → Beam #5 → based on  ↩"];
+	<MARU-181> -> <MARU-95>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-95,MARU-181)",
+		label="supports ",
+		labeltooltip="hull (portside) → supports  → Beam #6 → based on  ↩",
+		tooltip="hull (portside) → supports  → Beam #6 → based on  ↩"];
+	<MARU-182> -> <MARU-171>	[arrowhead=odiamond,
+		dir=forward,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-171,MARU-182)",
+		labeltooltip="bunk (bow) → aggregates ◇  → mattress → aggregated in ◇  ↩",
+		tooltip="bunk (bow) → aggregates ◇  → mattress → aggregated in ◇  ↩"];
+	<MARU-183> -> <MARU-172>	[arrowhead=odiamond,
+		dir=forward,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-172,MARU-183)",
+		labeltooltip="bunk (stern) → aggregates ◇  → mattress → aggregated in ◇  ↩",
+		tooltip="bunk (stern) → aggregates ◇  → mattress → aggregated in ◇  ↩"];
+	<MARU-184> -> <MARU-170>	[arrowhead=odiamond,
+		dir=forward,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-170,MARU-184)",
+		labeltooltip="bunk (bow) → aggregates ◇  → mattress → aggregated in ◇  ↩",
+		tooltip="bunk (bow) → aggregates ◇  → mattress → aggregated in ◇  ↩"];
+	<MARU-186> -> <MARU-45>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-45,MARU-186)",
+		label="supports ",
+		labeltooltip="deck house → supports  → Evo Remote Controller → based on  ↩",
+		tooltip="deck house → supports  → Evo Remote Controller → based on  ↩"];
+	<MARU-186> -> <MARU-74>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-74,MARU-186)",
+		label="supports ",
+		labeltooltip="deck house → supports  → navigation light (starboard, LED) → based on  ↩",
+		tooltip="deck house → supports  → navigation light (starboard, LED) → based on  ↩"];
+	<MARU-187> -> <MARU-188>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-188,MARU-187)",
+		label="supports ",
+		labeltooltip="deck house → supports  → navigation light (portside, LED) → based on  ↩",
+		tooltip="deck house → supports  → navigation light (portside, LED) → based on  ↩"];
+	<MARU-189> -> <MARU-188>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-188,MARU-189)",
+		label="contributes to ",
+		labeltooltip="6 → contributes to  → navigation light (portside, LED) → receives from  ↩",
+		tooltip="6 → contributes to  → navigation light (portside, LED) → receives from  ↩"];
+	<MARU-81>	[URL="https://knowhere.atlassian.net/browse/MARU-81",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>windex light (old)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-189> -> <MARU-81>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-81,MARU-189)",
+		label="contributes to ",
+		labeltooltip="6 → contributes to  → windex light (old) → receives from  ↩",
+		tooltip="6 → contributes to  → windex light (old) → receives from  ↩"];
+	<MARU-19>	[URL="https://knowhere.atlassian.net/browse/MARU-19",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Story%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>lift into water</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dashed"];
+	<NAVIGARE-14>	[URL="https://knowhere.atlassian.net/browse/NAVIGARE-14",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Prozess%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10700.png" />
+</TD>
+  <TD COLSPAN='3'><B>moving</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-19> -> <NAVIGARE-14>	[style=invis];
+	<MARU-190> -> <MARU-12>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-12,MARU-190)",
+		label="contributes to ",
+		labeltooltip="2 → contributes to  → back position light → receives from  ↩",
+		tooltip="2 → contributes to  → back position light → receives from  ↩"];
+	<MARU-190> -> <MARU-74>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-74,MARU-190)",
+		label="contributes to ",
+		labeltooltip="2 → contributes to  → navigation light (starboard, LED) → receives from  ↩",
+		tooltip="2 → contributes to  → navigation light (starboard, LED) → receives from  ↩"];
+	<MARU-23>	[URL="https://knowhere.atlassian.net/browse/MARU-23",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>EV-100</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="ordered:
+
+[https://www.hjertmans.se/produkter/elektronik-navigation/autopiloter/raymarine-autopiloter/raymarine-segelbatar/raymarine-rorkultspilot-ev-100|\
+https://www.hjertmans.se/produkter/elektronik-navigation/autopiloter/raymarine-autopiloter/raymarine-segelbatar/raymarine-rorkultspilot-ev-100]"];
+	<MARU-27>	[URL="https://knowhere.atlassian.net/browse/MARU-27",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>EV-1 Sensor</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-23> -> <MARU-27>	[arrowhead=odiamond,
+		dir=forward,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-27,MARU-23)",
+		labeltooltip="EV-100 → aggregates ◇  → EV-1 Sensor → aggregated in ◇  ↩",
+		tooltip="EV-100 → aggregates ◇  → EV-1 Sensor → aggregated in ◇  ↩"];
+	<MARU-23> -> <MARU-28>	[arrowhead=odiamond,
+		dir=forward,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-28,MARU-23)",
+		labeltooltip="EV-100 → aggregates ◇  → ACU-100 → aggregated in ◇  ↩",
+		tooltip="EV-100 → aggregates ◇  → ACU-100 → aggregated in ◇  ↩"];
+	<MARU-29>	[URL="https://knowhere.atlassian.net/browse/MARU-29",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>p70s control head</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-23> -> <MARU-29>	[arrowhead=odiamond,
+		dir=forward,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-29,MARU-23)",
+		labeltooltip="EV-100 → aggregates ◇  → p70s control head → aggregated in ◇  ↩",
+		tooltip="EV-100 → aggregates ◇  → p70s control head → aggregated in ◇  ↩"];
+	<MARU-23> -> <MARU-30>	[arrowhead=odiamond,
+		dir=forward,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-30,MARU-23)",
+		labeltooltip="EV-100 → aggregates ◇  → Tiller drive (actuator) → aggregated in ◇  ↩",
+		tooltip="EV-100 → aggregates ◇  → Tiller drive (actuator) → aggregated in ◇  ↩"];
+	<MARU-27> -> <MARU-28>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-28,MARU-27)",
+		label="serves ",
+		labeltooltip="EV-1 Sensor → serves  → ACU-100 → requires  ↩",
+		tooltip="EV-1 Sensor → serves  → ACU-100 → requires  ↩"];
+	<MARU-28> -> <MARU-30>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-30,MARU-28)",
+		label="controls ",
+		labeltooltip="ACU-100 → controls  → Tiller drive (actuator) → controlled by  ↩",
+		tooltip="ACU-100 → controls  → Tiller drive (actuator) → controlled by  ↩"];
+	<MARU-29> -> <MARU-28>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-28,MARU-29)",
+		label="controls ",
+		labeltooltip="p70s control head → controls  → ACU-100 → controlled by  ↩",
+		tooltip="p70s control head → controls  → ACU-100 → controlled by  ↩"];
+	<MARU-30> -> <MARU-119>	[dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-119,MARU-30)",
+		label="serves ",
+		labeltooltip="Tiller drive (actuator) → serves  → | → requires  ↩",
+		tooltip="Tiller drive (actuator) → serves  → | → requires  ↩"];
+	<MARU-30> -> <MARU-84>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-84,MARU-30)",
+		label="serves ",
+		labeltooltip="Tiller drive (actuator) → serves  → Tiller (x2) → requires  ↩",
+		tooltip="Tiller drive (actuator) → serves  → Tiller (x2) → requires  ↩"];
+	<MARU-34>	[URL="https://knowhere.atlassian.net/browse/MARU-34",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>deck light</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted",
+		tooltip="deck light has halogen or other non-LED light
+
+housing is riveted to mast"];
+	<MARU-35> -> <MARU-121>	[dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-121,MARU-35)",
+		label="serves ",
+		labeltooltip="jib roller furlex → serves  → | → requires  ↩",
+		tooltip="jib roller furlex → serves  → | → requires  ↩"];
+	<MARU-35> -> <MARU-143>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-143,MARU-35)",
+		label="supports ",
+		labeltooltip="jib roller furlex → supports  → Jib Sail → based on  ↩",
+		tooltip="jib roller furlex → supports  → Jib Sail → based on  ↩"];
+	<MARU-35> -> <MARU-147>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-147,MARU-35)",
+		label="impacts ",
+		labeltooltip="jib roller furlex → impacts  → Storm Sail → impacted by  ↩",
+		tooltip="jib roller furlex → impacts  → Storm Sail → impacted by  ↩"];
+	<MARU-36>	[URL="https://knowhere.atlassian.net/browse/MARU-36",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22energy%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>charging max 2 kW</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="40 A max charging current per battery"];
+	<MARU-36> -> <MARU-4>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-4,MARU-36)",
+		label="contributes to ",
+		labeltooltip="charging max 2 kW → contributes to  → E80 batteries [x2] → receives from  ↩",
+		tooltip="charging max 2 kW → contributes to  → E80 batteries [x2] → receives from  ↩"];
+	<MARU-37> -> <MARU-36>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-36,MARU-37)",
+		label="supplies ",
+		labeltooltip="| → supplies  → charging max 2 kW → supplied by  ↩",
+		tooltip="| → supplies  → charging max 2 kW → supplied by  ↩"];
+	<MARU-38>	[URL="https://knowhere.atlassian.net/browse/MARU-38",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Story%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>Fockschot Führung verbessern</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dashed"];
+	<MARU-38> -> <MARU-63>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-63,MARU-38)",
+		label="supports ",
+		labeltooltip="Fockschot Führung verbessern → supports  → Jib Sheet [x2] → based on  ↩",
+		minlen=1,
+		tooltip="Fockschot Führung verbessern → supports  → Jib Sheet [x2] → based on  ↩"];
+	<MARU-4> -> <MARU-140>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-140,MARU-4)",
+		label="contributes to ",
+		labeltooltip="E80 batteries [x2] → contributes to  → 8 kW (160 A) max combined output → receives from  ↩",
+		tooltip="E80 batteries [x2] → contributes to  → 8 kW (160 A) max combined output → receives from  ↩"];
+	<MARU-4> -> <MARU-160>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-160,MARU-4)",
+		label="supports ",
+		labeltooltip="E80 batteries [x2] → supports  → battery communication cable → based on  ↩",
+		tooltip="E80 batteries [x2] → supports  → battery communication cable → based on  ↩"];
+	<MARU-40> -> <MARU-45>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-45,MARU-40)",
+		label="impacts ",
+		labeltooltip="Remote Control verliert Verbindung mit Motor (5 x) → impacts  → Evo Remote Controller → impacted by  ↩",
+		tooltip="Remote Control verliert Verbindung mit Motor (5 x) → impacts  → Evo Remote Controller → impacted by  ↩"];
+	<MARU-42> -> <MARU-4>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-4,MARU-42)",
+		label="impacts ",
+		labeltooltip="Batterien entladen ungleichmäßig  → impacts  → E80 batteries [x2] → impacted by  ↩",
+		tooltip="Batterien entladen ungleichmäßig  → impacts  → E80 batteries [x2] → impacted by  ↩"];
+	<MARU-44>	[URL="https://knowhere.atlassian.net/browse/MARU-44",
+		color=5,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>Wackelkontakt</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-44> -> <MARU-11>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-11,MARU-44)",
+		label="impacts ",
+		labeltooltip="Wackelkontakt → impacts  → front position lights (old) → impacted by  ↩",
+		minlen=1,
+		tooltip="Wackelkontakt → impacts  → front position lights (old) → impacted by  ↩"];
+	<MARU-45> -> <MARU-166>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-166,MARU-45)",
+		label="supports ",
+		labeltooltip="Evo Remote Controller → supports  → Remote Communication Cable → based on  ↩",
+		tooltip="Evo Remote Controller → supports  → Remote Communication Cable → based on  ↩"];
+	<MARU-45> -> <MARU-5>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-5,MARU-45)",
+		label="controls ",
+		labeltooltip="Evo Remote Controller → controls  → Navy 6.0 EVO → controlled by  ↩",
+		tooltip="Evo Remote Controller → controls  → Navy 6.0 EVO → controlled by  ↩"];
+	<MARU-46> -> <MARU-125>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-125,MARU-46)",
+		label="contributes to ",
+		labeltooltip="recuperation → contributes to  → 0 - 20 A → receives from  ↩",
+		tooltip="recuperation → contributes to  → 0 - 20 A → receives from  ↩"];
+	<MARU-47>	[URL="https://knowhere.atlassian.net/browse/MARU-47",
+		color=5,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>Travellerklemmen lösen sich</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dashed"];
+	<MARU-98>	[URL="https://knowhere.atlassian.net/browse/MARU-98",
+		color=3,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Traveller (main)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-47> -> <MARU-98>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-98,MARU-47)",
+		label="impacts ",
+		labeltooltip="Travellerklemmen lösen sich → impacts  → Traveller (main) → impacted by  ↩",
+		minlen=1,
+		tooltip="Travellerklemmen lösen sich → impacts  → Traveller (main) → impacted by  ↩"];
+	<MARU-48>	[URL="https://knowhere.atlassian.net/browse/MARU-48",
+		color=5,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>Motor verdreht sich (etwas) während der Fahrt</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dashed"];
+	<MARU-48> -> <MARU-5>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-5,MARU-48)",
+		label="impacts ",
+		labeltooltip="Motor verdreht sich (etwas) während der Fahrt → impacts  → Navy 6.0 EVO → impacted by  ↩",
+		minlen=1,
+		tooltip="Motor verdreht sich (etwas) während der Fahrt → impacts  → Navy 6.0 EVO → impacted by  ↩"];
+	<MARU-49>	[URL="https://knowhere.atlassian.net/browse/MARU-49",
+		color=5,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>Motorkabel scheuert am Lift</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-49> -> <MARU-5>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-5,MARU-49)",
+		label="impacts ",
+		labeltooltip="Motorkabel scheuert am Lift → impacts  → Navy 6.0 EVO → impacted by  ↩",
+		minlen=2,
+		tooltip="Motorkabel scheuert am Lift → impacts  → Navy 6.0 EVO → impacted by  ↩"];
+	<MARU-5> -> <MARU-141>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-141,MARU-5)",
+		label="serves ",
+		labeltooltip="Navy 6.0 EVO → serves  → Driving (motor) → requires  ↩",
+		tooltip="Navy 6.0 EVO → serves  → Driving (motor) → requires  ↩"];
+	<MARU-5> -> <MARU-166>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-166,MARU-5)",
+		label="supports ",
+		labeltooltip="Navy 6.0 EVO → supports  → Remote Communication Cable → based on  ↩",
+		tooltip="Navy 6.0 EVO → supports  → Remote Communication Cable → based on  ↩"];
+	<MARU-5> -> <MARU-46>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-46,MARU-5)",
+		label="serves ",
+		labeltooltip="Navy 6.0 EVO → serves  → recuperation → requires  ↩",
+		tooltip="Navy 6.0 EVO → serves  → recuperation → requires  ↩"];
+	<MARU-5> -> <MARU-87>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-87,MARU-5)",
+		label="serves ",
+		labeltooltip="Navy 6.0 EVO → serves  → move engine to the back → requires  ↩",
+		tooltip="Navy 6.0 EVO → serves  → move engine to the back → requires  ↩"];
+	<MARU-50>	[URL="https://knowhere.atlassian.net/browse/MARU-50",
+		color=5,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>Kippvorrichtung klappert bei Lastwechsel</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-50> -> <MARU-5>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-5,MARU-50)",
+		label="impacts ",
+		labeltooltip="Kippvorrichtung klappert bei Lastwechsel → impacts  → Navy 6.0 EVO → impacted by  ↩",
+		minlen=3,
+		tooltip="Kippvorrichtung klappert bei Lastwechsel → impacts  → Navy 6.0 EVO → impacted by  ↩"];
+	<MARU-52>	[URL="https://knowhere.atlassian.net/browse/MARU-52",
+		color=4,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>Rutscher fallen aus Mast (2 Stück)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-52> -> <MARU-99>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-99,MARU-52)",
+		label="impacts ",
+		labeltooltip="Rutscher fallen aus Mast (2 Stück) → impacts  → Main Sail → impacted by  ↩",
+		tooltip="Rutscher fallen aus Mast (2 Stück) → impacts  → Main Sail → impacted by  ↩"];
+	<MARU-53>	[URL="https://knowhere.atlassian.net/browse/MARU-53",
+		color=4,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>Rutscher fällt aus Mast beim Setzen</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-53> -> <MARU-99>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-99,MARU-53)",
+		label="impacts ",
+		labeltooltip="Rutscher fällt aus Mast beim Setzen → impacts  → Main Sail → impacted by  ↩",
+		tooltip="Rutscher fällt aus Mast beim Setzen → impacts  → Main Sail → impacted by  ↩"];
+	<MARU-54>	[URL="https://knowhere.atlassian.net/browse/MARU-54",
+		color=5,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>Blech hält Rutscher nicht zuverlässig</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-54> -> <MARU-52>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-52,MARU-54)",
+		label="impacts ",
+		labeltooltip="Blech hält Rutscher nicht zuverlässig → impacts  → Rutscher fallen aus Mast (2 Stück) → impacted by  ↩",
+		tooltip="Blech hält Rutscher nicht zuverlässig → impacts  → Rutscher fallen aus Mast (2 Stück) → impacted by  ↩"];
+	<MARU-54> -> <MARU-53>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-53,MARU-54)",
+		label="impacts ",
+		labeltooltip="Blech hält Rutscher nicht zuverlässig → impacts  → Rutscher fällt aus Mast beim Setzen → impacted by  ↩",
+		tooltip="Blech hält Rutscher nicht zuverlässig → impacts  → Rutscher fällt aus Mast beim Setzen → impacted by  ↩"];
+	<MARU-55>	[URL="https://knowhere.atlassian.net/browse/MARU-55",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>conch shell</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-55> -> <MARU-139>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-139,MARU-55)",
+		label="contributes to ",
+		labeltooltip="conch shell → contributes to  → Sailing → receives from  ↩",
+		minlen=1,
+		tooltip="conch shell → contributes to  → Sailing → receives from  ↩"];
+	<MARU-58> -> <MARU-128>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-128,MARU-58)",
+		label="contributes to ",
+		labeltooltip="12 V to 48 V Step-up Converter → contributes to  → 48 V x 3.6 A output → receives from  ↩",
+		tooltip="12 V to 48 V Step-up Converter → contributes to  → 48 V x 3.6 A output → receives from  ↩"];
+	<MARU-59> -> <MARU-154>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-154,MARU-59)",
+		label="contributes to ",
+		labeltooltip="48 V to 12 V Step-down Converter → contributes to  → 30 A output → receives from  ↩",
+		tooltip="48 V to 12 V Step-down Converter → contributes to  → 30 A output → receives from  ↩"];
+	<MARU-63> -> <MARU-145>	[dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-145,MARU-63)",
+		label="supports ",
+		labeltooltip="Jib Sheet [x2] → supports  → | → based on  ↩",
+		tooltip="Jib Sheet [x2] → supports  → | → based on  ↩"];
+	<MARU-64>	[URL="https://knowhere.atlassian.net/browse/MARU-64",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>Genoa Furling Line</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="diameter = 6 mm"];
+	<MARU-64> -> <MARU-120>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-120,MARU-64)",
+		label="serves ",
+		labeltooltip="Genoa Furling Line → serves  → sailing single-handed no-stress → requires  ↩",
+		tooltip="Genoa Furling Line → serves  → sailing single-handed no-stress → requires  ↩"];
+	<MARU-64> -> <MARU-150>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-150,MARU-64)",
+		label="supports ",
+		labeltooltip="Genoa Furling Line → supports  → Genoa Furling System → based on  ↩",
+		tooltip="Genoa Furling Line → supports  → Genoa Furling System → based on  ↩"];
+	<MARU-65>	[URL="https://knowhere.atlassian.net/browse/MARU-65",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>Genoa Sheet [x2]</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="Klüverschot
+
+diameter = 15 mm"];
+	<MARU-65> -> <MARU-152>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-152,MARU-65)",
+		label="supports ",
+		labeltooltip="Genoa Sheet [x2] → supports  → Genoa Sail → based on  ↩",
+		tooltip="Genoa Sheet [x2] → supports  → Genoa Sail → based on  ↩"];
+	<MARU-66>	[URL="https://knowhere.atlassian.net/browse/MARU-66",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Cord%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10312.png" />
+</TD>
+  <TD COLSPAN='3'><B>Main Sheet</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="Großschot
+
+diameter = 14 mm (started life at 12 mm)
+blue rope"];
+	<MARU-66> -> <MARU-157>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-157,MARU-66)",
+		label="supports ",
+		labeltooltip="Main Sheet → supports  → Boom → based on  ↩",
+		tooltip="Main Sheet → supports  → Boom → based on  ↩"];
+	<MARU-67>	[URL="https://knowhere.atlassian.net/browse/MARU-67",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Cord%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10312.png" />
+</TD>
+  <TD COLSPAN='3'><B>Traveller Sheet [x2]</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip=""];
+	<MARU-68> -> <MARU-135>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-135,MARU-68)",
+		label="contributes to ",
+		labeltooltip="Rutland Controller - Battery cable → contributes to  → 12 Volt backbone → receives from  ↩",
+		tooltip="Rutland Controller - Battery cable → contributes to  → 12 Volt backbone → receives from  ↩"];
+	<MARU-69> -> <MARU-133>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-133,MARU-69)",
+		label="contributes to ",
+		labeltooltip="Rutland Turbine - Controller cable → contributes to  → Rutland Hybrid Controller → receives from  ↩",
+		tooltip="Rutland Turbine - Controller cable → contributes to  → Rutland Hybrid Controller → receives from  ↩"];
+	<MARU-70>	[URL="https://knowhere.atlassian.net/browse/MARU-70",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Story%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>relocate main halyard clutch</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted",
+		tooltip="{quote}relocate halyard clutch (Fallenstopper) Main Sail to stern end of mast foot
+
+so that I can more easily set sail
+
+or retrieve \
+sail  
+
+from a position that is closer to the cockpit benches{quote}
+
+some potential products:
+
+[https://www.der-wassersportladen.de/\
+spinlock-t38-2-fall-umlenker.html|https://www.der-wassersportladen.de/spinlock-t38-2-fall-umlenker.html|smart-link] 
+
+[https://www.svb.de/\
+de/spinlock-fallenstopper-xts-2-fach-8-14-mm.html|https://www.svb.de/de/spinlock-fallenstopper-xts-2-fach-8-14-mm.html|smart-link]
+
+\
+or [https://www.v-rigger.com/epages/es140267.sf/en_GB/?ObjectPath=/Shops/es140267/Products/SPINZR1014|https://www.v-rigger.com/epages/\
+es140267.sf/en_GB/?ObjectPath=/Shops/es140267/Products/SPINZR1014|smart-link] 
+
+_(Spinlock recommended by Rolf)_
+
+Mind the *reefing* \
+use case: keep existing stopper for main sail so that I can do all reefing actions in one place by the mast?
+
+I have to handle the *\
+reefing hook* in place anyway (between mast and boom) so there is  [...]"];
+	<MARU-70> -> <MARU-120>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-120,MARU-70)",
+		label="serves ",
+		labeltooltip="relocate main halyard clutch → serves  → sailing single-handed no-stress → requires  ↩",
+		tooltip="relocate main halyard clutch → serves  → sailing single-handed no-stress → requires  ↩"];
+	<MARU-70> -> <MARU-122>	[color=grey,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-122,MARU-70)",
+		label="relates to ",
+		labeltooltip="relocate main halyard clutch → relates to  → relocate jib halyard clutch → relates to  ↩",
+		tooltip="relocate main halyard clutch → relates to  → relocate jib halyard clutch → relates to  ↩"];
+	<MARU-71>	[URL="https://knowhere.atlassian.net/browse/MARU-71",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Story%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>relocate Genoa sheets</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dashed"];
+	<MARU-71> -> <MARU-65>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-65,MARU-71)",
+		label="supports ",
+		labeltooltip="relocate Genoa sheets → supports  → Genoa Sheet [x2] → based on  ↩",
+		tooltip="relocate Genoa sheets → supports  → Genoa Sheet [x2] → based on  ↩"];
+	<MARU-79>	[URL="https://knowhere.atlassian.net/browse/MARU-79",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Genoa Cleat Block [x2]</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="trying these (quite large, fit better to Genoa than Jib):
+
+[https://www.benns.se/block-60-enkel-skotlas|https://www.benns.se/block-60-enkel-skotlas|\
+smart-link] "];
+	<MARU-71> -> <MARU-79>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-79,MARU-71)",
+		label="supplies ",
+		labeltooltip="relocate Genoa sheets → supplies  → Genoa Cleat Block [x2] → supplied by  ↩",
+		tooltip="relocate Genoa sheets → supplies  → Genoa Cleat Block [x2] → supplied by  ↩"];
+	<MARU-72>	[URL="https://knowhere.atlassian.net/browse/MARU-72",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Story%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>relocate Jib sheets</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dashed"];
+	<MARU-72> -> <MARU-80>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-80,MARU-72)",
+		label="supplies ",
+		labeltooltip="relocate Jib sheets → supplies  → Jib Cleat Block [x2] → supplied by  ↩",
+		minlen=1,
+		tooltip="relocate Jib sheets → supplies  → Jib Cleat Block [x2] → supplied by  ↩"];
+	<MARU-75> -> <MARU-4>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-4,MARU-75)",
+		label="supports ",
+		labeltooltip="E80 battery shelter → supports  → E80 batteries [x2] → based on  ↩",
+		tooltip="E80 battery shelter → supports  → E80 batteries [x2] → based on  ↩"];
+	<MARU-76>	[URL="https://knowhere.atlassian.net/browse/MARU-76",
+		color=5,
+		colorscheme=ylorrd5,
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Tiller Extension 2021 x2</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="für betriebssicheres Steuern, d.h. ohne dass sich der Ausleger verhaken kann
+
+Bezugsquellen:
+
+818kr [https://www.benns.se/dacksutrustning/\
+rorkultsforlangare/rorkultsforlangare-1070-1770mm|https://www.benns.se/dacksutrustning/rorkultsforlangare/rorkultsforlangare-1070-1770mm|\
+smart-link] "];
+	<MARU-76> -> <MARU-109>	[arrowhead=onormalonormal,
+		color="",
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-109,MARU-76)",
+		labeltooltip="Tiller Extension 2021 x2 → preceeds  → Tiller Extension 2022 x2 → follows  ↩",
+		penwidth=1,
+		tooltip="Tiller Extension 2021 x2 → preceeds  → Tiller Extension 2022 x2 → follows  ↩"];
+	<MARU-76> -> <MARU-110>	[color=4,
+		colorscheme=ylorrd5,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-110,MARU-76)",
+		label="impacts ",
+		labeltooltip="Tiller Extension 2021 x2 → impacts  → BLOCKS → impacted by  ↩",
+		tooltip="Tiller Extension 2021 x2 → impacts  → BLOCKS → impacted by  ↩"];
+	<MARU-76> -> <MARU-84>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-84,MARU-76)",
+		label="serves ",
+		labeltooltip="Tiller Extension 2021 x2 → serves  → Tiller (x2) → requires  ↩",
+		tooltip="Tiller Extension 2021 x2 → serves  → Tiller (x2) → requires  ↩"];
+	<MARU-77>	[URL="https://knowhere.atlassian.net/browse/MARU-77",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Außenborder Yamaha 15 PS</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dashed"];
+	<MARU-77> -> <MARU-5>	[arrowhead=onormalonormal,
+		color="",
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-5,MARU-77)",
+		labeltooltip="Außenborder Yamaha 15 PS → preceeds  → Navy 6.0 EVO → follows  ↩",
+		minlen=4,
+		penwidth=1,
+		tooltip="Außenborder Yamaha 15 PS → preceeds  → Navy 6.0 EVO → follows  ↩"];
+	<MARU-78>	[URL="https://knowhere.atlassian.net/browse/MARU-78",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>12V Service Battery</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip=""];
+	<MARU-78> -> <MARU-135>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-135,MARU-78)",
+		label="contributes to ",
+		labeltooltip="12V Service Battery → contributes to  → 12 Volt backbone → receives from  ↩",
+		minlen=1,
+		tooltip="12V Service Battery → contributes to  → 12 Volt backbone → receives from  ↩"];
+	<MARU-79> -> <MARU-120>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-120,MARU-79)",
+		label="serves ",
+		labeltooltip="Genoa Cleat Block [x2] → serves  → sailing single-handed no-stress → requires  ↩",
+		tooltip="Genoa Cleat Block [x2] → serves  → sailing single-handed no-stress → requires  ↩"];
+	<MARU-79> -> <MARU-65>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-65,MARU-79)",
+		label="supports ",
+		labeltooltip="Genoa Cleat Block [x2] → supports  → Genoa Sheet [x2] → based on  ↩",
+		tooltip="Genoa Cleat Block [x2] → supports  → Genoa Sheet [x2] → based on  ↩"];
+	<MARU-80> -> <MARU-120>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-120,MARU-80)",
+		label="serves ",
+		labeltooltip="Jib Cleat Block [x2] → serves  → sailing single-handed no-stress → requires  ↩",
+		tooltip="Jib Cleat Block [x2] → serves  → sailing single-handed no-stress → requires  ↩"];
+	<MARU-80> -> <MARU-63>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-63,MARU-80)",
+		label="supports ",
+		labeltooltip="Jib Cleat Block [x2] → supports  → Jib Sheet [x2] → based on  ↩",
+		tooltip="Jib Cleat Block [x2] → supports  → Jib Sheet [x2] → based on  ↩"];
+	<MARU-81> -> <MARU-156>	[arrowhead=diamond,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-156,MARU-81)",
+		labeltooltip="windex light (old) → is part of ◆  → Windex → contains ◆  ↩",
+		tooltip="windex light (old) → is part of ◆  → Windex → contains ◆  ↩"];
+	<MARU-82>	[URL="https://knowhere.atlassian.net/browse/MARU-82",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Windex Light (LED)</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="dieses Produkt vorrätig::
+
+[https://www.benns.se/windex-light-in-led|https://www.benns.se/windex-light-in-led|smart-link] "];
+	<MARU-81> -> <MARU-82>	[arrowhead=onormalonormal,
+		color="",
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-82,MARU-81)",
+		labeltooltip="windex light (old) → preceeds  → Windex Light (LED) → follows  ↩",
+		penwidth=1,
+		tooltip="windex light (old) → preceeds  → Windex Light (LED) → follows  ↩"];
+	<MARU-82> -> <MARU-156>	[arrowhead=diamond,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-156,MARU-82)",
+		labeltooltip="Windex Light (LED) → is part of ◆  → Windex → contains ◆  ↩",
+		tooltip="Windex Light (LED) → is part of ◆  → Windex → contains ◆  ↩"];
+	<MARU-84> -> <MARU-107>	[arrowhead=diamond,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-107,MARU-84)",
+		labeltooltip="Tiller (x2) → is part of ◆  → Tiller connector assembly 2021 → contains ◆  ↩",
+		tooltip="Tiller (x2) → is part of ◆  → Tiller connector assembly 2021 → contains ◆  ↩"];
+	<MARU-84> -> <MARU-108>	[arrowhead=diamond,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-108,MARU-84)",
+		labeltooltip="Tiller (x2) → is part of ◆  → Tiller connector assembly 2022 → contains ◆  ↩",
+		tooltip="Tiller (x2) → is part of ◆  → Tiller connector assembly 2022 → contains ◆  ↩"];
+	<MARU-85>	[URL="https://knowhere.atlassian.net/browse/MARU-85",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Tiller connector bar</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="aluminum; length (approx.) 242 cm"];
+	<MARU-85> -> <MARU-107>	[arrowhead=diamond,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-107,MARU-85)",
+		labeltooltip="Tiller connector bar → is part of ◆  → Tiller connector assembly 2021 → contains ◆  ↩",
+		tooltip="Tiller connector bar → is part of ◆  → Tiller connector assembly 2021 → contains ◆  ↩"];
+	<MARU-85> -> <MARU-108>	[arrowhead=diamond,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-108,MARU-85)",
+		labeltooltip="Tiller connector bar → is part of ◆  → Tiller connector assembly 2022 → contains ◆  ↩",
+		tooltip="Tiller connector bar → is part of ◆  → Tiller connector assembly 2022 → contains ◆  ↩"];
+	<MARU-86> -> <MARU-108>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-108,MARU-86)",
+		label="supplies ",
+		labeltooltip="move tiller connector under tillers → supplies  → Tiller connector assembly 2022 → supplied by  ↩",
+		tooltip="move tiller connector under tillers → supplies  → Tiller connector assembly 2022 → supplied by  ↩"];
+	<MARU-88>	[URL="https://knowhere.atlassian.net/browse/MARU-88",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Story%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>trim mast further back </B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted",
+		tooltip="Jon and I found that weight in the back helps to keep course (otherwise turning into the wind)
+
+So trimming by weight works.
+
+\
+When I can't trim by weight then I would like to trim the center of effort further back, thus moving the masttop back."];
+	<MARU-89> -> <MARU-103>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-103,MARU-89)",
+		label="serves ",
+		labeltooltip="Mast → serves  → VHF antenna → requires  ↩",
+		tooltip="Mast → serves  → VHF antenna → requires  ↩"];
+	<MARU-89> -> <MARU-113>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-113,MARU-89)",
+		label="supports ",
+		labeltooltip="Mast → supports  → Deck Light as LED → based on  ↩",
+		minlen=1,
+		tooltip="Mast → supports  → Deck Light as LED → based on  ↩"];
+	<MARU-89> -> <MARU-13>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-13,MARU-89)",
+		label="serves ",
+		labeltooltip="Mast → serves  → engine light → requires  ↩",
+		tooltip="Mast → serves  → engine light → requires  ↩"];
+	<MARU-89> -> <MARU-144>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-144,MARU-89)",
+		label="supports ",
+		labeltooltip="Mast → supports  → Jibstay (Fockstag) → based on  ↩",
+		tooltip="Mast → supports  → Jibstay (Fockstag) → based on  ↩"];
+	<MARU-89> -> <MARU-146>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-146,MARU-89)",
+		label="supports ",
+		labeltooltip="Mast → supports  → Jib Halyard → based on  ↩",
+		tooltip="Mast → supports  → Jib Halyard → based on  ↩"];
+	<MARU-89> -> <MARU-151>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-151,MARU-89)",
+		label="supports ",
+		labeltooltip="Mast → supports  → Genoa Stay (Klüverstag) → based on  ↩",
+		tooltip="Mast → supports  → Genoa Stay (Klüverstag) → based on  ↩"];
+	<MARU-89> -> <MARU-153>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-153,MARU-89)",
+		label="supports ",
+		labeltooltip="Mast → supports  → Backstay [x2] → based on  ↩",
+		tooltip="Mast → supports  → Backstay [x2] → based on  ↩"];
+	<MARU-89> -> <MARU-156>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-156,MARU-89)",
+		label="supports ",
+		labeltooltip="Mast → supports  → Windex → based on  ↩",
+		tooltip="Mast → supports  → Windex → based on  ↩"];
+	<MARU-89> -> <MARU-34>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-34,MARU-89)",
+		label="serves ",
+		labeltooltip="Mast → serves  → deck light → requires  ↩",
+		minlen=2,
+		tooltip="Mast → serves  → deck light → requires  ↩"];
+	<MARU-89> -> <MARU-73>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-73,MARU-89)",
+		label="serves ",
+		labeltooltip="Mast → serves  → engine light LED → requires  ↩",
+		tooltip="Mast → serves  → engine light LED → requires  ↩"];
+	<MARU-89> -> <MARU-88>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-88,MARU-89)",
+		label="serves ",
+		labeltooltip="Mast → serves  → trim mast further back  → requires  ↩",
+		minlen=3,
+		tooltip="Mast → serves  → trim mast further back  → requires  ↩"];
+	<MARU-89> -> <MARU-99>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-99,MARU-89)",
+		label="serves ",
+		labeltooltip="Mast → serves  → Main Sail → requires  ↩",
+		tooltip="Mast → serves  → Main Sail → requires  ↩"];
+	<MARU-9>	[URL="https://knowhere.atlassian.net/browse/MARU-9",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Inventar%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>eProp charger</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="E Batterie-Ladegerät 30A, awn sin: 901612
+
+[https://www.epropulsion.com/product-page/e-series-battery-charger-20a-l/|https://www.epropulsion.com/\
+product-page/e-series-battery-charger-20a-l/]
+
+Max output current (48V): 30A
+Max input current (220V): 9A
+
+_should match power to \
+charge total capacity of 48 V batteries over night_
+
+charges 8 khW in 5.5 hours"];
+	<MARU-9> -> <MARU-126>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-126,MARU-9)",
+		label="contributes to ",
+		labeltooltip="eProp charger → contributes to  → 30 A output → receives from  ↩",
+		tooltip="eProp charger → contributes to  → 30 A output → receives from  ↩"];
+	<MARU-90> -> <MARU-11>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-11,MARU-90)",
+		label="serves ",
+		labeltooltip="Beam #0 → serves  → front position lights (old) → requires  ↩",
+		tooltip="Beam #0 → serves  → front position lights (old) → requires  ↩"];
+	<MARU-90> -> <MARU-151>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-151,MARU-90)",
+		label="supports ",
+		labeltooltip="Beam #0 → supports  → Genoa Stay (Klüverstag) → based on  ↩",
+		tooltip="Beam #0 → supports  → Genoa Stay (Klüverstag) → based on  ↩"];
+	<MARU-92> -> <MARU-178>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-178,MARU-92)",
+		label="supports ",
+		labeltooltip="Beam #2 → supports  → Tabernacle → based on  ↩",
+		tooltip="Beam #2 → supports  → Tabernacle → based on  ↩"];
+	<MARU-93> -> <MARU-114>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-114,MARU-93)",
+		label="supports ",
+		labeltooltip="Beam #4 → supports  → Engine Lift → based on  ↩",
+		tooltip="Beam #4 → supports  → Engine Lift → based on  ↩"];
+	<MARU-93> -> <MARU-178>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-178,MARU-93)",
+		label="supports ",
+		labeltooltip="Beam #4 → supports  → Tabernacle → based on  ↩",
+		tooltip="Beam #4 → supports  → Tabernacle → based on  ↩"];
+	<MARU-94> -> <MARU-116>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-116,MARU-94)",
+		label="supports ",
+		labeltooltip="Beam #5 → supports  → engine hold → based on  ↩",
+		tooltip="Beam #5 → supports  → engine hold → based on  ↩"];
+	<MARU-94> -> <MARU-98>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-98,MARU-94)",
+		label="supports ",
+		labeltooltip="Beam #5 → supports  → Traveller (main) → based on  ↩",
+		tooltip="Beam #5 → supports  → Traveller (main) → based on  ↩"];
+	<MARU-95> -> <MARU-105>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-105,MARU-95)",
+		label="serves ",
+		labeltooltip="Beam #6 → serves  → tiller drive mount → requires  ↩",
+		tooltip="Beam #6 → serves  → tiller drive mount → requires  ↩"];
+	<MARU-95> -> <MARU-12>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-12,MARU-95)",
+		label="serves ",
+		labeltooltip="Beam #6 → serves  → back position light → requires  ↩",
+		tooltip="Beam #6 → serves  → back position light → requires  ↩"];
+	<MARU-95> -> <MARU-153>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-153,MARU-95)",
+		label="supports ",
+		labeltooltip="Beam #6 → supports  → Backstay [x2] → based on  ↩",
+		tooltip="Beam #6 → supports  → Backstay [x2] → based on  ↩"];
+	<MARU-95> -> <MARU-96>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-96,MARU-95)",
+		label="serves ",
+		labeltooltip="Beam #6 → serves  → turbine mast → requires  ↩",
+		tooltip="Beam #6 → serves  → turbine mast → requires  ↩"];
+	<MARU-96> -> <MARU-10>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-10,MARU-96)",
+		label="serves ",
+		labeltooltip="turbine mast → serves  → wind turbine → requires  ↩",
+		tooltip="turbine mast → serves  → wind turbine → requires  ↩"];
+	<MARU-97>	[URL="https://knowhere.atlassian.net/browse/MARU-97",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>S100</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted",
+		tooltip="supplier source:
+
+299 € until 2021-12-29
+
+https://www.hjertmans.se/produkter/elektronik-navigation/autopiloter/autopilot-tillbehor/\
+fjarrkontroll-tradlos-s100-inkl-konverterplint"];
+	<MARU-97> -> <MARU-28>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-28,MARU-97)",
+		label="controls ",
+		labeltooltip="S100 → controls  → ACU-100 → controlled by  ↩",
+		minlen=1,
+		tooltip="S100 → controls  → ACU-100 → controlled by  ↩"];
+	<MARU-98> -> <MARU-66>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-66,MARU-98)",
+		label="serves ",
+		labeltooltip="Traveller (main) → serves  → Main Sheet → requires  ↩",
+		tooltip="Traveller (main) → serves  → Main Sheet → requires  ↩"];
+	<MARU-98> -> <MARU-67>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-67,MARU-98)",
+		label="supports ",
+		labeltooltip="Traveller (main) → supports  → Traveller Sheet [x2] → based on  ↩",
+		minlen=1,
+		tooltip="Traveller (main) → supports  → Traveller Sheet [x2] → based on  ↩"];
+	<MARU-99> -> <MARU-148>	[arrowtail=odiamond,
+		dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-148,MARU-99)",
+		labeltooltip="Main Sail → ist gebündelt in ◇  → + → aggregiert ◇  ↩",
+		tooltip="Main Sail → ist gebündelt in ◇  → + → aggregiert ◇  ↩"];
+	<NAVIGARE-17>	[URL="https://knowhere.atlassian.net/browse/NAVIGARE-17",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Asset%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Mung Beans</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled,dotted",
+		tooltip="for sprouting → fresh vitamins from dry storage
+
+dry organic mung beans can be kept forever
+
+two spoonfuls (32 g) are a good serve \
+to grow in a small jar
+
+→ 15 serves from a packs of 500 g → sprouts for one month for 1-2 people"];
+	<NAVIGARE-14> -> <NAVIGARE-17>	[style=invis];
+	<OTHER-11>	[URL="https://knowhere.atlassian.net/browse/OTHER-11",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Product%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10300.png" />
+</TD>
+  <TD COLSPAN='3'><B>Rolfs Kaltschaummatratze</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<OTHER-11> -> <MARU-170>	[arrowhead=onormal,
+		color=blue,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-170,OTHER-11)",
+		labeltooltip="Rolfs Kaltschaummatratze → is blueprint for △ → mattress → realizes blueprint  ↩",
+		penwidth=1,
+		tooltip="Rolfs Kaltschaummatratze → is blueprint for △ → mattress → realizes blueprint  ↩"];
+	<OTHER-11> -> <MARU-171>	[arrowhead=onormal,
+		color=blue,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-171,OTHER-11)",
+		labeltooltip="Rolfs Kaltschaummatratze → is blueprint for △ → mattress → realizes blueprint  ↩",
+		penwidth=1,
+		tooltip="Rolfs Kaltschaummatratze → is blueprint for △ → mattress → realizes blueprint  ↩"];
+	<OTHER-11> -> <MARU-172>	[arrowhead=onormal,
+		color=blue,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-172,OTHER-11)",
+		labeltooltip="Rolfs Kaltschaummatratze → is blueprint for △ → mattress → realizes blueprint  ↩",
+		penwidth=1,
+		tooltip="Rolfs Kaltschaummatratze → is blueprint for △ → mattress → realizes blueprint  ↩"];
+	<OTHER-27>	[URL="https://knowhere.atlassian.net/browse/OTHER-27",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11504.png" />
+</TD>
+  <TD COLSPAN='3'><B>Raymarine</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<OTHER-27> -> <MARU-23>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-23,OTHER-27)",
+		label="supplies ",
+		labeltooltip="Raymarine → supplies  → EV-100 → supplied by  ↩",
+		minlen=1,
+		tooltip="Raymarine → supplies  → EV-100 → supplied by  ↩"];
+	<OTHER-30>	[URL="https://knowhere.atlassian.net/browse/OTHER-30",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Product%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10300.png" />
+</TD>
+  <TD COLSPAN='3'><B>E Battery Charger CH4200</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled",
+		tooltip="E Batterie-Ladegerät 30A, awn sin: 901612
+
+[https://www.epropulsion.com/product-page/e-series-battery-charger-20a-l/|https://www.epropulsion.com/\
+product-page/e-series-battery-charger-20a-l/]
+
+Max output current (48V): 30A
+Max input current (220V): 9A
+
+_should match power to \
+charge total capacity of 48 V batteries over night_
+
+charges 8 khW in 5.5 hours"];
+	<OTHER-30> -> <MARU-9>	[arrowhead=onormal,
+		color=blue,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-9,OTHER-30)",
+		labeltooltip="E Battery Charger CH4200 → is blueprint for △ → eProp charger → realizes blueprint  ↩",
+		penwidth=1,
+		tooltip="E Battery Charger CH4200 → is blueprint for △ → eProp charger → realizes blueprint  ↩"];
+	<OTHER-31>	[URL="https://knowhere.atlassian.net/browse/OTHER-31",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22energy%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>30 A output</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<OTHER-30> -> <OTHER-31>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(OTHER-31,OTHER-30)",
+		label="contributes to ",
+		labeltooltip="E Battery Charger CH4200 → contributes to  → 30 A output → receives from  ↩",
+		minlen=1,
+		tooltip="E Battery Charger CH4200 → contributes to  → 30 A output → receives from  ↩"];
+	<OTHER-32>	[URL="https://knowhere.atlassian.net/browse/OTHER-32",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22energy%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>230 V shore power</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<OTHER-33>	[URL="https://knowhere.atlassian.net/browse/OTHER-33",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22energy%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>9 A input</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<OTHER-32> -> <OTHER-33>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(OTHER-33,OTHER-32)",
+		label="contributes to ",
+		labeltooltip="230 V shore power → contributes to  → 9 A input → receives from  ↩",
+		minlen=1,
+		tooltip="230 V shore power → contributes to  → 9 A input → receives from  ↩"];
+	<OTHER-33> -> <OTHER-30>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(OTHER-30,OTHER-33)",
+		label="contributes to ",
+		labeltooltip="9 A input → contributes to  → E Battery Charger CH4200 → receives from  ↩",
+		tooltip="9 A input → contributes to  → E Battery Charger CH4200 → receives from  ↩"];
+	<OTHER-34>	[URL="https://knowhere.atlassian.net/browse/OTHER-34",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11504.png" />
+</TD>
+  <TD COLSPAN='3'><B>ePropulsion Technology Ltd.</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<OTHER-34> -> <MARU-160>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-160,OTHER-34)",
+		label="supplies ",
+		labeltooltip="ePropulsion Technology Ltd. → supplies  → battery communication cable → supplied by  ↩",
+		tooltip="ePropulsion Technology Ltd. → supplies  → battery communication cable → supplied by  ↩"];
+	<OTHER-34> -> <MARU-166>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-166,OTHER-34)",
+		label="supplies ",
+		labeltooltip="ePropulsion Technology Ltd. → supplies  → Remote Communication Cable → supplied by  ↩",
+		tooltip="ePropulsion Technology Ltd. → supplies  → Remote Communication Cable → supplied by  ↩"];
+	<OTHER-34> -> <MARU-4>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-4,OTHER-34)",
+		label="supplies ",
+		labeltooltip="ePropulsion Technology Ltd. → supplies  → E80 batteries [x2] → supplied by  ↩",
+		tooltip="ePropulsion Technology Ltd. → supplies  → E80 batteries [x2] → supplied by  ↩"];
+	<OTHER-34> -> <MARU-45>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-45,OTHER-34)",
+		label="supplies ",
+		labeltooltip="ePropulsion Technology Ltd. → supplies  → Evo Remote Controller → supplied by  ↩",
+		tooltip="ePropulsion Technology Ltd. → supplies  → Evo Remote Controller → supplied by  ↩"];
+	<OTHER-34> -> <MARU-5>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-5,OTHER-34)",
+		label="supplies ",
+		labeltooltip="ePropulsion Technology Ltd. → supplies  → Navy 6.0 EVO → supplied by  ↩",
+		tooltip="ePropulsion Technology Ltd. → supplies  → Navy 6.0 EVO → supplied by  ↩"];
+	<OTHER-34> -> <OTHER-30>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(OTHER-30,OTHER-34)",
+		label="supplies ",
+		labeltooltip="ePropulsion Technology Ltd. → supplies  → E Battery Charger CH4200 → supplied by  ↩",
+		tooltip="ePropulsion Technology Ltd. → supplies  → E Battery Charger CH4200 → supplied by  ↩"];
+	<OTHER-5>	[URL="https://knowhere.atlassian.net/browse/OTHER-5",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Product%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10300.png" />
+</TD>
+  <TD COLSPAN='3'><B>Smartsolar MPPT Charge Controller 100/20</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<OTHER-5> -> <BOGOI-843>	[arrowhead=onormal,
+		color=blue,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-843,OTHER-5)",
+		labeltooltip="Smartsolar MPPT Charge Controller 100/20 → is blueprint for △ → charge controller 100/20 → realizes blueprint  ↩",
+		minlen=1,
+		penwidth=1,
+		tooltip="Smartsolar MPPT Charge Controller 100/20 → is blueprint for △ → charge controller 100/20 → realizes blueprint  ↩"];
+}

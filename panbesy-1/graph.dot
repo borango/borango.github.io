@@ -31,13 +31,11 @@ digraph {
 		target=details
 	];
 	<PANBESY-1>	[URL="https://knowhere.atlassian.net/browse/PANBESY-1",
-		color=3,
-		colorscheme=ylorrd5,
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary">
-<IMG SRC="../img/avatar--11505.png" />
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
 </TD>
   <TD COLSPAN='3'><B>pandemic (in general)</B></TD></TR>
 </TABLE>>,
@@ -58,13 +56,11 @@ digraph {
 		labeltooltip="pandemic (in general) → convinces  → Corona Conspiracy Believer → believes  ↩",
 		tooltip="pandemic (in general) → convinces  → Corona Conspiracy Believer → believes  ↩"];
 	<PANBESY-60>	[URL="https://knowhere.atlassian.net/browse/PANBESY-60",
-		color=3,
-		colorscheme=ylorrd5,
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary">
-<IMG SRC="../img/avatar--11505.png" />
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
 </TD>
   <TD COLSPAN='3'><B>corona pandemic</B></TD></TR>
 </TABLE>>,
