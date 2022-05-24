@@ -1,16 +1,16 @@
 # Communication Channels to and from Boran on Tour
 
-(1) Live Location Tracking [^SAT] [^proven]
+(1) Live Location Tracking (SAT, proven_)
 
 > https://share.garmin.com/LoveAndLibertyLines
 
-(2) Live Location / Message (focus on message) Tracking [^SAT] 
+(2) Live Location / Message (focus on message) Tracking (SAT) 
 
-a) https://share.garmin.com/touringtest [^proven]
-b) https://protegear.io/tripview/show?trip=7faf7ae5-8b50-4799-b56e-75bd3f607dc3 [^experimental]
+a) https://share.garmin.com/touringtest (proven_)
+b) https://protegear.io/tripview/show?trip=7faf7ae5-8b50-4799-b56e-75bd3f607dc3 (experimental_)
 c) https://t.me/+GbkcT_6AZj8yMzUy [^experimental]
 
-(3) Urgent Email [^SAT] [^new]
+(3) Urgent Email (SAT, new_)
 
  > mailto:boran@protegear.global
 
@@ -44,14 +44,13 @@ For the Explore device, I can only send out emails but not receive them. Outgoin
 For the Mini 2 device, I have a 2-way gateway. This means that I can send and receive Email. You can reply to Emails with the Subject "Mail from Boran". This is channel (3).
 
 - - -
-Footnotes
 
-[^SAT]: communication via satellite messenger and Iridium network; very reliable; message delay up to 20 minutes
+*[SAT]: communication via satellite messenger and Iridium network; very reliable; message delay up to 20 minutes
 
-[^GSM]: based on terrestrial mobile network; reliable if Boran is close to GSM infrastructure (e.g. a few kilometers to nearest shore)
+*[GSM]: based on terrestrial mobile network; reliable if Boran is close to GSM infrastructure (e.g. a few kilometers to nearest shore)
 
-[^proven]: mature solution with years of successful use
+*[proven_]: mature solution with years of successful use
 
-[^new]: new solution that should be reliable but has not been used for long (by Boran)
+*[new_]: new solution that should be reliable but has not been used for long (by Boran)
 
-[^experimental]: new solution in test phase; could be changed or dropped in the future
+*[experimental_]: new solution in test phase; could be changed or dropped in the future
