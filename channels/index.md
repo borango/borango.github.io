@@ -2,13 +2,13 @@
 
 (1) Live Location Tracking (SAT, proven_)
 
-> [https://share.garmin.com/LoveAndLibertyLines]()
+> [https://share.garmin.com/LoveAndLibertyLines]([https://share.garmin.com/LoveAndLibertyLines])
 
 (2) Live Location / Message (focus on message) Tracking (SAT) 
 
-a) https://share.garmin.com/touringtest (proven_) 
-b) https://protegear.io/tripview/show?trip=7faf7ae5-8b50-4799-b56e-75bd3f607dc3 (experimental_) 
-c) https://t.me/+GbkcT_6AZj8yMzUy (experimental_)
+a) [https://share.garmin.com/touringtest](https://share.garmin.com/touringtest) (proven_)  
+b) [https://protegear.io/tripview/](https://protegear.io/tripview/show?trip=7faf7ae5-8b50-4799-b56e-75bd3f607dc3) (experimental_)  
+c) [https://t.me/+GbkcT_6AZj8yMzUy](https://t.me/+GbkcT_6AZj8yMzUy) (experimental_)  
 
 (3) Urgent Email (SAT, new_)
 
