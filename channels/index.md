@@ -2,7 +2,7 @@
 
 (1) Live Location Tracking (SAT, proven_)
 
-> [https://share.garmin.com/LoveAndLibertyLines]([https://share.garmin.com/LoveAndLibertyLines])
+> [https://share.garmin.com/LoveAndLibertyLines](https://share.garmin.com/LoveAndLibertyLines)
 
 (2) Live Location / Message (focus on message) Tracking (SAT) 
 
