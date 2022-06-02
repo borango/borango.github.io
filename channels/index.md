@@ -12,19 +12,19 @@ c) [https://t.me/+GbkcT_6AZj8yMzUy](https://t.me/+GbkcT_6AZj8yMzUy) (experimenta
 
 (3) Urgent Email (SAT, new_)
 
- > mailto:boran@protegear.global
+> mailto:boran@protegear.global
 
 (4) Standard Telegram (GSM, proven_)
 
- > https://t.me/bogoe
+https://t.me/bogoe
 
 (5) Standard Email (GSM, proven_)
 
- > boran@goegetap.name
+> boran@goegetap.name
 
 (6) Standard Mobile Phone (GSM, proven_)
 
- > tel:+49-176-10072456
+> tel:+49-176-10072456
 
 ## Notes
 
