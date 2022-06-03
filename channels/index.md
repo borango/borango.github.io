@@ -37,9 +37,11 @@ b) [Telegram Group: Traces of Boran](https://t.me/+GbkcT_6AZj8yMzUy) (experiment
 
 > [+49-176-10072456](tel:+49-176-10072456)
 
-(7) Wordpress Blog (not so frequent updates)
+(7) Blog, Photos and Videos (not so frequent updates)
 
-> [https://boran.travel.blog](https://boran.travel.blog/)
+a) [https://boran.travel.blog](https://boran.travel.blog/)  
+b) ["Maru" Photo Album at Google](https://photos.app.goo.gl/bDj5rvYgu9LCqtmG8)  
+c) ["Love + Liberty Lines" videos at Rumble](https://rumble.com/c/c-1262163)  
 
 ## Notes
 
