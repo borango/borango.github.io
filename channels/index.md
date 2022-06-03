@@ -4,27 +4,33 @@
 
 > [https://share.garmin.com/LoveAndLibertyLines](https://share.garmin.com/LoveAndLibertyLines)
 
-(2) Live Location / Message (focus on message) Tracking (SAT) 
+(2) Tracking / Messages (focus on messages) (SAT) 
 
-a) [https://share.garmin.com/touringtest](https://share.garmin.com/touringtest) (proven_)  
-b) [https://protegear.io/tripview/](https://protegear.io/tripview/show?trip=7faf7ae5-8b50-4799-b56e-75bd3f607dc3) (experimental_)  
-c) [https://t.me/+GbkcT_6AZj8yMzUy](https://t.me/+GbkcT_6AZj8yMzUy) (experimental_)  
+a) [Twitter](https://twitter.com/boran_go) (new_)
+b) [Telegram Group: Traces of Boran](https://t.me/+GbkcT_6AZj8yMzUy) (experimental_)  
+c) [https://share.garmin.com/Touringtest](https://share.garmin.com/touringtest) (proven_)  
 
 (3) Urgent Email (SAT, new_)
 
-> mailto:boran@protegear.global
+> [boran@protegear.global](mailto:boran@protegear.global)
+
+- - -
 
 (4) Standard Telegram (GSM, proven_)
 
-https://t.me/bogoe
+> [https://t.me/bogoe](https://t.me/bogoe)
 
 (5) Standard Email (GSM, proven_)
 
-> boran@goegetap.name
+> [boran@goegetap.name](mailto:boran@goegetap.name)
 
 (6) Standard Mobile Phone (GSM, proven_)
 
-> tel:+49-176-10072456
+> [+49-176-10072456](tel:+49-176-10072456)
+
+(7) (old) Wordpress Blog
+
+> [https://boran.travel.blog](https://boran.travel.blog/)
 
 ## Notes
 
