@@ -1,26 +1,35 @@
 # Communication Channels to and from Boran on Tour
 
-(1) Live Location Tracking (SAT, proven_)
+## via satellite
+= everywhere on the planet
+
+(1) Live Location Tracking (proven_)
 
 > [https://share.garmin.com/LoveAndLibertyLines](https://share.garmin.com/LoveAndLibertyLines)
 
-(2) Tracking / Messages (focus on messages) (SAT) 
+(2) Tracking / Messages (focus on messages)
 
-a) [Twitter](https://twitter.com/boran_go) (new_)
+a) [https://share.garmin.com/Touringtest](https://share.garmin.com/touringtest) (proven_)  
 b) [Telegram Group: Traces of Boran](https://t.me/+GbkcT_6AZj8yMzUy) (experimental_)  
-c) [https://share.garmin.com/Touringtest](https://share.garmin.com/touringtest) (proven_)  
 
-(3) Urgent Email (SAT, new_)
+(3) Urgent Email (new_)
 
 > [boran@protegear.global](mailto:boran@protegear.global)
 
+(4) Blogging
+
+> [Twitter](https://twitter.com/boran_go) (new_)  
+
 - - -
 
-(4) Standard Telegram (GSM, proven_)
+## via GSM (mobile) networks, Wi-Fi or other landlines 
+= only when I am close to the shore or at land
+
+(4) Standard Telegram (proven_)
 
 > [https://t.me/bogoe](https://t.me/bogoe)
 
-(5) Standard Email (GSM, proven_)
+(5) Standard Email (proven_)
 
 > [boran@goegetap.name](mailto:boran@goegetap.name)
 
@@ -28,7 +37,7 @@ c) [https://share.garmin.com/Touringtest](https://share.garmin.com/touringtest) 
 
 > [+49-176-10072456](tel:+49-176-10072456)
 
-(7) (old) Wordpress Blog
+(7) Wordpress Blog (not so frequent updates)
 
 > [https://boran.travel.blog](https://boran.travel.blog/)
 
