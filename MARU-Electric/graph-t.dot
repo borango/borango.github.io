@@ -492,8 +492,17 @@ Dimensions: 85 x 60 mm. Box contents: 1 x converter module{quote}"
  style="rounded,filled"
  ]
 <MARU-263> [URL="https://knowhere.atlassian.net/browse/MARU-263"
- tooltip="h2. Solar PV Panel Specifications
+ tooltip="h2. 
 
+{quote}PV panel ratings
+
+Maximum Current on 12V or 24V battery systems
+Permissible configurations:
+12V PV panel charging 12V battery
+24V PV panel charging 12V battery (from a single 24V panel or 2 x 12V panels in series){quote}
+
+20 Amps
+Nominally 250W
 
 Maximum Open Circuit Voltage (Voc) of PV array over entire operating temperature range
 50V
@@ -506,7 +515,7 @@ Minimum maximum power point voltage (Vmpp) at STC
   <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10670+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10307.png" />
 </TD>
-  <TD COLSPAN='3'><B>20 A max Solar input</B></TD></TR>
+  <TD COLSPAN='3'><B>250 W max Solar input</B></TD></TR>
 </TABLE>>
  style="rounded,filled"
  ]
@@ -1399,6 +1408,10 @@ Surge power *3200W*"
 </TABLE>>
  style="rounded,filled"
  ]
+<MARU-393> [URL="https://knowhere.atlassian.net/browse/MARU-393"
+ tooltip=" "
+ label=<|> shape=circle
+ ]
 <MARU-4> [URL="https://knowhere.atlassian.net/browse/MARU-4"
  tooltip="E40/E80/E175 Battery
 Type of battery Lithium iron phosphate battery
@@ -1733,6 +1746,18 @@ Cycle Life >4,500 25°C"
 </TABLE>>
  style="rounded,filled"
  ]
+<OTHER-83> [URL="https://knowhere.atlassian.net/browse/OTHER-83"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10670+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>130 W max input</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
 <CMDBG-271> -> <BOGOI-843> [ labeltooltip="72 V x 0-20 A input → contributes to  → solar charge controller 72 V -> 48 V → receives from  ↩" tooltip="72 V x 0-20 A input → contributes to  → solar charge controller 72 V -> 48 V → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-843,CMDBG-271)" label="contributes to " 
  ]
 <CMDBG-272> -> <BOGOI-844> [ labeltooltip="400 W (34 A) peak input → serves  → Inverter 12 V -> 230 V → requires  ↩" tooltip="400 W (34 A) peak input → serves  → Inverter 12 V -> 230 V → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-844,CMDBG-272)" label="serves " 
@@ -1781,7 +1806,7 @@ Cycle Life >4,500 25°C"
  ]
 <MARU-132> -> <MARU-131> [ labeltooltip="12 V x 10 A input → contributes to  → Step-up Converter 10 A → receives from  ↩" tooltip="12 V x 10 A input → contributes to  → Step-up Converter 10 A → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-131,MARU-132)" label="contributes to " 
  ]
-<MARU-263> -> <MARU-133> [ labeltooltip="20 A max Solar input → contributes to  → Rutland Hybrid Controller → receives from  ↩" tooltip="20 A max Solar input → contributes to  → Rutland Hybrid Controller → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-133,MARU-263)" label="contributes to " 
+<MARU-263> -> <MARU-133> [ labeltooltip="250 W max Solar input → contributes to  → Rutland Hybrid Controller → receives from  ↩" tooltip="250 W max Solar input → contributes to  → Rutland Hybrid Controller → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-133,MARU-263)" label="contributes to " 
  ]
 <MARU-69> -> <MARU-133> [ labeltooltip="Rutland Turbine - Controller cable → contributes to  → Rutland Hybrid Controller → receives from  ↩" tooltip="Rutland Turbine - Controller cable → contributes to  → Rutland Hybrid Controller → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-133,MARU-69)" label="contributes to " 
  ]
@@ -1821,7 +1846,7 @@ Cycle Life >4,500 25°C"
  ]
 <MARU-390> -> <MARU-235> [ labeltooltip="2000 W (42 A) peak input → serves  → Inverter 48 V -> 230 V → requires  ↩" tooltip="2000 W (42 A) peak input → serves  → Inverter 48 V -> 230 V → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-235,MARU-390)" label="serves " 
  ]
-<MARU-383> -> <MARU-263> [ labeltooltip="10 A (120 W) max output → contributes to  → 20 A max Solar input → receives from  ↩" tooltip="10 A (120 W) max output → contributes to  → 20 A max Solar input → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-263,MARU-383)" label="contributes to " 
+<MARU-393> -> <MARU-263> [ labeltooltip="| → contributes to  → 250 W max Solar input → receives from  ↩" tooltip="| → contributes to  → 250 W max Solar input → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-263,MARU-393)" label="contributes to " 
  ]
 <MARU-9> -> <MARU-264> [ labeltooltip="eProp charger → solves  → suddenly empty → solved by  ↩" tooltip="eProp charger → solves  → suddenly empty → solved by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-264,MARU-9)" label="solves " 
  ]
@@ -2007,6 +2032,8 @@ Cycle Life >4,500 25°C"
  ]
 <MARU-392> -> <MARU-391> [ labeltooltip="Fused Switchboard x8 → contains (and supports) ◆  → 4 → part of (and depends on) ◆  ↩" tooltip="Fused Switchboard x8 → contains (and supports) ◆  → 4 → part of (and depends on) ◆  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-391,MARU-392)" arrowtail=diamond arrowhead=none dir=none
  ]
+<MARU-383> -> <MARU-393> [ labeltooltip="10 A (120 W) max output → contributes to  → | → receives from  ↩" tooltip="10 A (120 W) max output → contributes to  → | → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-393,MARU-383)" label="contributes to "  dir=none
+ ]
 <MARU-177> -> <MARU-4> [ labeltooltip="Batterien entladen ungleichmäßig → impacts  → E80 batteries [x2] NOT RECOMMENDED! → impacted by  ↩" tooltip="Batterien entladen ungleichmäßig → impacts  → E80 batteries [x2] NOT RECOMMENDED! → impacted by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-4,MARU-177)" label="impacts "  colorscheme=ylorrd5 color=4
  ]
 <MARU-264> -> <MARU-4> [ labeltooltip="suddenly empty → impacts  → E80 batteries [x2] NOT RECOMMENDED! → impacted by  ↩" tooltip="suddenly empty → impacts  → E80 batteries [x2] NOT RECOMMENDED! → impacted by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-4,MARU-264)" label="impacts "  colorscheme=ylorrd5 color=4
@@ -2049,9 +2076,13 @@ Cycle Life >4,500 25°C"
  ]
 <MARU-58> -> <NAVIGARE-33> [ labeltooltip="Step-up Converter 20 A [#1] → causes ▲ 	 → Fusion short circuit → caused (-) by  ↩" tooltip="Step-up Converter 20 A [#1] → causes ▲ 	 → Fusion short circuit → caused (-) by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(NAVIGARE-33,MARU-58)" label="causes ▲ 	"  colorscheme=ylorrd5 color=4
  ]
-<OTHER-72> -> <OTHER-73> [ labeltooltip="Tracer-1206RN → contributes to  → 10 A max Output → receives from  ↩" tooltip="Tracer-1206RN → contributes to  → 10 A max Output → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(OTHER-73,OTHER-72)" label="contributes to " 
+<OTHER-83> -> <OTHER-72> [ labeltooltip="130 W max input → serves  → Tracer-1206RN → requires  ↩" tooltip="130 W max input → serves  → Tracer-1206RN → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(OTHER-72,OTHER-83)" label="serves " 
+ ]
+<OTHER-72> -> <OTHER-73> [ labeltooltip="Tracer-1206RN → serves  → 10 A max Output → requires  ↩" tooltip="Tracer-1206RN → serves  → 10 A max Output → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(OTHER-73,OTHER-72)" label="serves " 
  ]
 <OTHER-75> -> <OTHER-76> [ labeltooltip="Pylontech → supplies  → US3000C → supplied by  ↩" tooltip="Pylontech → supplies  → US3000C → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(OTHER-76,OTHER-75)" label="supplies " 
+ ]
+<MARU-393> -> <OTHER-83> [ labeltooltip="| → contributes to  → 130 W max input → receives from  ↩" tooltip="| → contributes to  → 130 W max input → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(OTHER-83,MARU-393)" label="contributes to " 
  ]
 
 }

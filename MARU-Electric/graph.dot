@@ -925,22 +925,33 @@ Recommended battery level during storage \
   <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10670+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10307.png" />
 </TD>
-  <TD COLSPAN='3'><B>20 A max Solar input</B></TD></TR>
+  <TD COLSPAN='3'><B>250 W max Solar input</B></TD></TR>
 </TABLE>>,
 		style="rounded,filled",
-		tooltip="h2. Solar PV Panel Specifications
+		tooltip="h2. 
 
+{quote}PV panel ratings
 
+Maximum Current on 12V or 24V battery systems
+Permissible configurations:
+12V PV panel charging 12V \
+battery
+24V PV panel charging 12V battery (from a single 24V panel or 2 x 12V panels in series){quote}
+
+20 Amps
+Nominally 250W
+
+\
 Maximum Open Circuit Voltage (Voc) of PV array over entire operating temperature range
 50V
-Minimum \
-maximum power point voltage (Vmpp) at STC
+Minimum maximum power point voltage (\
+Vmpp) at STC
 12V panels —15V
 24V panels — 30V"];
 	<MARU-263> -> <MARU-133>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-133,MARU-263)",
 		label="contributes to ",
-		labeltooltip="20 A max Solar input → contributes to  → Rutland Hybrid Controller → receives from  ↩",
-		tooltip="20 A max Solar input → contributes to  → Rutland Hybrid Controller → receives from  ↩"];
+		labeltooltip="250 W max Solar input → contributes to  → Rutland Hybrid Controller → receives from  ↩",
+		tooltip="250 W max Solar input → contributes to  → Rutland Hybrid Controller → receives from  ↩"];
 	<MARU-264>	[URL="https://knowhere.atlassian.net/browse/MARU-264",
 		color=5,
 		colorscheme=ylorrd5,
@@ -1820,10 +1831,14 @@ Recommended battery level during storage 45%~50%"];
 		label="contributes to ",
 		labeltooltip="7 kWh combined capacity → contributes to  → 48 V consumer backbone → receives from  ↩",
 		tooltip="7 kWh combined capacity → contributes to  → 48 V consumer backbone → receives from  ↩"];
-	<MARU-383> -> <MARU-263>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-263,MARU-383)",
+	<MARU-393>	[URL="https://knowhere.atlassian.net/browse/MARU-393",
+		label=<|>,
+		shape=circle];
+	<MARU-383> -> <MARU-393>	[dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-393,MARU-383)",
 		label="contributes to ",
-		labeltooltip="10 A (120 W) max output → contributes to  → 20 A max Solar input → receives from  ↩",
-		tooltip="10 A (120 W) max output → contributes to  → 20 A max Solar input → receives from  ↩"];
+		labeltooltip="10 A (120 W) max output → contributes to  → | → receives from  ↩",
+		tooltip="10 A (120 W) max output → contributes to  → | → receives from  ↩"];
 	<MARU-384>	[URL="https://knowhere.atlassian.net/browse/MARU-384",
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
@@ -1911,6 +1926,24 @@ Recommended battery level during storage 45%~50%"];
 		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-391,MARU-392)",
 		labeltooltip="Fused Switchboard x8 → contains (and supports) ◆  → 4 → part of (and depends on) ◆  ↩",
 		tooltip="Fused Switchboard x8 → contains (and supports) ◆  → 4 → part of (and depends on) ◆  ↩"];
+	<MARU-393> -> <MARU-263>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-263,MARU-393)",
+		label="contributes to ",
+		labeltooltip="| → contributes to  → 250 W max Solar input → receives from  ↩",
+		tooltip="| → contributes to  → 250 W max Solar input → receives from  ↩"];
+	<OTHER-83>	[URL="https://knowhere.atlassian.net/browse/OTHER-83",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10670+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>130 W max input</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-393> -> <OTHER-83>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(OTHER-83,MARU-393)",
+		label="contributes to ",
+		labeltooltip="| → contributes to  → 130 W max input → receives from  ↩",
+		tooltip="| → contributes to  → 130 W max input → receives from  ↩"];
 	<MARU-4> -> <MARU-140>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-140,MARU-4)",
 		label="contributes to ",
 		labeltooltip="E80 batteries [x2] NOT RECOMMENDED! → contributes to  → 8 kW (160 A) max combined output → receives from  ↩",
@@ -2191,10 +2224,9 @@ Note: At 12V the maximum power is 240W, 24V 480W and \
 </TABLE>>,
 		style="rounded,filled"];
 	<OTHER-72> -> <OTHER-73>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(OTHER-73,OTHER-72)",
-		label="contributes to ",
-		labeltooltip="Tracer-1206RN → contributes to  → 10 A max Output → receives from  ↩",
-		minlen=<1>,
-		tooltip="Tracer-1206RN → contributes to  → 10 A max Output → receives from  ↩"];
+		label="serves ",
+		labeltooltip="Tracer-1206RN → serves  → 10 A max Output → requires  ↩",
+		tooltip="Tracer-1206RN → serves  → 10 A max Output → requires  ↩"];
 	<OTHER-73> -> <MARU-370>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-370,OTHER-73)",
 		label="contributes to ",
 		labeltooltip="10 A max Output → contributes to  → 12 V charger backbone → receives from  ↩",
@@ -2268,4 +2300,8 @@ Cycle Life >4,500 25°C"];
 		labeltooltip="US3000C → is blueprint for △ → Py Battery 2 → realizes blueprint  ↩",
 		penwidth=<1>,
 		tooltip="US3000C → is blueprint for △ → Py Battery 2 → realizes blueprint  ↩"];
+	<OTHER-83> -> <OTHER-72>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(OTHER-72,OTHER-83)",
+		label="serves ",
+		labeltooltip="130 W max input → serves  → Tracer-1206RN → requires  ↩",
+		tooltip="130 W max input → serves  → Tracer-1206RN → requires  ↩"];
 }
