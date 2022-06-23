@@ -33,30 +33,6 @@ digraph
 
   node  [ id="\N"      ] # essential for KTS JavaScript traversing SVG
   edge  [ id="\T___\H" ] # essential for KTS JavaScript traversing SVG
-<BOGOI-557> [URL="https://knowhere.atlassian.net/browse/BOGOI-557"
- tooltip=" "
- label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10626+ORDER+BY+summary">
-<IMG SRC="../img/avatar--11493.png" />
-</TD>
-  <TD COLSPAN='3'><B>solar oven Go</B></TD></TR>
-</TABLE>>
- style="rounded,filled"
- ]
-<BOGOI-804> [URL="https://knowhere.atlassian.net/browse/BOGOI-804"
- tooltip=" "
- label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10626+ORDER+BY+summary">
-<IMG SRC="../img/avatar--11493.png" />
-</TD>
-  <TD COLSPAN='3'><B>solar oven Fusion</B></TD></TR>
-</TABLE>>
- style="rounded,filled"
- ]
 <BOGOI-809> [URL="https://knowhere.atlassian.net/browse/BOGOI-809"
  tooltip=" "
  label=<
@@ -367,9 +343,9 @@ see [https://www.hjertmans.se/produkter/motor-tillbehor/utombordsmotorer/utombor
   <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10665+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10307.png" />
 </TD>
-  <TD COLSPAN='3'><B>steering hands-free</B></TD></TR>
+  <TD COLSPAN='3'><B>self-steering</B></TD></TR>
 </TABLE>>
- style="rounded,filled,dotted"
+ style="rounded,filled"
  ]
 <MARU-119> [URL="https://knowhere.atlassian.net/browse/MARU-119"
  tooltip=" "
@@ -388,18 +364,18 @@ see [https://www.hjertmans.se/produkter/motor-tillbehor/utombordsmotorer/utombor
  style="rounded,filled"
  ]
 <MARU-120> [URL="https://knowhere.atlassian.net/browse/MARU-120"
- tooltip="performing all typical manoeuvrers from one of the cockpit benches
+ tooltip="performing all typical maneuvers from one of the cockpit benches
 
-AND ideally
+AND
 
-being free to walk around the boat or under deck for minutes or longer "
+being free to walk around the boat or going under deck for extended periods of time "
  label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
   <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10665+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10307.png" />
 </TD>
-  <TD COLSPAN='3'><B>sailing single-handed no-stress</B></TD></TR>
+  <TD COLSPAN='3'><B>single-handed sailing</B></TD></TR>
 </TABLE>>
  style="rounded,filled"
  ]
@@ -717,7 +693,7 @@ In stronger wind less sail area is used. For light wind from behind, Spinnaker o
   <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10677+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10700.png" />
 </TD>
-  <TD COLSPAN='3'><B>total sail (area...)</B></TD></TR>
+  <TD COLSPAN='3'><B>working sail (area...)</B></TD></TR>
 </TABLE>>
  style="rounded,filled"
  ]
@@ -2073,7 +2049,7 @@ has connector for external antenna (may increase reach)"
 </TD>
   <TD COLSPAN='3'><B>Py Battery 1</B></TD></TR>
 </TABLE>>
- style="rounded,filled,dotted"
+ style="rounded,filled"
  ]
 <MARU-355> [URL="https://knowhere.atlassian.net/browse/MARU-355"
  tooltip=" "
@@ -2548,6 +2524,82 @@ Surge power *3200W*"
  tooltip=""
  label=<|> shape=circle
  ]
+<MARU-394> [URL="https://knowhere.atlassian.net/browse/MARU-394"
+ tooltip="exact sail area unknown - 17.1 taken from JWD [https://drive.google.com/file/d/1PFRnUL_lsN95OqIOy9wiPIyry6lFU_ZC/view?usp=sharing|https://drive.google.com/file/d/1PFRnUL_lsN95OqIOy9wiPIyry6lFU_ZC/view?usp=sharing|smart-link] "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10677+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10700.png" />
+</TD>
+  <TD COLSPAN='3'><B>Blister sail</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<MARU-395> [URL="https://knowhere.atlassian.net/browse/MARU-395"
+ tooltip="... area, wind force & center of effort
+
+In standard Kutter Rig, the typical total sail area is 11 + 10 + 7 = 28 m²
+
+In stronger wind less sail area is used. For light wind from behind, Spinnaker or Gennaker (Blister) can be used in stead of Genoa to increase the total sail area significantly."
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10677+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10700.png" />
+</TD>
+  <TD COLSPAN='3'><B>total sail (area...)</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<MARU-396> [URL="https://knowhere.atlassian.net/browse/MARU-396"
+ tooltip="sail area unknown - spinnaker is not part of original design"
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10677+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10700.png" />
+</TD>
+  <TD COLSPAN='3'><B>Spinnaker sail</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<MARU-397> [URL="https://knowhere.atlassian.net/browse/MARU-397"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10655+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>electric stove</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<MARU-398> [URL="https://knowhere.atlassian.net/browse/MARU-398"
+ tooltip="typically cooking on level 2-3 = 600 W / 900 W"
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10670+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>2 kW max input</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<MARU-399> [URL="https://knowhere.atlassian.net/browse/MARU-399"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10670+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>2 kW peak output</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
 <MARU-4> [URL="https://knowhere.atlassian.net/browse/MARU-4"
  tooltip="E40/E80/E175 Battery
 Type of battery Lithium iron phosphate battery
@@ -2577,6 +2629,54 @@ Recommended battery level during storage 45%~50%"
 </TABLE>>
  style="rounded,filled"
  colorscheme=ylorrd5 color=3
+ ]
+<MARU-400> [URL="https://knowhere.atlassian.net/browse/MARU-400"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10655+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>pan</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<MARU-401> [URL="https://knowhere.atlassian.net/browse/MARU-401"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10655+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>pot</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<MARU-402> [URL="https://knowhere.atlassian.net/browse/MARU-402"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10655+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Rudder [x2]</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<MARU-404> [URL="https://knowhere.atlassian.net/browse/MARU-404"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10660+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10300.png" />
+</TD>
+  <TD COLSPAN='3'><B>navigation lights</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
  ]
 <MARU-45> [URL="https://knowhere.atlassian.net/browse/MARU-45"
  tooltip="{quote}Evo Remote Controller{quote}"
@@ -3066,6 +3166,18 @@ https://www.hjertmans.se/produkter/elektronik-navigation/autopiloter/autopilot-t
 </TABLE>>
  style="rounded,filled,dotted"
  ]
+<NAVIGARE-37> [URL="https://knowhere.atlassian.net/browse/NAVIGARE-37"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10650+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10700.png" />
+</TD>
+  <TD COLSPAN='3'><B>cooking</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
 <OTHER-11> [URL="https://knowhere.atlassian.net/browse/OTHER-11"
  tooltip=" "
  label=<
@@ -3435,6 +3547,18 @@ Icom’s custom high-power capacity speaker delivers a loud 1500 mW (typical) au
 </TABLE>>
  style="rounded,filled"
  ]
+<OTHER-84> [URL="https://knowhere.atlassian.net/browse/OTHER-84"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10655+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>CIARRA CBTIH1 2000W Portable Induction Plate</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
 <UNIVERSAL-22> [URL="https://knowhere.atlassian.net/browse/UNIVERSAL-22"
  tooltip=" "
  label=<
@@ -3459,10 +3583,6 @@ Icom’s custom high-power capacity speaker delivers a loud 1500 mW (typical) au
 </TABLE>>
  style="rounded,filled"
  ]
-<UNIVERSAL-22> -> <BOGOI-557> [ labeltooltip="Sunshine → serves  → solar oven Go → requires  ↩" tooltip="Sunshine → serves  → solar oven Go → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-557,UNIVERSAL-22)" label="serves " 
- ]
-<UNIVERSAL-22> -> <BOGOI-804> [ labeltooltip="Sunshine → serves  → solar oven Fusion → requires  ↩" tooltip="Sunshine → serves  → solar oven Fusion → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-804,UNIVERSAL-22)" label="serves " 
- ]
 <BOGOI-847> -> <BOGOI-809> [ labeltooltip="Paddle → ist gebündelt in ◇  → SUP Board 12'6'' → aggregiert ◇  ↩" tooltip="Paddle → ist gebündelt in ◇  → SUP Board 12'6'' → aggregiert ◇  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-809,BOGOI-847)" arrowtail=odiamond dir=back
  ]
 <MARU-202> -> <BOGOI-820> [ labeltooltip="Skipper → serves  → Maru → requires  ↩" tooltip="Skipper → serves  → Maru → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-820,MARU-202)" label="serves " 
@@ -3470,8 +3590,6 @@ Icom’s custom high-power capacity speaker delivers a loud 1500 mW (typical) au
 <MARU-203> -> <BOGOI-820> [ labeltooltip="Crew #2 → contributes to  → Maru → receives from  ↩" tooltip="Crew #2 → contributes to  → Maru → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-820,MARU-203)" label="contributes to " 
  ]
 <BOGOI-847> -> <BOGOI-820> [ labeltooltip="Paddle → ist gebündelt in ◇  → Maru → aggregiert ◇  ↩" tooltip="Paddle → ist gebündelt in ◇  → Maru → aggregiert ◇  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-820,BOGOI-847)" arrowtail=odiamond dir=back
- ]
-<UNIVERSAL-22> -> <BOGOI-821> [ labeltooltip="Sunshine → serves  → Solar Panel, foldable, 120 W → requires  ↩" tooltip="Sunshine → serves  → Solar Panel, foldable, 120 W → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-821,UNIVERSAL-22)" label="serves " 
  ]
 <CMDBG-271> -> <BOGOI-843> [ labeltooltip="72 V x 0-20 A input → contributes to  → solar charge controller 72 V -> 48 V → receives from  ↩" tooltip="72 V x 0-20 A input → contributes to  → solar charge controller 72 V -> 48 V → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-843,CMDBG-271)" label="contributes to " 
  ]
@@ -3529,7 +3647,7 @@ Icom’s custom high-power capacity speaker delivers a loud 1500 mW (typical) au
  ]
 <MARU-94> -> <MARU-116> [ labeltooltip="Beam #5 → supports  → engine hold → based on  ↩" tooltip="Beam #5 → supports  → engine hold → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-116,MARU-94)" label="supports " 
  ]
-<MARU-119> -> <MARU-118> [ labeltooltip="| → serves  → steering hands-free → requires  ↩" tooltip="| → serves  → steering hands-free → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-118,MARU-119)" label="serves " 
+<MARU-119> -> <MARU-118> [ labeltooltip="| → serves  → self-steering → requires  ↩" tooltip="| → serves  → self-steering → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-118,MARU-119)" label="serves " 
  ]
 <MARU-30> -> <MARU-119> [ labeltooltip="Tiller drive (actuator) → serves  → | → requires  ↩" tooltip="Tiller drive (actuator) → serves  → | → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-119,MARU-30)" label="serves "  dir=none
  ]
@@ -3539,15 +3657,17 @@ Icom’s custom high-power capacity speaker delivers a loud 1500 mW (typical) au
  ]
 <MARU-95> -> <MARU-12> [ labeltooltip="Beam #6 → serves  → Rear Navigation Light → requires  ↩" tooltip="Beam #6 → serves  → Rear Navigation Light → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-12,MARU-95)" label="serves " 
  ]
-<MARU-118> -> <MARU-120> [ labeltooltip="steering hands-free → serves  → sailing single-handed no-stress → requires  ↩" tooltip="steering hands-free → serves  → sailing single-handed no-stress → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-120,MARU-118)" label="serves " 
+<MARU-118> -> <MARU-120> [ labeltooltip="self-steering → serves  → single-handed sailing → requires  ↩" tooltip="self-steering → serves  → single-handed sailing → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-120,MARU-118)" label="serves " 
  ]
-<MARU-121> -> <MARU-120> [ labeltooltip="| → serves  → sailing single-handed no-stress → requires  ↩" tooltip="| → serves  → sailing single-handed no-stress → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-120,MARU-121)" label="serves " 
+<MARU-121> -> <MARU-120> [ labeltooltip="| → serves  → single-handed sailing → requires  ↩" tooltip="| → serves  → single-handed sailing → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-120,MARU-121)" label="serves " 
  ]
-<MARU-64> -> <MARU-120> [ labeltooltip="Genoa Furling Line → serves  → sailing single-handed no-stress → requires  ↩" tooltip="Genoa Furling Line → serves  → sailing single-handed no-stress → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-120,MARU-64)" label="serves " 
+<MARU-139> -> <MARU-120> [ labeltooltip="sailing → serves  → single-handed sailing → requires  ↩" tooltip="sailing → serves  → single-handed sailing → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-120,MARU-139)" label="serves " 
  ]
-<MARU-79> -> <MARU-120> [ labeltooltip="Genoa Cleat Block [x2] → serves  → sailing single-handed no-stress → requires  ↩" tooltip="Genoa Cleat Block [x2] → serves  → sailing single-handed no-stress → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-120,MARU-79)" label="serves " 
+<MARU-64> -> <MARU-120> [ labeltooltip="Genoa Furling Line → serves  → single-handed sailing → requires  ↩" tooltip="Genoa Furling Line → serves  → single-handed sailing → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-120,MARU-64)" label="serves " 
  ]
-<MARU-80> -> <MARU-120> [ labeltooltip="Jib Cleat Block [x2] → serves  → sailing single-handed no-stress → requires  ↩" tooltip="Jib Cleat Block [x2] → serves  → sailing single-handed no-stress → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-120,MARU-80)" label="serves " 
+<MARU-79> -> <MARU-120> [ labeltooltip="Genoa Cleat Block [x2] → serves  → single-handed sailing → requires  ↩" tooltip="Genoa Cleat Block [x2] → serves  → single-handed sailing → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-120,MARU-79)" label="serves " 
+ ]
+<MARU-80> -> <MARU-120> [ labeltooltip="Jib Cleat Block [x2] → serves  → single-handed sailing → requires  ↩" tooltip="Jib Cleat Block [x2] → serves  → single-handed sailing → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-120,MARU-80)" label="serves " 
  ]
 <MARU-46> -> <MARU-125> [ labeltooltip="recuperating → contributes to  → 0 - 1 kW → receives from  ↩" tooltip="recuperating → contributes to  → 0 - 1 kW → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-125,MARU-46)" label="contributes to " 
  ]
@@ -3591,9 +3711,9 @@ Icom’s custom high-power capacity speaker delivers a loud 1500 mW (typical) au
  ]
 <MARU-190> -> <MARU-136> [ labeltooltip="2 → serves  → 100 W (7 A) max input → requires  ↩" tooltip="2 → serves  → 100 W (7 A) max input → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-136,MARU-190)" label="serves " 
  ]
-<MARU-120> -> <MARU-139> [ labeltooltip="sailing single-handed no-stress → contributes to  → sailing → receives from  ↩" tooltip="sailing single-handed no-stress → contributes to  → sailing → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-139,MARU-120)" label="contributes to " 
+<MARU-149> -> <MARU-139> [ labeltooltip="working sail (area...) → contributes to  → sailing → receives from  ↩" tooltip="working sail (area...) → contributes to  → sailing → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-139,MARU-149)" label="contributes to " 
  ]
-<MARU-149> -> <MARU-139> [ labeltooltip="total sail (area...) → contributes to  → sailing → receives from  ↩" tooltip="total sail (area...) → contributes to  → sailing → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-139,MARU-149)" label="contributes to " 
+<MARU-395> -> <MARU-139> [ labeltooltip="total sail (area...) → contributes to  → sailing → receives from  ↩" tooltip="total sail (area...) → contributes to  → sailing → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-139,MARU-395)" label="contributes to " 
  ]
 <MARU-55> -> <MARU-139> [ labeltooltip="conch shell → contributes to  → sailing → receives from  ↩" tooltip="conch shell → contributes to  → sailing → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-139,MARU-55)" label="contributes to " 
  ]
@@ -3629,13 +3749,11 @@ Icom’s custom high-power capacity speaker delivers a loud 1500 mW (typical) au
  ]
 <MARU-143> -> <MARU-148> [ labeltooltip="Jib Sail → ist gebündelt in ◇  → + → aggregiert ◇  ↩" tooltip="Jib Sail → ist gebündelt in ◇  → + → aggregiert ◇  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-148,MARU-143)" arrowtail=odiamond dir=back dir=none
  ]
-<MARU-147> -> <MARU-148> [ labeltooltip="Storm Sail → ist gebündelt in ◇  → + → aggregiert ◇  ↩" tooltip="Storm Sail → ist gebündelt in ◇  → + → aggregiert ◇  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-148,MARU-147)" arrowtail=odiamond dir=back dir=none
- ]
 <MARU-152> -> <MARU-148> [ labeltooltip="Genoa Sail → ist gebündelt in ◇  → + → aggregiert ◇  ↩" tooltip="Genoa Sail → ist gebündelt in ◇  → + → aggregiert ◇  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-148,MARU-152)" arrowtail=odiamond dir=back dir=none
  ]
 <MARU-99> -> <MARU-148> [ labeltooltip="Main Sail → ist gebündelt in ◇  → + → aggregiert ◇  ↩" tooltip="Main Sail → ist gebündelt in ◇  → + → aggregiert ◇  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-148,MARU-99)" arrowtail=odiamond dir=back dir=none
  ]
-<MARU-148> -> <MARU-149> [ labeltooltip="+ → supports  → total sail (area...) → based on  ↩" tooltip="+ → supports  → total sail (area...) → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-149,MARU-148)" label="supports " 
+<MARU-148> -> <MARU-149> [ labeltooltip="+ → supports  → working sail (area...) → based on  ↩" tooltip="+ → supports  → working sail (area...) → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-149,MARU-148)" label="supports " 
  ]
 <MARU-151> -> <MARU-150> [ labeltooltip="Outer Forestay → supports  → Genoa Furling System → based on  ↩" tooltip="Outer Forestay → supports  → Genoa Furling System → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-150,MARU-151)" label="supports " 
  ]
@@ -3764,6 +3882,8 @@ Icom’s custom high-power capacity speaker delivers a loud 1500 mW (typical) au
 <MARU-254> -> <MARU-213> [ labeltooltip="Traveller Sheet starboard (2022) → serves  → MSD ST → requires  ↩" tooltip="Traveller Sheet starboard (2022) → serves  → MSD ST → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-213,MARU-254)" label="serves " 
  ]
 <MARU-255> -> <MARU-213> [ labeltooltip="Traveller Sheet portside (2022) → serves  → MSD ST → requires  ↩" tooltip="Traveller Sheet portside (2022) → serves  → MSD ST → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-213,MARU-255)" label="serves " 
+ ]
+<MARU-99> -> <MARU-213> [ labeltooltip="Main Sail → serves  → MSD ST → requires  ↩" tooltip="Main Sail → serves  → MSD ST → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-213,MARU-99)" label="serves " 
  ]
 <MARU-116> -> <MARU-221> [ labeltooltip="engine hold → supports  → Engine setup 2022 → based on  ↩" tooltip="engine hold → supports  → Engine setup 2022 → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-221,MARU-116)" label="supports " 
  ]
@@ -4019,8 +4139,6 @@ Icom’s custom high-power capacity speaker delivers a loud 1500 mW (typical) au
  ]
 <MARU-366> -> <MARU-354> [ labeltooltip="48 V charger backbone → contributes to  → Py Battery 1 → receives from  ↩" tooltip="48 V charger backbone → contributes to  → Py Battery 1 → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-354,MARU-366)" label="contributes to " 
  ]
-<MARU-4> -> <MARU-354> [ labeltooltip="E80 batteries [x2] NOT RECOMMENDED! → preceeds  → Py Battery 1 → follows  ↩" tooltip="E80 batteries [x2] NOT RECOMMENDED! → preceeds  → Py Battery 1 → follows  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-354,MARU-4)" arrowhead=onormalonormal penwidth=1 color=""
- ]
 <OTHER-76> -> <MARU-354> [ labeltooltip="US3000C → is blueprint for △ → Py Battery 1 → realizes blueprint  ↩" tooltip="US3000C → is blueprint for △ → Py Battery 1 → realizes blueprint  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-354,OTHER-76)" color=blue penwidth=1 arrowhead=onormal
  ]
 <MARU-366> -> <MARU-355> [ labeltooltip="48 V charger backbone → contributes to  → Py Battery 2 → receives from  ↩" tooltip="48 V charger backbone → contributes to  → Py Battery 2 → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-355,MARU-366)" label="contributes to " 
@@ -4040,8 +4158,6 @@ Icom’s custom high-power capacity speaker delivers a loud 1500 mW (typical) au
 <MARU-125> -> <MARU-36> [ labeltooltip="0 - 1 kW → contributes to  → charging eProp (!) max 4 kW combined → receives from  ↩" tooltip="0 - 1 kW → contributes to  → charging eProp (!) max 4 kW combined → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-36,MARU-125)" label="contributes to " 
  ]
 <MARU-126> -> <MARU-36> [ labeltooltip="30 A output → contributes to  → charging eProp (!) max 4 kW combined → receives from  ↩" tooltip="30 A output → contributes to  → charging eProp (!) max 4 kW combined → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-36,MARU-126)" label="contributes to " 
- ]
-<MARU-359> -> <MARU-360> [ labeltooltip="1.8 kW (37 A) max continuous output → contributes to  → + → receives from  ↩" tooltip="1.8 kW (37 A) max continuous output → contributes to  → + → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-360,MARU-359)" label="contributes to "  dir=none
  ]
 <MARU-361> -> <MARU-360> [ labeltooltip="1.8 kW (37 A) max continuous output → contributes to  → + → receives from  ↩" tooltip="1.8 kW (37 A) max continuous output → contributes to  → + → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-360,MARU-361)" label="contributes to "  dir=none
  ]
@@ -4099,6 +4215,8 @@ Icom’s custom high-power capacity speaker delivers a loud 1500 mW (typical) au
  ]
 <BOGOI-857> -> <MARU-377> [ labeltooltip="solar charge controller 36-72 V -> 12 V → serves  → 20 A (240 W) max load output → requires  ↩" tooltip="solar charge controller 36-72 V -> 12 V → serves  → 20 A (240 W) max load output → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-377,BOGOI-857)" label="serves " 
  ]
+<MARU-370> -> <MARU-377> [ labeltooltip="12 V charger backbone → contributes to  → 20 A (240 W) max load output → receives from  ↩" tooltip="12 V charger backbone → contributes to  → 20 A (240 W) max load output → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-377,MARU-370)" label="contributes to " 
+ ]
 <MARU-275> -> <MARU-378> [ labeltooltip="panel portside rear deck → serves  → 72 V 0-3 A → requires  ↩" tooltip="panel portside rear deck → serves  → 72 V 0-3 A → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-378,MARU-275)" label="serves " 
  ]
 <MARU-276> -> <MARU-378> [ labeltooltip="panel starboard rear deck → serves  → 72 V 0-3 A → requires  ↩" tooltip="panel starboard rear deck → serves  → 72 V 0-3 A → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-378,MARU-276)" label="serves " 
@@ -4112,6 +4230,8 @@ Icom’s custom high-power capacity speaker delivers a loud 1500 mW (typical) au
 <MARU-270> -> <MARU-380> [ labeltooltip="panel starboard front hull → serves  → 72 V 0-3 A → requires  ↩" tooltip="panel starboard front hull → serves  → 72 V 0-3 A → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-380,MARU-270)" label="serves " 
  ]
 <MARU-140> -> <MARU-381> [ labeltooltip="8 kW (160 A) max combined output → contributes to  → | → receives from  ↩" tooltip="8 kW (160 A) max combined output → contributes to  → | → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-381,MARU-140)" label="contributes to "  dir=none
+ ]
+<MARU-359> -> <MARU-381> [ labeltooltip="1.8 kW (37 A) max continuous output → contributes to  → | → receives from  ↩" tooltip="1.8 kW (37 A) max continuous output → contributes to  → | → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-381,MARU-359)" label="contributes to "  dir=none
  ]
 <MARU-362> -> <MARU-381> [ labeltooltip="3.5 kW max combined continuous output  → contributes to  → | → receives from  ↩" tooltip="3.5 kW max combined continuous output  → contributes to  → | → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-381,MARU-362)" label="contributes to "  dir=none
  ]
@@ -4145,15 +4265,49 @@ Icom’s custom high-power capacity speaker delivers a loud 1500 mW (typical) au
  ]
 <MARU-383> -> <MARU-393> [ labeltooltip="10 A (120 W) max output → contributes to  → | → receives from  ↩" tooltip="10 A (120 W) max output → contributes to  → | → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-393,MARU-383)" label="contributes to "  dir=none
  ]
+<UNIVERSAL-23> -> <MARU-394> [ labeltooltip="Wind → serves  → Blister sail → requires  ↩" tooltip="Wind → serves  → Blister sail → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-394,UNIVERSAL-23)" label="serves " 
+ ]
+<MARU-147> -> <MARU-395> [ labeltooltip="Storm Sail → contributes to  → total sail (area...) → receives from  ↩" tooltip="Storm Sail → contributes to  → total sail (area...) → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-395,MARU-147)" label="contributes to " 
+ ]
+<MARU-149> -> <MARU-395> [ labeltooltip="working sail (area...) → contributes to  → total sail (area...) → receives from  ↩" tooltip="working sail (area...) → contributes to  → total sail (area...) → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-395,MARU-149)" label="contributes to " 
+ ]
+<MARU-394> -> <MARU-395> [ labeltooltip="Blister sail → contributes to  → total sail (area...) → receives from  ↩" tooltip="Blister sail → contributes to  → total sail (area...) → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-395,MARU-394)" label="contributes to " 
+ ]
+<MARU-396> -> <MARU-395> [ labeltooltip="Spinnaker sail → contributes to  → total sail (area...) → receives from  ↩" tooltip="Spinnaker sail → contributes to  → total sail (area...) → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-395,MARU-396)" label="contributes to " 
+ ]
+<UNIVERSAL-23> -> <MARU-396> [ labeltooltip="Wind → serves  → Spinnaker sail → requires  ↩" tooltip="Wind → serves  → Spinnaker sail → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-396,UNIVERSAL-23)" label="serves " 
+ ]
+<MARU-398> -> <MARU-397> [ labeltooltip="2 kW max input → serves  → electric stove → requires  ↩" tooltip="2 kW max input → serves  → electric stove → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-397,MARU-398)" label="serves " 
+ ]
+<OTHER-84> -> <MARU-397> [ labeltooltip="CIARRA CBTIH1 2000W Portable Induction Plate → is blueprint for △ → electric stove → realizes blueprint  ↩" tooltip="CIARRA CBTIH1 2000W Portable Induction Plate → is blueprint for △ → electric stove → realizes blueprint  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-397,OTHER-84)" color=blue penwidth=1 arrowhead=onormal
+ ]
+<MARU-399> -> <MARU-398> [ labeltooltip="2 kW peak output → contributes to  → 2 kW max input → receives from  ↩" tooltip="2 kW peak output → contributes to  → 2 kW max input → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-398,MARU-399)" label="contributes to " 
+ ]
+<MARU-235> -> <MARU-399> [ labeltooltip="Inverter 48 V -> 230 V → serves  → 2 kW peak output → requires  ↩" tooltip="Inverter 48 V -> 230 V → serves  → 2 kW peak output → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-399,MARU-235)" label="serves " 
+ ]
 <MARU-36> -> <MARU-4> [ labeltooltip="charging eProp (!) max 4 kW combined → serves  → E80 batteries [x2] NOT RECOMMENDED! → requires  ↩" tooltip="charging eProp (!) max 4 kW combined → serves  → E80 batteries [x2] NOT RECOMMENDED! → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-4,MARU-36)" label="serves " 
  ]
 <OTHER-34> -> <MARU-4> [ labeltooltip="ePropulsion Technology Ltd. → supplies  → E80 batteries [x2] NOT RECOMMENDED! → supplied by  ↩" tooltip="ePropulsion Technology Ltd. → supplies  → E80 batteries [x2] NOT RECOMMENDED! → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-4,OTHER-34)" label="supplies " 
+ ]
+<MARU-397> -> <MARU-400> [ labeltooltip="electric stove → contributes to  → pan → receives from  ↩" tooltip="electric stove → contributes to  → pan → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-400,MARU-397)" label="contributes to " 
+ ]
+<MARU-397> -> <MARU-401> [ labeltooltip="electric stove → contributes to  → pot → receives from  ↩" tooltip="electric stove → contributes to  → pot → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-401,MARU-397)" label="contributes to " 
+ ]
+<MARU-84> -> <MARU-402> [ labeltooltip="Tiller (x2) → serves  → Rudder [x2] → requires  ↩" tooltip="Tiller (x2) → serves  → Rudder [x2] → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-402,MARU-84)" label="serves " 
+ ]
+<MARU-12> -> <MARU-404> [ labeltooltip="Rear Navigation Light → ist gebündelt in ◇  → navigation lights → aggregiert ◇  ↩" tooltip="Rear Navigation Light → ist gebündelt in ◇  → navigation lights → aggregiert ◇  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-404,MARU-12)" arrowtail=odiamond dir=back
+ ]
+<MARU-188> -> <MARU-404> [ labeltooltip="navigation light (portside, LED) → ist gebündelt in ◇  → navigation lights → aggregiert ◇  ↩" tooltip="navigation light (portside, LED) → ist gebündelt in ◇  → navigation lights → aggregiert ◇  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-404,MARU-188)" arrowtail=odiamond dir=back
+ ]
+<MARU-74> -> <MARU-404> [ labeltooltip="navigation light (starboard, LED) → ist gebündelt in ◇  → navigation lights → aggregiert ◇  ↩" tooltip="navigation light (starboard, LED) → ist gebündelt in ◇  → navigation lights → aggregiert ◇  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-404,MARU-74)" arrowtail=odiamond dir=back
  ]
 <MARU-186> -> <MARU-45> [ labeltooltip="Cabin (starboard) → supports  → Engine Controller → based on  ↩" tooltip="Cabin (starboard) → supports  → Engine Controller → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-45,MARU-186)" label="supports " 
  ]
 <OTHER-34> -> <MARU-45> [ labeltooltip="ePropulsion Technology Ltd. → supplies  → Engine Controller → supplied by  ↩" tooltip="ePropulsion Technology Ltd. → supplies  → Engine Controller → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-45,OTHER-34)" label="supplies " 
  ]
 <MARU-139> -> <MARU-46> [ labeltooltip="sailing → serves  → recuperating → requires  ↩" tooltip="sailing → serves  → recuperating → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-46,MARU-139)" label="serves " 
+ ]
+<MARU-160> -> <MARU-46> [ labeltooltip="battery communication cable → serves  → recuperating → requires  ↩" tooltip="battery communication cable → serves  → recuperating → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-46,MARU-160)" label="serves " 
  ]
 <MARU-367> -> <MARU-46> [ labeltooltip="| → serves  → recuperating → requires  ↩" tooltip="| → serves  → recuperating → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-46,MARU-367)" label="serves " 
  ]
@@ -4215,9 +4369,9 @@ Icom’s custom high-power capacity speaker delivers a loud 1500 mW (typical) au
  ]
 <MARU-109> -> <MARU-84> [ labeltooltip="Tiller Extension 2022 x2 → serves  → Tiller (x2) → requires  ↩" tooltip="Tiller Extension 2022 x2 → serves  → Tiller (x2) → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-84,MARU-109)" label="serves " 
  ]
-<MARU-30> -> <MARU-84> [ labeltooltip="Tiller drive (actuator) → serves  → Tiller (x2) → requires  ↩" tooltip="Tiller drive (actuator) → serves  → Tiller (x2) → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-84,MARU-30)" label="serves " 
- ]
 <MARU-76> -> <MARU-84> [ labeltooltip="Tiller Extension 2021 x2 → serves  → Tiller (x2) → requires  ↩" tooltip="Tiller Extension 2021 x2 → serves  → Tiller (x2) → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-84,MARU-76)" label="serves " 
+ ]
+<MARU-118> -> <MARU-84> [ labeltooltip="self-steering → contributes to  → Tiller (x2) → receives from  ↩" tooltip="self-steering → contributes to  → Tiller (x2) → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-84,MARU-118)" label="contributes to " 
  ]
 <MARU-178> -> <MARU-89> [ labeltooltip="Tabernacle → supports  → Mast → based on  ↩" tooltip="Tabernacle → supports  → Mast → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-89,MARU-178)" label="supports " 
  ]
@@ -4265,11 +4419,17 @@ Icom’s custom high-power capacity speaker delivers a loud 1500 mW (typical) au
  ]
 <MARU-139> -> <NAVIGARE-14> [ labeltooltip="sailing → contributes to  → moving → receives from  ↩" tooltip="sailing → contributes to  → moving → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(NAVIGARE-14,MARU-139)" label="contributes to " 
  ]
+<MARU-141> -> <NAVIGARE-14> [ labeltooltip="driving (by engine) → contributes to  → moving → receives from  ↩" tooltip="driving (by engine) → contributes to  → moving → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(NAVIGARE-14,MARU-141)" label="contributes to " 
+ ]
 <MARU-201> -> <NAVIGARE-14> [ labeltooltip="paddling (?) → contributes to  → moving → receives from  ↩" tooltip="paddling (?) → contributes to  → moving → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(NAVIGARE-14,MARU-201)" label="contributes to " 
  ]
 <MARU-194> -> <NAVIGARE-20> [ labeltooltip="VHF AIS Radio → supports  → legal operation of VHF (marine) radio → based on  ↩" tooltip="VHF AIS Radio → supports  → legal operation of VHF (marine) radio → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(NAVIGARE-20,MARU-194)" label="supports " 
  ]
 <MARU-345> -> <NAVIGARE-20> [ labeltooltip="VHF handheld radio [x 5] → supports  → legal operation of VHF (marine) radio → based on  ↩" tooltip="VHF handheld radio [x 5] → supports  → legal operation of VHF (marine) radio → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(NAVIGARE-20,MARU-345)" label="supports " 
+ ]
+<MARU-400> -> <NAVIGARE-37> [ labeltooltip="pan → contributes to  → cooking → receives from  ↩" tooltip="pan → contributes to  → cooking → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(NAVIGARE-37,MARU-400)" label="contributes to " 
+ ]
+<MARU-401> -> <NAVIGARE-37> [ labeltooltip="pot → contributes to  → cooking → receives from  ↩" tooltip="pot → contributes to  → cooking → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(NAVIGARE-37,MARU-401)" label="contributes to " 
  ]
 <OTHER-32> -> <OTHER-33> [ labeltooltip="230 V shore power → contributes to  → 9 A input → receives from  ↩" tooltip="230 V shore power → contributes to  → 9 A input → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(OTHER-33,OTHER-32)" label="contributes to " 
  ]

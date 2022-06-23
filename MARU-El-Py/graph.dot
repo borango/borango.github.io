@@ -450,6 +450,21 @@ browse/MARU-264|smart-link]
 		label="contributes to ",
 		labeltooltip="8 A input → contributes to  → 48 V to 12 V Step-down Converter → receives from  ↩",
 		tooltip="8 A input → contributes to  → 48 V to 12 V Step-down Converter → receives from  ↩"];
+	<MARU-160>	[URL="https://knowhere.atlassian.net/browse/MARU-160",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10676+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10312.png" />
+</TD>
+  <TD COLSPAN='3'><B>battery communication cable</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-160> -> <MARU-46>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-46,MARU-160)",
+		label="serves ",
+		labeltooltip="battery communication cable → serves  → recuperating → requires  ↩",
+		minlen=2,
+		tooltip="battery communication cable → serves  → recuperating → requires  ↩"];
 	<MARU-176>	[URL="https://knowhere.atlassian.net/browse/MARU-176",
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
@@ -555,6 +570,21 @@ Surge power *3200W*"];
 </TABLE>>,
 		style="rounded,filled",
 		tooltip=""];
+	<MARU-399>	[URL="https://knowhere.atlassian.net/browse/MARU-399",
+		label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10670+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>2 kW peak output</B></TD></TR>
+</TABLE>>,
+		style="rounded,filled"];
+	<MARU-235> -> <MARU-399>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-399,MARU-235)",
+		label="serves ",
+		labeltooltip="Inverter 48 V -> 230 V → serves  → 2 kW peak output → requires  ↩",
+		minlen=1,
+		tooltip="Inverter 48 V -> 230 V → serves  → 2 kW peak output → requires  ↩"];
 	<MARU-268>	[URL="https://knowhere.atlassian.net/browse/MARU-268",
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
@@ -779,7 +809,7 @@ Surge power *3200W*"];
 </TD>
   <TD COLSPAN='3'><B>Py Battery 1</B></TD></TR>
 </TABLE>>,
-		style="rounded,filled,dotted"];
+		style="rounded,filled"];
 	<MARU-359>	[URL="https://knowhere.atlassian.net/browse/MARU-359",
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
@@ -818,14 +848,11 @@ Surge power *3200W*"];
 		label="contributes to ",
 		labeltooltip="Py Battery 2 → contributes to  → 1.8 kW (37 A) max continuous output → receives from  ↩",
 		tooltip="Py Battery 2 → contributes to  → 1.8 kW (37 A) max continuous output → receives from  ↩"];
-	<MARU-360>	[URL="https://knowhere.atlassian.net/browse/MARU-360",
-		label=<+>,
-		shape=circle];
-	<MARU-359> -> <MARU-360>	[dir=none,
-		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-360,MARU-359)",
+	<MARU-359> -> <MARU-381>	[dir=none,
+		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-381,MARU-359)",
 		label="contributes to ",
-		labeltooltip="1.8 kW (37 A) max continuous output → contributes to  → + → receives from  ↩",
-		tooltip="1.8 kW (37 A) max continuous output → contributes to  → + → receives from  ↩"];
+		labeltooltip="1.8 kW (37 A) max continuous output → contributes to  → | → receives from  ↩",
+		tooltip="1.8 kW (37 A) max continuous output → contributes to  → | → receives from  ↩"];
 	<MARU-4>	[URL="https://knowhere.atlassian.net/browse/MARU-4",
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
@@ -840,6 +867,9 @@ Surge power *3200W*"];
 		label="serves ",
 		labeltooltip="charging eProp (!) max 4 kW combined → serves  → E80 batteries [x2] NOT RECOMMENDED! → requires  ↩",
 		tooltip="charging eProp (!) max 4 kW combined → serves  → E80 batteries [x2] NOT RECOMMENDED! → requires  ↩"];
+	<MARU-360>	[URL="https://knowhere.atlassian.net/browse/MARU-360",
+		label=<+>,
+		shape=circle];
 	<MARU-362>	[URL="https://knowhere.atlassian.net/browse/MARU-362",
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
@@ -1010,12 +1040,6 @@ Surge power *3200W*"];
 		label="contributes to ",
 		labeltooltip="E80 batteries [x2] NOT RECOMMENDED! → contributes to  → 8 kW (160 A) max combined output → receives from  ↩",
 		tooltip="E80 batteries [x2] NOT RECOMMENDED! → contributes to  → 8 kW (160 A) max combined output → receives from  ↩"];
-	<MARU-4> -> <MARU-354>	[arrowhead=onormalonormal,
-		color="",
-		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-354,MARU-4)",
-		labeltooltip="E80 batteries [x2] NOT RECOMMENDED! → preceeds  → Py Battery 1 → follows  ↩",
-		penwidth=1,
-		tooltip="E80 batteries [x2] NOT RECOMMENDED! → preceeds  → Py Battery 1 → follows  ↩"];
 	<MARU-4> -> <MARU-355>	[arrowhead=onormalonormal,
 		color="",
 		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-355,MARU-4)",
