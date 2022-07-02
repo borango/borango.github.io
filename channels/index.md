@@ -10,7 +10,7 @@
 (2) Tracking / Messages (focus on messages)
 
 a) [https://share.garmin.com/Touringtest](https://share.garmin.com/touringtest) (proven_)  
-b) [Telegram Group: Traces of Boran](https://t.me/+GbkcT_6AZj8yMzUy) (experimental_)  
+c) [Telegram Group: Traces of Boran](https://t.me/+GbkcT_6AZj8yMzUy) (experimental_)  
 
 (3) Urgent Email (new_)
 
@@ -39,9 +39,10 @@ b) [Telegram Group: Traces of Boran](https://t.me/+GbkcT_6AZj8yMzUy) (experiment
 
 (7) Blog, Photos and Videos (not so frequent updates)
 
-a) [https://boran.travel.blog](https://boran.travel.blog/)  
-b) ["Maru" Photo Album at Google](https://photos.app.goo.gl/bDj5rvYgu9LCqtmG8)  
-c) ["Love + Liberty Lines" videos at Rumble](https://rumble.com/c/c-1262163)  
+a) [Telegram Group: "Love + Liberty Lines" Blog](https://t.me/LoveAndLibertyLines_Blog) (new_)  
+b) [Wordpress https://boran.travel.blog](https://boran.travel.blog/) (proven_)  
+c) ["Maru" Photo Album at Google](https://photos.app.goo.gl/bDj5rvYgu9LCqtmG8) (proven_)  
+d) ["Love + Liberty Lines" videos at Rumble](https://rumble.com/c/c-1262163) (new_)  
 
 ## Notes
 
