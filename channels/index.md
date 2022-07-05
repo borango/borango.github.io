@@ -40,8 +40,9 @@ b) [Telegram Group: Traces of Boran](https://t.me/+GbkcT_6AZj8yMzUy) (experiment
 (7) Blog, Photos and Videos (not so frequent updates)
 
 a) [https://boran.travel.blog](https://boran.travel.blog/)  
-b) ["Maru" Photo Album at Google](https://photos.app.goo.gl/bDj5rvYgu9LCqtmG8)  
-c) ["Love + Liberty Lines" videos at Rumble](https://rumble.com/c/c-1262163)  
+b) ["Maru" Photo Album at Google (mostly about the sailboat)](https://photos.app.goo.gl/bDj5rvYgu9LCqtmG8)  
+c) ["Touring-Test" Photo Album at Google (photo blog of my journey)](https://photos.app.goo.gl/LcyYD9ZWyWoo895Z7)  
+d) ["Love + Liberty Lines" videos at Rumble (mostly sailing)](https://rumble.com/c/c-1262163)  
 
 ## Notes
 
