@@ -1,5 +1,5 @@
 ---
-title: Pandemic Belief Systems
+title: Friendship despite Pandemy
 layout: kts-paper
 ogimage: /panbesy-1/graph.png
 abstract: "We agree on much more than we thought we do."
@@ -19,70 +19,48 @@ abstract: "We agree on much more than we thought we do."
     execute_keyboard_function( sdoc, "n" )
     onclick(  sdoc, sdoc.getElementById( "PANBESY-4" )  )
     execute_keyboard_function( sdoc, "j" )
-
-    sdoc = document.getElementById("graph_3").getSVGDocument()
-    onclick(  sdoc, sdoc.getElementById( "PANBESY-3" )  )
-    onclick(  sdoc, sdoc.getElementById( "PANBESY-3" )  )
-    onclick(  sdoc, sdoc.getElementById( "PANBESY-4" )  )
-    onclick(  sdoc, sdoc.getElementById( "PANBESY-4" )  )
-    execute_keyboard_function( sdoc, "j" )
-
-    sdoc = document.getElementById("graph").getSVGDocument()
-    onclick(  sdoc, sdoc.getElementById( "PANBESY-3" )  )
-    onclick(  sdoc, sdoc.getElementById( "PANBESY-3" )  )
-    onclick(  sdoc, sdoc.getElementById( "PANBESY-4" )  )
-    onclick(  sdoc, sdoc.getElementById( "PANBESY-4" )  )
-    execute_keyboard_function( sdoc, "j" )
   });
 </script>
 
-# <center>Pandemic Belief Systems</center>
+# <center>Friendship despite Pandemy</center>
 
 <center>research shows: "we agree on much more than we thought we do"</center>
 
 <object class="clear" id="graph_1" width="40%" data="../panbesy-1/graph-local.svg" type="image/svg+xml" alt="simplified knowledge map containing mostly shared values for both corona believers and conspiracy believers" ></object>
 
-I am not vaccinated against the corona virus. Perhaps you are. This could divide us into two different classes of people who can't understand each other.
+I am not vaccinated against the corona virus. Perhaps you are. This could divide us into two groups of people who can't understand each other.
 
-You could call me a Conspiracy Theorist. I could call you a Conspiracy Denier. Or, we can try to understand each other and continue being friends.
+You could call me a Conspiracy Theorist. I could call you a Conspiracy Denier. Or, we can try to understand each other and continue **being friends**. Fellow humans who inhabit the same wonderful planet. Which is more than enough reason for getting along with each other well. 
 
-My perspective on this situation is that we simply **adhere to different belief systems**.
+If we find ourselves in these two different groups then my perspective on this situation is: we **adhere to different belief systems**. Almost like a religion.
 
-Some while ago we have chosen to believe in certain assumptions. Since then we keep believing our own belief system. It is unlikely that either of us will change our beliefs. What members of one belief system call "scientific facts", the others refuse as "wrong or unproven assumptions". We even use the same terms and similar logic in our explanations. The **difference** is just the **set of assumptions** that we have chosen to believe. 
+Some while ago we have chosen to believe in certain assumptions. Since then we keep believing our own belief system. It is unlikely that either of us will change our beliefs. What members of one belief system call "scientific facts", the others refuse as "wrong or unproven assumptions". We even share the same terms and similar logic in our explanations. The **difference** is just the **set of assumptions** that we have chosen to believe. 
 
 **Fortunately we agree on much more than we thought we do.**
 
 For example, I assume that we all believe in, and aspire, **health**.
 
-In our belief systems we hold different assumptions about what is needed to achieve *health*. _Some people smoke. Some exercise. Some smoke and exercise._ But we do agree on the general concept of health, and that health is an important value for us. As it is for every human being.
+In our belief systems we hold different assumptions about what is needed to achieve *health*. Some people _smoke_. Some _exercise sports_. Some people _smoke and exercise_. We have different approaches to health but we do agree on the general concept of health, and that health is an important value. 
 
 Similar case for **solidarity**. Like every human, we all want to contribute to the wellbeing of our society's members. Based on our own assumptions, we all believe in our own ways of achieving solidarity.
 
-The map to the right highlights these values that we have in common.
+The map to the right highlights some values that we have in common.
 
 ---
 
-<object class="clear" id="graph_3" width="50%" data="../panbesy-3/graph-local.svg" type="image/svg+xml" alt="simplified knowledge map containing assumed causes and effects from immune system to pandemic" ></object>
+We may not agree on the *corona pandemic*. But we do agree on values like **solidarity**, **trust** and **health**.
 
-I guess that we agree on our immune system. At least that it exists and how it used to work.
+In my eyes this represents **a lot of agreement**.
 
-We do not agree on the *corona pandemic*. But we do, or once did, agree on the general concept of a pandemic. A pandemic occurs when a (new) virus appears ⊕ the population has no immunity to prevent it → then infections of a new desease occur at an exponential rate → causing severe cases and → enormous numbers of deaths worldwide.
+I am deeply grateful for all the people in my life who value **friendship** and **human connection** higher than recent medical beliefs. I believe that we must stay united. 
 
-I guess that until the year 2008 the WHO, you and I agreed on this causal model and definition of a pandemic.
-
-The map to the right highlights these beliefs around the immune system and the causes of a pandemic that we may have, or had, in common. In my eyes this represents **a lot of agreement**.
-
-## To be continued...
-
-If you would like to discuss future versions of this article then I invite you to work with me here:
-
-\> <https://t.me/+0lkzlWB0UtgxM2Yy>
+Thank you, my friends!
 
 ---
+Revision history
 
-Map with more (but not all) details:
+2021-12 first draft (initial title "Pandemic Belief Systems" with more details of my personal opinion about the pandemic question, and therefore less balanced)
 
-<object class="clear" id="graph" width="100%" data="graph-local.svg" type="image/svg+xml" alt="knowledge map containing assumed causes and effects for both corona believers and conspiracy believers"></object>
+2022-07-15 published (new title focussing on friendship, now hopefully well balanced) 
 
----
-(incomplete) draft version 2021-12-26
+
