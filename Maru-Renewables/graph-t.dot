@@ -358,25 +358,6 @@ area = 7 m²"
 </TABLE>>
  style="rounded,filled"
  ]
-<MARU-147> [URL="https://knowhere.atlassian.net/browse/MARU-147"
- tooltip="Sturmfock
-
-very high and narrow cut
-
-area x < 7 m²
-
-perhaps 3 m² (?)"
- label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10677+ORDER+BY+summary">
-<IMG SRC="../img/avatar--10700.png" />
-</TD>
-  <TD COLSPAN='3'><B>Storm Sail</B></TD></TR>
-</TABLE>>
- style="rounded,filled"
- colorscheme=ylorrd5 color=3
- ]
 <MARU-148> [URL="https://knowhere.atlassian.net/browse/MARU-148"
  tooltip=" "
  label=<+> shape=circle
@@ -1108,46 +1089,6 @@ Surge power *3200W*"
  tooltip=""
  label=<|> shape=circle
  ]
-<MARU-394> [URL="https://knowhere.atlassian.net/browse/MARU-394"
- tooltip="exact sail area unknown - 17.1 taken from JWD [https://drive.google.com/file/d/1PFRnUL_lsN95OqIOy9wiPIyry6lFU_ZC/view?usp=sharing|https://drive.google.com/file/d/1PFRnUL_lsN95OqIOy9wiPIyry6lFU_ZC/view?usp=sharing|smart-link] "
- label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10677+ORDER+BY+summary">
-<IMG SRC="../img/avatar--10700.png" />
-</TD>
-  <TD COLSPAN='3'><B>Blister sail</B></TD></TR>
-</TABLE>>
- style="rounded,filled"
- ]
-<MARU-395> [URL="https://knowhere.atlassian.net/browse/MARU-395"
- tooltip="... area, wind force & center of effort
-
-In standard Kutter Rig, the typical total sail area is 11 + 10 + 7 = 28 m²
-
-In stronger wind less sail area is used. For light wind from behind, Spinnaker or Gennaker (Blister) can be used in stead of Genoa to increase the total sail area significantly."
- label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10677+ORDER+BY+summary">
-<IMG SRC="../img/avatar--10700.png" />
-</TD>
-  <TD COLSPAN='3'><B>total sail (area...)</B></TD></TR>
-</TABLE>>
- style="rounded,filled"
- ]
-<MARU-396> [URL="https://knowhere.atlassian.net/browse/MARU-396"
- tooltip="sail area unknown - spinnaker is not part of original design"
- label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10677+ORDER+BY+summary">
-<IMG SRC="../img/avatar--10700.png" />
-</TD>
-  <TD COLSPAN='3'><B>Spinnaker sail</B></TD></TR>
-</TABLE>>
- style="rounded,filled"
- ]
 <MARU-397> [URL="https://knowhere.atlassian.net/browse/MARU-397"
  tooltip=" "
  label=<
@@ -1678,15 +1619,11 @@ cable diameter as per manufacturer’s specification"
  ]
 <MARU-149> -> <MARU-139> [ labeltooltip="working sail (area...) → contributes to  → sailing → receives from  ↩" tooltip="working sail (area...) → contributes to  → sailing → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-139,MARU-149)" label="contributes to " 
  ]
-<MARU-395> -> <MARU-139> [ labeltooltip="total sail (area...) → contributes to  → sailing → receives from  ↩" tooltip="total sail (area...) → contributes to  → sailing → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-139,MARU-395)" label="contributes to " 
- ]
 <MARU-4> -> <MARU-140> [ labeltooltip="E80 batteries [x2] NOT RECOMMENDED! → contributes to  → 8 kW (160 A) max combined output → receives from  ↩" tooltip="E80 batteries [x2] NOT RECOMMENDED! → contributes to  → 8 kW (160 A) max combined output → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-140,MARU-4)" label="contributes to " 
  ]
 <MARU-369> -> <MARU-141> [ labeltooltip="^ → serves  → driving (by engine) → requires  ↩" tooltip="^ → serves  → driving (by engine) → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-141,MARU-369)" label="serves " 
  ]
 <UNIVERSAL-23> -> <MARU-143> [ labeltooltip="Wind → serves  → Jib Sail → requires  ↩" tooltip="Wind → serves  → Jib Sail → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-143,UNIVERSAL-23)" label="serves " 
- ]
-<UNIVERSAL-23> -> <MARU-147> [ labeltooltip="Wind → serves  → Storm Sail → requires  ↩" tooltip="Wind → serves  → Storm Sail → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-147,UNIVERSAL-23)" label="serves " 
  ]
 <MARU-143> -> <MARU-148> [ labeltooltip="Jib Sail → ist gebündelt in ◇  → + → aggregiert ◇  ↩" tooltip="Jib Sail → ist gebündelt in ◇  → + → aggregiert ◇  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-148,MARU-143)" arrowtail=odiamond dir=back dir=none
  ]
@@ -1841,18 +1778,6 @@ cable diameter as per manufacturer’s specification"
 <MARU-135> -> <MARU-391> [ labeltooltip="12 Volt consumer backbone → serves  → 4 → requires  ↩" tooltip="12 Volt consumer backbone → serves  → 4 → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-391,MARU-135)" label="serves "  dir=none
  ]
 <MARU-383> -> <MARU-393> [ labeltooltip="10 A (120 W) max output → contributes to  → | → receives from  ↩" tooltip="10 A (120 W) max output → contributes to  → | → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-393,MARU-383)" label="contributes to "  dir=none
- ]
-<UNIVERSAL-23> -> <MARU-394> [ labeltooltip="Wind → serves  → Blister sail → requires  ↩" tooltip="Wind → serves  → Blister sail → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-394,UNIVERSAL-23)" label="serves " 
- ]
-<MARU-147> -> <MARU-395> [ labeltooltip="Storm Sail → contributes to  → total sail (area...) → receives from  ↩" tooltip="Storm Sail → contributes to  → total sail (area...) → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-395,MARU-147)" label="contributes to " 
- ]
-<MARU-149> -> <MARU-395> [ labeltooltip="working sail (area...) → contributes to  → total sail (area...) → receives from  ↩" tooltip="working sail (area...) → contributes to  → total sail (area...) → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-395,MARU-149)" label="contributes to " 
- ]
-<MARU-394> -> <MARU-395> [ labeltooltip="Blister sail → contributes to  → total sail (area...) → receives from  ↩" tooltip="Blister sail → contributes to  → total sail (area...) → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-395,MARU-394)" label="contributes to " 
- ]
-<MARU-396> -> <MARU-395> [ labeltooltip="Spinnaker sail → contributes to  → total sail (area...) → receives from  ↩" tooltip="Spinnaker sail → contributes to  → total sail (area...) → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-395,MARU-396)" label="contributes to " 
- ]
-<UNIVERSAL-23> -> <MARU-396> [ labeltooltip="Wind → serves  → Spinnaker sail → requires  ↩" tooltip="Wind → serves  → Spinnaker sail → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-396,UNIVERSAL-23)" label="serves " 
  ]
 <MARU-398> -> <MARU-397> [ labeltooltip="2 kW max input → serves  → electric stove → requires  ↩" tooltip="2 kW max input → serves  → electric stove → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-397,MARU-398)" label="serves " 
  ]

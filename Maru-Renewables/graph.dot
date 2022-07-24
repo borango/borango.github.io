@@ -734,46 +734,6 @@ area = 7 m²"];
 		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-148,MARU-143)",
 		labeltooltip="Jib Sail → ist gebündelt in ◇  → + → aggregiert ◇  ↩",
 		tooltip="Jib Sail → ist gebündelt in ◇  → + → aggregiert ◇  ↩"];
-	<MARU-147>	[URL="https://knowhere.atlassian.net/browse/MARU-147",
-		color=3,
-		colorscheme=ylorrd5,
-		label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10677+ORDER+BY+summary">
-<IMG SRC="../img/avatar--10700.png" />
-</TD>
-  <TD COLSPAN='3'><B>Storm Sail</B></TD></TR>
-</TABLE>>,
-		style="rounded,filled",
-		tooltip="Sturmfock
-
-very high and narrow cut
-
-area x < 7 m²
-
-perhaps 3 m² (?)"];
-	<MARU-395>	[URL="https://knowhere.atlassian.net/browse/MARU-395",
-		label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10677+ORDER+BY+summary">
-<IMG SRC="../img/avatar--10700.png" />
-</TD>
-  <TD COLSPAN='3'><B>total sail (area...)</B></TD></TR>
-</TABLE>>,
-		style="rounded,filled",
-		tooltip="... area, wind force & center of effort
-
-In standard Kutter Rig, the typical total sail area is 11 + 10 + 7 = 28 m²
-
-In stronger \
-wind less sail area is used. For light wind from behind, Spinnaker or Gennaker (Blister) can be used in stead of Genoa to increase \
-the total sail area significantly."];
-	<MARU-147> -> <MARU-395>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-395,MARU-147)",
-		label="contributes to ",
-		labeltooltip="Storm Sail → contributes to  → total sail (area...) → receives from  ↩",
-		tooltip="Storm Sail → contributes to  → total sail (area...) → receives from  ↩"];
 	<MARU-149>	[URL="https://knowhere.atlassian.net/browse/MARU-149",
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
@@ -799,10 +759,6 @@ the total sail area significantly."];
 		label="contributes to ",
 		labeltooltip="working sail (area...) → contributes to  → sailing → receives from  ↩",
 		tooltip="working sail (area...) → contributes to  → sailing → receives from  ↩"];
-	<MARU-149> -> <MARU-395>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-395,MARU-149)",
-		label="contributes to ",
-		labeltooltip="working sail (area...) → contributes to  → total sail (area...) → receives from  ↩",
-		tooltip="working sail (area...) → contributes to  → total sail (area...) → receives from  ↩"];
 	<MARU-152>	[URL="https://knowhere.atlassian.net/browse/MARU-152",
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
@@ -1679,41 +1635,6 @@ Recommended battery level during storage 45%~50%"];
 		label="contributes to ",
 		labeltooltip="| → contributes to  → 250 W max Solar input → receives from  ↩",
 		tooltip="| → contributes to  → 250 W max Solar input → receives from  ↩"];
-	<MARU-394>	[URL="https://knowhere.atlassian.net/browse/MARU-394",
-		label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10677+ORDER+BY+summary">
-<IMG SRC="../img/avatar--10700.png" />
-</TD>
-  <TD COLSPAN='3'><B>Blister sail</B></TD></TR>
-</TABLE>>,
-		style="rounded,filled",
-		tooltip="exact sail area unknown - 17.1 taken from JWD [https://drive.google.com/file/d/1PFRnUL_lsN95OqIOy9wiPIyry6lFU_ZC/view?usp=sharing|\
-https://drive.google.com/file/d/1PFRnUL_lsN95OqIOy9wiPIyry6lFU_ZC/view?usp=sharing|smart-link] "];
-	<MARU-394> -> <MARU-395>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-395,MARU-394)",
-		label="contributes to ",
-		labeltooltip="Blister sail → contributes to  → total sail (area...) → receives from  ↩",
-		tooltip="Blister sail → contributes to  → total sail (area...) → receives from  ↩"];
-	<MARU-395> -> <MARU-139>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-139,MARU-395)",
-		label="contributes to ",
-		labeltooltip="total sail (area...) → contributes to  → sailing → receives from  ↩",
-		tooltip="total sail (area...) → contributes to  → sailing → receives from  ↩"];
-	<MARU-396>	[URL="https://knowhere.atlassian.net/browse/MARU-396",
-		label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10677+ORDER+BY+summary">
-<IMG SRC="../img/avatar--10700.png" />
-</TD>
-  <TD COLSPAN='3'><B>Spinnaker sail</B></TD></TR>
-</TABLE>>,
-		style="rounded,filled",
-		tooltip="sail area unknown - spinnaker is not part of original design"];
-	<MARU-396> -> <MARU-395>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-395,MARU-396)",
-		label="contributes to ",
-		labeltooltip="Spinnaker sail → contributes to  → total sail (area...) → receives from  ↩",
-		tooltip="Spinnaker sail → contributes to  → total sail (area...) → receives from  ↩"];
 	<MARU-397>	[URL="https://knowhere.atlassian.net/browse/MARU-397",
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
@@ -2117,10 +2038,6 @@ Operating Ambient Temperature \
 		label="serves ",
 		labeltooltip="Wind → serves  → Jib Sail → requires  ↩",
 		tooltip="Wind → serves  → Jib Sail → requires  ↩"];
-	<UNIVERSAL-23> -> <MARU-147>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-147,UNIVERSAL-23)",
-		label="serves ",
-		labeltooltip="Wind → serves  → Storm Sail → requires  ↩",
-		tooltip="Wind → serves  → Storm Sail → requires  ↩"];
 	<UNIVERSAL-23> -> <MARU-152>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-152,UNIVERSAL-23)",
 		label="serves ",
 		labeltooltip="Wind → serves  → Genoa Sail → requires  ↩",
@@ -2134,14 +2051,6 @@ Operating Ambient Temperature \
 		labeltooltip="Wind → contributes to  → Swedish Flag → receives from  ↩",
 		minlen=<1>,
 		tooltip="Wind → contributes to  → Swedish Flag → receives from  ↩"];
-	<UNIVERSAL-23> -> <MARU-394>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-394,UNIVERSAL-23)",
-		label="serves ",
-		labeltooltip="Wind → serves  → Blister sail → requires  ↩",
-		tooltip="Wind → serves  → Blister sail → requires  ↩"];
-	<UNIVERSAL-23> -> <MARU-396>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-396,UNIVERSAL-23)",
-		label="serves ",
-		labeltooltip="Wind → serves  → Spinnaker sail → requires  ↩",
-		tooltip="Wind → serves  → Spinnaker sail → requires  ↩"];
 	<UNIVERSAL-23> -> <MARU-99>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-99,UNIVERSAL-23)",
 		label="serves ",
 		labeltooltip="Wind → serves  → Main Sail → requires  ↩",
