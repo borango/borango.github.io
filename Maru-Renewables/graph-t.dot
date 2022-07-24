@@ -391,30 +391,6 @@ area = 10.2 m²"
 </TABLE>>
  style="rounded,filled"
  ]
-<MARU-154> [URL="https://knowhere.atlassian.net/browse/MARU-154"
- tooltip=" "
- label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10670+ORDER+BY+summary">
-<IMG SRC="../img/avatar--10307.png" />
-</TD>
-  <TD COLSPAN='3'><B>12.2 x 30 A output</B></TD></TR>
-</TABLE>>
- style="rounded,filled"
- ]
-<MARU-155> [URL="https://knowhere.atlassian.net/browse/MARU-155"
- tooltip=" "
- label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10670+ORDER+BY+summary">
-<IMG SRC="../img/avatar--10307.png" />
-</TD>
-  <TD COLSPAN='3'><B>8 A input</B></TD></TR>
-</TABLE>>
- style="rounded,filled"
- ]
 <MARU-156> [URL="https://knowhere.atlassian.net/browse/MARU-156"
  tooltip=" "
  label=<
@@ -1296,20 +1272,6 @@ Operating Ambient Temperature -25°C ~ 50°C (-13°F ~ 122°F)"
  style="rounded,filled"
  colorscheme=ylorrd5 color=5
  ]
-<MARU-59> [URL="https://knowhere.atlassian.net/browse/MARU-59"
- tooltip="{quote}DC 48 V zu 12 V Buck Converter Abwärtswandler Spannungsreduzierer Auto Step Down Regler 
-
-30A 360 Watt Netzteil Transformatormodul, Wasserdicht Spannung Konverter{quote}"
- label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10626+ORDER+BY+summary">
-<IMG SRC="../img/avatar--11493.png" />
-</TD>
-  <TD COLSPAN='3'><B>48 V to 12 V Step-down Converter</B></TD></TR>
-</TABLE>>
- style="rounded,filled"
- ]
 <MARU-68> [URL="https://knowhere.atlassian.net/browse/MARU-68"
  tooltip=""
  label=<
@@ -1611,8 +1573,6 @@ cable diameter as per manufacturer’s specification"
  ]
 <MARU-133> -> <MARU-134> [ labeltooltip="Rutland Hybrid Controller → contributes to  → 55 A peak output → receives from  ↩" tooltip="Rutland Hybrid Controller → contributes to  → 55 A peak output → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-134,MARU-133)" label="contributes to " 
  ]
-<MARU-154> -> <MARU-135> [ labeltooltip="12.2 x 30 A output → contributes to  → 12 Volt consumer backbone → receives from  ↩" tooltip="12.2 x 30 A output → contributes to  → 12 Volt consumer backbone → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-135,MARU-154)" label="contributes to " 
- ]
 <MARU-285> -> <MARU-135> [ labeltooltip="12V 640Wh → contributes to  → 12 Volt consumer backbone → receives from  ↩" tooltip="12V 640Wh → contributes to  → 12 Volt consumer backbone → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-135,MARU-285)" label="contributes to " 
  ]
 <MARU-190> -> <MARU-136> [ labeltooltip="2 → serves  → 100 W (7 A) max input → requires  ↩" tooltip="2 → serves  → 100 W (7 A) max input → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-136,MARU-190)" label="serves " 
@@ -1634,10 +1594,6 @@ cable diameter as per manufacturer’s specification"
 <MARU-148> -> <MARU-149> [ labeltooltip="+ → supports  → working sail (area...) → based on  ↩" tooltip="+ → supports  → working sail (area...) → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-149,MARU-148)" label="supports " 
  ]
 <UNIVERSAL-23> -> <MARU-152> [ labeltooltip="Wind → serves  → Genoa Sail → requires  ↩" tooltip="Wind → serves  → Genoa Sail → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-152,UNIVERSAL-23)" label="serves " 
- ]
-<MARU-59> -> <MARU-154> [ labeltooltip="48 V to 12 V Step-down Converter → contributes to  → 12.2 x 30 A output → receives from  ↩" tooltip="48 V to 12 V Step-down Converter → contributes to  → 12.2 x 30 A output → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-154,MARU-59)" label="contributes to " 
- ]
-<MARU-176> -> <MARU-155> [ labeltooltip="48 V consumer backbone → contributes to  → 8 A input → receives from  ↩" tooltip="48 V consumer backbone → contributes to  → 8 A input → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-155,MARU-176)" label="contributes to " 
  ]
 <UNIVERSAL-23> -> <MARU-156> [ labeltooltip="Wind → contributes to  → Windex → receives from  ↩" tooltip="Wind → contributes to  → Windex → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-156,UNIVERSAL-23)" label="contributes to " 
  ]
@@ -1808,8 +1764,6 @@ cable diameter as per manufacturer’s specification"
 <MARU-367> -> <MARU-46> [ labeltooltip="| → serves  → recuperating → requires  ↩" tooltip="| → serves  → recuperating → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-46,MARU-367)" label="serves " 
  ]
 <MARU-127> -> <MARU-58> [ labeltooltip="12 V x 20 A input → contributes to  → Step-up Converter 20 A [#1] → receives from  ↩" tooltip="12 V x 20 A input → contributes to  → Step-up Converter 20 A [#1] → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-58,MARU-127)" label="contributes to " 
- ]
-<MARU-155> -> <MARU-59> [ labeltooltip="8 A input → contributes to  → 48 V to 12 V Step-down Converter → receives from  ↩" tooltip="8 A input → contributes to  → 48 V to 12 V Step-down Converter → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-59,MARU-155)" label="contributes to " 
  ]
 <MARU-134> -> <MARU-68> [ labeltooltip="55 A peak output → contributes to  → Rutland Controller - Battery cable → receives from  ↩" tooltip="55 A peak output → contributes to  → Rutland Controller - Battery cable → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-68,MARU-134)" label="contributes to " 
  ]

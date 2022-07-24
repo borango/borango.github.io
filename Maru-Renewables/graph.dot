@@ -776,48 +776,6 @@ area = 10.2 m²"];
 		href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-148,MARU-152)",
 		labeltooltip="Genoa Sail → ist gebündelt in ◇  → + → aggregiert ◇  ↩",
 		tooltip="Genoa Sail → ist gebündelt in ◇  → + → aggregiert ◇  ↩"];
-	<MARU-154>	[URL="https://knowhere.atlassian.net/browse/MARU-154",
-		label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10670+ORDER+BY+summary">
-<IMG SRC="../img/avatar--10307.png" />
-</TD>
-  <TD COLSPAN='3'><B>12.2 x 30 A output</B></TD></TR>
-</TABLE>>,
-		style="rounded,filled"];
-	<MARU-154> -> <MARU-135>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-135,MARU-154)",
-		label="contributes to ",
-		labeltooltip="12.2 x 30 A output → contributes to  → 12 Volt consumer backbone → receives from  ↩",
-		tooltip="12.2 x 30 A output → contributes to  → 12 Volt consumer backbone → receives from  ↩"];
-	<MARU-155>	[URL="https://knowhere.atlassian.net/browse/MARU-155",
-		label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10670+ORDER+BY+summary">
-<IMG SRC="../img/avatar--10307.png" />
-</TD>
-  <TD COLSPAN='3'><B>8 A input</B></TD></TR>
-</TABLE>>,
-		style="rounded,filled"];
-	<MARU-59>	[URL="https://knowhere.atlassian.net/browse/MARU-59",
-		label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10626+ORDER+BY+summary">
-<IMG SRC="../img/avatar--11493.png" />
-</TD>
-  <TD COLSPAN='3'><B>48 V to 12 V Step-down Converter</B></TD></TR>
-</TABLE>>,
-		style="rounded,filled",
-		tooltip="{quote}DC 48 V zu 12 V Buck Converter Abwärtswandler Spannungsreduzierer Auto Step Down Regler 
-
-30A 360 Watt Netzteil Transformatormodul, \
-Wasserdicht Spannung Konverter{quote}"];
-	<MARU-155> -> <MARU-59>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-59,MARU-155)",
-		label="contributes to ",
-		labeltooltip="8 A input → contributes to  → 48 V to 12 V Step-down Converter → receives from  ↩",
-		tooltip="8 A input → contributes to  → 48 V to 12 V Step-down Converter → receives from  ↩"];
 	<MARU-156>	[URL="https://knowhere.atlassian.net/browse/MARU-156",
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
@@ -838,10 +796,6 @@ Wasserdicht Spannung Konverter{quote}"];
   <TD COLSPAN='3'><B>48 V consumer backbone</B></TD></TR>
 </TABLE>>,
 		style="rounded,filled"];
-	<MARU-176> -> <MARU-155>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-155,MARU-176)",
-		label="contributes to ",
-		labeltooltip="48 V consumer backbone → contributes to  → 8 A input → receives from  ↩",
-		tooltip="48 V consumer backbone → contributes to  → 8 A input → receives from  ↩"];
 	<MARU-375>	[URL="https://knowhere.atlassian.net/browse/MARU-375",
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
@@ -1803,10 +1757,6 @@ Operating Ambient Temperature \
 		label="contributes to ",
 		labeltooltip="Step-up Converter 20 A [#1] → contributes to  → 4 A output → receives from  ↩",
 		tooltip="Step-up Converter 20 A [#1] → contributes to  → 4 A output → receives from  ↩"];
-	<MARU-59> -> <MARU-154>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-154,MARU-59)",
-		label="contributes to ",
-		labeltooltip="48 V to 12 V Step-down Converter → contributes to  → 12.2 x 30 A output → receives from  ↩",
-		tooltip="48 V to 12 V Step-down Converter → contributes to  → 12.2 x 30 A output → receives from  ↩"];
 	<MARU-68> -> <MARU-370>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-370,MARU-68)",
 		label="contributes to ",
 		labeltooltip="Rutland Controller - Battery cable → contributes to  → 12 V charger backbone → receives from  ↩",
