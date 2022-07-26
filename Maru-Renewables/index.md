@@ -2,7 +2,7 @@
 title: Renewable Energy - Sources and Effects on hybrid sailing catamaran Maru
 layout: kts-paper
 ogimage: graph.png
-abstract: "Wind and Solar energy are powering Propulsion, and Navigation and Cooking in various redundant ways - some more obvious than others."
+abstract: "Wind and Solar energy are powering Propulsion, Navigation and Cooking in various redundant ways - some more obvious than others."
 ---
 <script src="/lib/graph.js" type="text/ecmascript"></script>
 <script>
