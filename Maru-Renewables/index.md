@@ -46,6 +46,20 @@ abstract: "Wind and Solar energy are powering Propulsion, and Navigation and Coo
         onclick( sdoc, "UNIVERSAL-22"	)
         onpress( sdoc, "j"              )
       }
+      function a5()
+      {
+        onpress( sdoc, "e"		)
+        onclick( sdoc, "NAVIGARE-37"	)
+        onclick( sdoc, "UNIVERSAL-23"	)
+        onpress( sdoc, "j"              )
+      }
+      function a6()
+      {
+        onpress( sdoc, "e"		)
+        onclick( sdoc, "NAVIGARE-42"	)
+        onclick( sdoc, "UNIVERSAL-23"	)
+        onpress( sdoc, "j"              )
+      }
       function e()
       {
         onpress( sdoc, "e"		)
@@ -64,6 +78,8 @@ selected information surgeries:
 3. <button onclick="a2()">Propulsion by Sun</button>
 4. <button onclick="a3()">Coffee by Sun (directly)</button>
 5. <button onclick="a4()">Coffee by Sun (all)</button>
+6. <button onclick="a5()">Cooking by Wind</button>
+7. <button onclick="a6()">Preparing soup by Wind</button>
 
 <button onclick="e()">(clear selections)</button>
 
@@ -71,13 +87,32 @@ selected information surgeries:
 
 ## annotations
 
-1. what a sailbot is mainly used for: wind powering sails -> boat is sailing... amazingly simple
+1. How a sailbot essentially works (since some 60.000 years): wind powering sails -> boat is sailing... amazingly simple
 
 2. more general case: how does Wind propel the hybrid boat? The previously explored *Sailing* mode is part of this answer. Second, there is a more complex case where wind powers the *Wind Turbine* which charges a battery which later can power the electric engine. And finally there is a somewhat surprising solution: while sailing (in strong wind), the electric engine can recuperate and charge a battery. This electricity can later be used to run the same engine. In total: 3 different ways how to travel by the power of wind.
+
 3. similar question about the other renewable energy source: Solar. Through various solar panels, electricity is generated in various ways. The details don't matter that much. One way or the other, this energy ends up at a 48-Volt battery. Energy can be used immediately (with strong sunshine) or later to power the engine.
-4. How can I prepare hot water for a café by sunshine? The most direct way is by using a solar oven such as the *GoSun Go*. No electricity involved.
+
+4. Now let's get into even nicer applications: eating and dringing... How can I prepare hot water for a café by sunshine? The most direct way is by using a solar oven such as the *GoSun Go*. No electricity involved.
+
 5. More generally, on board of Maru there are 2 circuits for collecting solar energy into a 12 Volt system and into a 48 Volt system. With 48 Volt I can operate an inverter (230 V) and from that an induction stove, then put an old-school pot with water on that stove. From 12 Volt I can run the *Fusion* solar oven, which also features an electric heating element (besides collecting solar heat directly, such as the *Go*).
 
+6. Now let's see how Maru's crew can cook with the help of Wind energy. The solution is similar to question 2. Instead of the engine we are running the induction stove.
+
+7. Finally, if soup is good enough then we also have the option of boiling water from a 12 Volt device, such as the *Fusion* stove.
+
+Note that you can also click in the diagram and explore all chains of cause and effect yourself!
+
+---
+
+## "Making of..."
+
+I prepared these examples for 3 different reasons:
+
+1. To summarize (for those who are interested) some proven ways for sustainable, off-the-grid production and consumption of energy.
+2. To help myself understanding how all components on my boat are connected, both for planning the installation and for maintenance.
+3. To showcase KTS - my *Knowledge Transformation System* which is digital passion. Powered by renewable energy :-)
 
 
-*Side note: Sailing is the most expensive way of travelling for free.*
+---
+*Footnote: Sailing is the most expensive way of travelling for free.*
