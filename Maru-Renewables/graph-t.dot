@@ -758,22 +758,6 @@ housing is riveted to mast - not easy to replace"
 </TABLE>>
  style="rounded,filled"
  ]
-<MARU-36> [URL="https://knowhere.atlassian.net/browse/MARU-36"
- tooltip="proprietary CAN protocol: reliable charging only via [https://knowhere.atlassian.net/browse/MARU-9|https://knowhere.atlassian.net/browse/MARU-9|smart-link] or [https://knowhere.atlassian.net/browse/MARU-5|https://knowhere.atlassian.net/browse/MARU-5|smart-link] [https://knowhere.atlassian.net/browse/MARU-46|https://knowhere.atlassian.net/browse/MARU-46|smart-link] (!)
-
-charging from other sources seems to work but can result in errors like [https://knowhere.atlassian.net/browse/MARU-264|https://knowhere.atlassian.net/browse/MARU-264|smart-link]  
-
-40 A max charging current per E80 battery"
- label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10670+ORDER+BY+summary">
-<IMG SRC="../img/avatar--10307.png" />
-</TD>
-  <TD COLSPAN='3'><B>charging eProp (!) max 4 kW combined</B></TD></TR>
-</TABLE>>
- style="rounded,filled"
- ]
 <MARU-363> [URL="https://knowhere.atlassian.net/browse/MARU-363"
  tooltip=" "
  label=<
@@ -1100,36 +1084,6 @@ Surge power *3200W*"
   <TD COLSPAN='3'><B>2 kW peak output</B></TD></TR>
 </TABLE>>
  style="rounded,filled"
- ]
-<MARU-4> [URL="https://knowhere.atlassian.net/browse/MARU-4"
- tooltip="E40/E80/E175 Battery
-Type of battery Lithium iron phosphate battery
-Nominal capacity 40Ah(E40) / *80Ah*(E80) / 175Ah(E175)
-*Rated voltage 51.2V*
-Rated power 2048Wh(E40) / *4096Wh*(E80) / 8960Wh(E175)
-*Charging voltage 57.6V*
-Discharging cut-off voltage 41.6V
-Maximum charging current 20A(E40) / *40A*(E80) / 80A(E175)
-Maximum continuous discharging current 40A(E40) / *80A*(E80) / 150A(E175)
-Parallel connection Max 16 E-Series Batteries
-Series connection Not support
-Storage temperature -20~60°C
-Charging temperature 0~55°C
-Discharging temperature -10~55°C
-Dimensions (w handle) 420 x _390 x_ 207mm(E40) / *555 x* *_440 x_* *212mm*(E80) / 500 x _565 x_ 277mm(E175)
-Weight 29kg(E40) / *49kg*(E80) / 87kg(E175)
-Ingress protection rating IP67
-Recommended battery level during storage 45%~50%"
- label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10626+ORDER+BY+summary">
-<IMG SRC="../img/avatar--11493.png" />
-</TD>
-  <TD COLSPAN='3'><B>E80 batteries [x2] NOT RECOMMENDED!</B></TD></TR>
-</TABLE>>
- style="rounded,filled"
- colorscheme=ylorrd5 color=3
  ]
 <MARU-400> [URL="https://knowhere.atlassian.net/browse/MARU-400"
  tooltip=" "
@@ -1579,8 +1533,6 @@ cable diameter as per manufacturer’s specification"
  ]
 <MARU-149> -> <MARU-139> [ labeltooltip="working sail (area...) → contributes to  → sailing → receives from  ↩" tooltip="working sail (area...) → contributes to  → sailing → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-139,MARU-149)" label="contributes to " 
  ]
-<MARU-4> -> <MARU-140> [ labeltooltip="E80 batteries [x2] NOT RECOMMENDED! → contributes to  → 8 kW (160 A) max combined output → receives from  ↩" tooltip="E80 batteries [x2] NOT RECOMMENDED! → contributes to  → 8 kW (160 A) max combined output → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-140,MARU-4)" label="contributes to " 
- ]
 <MARU-369> -> <MARU-141> [ labeltooltip="^ → serves  → driving (by engine) → requires  ↩" tooltip="^ → serves  → driving (by engine) → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-141,MARU-369)" label="serves " 
  ]
 <UNIVERSAL-23> -> <MARU-143> [ labeltooltip="Wind → serves  → Jib Sail → requires  ↩" tooltip="Wind → serves  → Jib Sail → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-143,UNIVERSAL-23)" label="serves " 
@@ -1659,8 +1611,6 @@ cable diameter as per manufacturer’s specification"
  ]
 <MARU-354> -> <MARU-359> [ labeltooltip="Py Battery 1 → contributes to  → 1.8 kW (37 A) max continuous output → receives from  ↩" tooltip="Py Battery 1 → contributes to  → 1.8 kW (37 A) max continuous output → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-359,MARU-354)" label="contributes to " 
  ]
-<MARU-125> -> <MARU-36> [ labeltooltip="0 - 1 kW → contributes to  → charging eProp (!) max 4 kW combined → receives from  ↩" tooltip="0 - 1 kW → contributes to  → charging eProp (!) max 4 kW combined → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-36,MARU-125)" label="contributes to " 
- ]
 <MARU-10> -> <MARU-363> [ labeltooltip="Wind Turbine → contributes to  → 0 - 483 W output → receives from  ↩" tooltip="Wind Turbine → contributes to  → 0 - 483 W output → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-363,MARU-10)" label="contributes to " 
  ]
 <MARU-135> -> <MARU-364> [ labeltooltip="12 Volt consumer backbone → serves  → 3 → requires  ↩" tooltip="12 Volt consumer backbone → serves  → 3 → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-364,MARU-135)" label="serves "  dir=none
@@ -1682,8 +1632,6 @@ cable diameter as per manufacturer’s specification"
 <MARU-68> -> <MARU-370> [ labeltooltip="Rutland Controller - Battery cable → contributes to  → 12 V charger backbone → receives from  ↩" tooltip="Rutland Controller - Battery cable → contributes to  → 12 V charger backbone → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-370,MARU-68)" label="contributes to " 
  ]
 <MARU-372> -> <MARU-371> [ labeltooltip="charging eProp (!) max 1 kW → serves  → E40 battery → requires  ↩" tooltip="charging eProp (!) max 1 kW → serves  → E40 battery → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-371,MARU-372)" label="serves " 
- ]
-<MARU-4> -> <MARU-371> [ labeltooltip="E80 batteries [x2] NOT RECOMMENDED! → preceeds  → E40 battery → follows  ↩" tooltip="E80 batteries [x2] NOT RECOMMENDED! → preceeds  → E40 battery → follows  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-371,MARU-4)" arrowhead=onormalonormal penwidth=1 color=""
  ]
 <MARU-125> -> <MARU-372> [ labeltooltip="0 - 1 kW → contributes to  → charging eProp (!) max 1 kW → receives from  ↩" tooltip="0 - 1 kW → contributes to  → charging eProp (!) max 1 kW → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-372,MARU-125)" label="contributes to " 
  ]
@@ -1740,8 +1688,6 @@ cable diameter as per manufacturer’s specification"
 <MARU-399> -> <MARU-398> [ labeltooltip="2 kW peak output → contributes to  → 2 kW max input → receives from  ↩" tooltip="2 kW peak output → contributes to  → 2 kW max input → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-398,MARU-399)" label="contributes to " 
  ]
 <MARU-235> -> <MARU-399> [ labeltooltip="Inverter 48 V -> 230 V → serves  → 2 kW peak output → requires  ↩" tooltip="Inverter 48 V -> 230 V → serves  → 2 kW peak output → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-399,MARU-235)" label="serves " 
- ]
-<MARU-36> -> <MARU-4> [ labeltooltip="charging eProp (!) max 4 kW combined → serves  → E80 batteries [x2] NOT RECOMMENDED! → requires  ↩" tooltip="charging eProp (!) max 4 kW combined → serves  → E80 batteries [x2] NOT RECOMMENDED! → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-4,MARU-36)" label="serves " 
  ]
 <MARU-397> -> <MARU-400> [ labeltooltip="electric stove → contributes to  → pan → receives from  ↩" tooltip="electric stove → contributes to  → pan → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-400,MARU-397)" label="contributes to " 
  ]

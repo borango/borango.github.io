@@ -34,7 +34,7 @@ digraph {
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10601+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10303.png" />
 </TD>
   <TD COLSPAN='3'><B>pandemic (in general)</B></TD></TR>
@@ -44,7 +44,7 @@ digraph {
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10628+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11491.png" />
 </TD>
   <TD COLSPAN='3'><B>Corona Conspiracy Believer</B></TD></TR>
@@ -59,7 +59,7 @@ digraph {
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10601+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10303.png" />
 </TD>
   <TD COLSPAN='3'><B>corona pandemic</B></TD></TR>
@@ -75,7 +75,7 @@ digraph {
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10308.png" />
 </TD>
   <TD COLSPAN='3'><B>Vaccines reduce risk</B></TD></TR>
@@ -88,7 +88,7 @@ digraph {
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Ding%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10627+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11502.png" />
 </TD>
   <TD COLSPAN='3'><B>corona infection</B></TD></TR>
@@ -102,7 +102,7 @@ digraph {
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10656+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11504.png" />
 </TD>
   <TD COLSPAN='3'><B>CDC</B></TD></TR>
@@ -113,7 +113,7 @@ digraph {
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10608+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11472.png" />
 </TD>
   <TD COLSPAN='3'><B>How COVID-19 Spreads</B></TD></TR>
@@ -129,7 +129,7 @@ prevent-getting-sick/how-covid-spreads.html|smart-link]"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10608+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11472.png" />
 </TD>
   <TD COLSPAN='3'><B>Immunization: The Basics (→ 2021)</B></TD></TR>
@@ -144,7 +144,7 @@ prevent-getting-sick/how-covid-spreads.html|smart-link]"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10656+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11504.png" />
 </TD>
   <TD COLSPAN='3'><B>HHS</B></TD></TR>
@@ -164,7 +164,7 @@ Department_of_Health_and_Human_Services|https://en.wikipedia.org/wiki/United_Sta
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10608+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11472.png" />
 </TD>
   <TD COLSPAN='3'><B>Safety of COVID-19 Vaccines</B></TD></TR>
@@ -184,7 +184,7 @@ safety/safety-of-vaccines.html|smart-link] "];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10308.png" />
 </TD>
   <TD COLSPAN='3'><B>Vaccines are effective</B></TD></TR>
@@ -201,7 +201,7 @@ safety/safety-of-vaccines.html|smart-link] "];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10654+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11505.png" />
 </TD>
   <TD COLSPAN='3'><B>severe corona case</B></TD></TR>
@@ -217,7 +217,7 @@ hospitalization"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10656+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11504.png" />
 </TD>
   <TD COLSPAN='3'><B>WHO</B></TD></TR>
@@ -228,7 +228,7 @@ hospitalization"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10608+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11472.png" />
 </TD>
   <TD COLSPAN='3'><B>Pandemic preparedness (→ 2009)</B></TD></TR>
@@ -243,7 +243,7 @@ hospitalization"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10608+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11472.png" />
 </TD>
   <TD COLSPAN='3'><B>opening remarks at the media briefing</B></TD></TR>
@@ -260,7 +260,7 @@ hospitalization"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10308.png" />
 </TD>
   <TD COLSPAN='3'><B>[...] enormous numbers of deaths [...]</B></TD></TR>
@@ -278,7 +278,7 @@ the world.{quote}"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10308.png" />
 </TD>
   <TD COLSPAN='3'><B>[...] more cases than normal [...]</B></TD></TR>
@@ -317,7 +317,7 @@ course of that pandemic.{quote}"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10608+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11472.png" />
 </TD>
   <TD COLSPAN='3'><B>Pandemic preparedness (2009 →)</B></TD></TR>
@@ -346,7 +346,7 @@ course of that pandemic.{quote}"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10654+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11505.png" />
 </TD>
   <TD COLSPAN='3'><B>corona conspiracy</B></TD></TR>
@@ -362,7 +362,7 @@ course of that pandemic.{quote}"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10308.png" />
 </TD>
   <TD COLSPAN='3'><B>[...] to produce immunity [...] </B></TD></TR>
@@ -378,7 +378,7 @@ person from that disease.{quote}"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10608+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11472.png" />
 </TD>
   <TD COLSPAN='3'><B>Immunization: The Basics (2021 →)</B></TD></TR>
@@ -396,7 +396,7 @@ person from that disease.{quote}"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10308.png" />
 </TD>
   <TD COLSPAN='3'><B>[...] to stimulate [...] immune response [...]  (not immunity!)</B></TD></TR>
@@ -423,7 +423,7 @@ according to the CDC."];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Ding%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10627+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11502.png" />
 </TD>
   <TD COLSPAN='3'><B>immunity</B></TD></TR>
@@ -437,7 +437,7 @@ according to the CDC."];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10608+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11472.png" />
 </TD>
   <TD COLSPAN='3'><B>CDC continues dishonest [...] reporting [...]</B></TD></TR>
@@ -448,7 +448,7 @@ according to the CDC."];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10308.png" />
 </TD>
   <TD COLSPAN='3'><B>80% of deaths occur within 14 days post-injection</B></TD></TR>
@@ -465,7 +465,7 @@ according to the CDC."];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10308.png" />
 </TD>
   <TD COLSPAN='3'><B>death within 14 days post-injection counted as an &quot;unvaccinated&quot;</B></TD></TR>
@@ -482,7 +482,7 @@ claimed by  ↩"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10308.png" />
 </TD>
   <TD COLSPAN='3'><B>two different sets of testing guidelines</B></TD></TR>
@@ -499,7 +499,7 @@ vaccinated, they recommend using a CT of 28 or less, which minimizes the risk of
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10628+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11491.png" />
 </TD>
   <TD COLSPAN='3'><B> Dr. Joseph Mercola</B></TD></TR>
@@ -537,7 +537,7 @@ by  ↩"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10628+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11491.png" />
 </TD>
   <TD COLSPAN='3'><B>Corona Pandemic Believer</B></TD></TR>
@@ -548,7 +548,7 @@ by  ↩"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Value%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10667+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10309.png" />
 </TD>
   <TD COLSPAN='3'><B>Health</B></TD></TR>
@@ -562,7 +562,7 @@ by  ↩"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Value%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10667+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10309.png" />
 </TD>
   <TD COLSPAN='3'><B>Solidarity</B></TD></TR>
@@ -576,7 +576,7 @@ by  ↩"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Value%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10667+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10309.png" />
 </TD>
   <TD COLSPAN='3'><B>Trust</B></TD></TR>
@@ -592,7 +592,7 @@ by  ↩"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10308.png" />
 </TD>
   <TD COLSPAN='3'><B>inaccurately inflate[s] the unvaccinated death toll</B></TD></TR>
@@ -610,7 +610,7 @@ by  ↩"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10308.png" />
 </TD>
   <TD COLSPAN='3'><B>hides the real dangers of the COVID shots</B></TD></TR>
@@ -628,7 +628,7 @@ by  ↩"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Information%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10651+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11501.png" />
 </TD>
   <TD COLSPAN='3'><B>inflated death toll of unvaccinated</B></TD></TR>
@@ -652,7 +652,7 @@ by  ↩"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10308.png" />
 </TD>
   <TD COLSPAN='3'><B>COVID-19 vaccines are safe</B></TD></TR>
@@ -681,7 +681,7 @@ by  ↩"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10656+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11504.png" />
 </TD>
   <TD COLSPAN='3'><B>Wikipedia</B></TD></TR>
@@ -691,7 +691,7 @@ by  ↩"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10608+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11472.png" />
 </TD>
   <TD COLSPAN='3'><B>Vaccine</B></TD></TR>
@@ -706,7 +706,7 @@ by  ↩"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10308.png" />
 </TD>
   <TD COLSPAN='3'><B>[...] provides active acquired immunity [...]</B></TD></TR>
@@ -742,7 +742,7 @@ Wikipedia referring to _Iowa Administrative Code_ as of 2019 per footnote"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Ding%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10627+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11502.png" />
 </TD>
   <TD COLSPAN='3'><B>infection</B></TD></TR>
@@ -756,7 +756,7 @@ Wikipedia referring to _Iowa Administrative Code_ as of 2019 per footnote"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Ding%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10627+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11502.png" />
 </TD>
   <TD COLSPAN='3'><B>immune system</B></TD></TR>
@@ -774,7 +774,7 @@ Wikipedia referring to _Iowa Administrative Code_ as of 2019 per footnote"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10608+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11472.png" />
 </TD>
   <TD COLSPAN='3'><B>Vaccine administration by pharmacists (→ 2021)</B></TD></TR>
@@ -789,7 +789,7 @@ Wikipedia referring to _Iowa Administrative Code_ as of 2019 per footnote"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10308.png" />
 </TD>
   <TD COLSPAN='3'><B>“vaccine” = “immunization”</B></TD></TR>
@@ -804,7 +804,7 @@ Wikipedia referring to _Iowa Administrative Code_ as of 2019 per footnote"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10308.png" />
 </TD>
   <TD COLSPAN='3'><B>&quot;Vaccine&quot; [...] providing immunity.</B></TD></TR>
@@ -821,7 +821,7 @@ Wikipedia referring to _Iowa Administrative Code_ as of 2019 per footnote"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10608+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11472.png" />
 </TD>
   <TD COLSPAN='3'><B>rescinded 2021-12-15</B></TD></TR>
@@ -854,7 +854,7 @@ Wikipedia referring to _Iowa Administrative Code_ as of 2019 per footnote"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10308.png" />
 </TD>
   <TD COLSPAN='3'><B>?</B></TD></TR>
@@ -871,7 +871,7 @@ Wikipedia referring to _Iowa Administrative Code_ as of 2019 per footnote"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10656+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11504.png" />
 </TD>
   <TD COLSPAN='3'><B>iowa.gov</B></TD></TR>
@@ -886,7 +886,7 @@ Wikipedia referring to _Iowa Administrative Code_ as of 2019 per footnote"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10608+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11472.png" />
 </TD>
   <TD COLSPAN='3'><B>vaccine</B></TD></TR>
@@ -897,7 +897,7 @@ Wikipedia referring to _Iowa Administrative Code_ as of 2019 per footnote"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10308.png" />
 </TD>
   <TD COLSPAN='3'><B>[...] confer active immunity [...]</B></TD></TR>
@@ -913,7 +913,7 @@ Wikipedia referring to _Iowa Administrative Code_ as of 2019 per footnote"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Ding%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10627+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11502.png" />
 </TD>
   <TD COLSPAN='3'><B>virus</B></TD></TR>
@@ -931,7 +931,7 @@ Wikipedia referring to _Iowa Administrative Code_ as of 2019 per footnote"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Ding%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10627+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11502.png" />
 </TD>
   <TD COLSPAN='3'><B>corona virus</B></TD></TR>
@@ -951,7 +951,7 @@ Wikipedia referring to _Iowa Administrative Code_ as of 2019 per footnote"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10656+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11504.png" />
 </TD>
   <TD COLSPAN='3'><B>Encyclopædia Britannica, Inc.</B></TD></TR>
@@ -966,7 +966,7 @@ Wikipedia referring to _Iowa Administrative Code_ as of 2019 per footnote"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10308.png" />
 </TD>
   <TD COLSPAN='3'><B>[...] Pandemie der Ungeimpften [...]</B></TD></TR>
@@ -979,7 +979,7 @@ Spahn die vierte Welle ein.{quote}"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10608+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11472.png" />
 </TD>
   <TD COLSPAN='3'><B>Pandemie der Ungeimpften?</B></TD></TR>
@@ -993,7 +993,7 @@ Spahn die vierte Welle ein.{quote}"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10628+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11491.png" />
 </TD>
   <TD COLSPAN='3'><B>Jens Berger</B></TD></TR>
@@ -1008,7 +1008,7 @@ Spahn die vierte Welle ein.{quote}"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10608+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11472.png" />
 </TD>
   <TD COLSPAN='3'><B>Dokument nicht gefunden</B></TD></TR>
@@ -1022,7 +1022,7 @@ Spahn die vierte Welle ein.{quote}"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10656+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11504.png" />
 </TD>
   <TD COLSPAN='3'><B>ZEIT ONLINE GmbH</B></TD></TR>
@@ -1047,7 +1047,7 @@ Spahn die vierte Welle ein.{quote}"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10654+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11505.png" />
 </TD>
   <TD COLSPAN='3'><B>death</B></TD></TR>
@@ -1066,7 +1066,7 @@ Spahn die vierte Welle ein.{quote}"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10654+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11505.png" />
 </TD>
   <TD COLSPAN='3'><B>severe case</B></TD></TR>
@@ -1090,7 +1090,7 @@ Spahn die vierte Welle ein.{quote}"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Prozess%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10650+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10700.png" />
 </TD>
   <TD COLSPAN='3'><B>exponential growth</B></TD></TR>
@@ -1117,7 +1117,7 @@ wiki/Basic_reproduction_number|https://en.wikipedia.org/wiki/Basic_reproduction_
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10654+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11505.png" />
 </TD>
   <TD COLSPAN='3'><B>death</B></TD></TR>
@@ -1173,7 +1173,7 @@ wiki/Basic_reproduction_number|https://en.wikipedia.org/wiki/Basic_reproduction_
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10308.png" />
 </TD>
   <TD COLSPAN='3'><B>COVID-19 can be characterized as a pandemic</B></TD></TR>
@@ -1191,7 +1191,7 @@ wiki/Basic_reproduction_number|https://en.wikipedia.org/wiki/Basic_reproduction_
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10608+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11472.png" />
 </TD>
   <TD COLSPAN='3'><B>Canine coronavirus S gene and uses therefor (2000)</B></TD></TR>
@@ -1204,7 +1204,7 @@ quote}"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Rechtsnorm%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10623+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11487.png" />
 </TD>
   <TD COLSPAN='3'><B>US Patent 6372224 (2002)</B></TD></TR>
@@ -1235,7 +1235,7 @@ agent/paul-h-ginsburg], [E. Victor Donahue|https://patents.justia.com/agent/e-vi
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10656+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11504.png" />
 </TD>
   <TD COLSPAN='3'><B> Pfizer Inc.</B></TD></TR>
@@ -1255,7 +1255,7 @@ agent/paul-h-ginsburg], [E. Victor Donahue|https://patents.justia.com/agent/e-vi
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10308.png" />
 </TD>
   <TD COLSPAN='3'><B>coronavirus is not new</B></TD></TR>
@@ -1278,7 +1278,7 @@ substance{quote}"];
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10656+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11504.png" />
 </TD>
   <TD COLSPAN='3'><B>USPTO</B></TD></TR>
@@ -1299,7 +1299,7 @@ and_Trademark_Office|https://en.wikipedia.org/wiki/United_States_Patent_and_Trad
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10608+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11472.png" />
 </TD>
   <TD COLSPAN='3'><B>Dr. David Martin interviewed by Dr. Reiner Fuellmich</B></TD></TR>
@@ -1313,7 +1313,7 @@ and_Trademark_Office|https://en.wikipedia.org/wiki/United_States_Patent_and_Trad
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10656+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11504.png" />
 </TD>
   <TD COLSPAN='3'><B>German Corona Investigative</B></TD></TR>
@@ -1328,7 +1328,7 @@ and_Trademark_Office|https://en.wikipedia.org/wiki/United_States_Patent_and_Trad
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10628+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11491.png" />
 </TD>
   <TD COLSPAN='3'><B>Dr. David Martin</B></TD></TR>
@@ -1350,7 +1350,7 @@ and_Trademark_Office|https://en.wikipedia.org/wiki/United_States_Patent_and_Trad
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary">
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10628+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11491.png" />
 </TD>
   <TD COLSPAN='3'><B>Human</B></TD></TR>

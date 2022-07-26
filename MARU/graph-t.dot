@@ -47,6 +47,18 @@ Gewicht mit Klett und Sicherungsschnur selbst gewogen"
 </TABLE>>
  style="rounded,filled"
  ]
+<BOGOI-424> [URL="https://knowhere.atlassian.net/browse/BOGOI-424"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10626+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>TÖL-TT12E</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
 <BOGOI-430> [URL="https://knowhere.atlassian.net/browse/BOGOI-430"
  tooltip=" "
  label=<
@@ -394,7 +406,9 @@ CH (/) [https://www.red-dolphin.ch/en/greentech/162-gosun-fusion-856563005316.ht
  style="rounded,filled"
  ]
 <BOGOI-820> [URL="https://knowhere.atlassian.net/browse/BOGOI-820"
- tooltip="custom built based on James Wharram Tanenui 28 design"
+ tooltip="{quote}Maru the Green Boat{quote}
+
+custom built in 1990 based on James Wharram Tanenui 28 design"
  label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
@@ -425,7 +439,7 @@ CH (/) [https://www.red-dolphin.ch/en/greentech/162-gosun-fusion-856563005316.ht
   <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10626+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11493.png" />
 </TD>
-  <TD COLSPAN='3'><B>solar charge controller 72 V -&gt; 48 V</B></TD></TR>
+  <TD COLSPAN='3'><B>solar charge controller &quot;1&quot; 78 V -&gt; 48 V</B></TD></TR>
 </TABLE>>
  style="rounded,filled"
  ]
@@ -500,7 +514,7 @@ not efficient to drive the boat (two paddlers achieve < 1 knot speed when paddli
   <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10626+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11493.png" />
 </TD>
-  <TD COLSPAN='3'><B>solar charge controller 36-72 V -&gt; 12 V</B></TD></TR>
+  <TD COLSPAN='3'><B>solar charge controller &quot;2&quot; 39-78 V -&gt; 12 V</B></TD></TR>
 </TABLE>>
  style="rounded,filled"
  ]
@@ -660,30 +674,6 @@ not efficient to drive the boat (two paddlers achieve < 1 knot speed when paddli
 </TABLE>>
  style="rounded,filled"
  ]
-<CMDBG-259> [URL="https://knowhere.atlassian.net/browse/CMDBG-259"
- tooltip=" "
- label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10628+ORDER+BY+summary">
-<IMG SRC="../img/avatar--11491.png" />
-</TD>
-  <TD COLSPAN='3'><B>Blacksmith</B></TD></TR>
-</TABLE>>
- style="rounded,filled,dotted"
- ]
-<CMDBG-260> [URL="https://knowhere.atlassian.net/browse/CMDBG-260"
- tooltip=" "
- label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10628+ORDER+BY+summary">
-<IMG SRC="../img/avatar--11491.png" />
-</TD>
-  <TD COLSPAN='3'><B>Carpenter</B></TD></TR>
-</TABLE>>
- style="rounded,filled,dotted"
- ]
 <CMDBG-263> [URL="https://knowhere.atlassian.net/browse/CMDBG-263"
  tooltip=" "
  label=<
@@ -728,7 +718,7 @@ not efficient to drive the boat (two paddlers achieve < 1 knot speed when paddli
   <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10670+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10307.png" />
 </TD>
-  <TD COLSPAN='3'><B>72 V x 0-20 A input</B></TD></TR>
+  <TD COLSPAN='3'><B>78 V x 0-20 A input</B></TD></TR>
 </TABLE>>
  style="rounded,filled"
  ]
@@ -914,7 +904,7 @@ see [https://www.hjertmans.se/produkter/motor-tillbehor/utombordsmotorer/utombor
 </TD>
   <TD COLSPAN='3'><B>engine hold</B></TD></TR>
 </TABLE>>
- style="rounded,filled,dotted"
+ style="rounded,filled"
  ]
 <MARU-117> [URL="https://knowhere.atlassian.net/browse/MARU-117"
  tooltip=" "
@@ -926,7 +916,7 @@ see [https://www.hjertmans.se/produkter/motor-tillbehor/utombordsmotorer/utombor
 </TD>
   <TD COLSPAN='3'><B>mount engine hold</B></TD></TR>
 </TABLE>>
- style="rounded,filled,dotted"
+ style="rounded,filled"
  ]
 <MARU-118> [URL="https://knowhere.atlassian.net/browse/MARU-118"
  tooltip=" "
@@ -975,18 +965,6 @@ being free to walk around the boat or going under deck for extended periods of t
 <MARU-121> [URL="https://knowhere.atlassian.net/browse/MARU-121"
  tooltip=" "
  label=<|> shape=circle
- ]
-<MARU-124> [URL="https://knowhere.atlassian.net/browse/MARU-124"
- tooltip="anchor needs to be removed ( [https://knowhere.atlassian.net/browse/MARU-212|https://knowhere.atlassian.net/browse/MARU-212|smart-link]  ) for port-side battery shelter"
- label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10001+ORDER+BY+summary">
-<IMG SRC="../img/avatar--10315.png" />
-</TD>
-  <TD COLSPAN='3'><B>build battery shelter</B></TD></TR>
-</TABLE>>
- style="rounded,filled,dotted"
  ]
 <MARU-125> [URL="https://knowhere.atlassian.net/browse/MARU-125"
  tooltip="!image-20220616-092440.png|width=267,height=150!
@@ -1744,7 +1722,7 @@ Manoeuvring in harbour or at anchor location with little wind is possible for 1 
   <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10628+ORDER+BY+summary">
 <IMG SRC="../img/avatar--11491.png" />
 </TD>
-  <TD COLSPAN='3'><B>Crew #2</B></TD></TR>
+  <TD COLSPAN='3'><B>Crew #2 (optional)</B></TD></TR>
 </TABLE>>
  style="rounded,filled,dotted"
  ]
@@ -1799,18 +1777,6 @@ Manoeuvring in harbour or at anchor location with little wind is possible for 1 
  style="rounded,filled"
  colorscheme=ylorrd5 color=5
  ]
-<MARU-209> [URL="https://knowhere.atlassian.net/browse/MARU-209"
- tooltip=" "
- label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10001+ORDER+BY+summary">
-<IMG SRC="../img/avatar--10315.png" />
-</TD>
-  <TD COLSPAN='3'><B>close gap between hatch top and front covers </B></TD></TR>
-</TABLE>>
- style="rounded,filled,dotted"
- ]
 <MARU-211> [URL="https://knowhere.atlassian.net/browse/MARU-211"
  tooltip="same anchor ( [https://knowhere.atlassian.net/browse/MARU-210|https://knowhere.atlassian.net/browse/MARU-210|smart-link]  ), new location (front)
 
@@ -1845,8 +1811,20 @@ requires 2 minutes manual setup initially and after each tack / jibe"
 </TABLE>>
  style="rounded,filled"
  ]
+<MARU-218> [URL="https://knowhere.atlassian.net/browse/MARU-218"
+ tooltip="with cable that is good for 120 A"
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10001+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>wire batteries with engine</B></TD></TR>
+</TABLE>>
+ style="rounded,filled,dotted"
+ ]
 <MARU-221> [URL="https://knowhere.atlassian.net/browse/MARU-221"
- tooltip="same engine - now location
+ tooltip="same engine - new location
 
 might require longer engine cables"
  label=<
@@ -1856,30 +1834,6 @@ might require longer engine cables"
 <IMG SRC="../img/avatar--11503.png" />
 </TD>
   <TD COLSPAN='3'><B>Engine setup 2022</B></TD></TR>
-</TABLE>>
- style="rounded,filled,dotted"
- ]
-<MARU-222> [URL="https://knowhere.atlassian.net/browse/MARU-222"
- tooltip="While reefing the main sail (from starboard side) there was a stronger rolling motion in the boat, de-stabilizing my position. Instinctively I responded by moving my right foot to a more ‘stable’ position, which happened to be where the engine hole is. I fell halfway into the hole."
- label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10601+ORDER+BY+summary">
-<IMG SRC="../img/avatar--10303.png" />
-</TD>
-  <TD COLSPAN='3'><B>I fell</B></TD></TR>
-</TABLE>>
- style="rounded,filled"
- ]
-<MARU-223> [URL="https://knowhere.atlassian.net/browse/MARU-223"
- tooltip=" "
- label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10601+ORDER+BY+summary">
-<IMG SRC="../img/avatar--10303.png" />
-</TD>
-  <TD COLSPAN='3'><B>hurt ribs + leg</B></TD></TR>
 </TABLE>>
  style="rounded,filled"
  ]
@@ -2725,6 +2679,18 @@ can provide 13.6 V at 25 A in *_Supply_* mode"
 </TABLE>>
  style="rounded,filled"
  ]
+<MARU-334> [URL="https://knowhere.atlassian.net/browse/MARU-334"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10001+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>wire panels into starboard cabin</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
 <MARU-34> [URL="https://knowhere.atlassian.net/browse/MARU-34"
  tooltip="current deck light has halogen or other non-LED light
 
@@ -2854,7 +2820,7 @@ has connector for external antenna (may increase reach)"
   <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10001+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10315.png" />
 </TD>
-  <TD COLSPAN='3'><B>install 2 x 3.5 kWh &quot;Pylontech&quot;</B></TD></TR>
+  <TD COLSPAN='3'><B>install 3.5 kWh &quot;Pylontech&quot;</B></TD></TR>
 </TABLE>>
  style="rounded,filled"
  ]
@@ -2868,7 +2834,7 @@ has connector for external antenna (may increase reach)"
 </TD>
   <TD COLSPAN='3'><B>Py Battery 1</B></TD></TR>
 </TABLE>>
- style="rounded,filled"
+ style="rounded,filled,dotted"
  ]
 <MARU-355> [URL="https://knowhere.atlassian.net/browse/MARU-355"
  tooltip=" "
@@ -3073,7 +3039,7 @@ Recommended battery level during storage 45%~50%"
 </TD>
   <TD COLSPAN='3'><B>E40 battery</B></TD></TR>
 </TABLE>>
- style="rounded,filled"
+ style="rounded,filled,dotted"
  ]
 <MARU-372> [URL="https://knowhere.atlassian.net/browse/MARU-372"
  tooltip="proprietary CAN protocol: reliable charging only via [https://knowhere.atlassian.net/browse/MARU-9|https://knowhere.atlassian.net/browse/MARU-9|smart-link] or [https://knowhere.atlassian.net/browse/MARU-5|https://knowhere.atlassian.net/browse/MARU-5|smart-link] [https://knowhere.atlassian.net/browse/MARU-46|https://knowhere.atlassian.net/browse/MARU-46|smart-link] (!)
@@ -3099,7 +3065,7 @@ charging from other sources seems to work but can result in errors like [https:/
   <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10670+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10307.png" />
 </TD>
-  <TD COLSPAN='3'><B>2 kW (80 A) max continuous output</B></TD></TR>
+  <TD COLSPAN='3'><B>2 kW (40 A) max continuous output</B></TD></TR>
 </TABLE>>
  style="rounded,filled"
  ]
@@ -3177,7 +3143,7 @@ Anchor must be moved from its current location on port hull."
   <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10670+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10307.png" />
 </TD>
-  <TD COLSPAN='3'><B>72 V 0-3 A</B></TD></TR>
+  <TD COLSPAN='3'><B>78 V 0-2.5 A</B></TD></TR>
 </TABLE>>
  style="rounded,filled"
  ]
@@ -3189,7 +3155,7 @@ Anchor must be moved from its current location on port hull."
   <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10670+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10307.png" />
 </TD>
-  <TD COLSPAN='3'><B>72 V 0-3 A</B></TD></TR>
+  <TD COLSPAN='3'><B>78 V 0-2.5 A</B></TD></TR>
 </TABLE>>
  style="rounded,filled"
  ]
@@ -3201,7 +3167,7 @@ Anchor must be moved from its current location on port hull."
   <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10670+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10307.png" />
 </TD>
-  <TD COLSPAN='3'><B>72 V 0-3 A</B></TD></TR>
+  <TD COLSPAN='3'><B>78 V 0-3 A</B></TD></TR>
 </TABLE>>
  style="rounded,filled"
  ]
@@ -3407,36 +3373,6 @@ In stronger wind less sail area is used. For light wind from behind, Spinnaker o
 </TABLE>>
  style="rounded,filled"
  ]
-<MARU-4> [URL="https://knowhere.atlassian.net/browse/MARU-4"
- tooltip="E40/E80/E175 Battery
-Type of battery Lithium iron phosphate battery
-Nominal capacity 40Ah(E40) / *80Ah*(E80) / 175Ah(E175)
-*Rated voltage 51.2V*
-Rated power 2048Wh(E40) / *4096Wh*(E80) / 8960Wh(E175)
-*Charging voltage 57.6V*
-Discharging cut-off voltage 41.6V
-Maximum charging current 20A(E40) / *40A*(E80) / 80A(E175)
-Maximum continuous discharging current 40A(E40) / *80A*(E80) / 150A(E175)
-Parallel connection Max 16 E-Series Batteries
-Series connection Not support
-Storage temperature -20~60°C
-Charging temperature 0~55°C
-Discharging temperature -10~55°C
-Dimensions (w handle) 420 x _390 x_ 207mm(E40) / *555 x* *_440 x_* *212mm*(E80) / 500 x _565 x_ 277mm(E175)
-Weight 29kg(E40) / *49kg*(E80) / 87kg(E175)
-Ingress protection rating IP67
-Recommended battery level during storage 45%~50%"
- label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10626+ORDER+BY+summary">
-<IMG SRC="../img/avatar--11493.png" />
-</TD>
-  <TD COLSPAN='3'><B>E80 batteries [x2] NOT RECOMMENDED!</B></TD></TR>
-</TABLE>>
- style="rounded,filled"
- colorscheme=ylorrd5 color=3
- ]
 <MARU-400> [URL="https://knowhere.atlassian.net/browse/MARU-400"
  tooltip=" "
  label=<
@@ -3485,6 +3421,200 @@ Recommended battery level during storage 45%~50%"
 </TABLE>>
  style="rounded,filled"
  ]
+<MARU-405> [URL="https://knowhere.atlassian.net/browse/MARU-405"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10655+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Electric Desalination Device</B></TD></TR>
+</TABLE>>
+ style="rounded,filled,dotted"
+ ]
+<MARU-406> [URL="https://knowhere.atlassian.net/browse/MARU-406"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10601+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>water entering companionway</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ colorscheme=ylorrd5 color=5
+ ]
+<MARU-407> [URL="https://knowhere.atlassian.net/browse/MARU-407"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10601+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>companionway not watertight</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<MARU-408> [URL="https://knowhere.atlassian.net/browse/MARU-408"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10601+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>slide not watertight</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<MARU-410> [URL="https://knowhere.atlassian.net/browse/MARU-410"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10001+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>replace (broken) wooden beam</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<MARU-411> [URL="https://knowhere.atlassian.net/browse/MARU-411"
+ tooltip="see pictures of starboard and portside rims - starboard was built with gap so that the center beam could be lowered into the gap"
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10001+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>close starboard cabin companionway rim</B></TD></TR>
+</TABLE>>
+ style="rounded,filled,dotted"
+ ]
+<MARU-412> [URL="https://knowhere.atlassian.net/browse/MARU-412"
+ tooltip="options: https://palby.dk/produkter/komfort-badpleje/pantry-toilet-vvs/ventilation/ventiler-ventilationsriste"
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10001+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>tighten ventilation holes</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<MARU-413> [URL="https://knowhere.atlassian.net/browse/MARU-413"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10001+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>build aft bridges</B></TD></TR>
+</TABLE>>
+ style="rounded,filled,dotted"
+ ]
+<MARU-415> [URL="https://knowhere.atlassian.net/browse/MARU-415"
+ tooltip="including hold for anchor"
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10001+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>protect front beam for anchoring</B></TD></TR>
+</TABLE>>
+ style="rounded,filled,dotted"
+ ]
+<MARU-416> [URL="https://knowhere.atlassian.net/browse/MARU-416"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10601+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10303.png" />
+</TD>
+  <TD COLSPAN='3'><B>water enters through ventilation hole</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ colorscheme=ylorrd5 color=5
+ ]
+<MARU-417> [URL="https://knowhere.atlassian.net/browse/MARU-417"
+ tooltip="remove those flaps that probably shall improve flow (reduce turbulence) BUT are an obstacle for paint and could increase rot - perhaps they even create more turbulence than they save"
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10001+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>remove rubber flaps</B></TD></TR>
+</TABLE>>
+ style="rounded,filled,dotted"
+ ]
+<MARU-418> [URL="https://knowhere.atlassian.net/browse/MARU-418"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10001+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>paint antifouling (2022)</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<MARU-419> [URL="https://knowhere.atlassian.net/browse/MARU-419"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10001+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>replace tiller bar joints</B></TD></TR>
+</TABLE>>
+ style="rounded,filled,dotted"
+ ]
+<MARU-420> [URL="https://knowhere.atlassian.net/browse/MARU-420"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10001+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>replace wind turbine foot prototype</B></TD></TR>
+</TABLE>>
+ style="rounded,filled,dotted"
+ ]
+<MARU-421> [URL="https://knowhere.atlassian.net/browse/MARU-421"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10001+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10315.png" />
+</TD>
+  <TD COLSPAN='3'><B>replace autohelm mount prototype</B></TD></TR>
+</TABLE>>
+ style="rounded,filled,dotted"
+ ]
+<MARU-427> [URL="https://knowhere.atlassian.net/browse/MARU-427"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10670+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>12 V ... A</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
 <MARU-45> [URL="https://knowhere.atlassian.net/browse/MARU-45"
  tooltip="{quote}Evo Remote Controller{quote}"
  label=<
@@ -3522,6 +3652,50 @@ Recommended battery level during storage 45%~50%"
 </TABLE>>
  style="rounded,filled"
  colorscheme=ylorrd5 color=5
+ ]
+<MARU-5> [URL="https://knowhere.atlassian.net/browse/MARU-5"
+ tooltip="h2. Specifications
+
+NAVY 6.0-S/L
+Type Electric
+Rated Voltage / Current 48 V / 125 A
+Input Voltage Range 39 V ~ 60 V DC
+Maximum Input Power
+(Forward / Reverse) 6 kW / 4 kW
+Comparable Petrol Outboard 9.9 hp
+Maximum Overall Efficiency 57%
+Maximum Rotation Speed (Forward) 1550 rpm
+Control System Remote / Tiller
+Communication Wireless / Wired
+Communication Distance ≤10m
+
+h2. Dimension (L x W x H)
+
+413 x 308 x 1200 (mm)
+
+Shaft Length 765 mm
+
+Weight 28.4 kg
+
+Trim Angle Manual 4-step: 0°, 5°, 10°, 15°
+Tilt Angle Manual: 60°
+Gear Oil Capacity 285 ml
+Recommended Gear Oil API GL-4 SAE 90
+Coolant Capacity 630 ml
+Recommended Coolant ANT
+High-pitch Propeller (Diameter / Pitch) 320 mm (12.6\") / 10.8\"
+Low-pitch Propeller (Diameter / Pitch) 340 mm (13.4\") / 8.5\"
+Operating Ambient Temperature -25°C ~ 50°C (-13°F ~ 122°F)"
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10626+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11493.png" />
+</TD>
+  <TD COLSPAN='3'><B>Navy 6.0 EVO L</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ colorscheme=ylorrd5 color=3
  ]
 <MARU-50> [URL="https://knowhere.atlassian.net/browse/MARU-50"
  tooltip=" "
@@ -3743,18 +3917,6 @@ Bezugsquellen:
 </TABLE>>
  style="rounded,filled"
  ]
-<MARU-78> [URL="https://knowhere.atlassian.net/browse/MARU-78"
- tooltip=""
- label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10655+ORDER+BY+summary">
-<IMG SRC="../img/avatar--11503.png" />
-</TD>
-  <TD COLSPAN='3'><B>12V Lead Battery</B></TD></TR>
-</TABLE>>
- style="rounded,filled"
- ]
 <MARU-79> [URL="https://knowhere.atlassian.net/browse/MARU-79"
  tooltip="trying these (quite large, fit better to Genoa than Jib):
 
@@ -3846,7 +4008,7 @@ see JWD Sheet 9"
 </TD>
   <TD COLSPAN='3'><B>move engine to the back</B></TD></TR>
 </TABLE>>
- style="rounded,filled,dotted"
+ style="rounded,filled"
  ]
 <MARU-88> [URL="https://knowhere.atlassian.net/browse/MARU-88"
  tooltip="Jon and I found that weight in the back helps to keep course (otherwise turning into the wind)
@@ -4111,7 +4273,7 @@ two spoonfuls (22 g) are a good serve to grow in a small jar
 </TD>
   <TD COLSPAN='3'><B>legal operation of VHF (marine) radio</B></TD></TR>
 </TABLE>>
- style="rounded,filled,dotted"
+ style="rounded,filled"
  ]
 <NAVIGARE-25> [URL="https://knowhere.atlassian.net/browse/NAVIGARE-25"
  tooltip="for sprouting → fresh vitamins from dry storage
@@ -4190,6 +4352,18 @@ one spoonful is a good serve to grow in a small jar"
 </TABLE>>
  style="rounded,filled"
  ]
+<NAVIGARE-45> [URL="https://knowhere.atlassian.net/browse/NAVIGARE-45"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10670+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10307.png" />
+</TD>
+  <TD COLSPAN='3'><B>180 W input</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
 <OTHER-1> [URL="https://knowhere.atlassian.net/browse/OTHER-1"
  tooltip=" "
  label=<
@@ -4202,6 +4376,18 @@ one spoonful is a good serve to grow in a small jar"
 </TABLE>>
  style="rounded,filled"
  ]
+<OTHER-102> [URL="https://knowhere.atlassian.net/browse/OTHER-102"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10655+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11503.png" />
+</TD>
+  <TD COLSPAN='3'><B>Dry Dock</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
 <OTHER-11> [URL="https://knowhere.atlassian.net/browse/OTHER-11"
  tooltip=" "
  label=<
@@ -4211,6 +4397,18 @@ one spoonful is a good serve to grow in a small jar"
 <IMG SRC="../img/avatar--10300.png" />
 </TD>
   <TD COLSPAN='3'><B>Rolfs Kaltschaummatratze</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<OTHER-111> [URL="https://knowhere.atlassian.net/browse/OTHER-111"
+ tooltip=""
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10680+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10300.png" />
+</TD>
+  <TD COLSPAN='3'><B>solar charge controller &quot;3&quot; 18-60 V -&gt; 12 V</B></TD></TR>
 </TABLE>>
  style="rounded,filled"
  ]
@@ -4423,7 +4621,7 @@ Icom’s custom high-power capacity speaker delivers a loud 1500 mW (typical) au
   <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10680+ORDER+BY+summary">
 <IMG SRC="../img/avatar--10300.png" />
 </TD>
-  <TD COLSPAN='3'><B>Tanenui (Plans)</B></TD></TR>
+  <TD COLSPAN='3'><B>Tanenui 28 (plans)</B></TD></TR>
 </TABLE>>
  style="rounded,filled"
  ]
@@ -4484,18 +4682,6 @@ Icom’s custom high-power capacity speaker delivers a loud 1500 mW (typical) au
 <IMG SRC="../img/avatar--10300.png" />
 </TD>
   <TD COLSPAN='3'><B>PCB-ETFE 50W 36V semiflexibles Solarpanel</B></TD></TR>
-</TABLE>>
- style="rounded,filled"
- ]
-<OTHER-62> [URL="https://knowhere.atlassian.net/browse/OTHER-62"
- tooltip=" "
- label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10680+ORDER+BY+summary">
-<IMG SRC="../img/avatar--10300.png" />
-</TD>
-  <TD COLSPAN='3'><B>EQUIPMENT GEL ES900 Battery</B></TD></TR>
 </TABLE>>
  style="rounded,filled"
  ]
@@ -4666,6 +4852,42 @@ _Max. PV Input Power_
 </TABLE>>
  style="rounded,filled"
  ]
+<OTHER-86> [URL="https://knowhere.atlassian.net/browse/OTHER-86"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10680+ORDER+BY+summary">
+<IMG SRC="../img/avatar--10300.png" />
+</TD>
+  <TD COLSPAN='3'><B>12 Volt DC Water Maker</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<OTHER-96> [URL="https://knowhere.atlassian.net/browse/OTHER-96"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10656+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11504.png" />
+</TD>
+  <TD COLSPAN='3'><B>Hanstholm Skibssmedie</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
+<OTHER-97> [URL="https://knowhere.atlassian.net/browse/OTHER-97"
+ tooltip=" "
+ label=<
+<TABLE BORDER="0" CELLSPACING="0">
+ <TR>
+  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10628+ORDER+BY+summary">
+<IMG SRC="../img/avatar--11491.png" />
+</TD>
+  <TD COLSPAN='3'><B>Blacksmith</B></TD></TR>
+</TABLE>>
+ style="rounded,filled"
+ ]
 <UNIVERSAL-22> [URL="https://knowhere.atlassian.net/browse/UNIVERSAL-22"
  tooltip=" "
  label=<
@@ -4776,7 +4998,9 @@ _Max. PV Input Power_
  ]
 <NAVIGARE-33> -> <BOGOI-804> [ labeltooltip="Fusion short circuit → impacts  → solar oven Fusion → impacted by  ↩" tooltip="Fusion short circuit → impacts  → solar oven Fusion → impacted by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-804,NAVIGARE-33)" label="impacts "  colorscheme=ylorrd5 color=4
  ]
-<UNIVERSAL-22> -> <BOGOI-804> [ labeltooltip="Sunshine → serves  → solar oven Fusion → requires  ↩" tooltip="Sunshine → serves  → solar oven Fusion → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-804,UNIVERSAL-22)" label="serves " 
+<NAVIGARE-45> -> <BOGOI-804> [ labeltooltip="180 W input → contributes to  → solar oven Fusion → receives from  ↩" tooltip="180 W input → contributes to  → solar oven Fusion → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-804,NAVIGARE-45)" label="contributes to " 
+ ]
+<UNIVERSAL-22> -> <BOGOI-804> [ labeltooltip="Sunshine → contributes to  → solar oven Fusion → receives from  ↩" tooltip="Sunshine → contributes to  → solar oven Fusion → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-804,UNIVERSAL-22)" label="contributes to " 
  ]
 <OTHER-78> -> <BOGOI-804> [ labeltooltip="GoSun → supplies  → solar oven Fusion → supplied by  ↩" tooltip="GoSun → supplies  → solar oven Fusion → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-804,OTHER-78)" label="supplies " 
  ]
@@ -4784,9 +5008,11 @@ _Max. PV Input Power_
  ]
 <MARU-202> -> <BOGOI-820> [ labeltooltip="Skipper → serves  → Maru → requires  ↩" tooltip="Skipper → serves  → Maru → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-820,MARU-202)" label="serves " 
  ]
-<MARU-203> -> <BOGOI-820> [ labeltooltip="Crew #2 → contributes to  → Maru → receives from  ↩" tooltip="Crew #2 → contributes to  → Maru → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-820,MARU-203)" label="contributes to " 
+<MARU-203> -> <BOGOI-820> [ labeltooltip="Crew #2 (optional) → contributes to  → Maru → receives from  ↩" tooltip="Crew #2 (optional) → contributes to  → Maru → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-820,MARU-203)" label="contributes to " 
  ]
-<OTHER-53> -> <BOGOI-820> [ labeltooltip="Tanenui (Plans) → is blueprint for △ → Maru → realizes blueprint  ↩" tooltip="Tanenui (Plans) → is blueprint for △ → Maru → realizes blueprint  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-820,OTHER-53)" color=blue penwidth=1 arrowhead=onormal
+<BOGOI-424> -> <BOGOI-820> [ labeltooltip="TÖL-TT12E → preceeds  → Maru → follows  ↩" tooltip="TÖL-TT12E → preceeds  → Maru → follows  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-820,BOGOI-424)" arrowhead=onormalonormal penwidth=1 color=""
+ ]
+<OTHER-53> -> <BOGOI-820> [ labeltooltip="Tanenui 28 (plans) → is blueprint for △ → Maru → realizes blueprint  ↩" tooltip="Tanenui 28 (plans) → is blueprint for △ → Maru → realizes blueprint  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-820,OTHER-53)" color=blue penwidth=1 arrowhead=onormal
  ]
 <BOGOI-847> -> <BOGOI-820> [ labeltooltip="Paddle → ist gebündelt in ◇  → Maru → aggregiert ◇  ↩" tooltip="Paddle → ist gebündelt in ◇  → Maru → aggregiert ◇  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-820,BOGOI-847)" arrowtail=odiamond dir=back
  ]
@@ -4794,9 +5020,9 @@ _Max. PV Input Power_
  ]
 <OTHER-1> -> <BOGOI-821> [ labeltooltip="FSP-2 Foldable Solar Panel → is blueprint for △ → Solar Panel, foldable, 120 W → realizes blueprint  ↩" tooltip="FSP-2 Foldable Solar Panel → is blueprint for △ → Solar Panel, foldable, 120 W → realizes blueprint  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-821,OTHER-1)" color=blue penwidth=1 arrowhead=onormal
  ]
-<CMDBG-271> -> <BOGOI-843> [ labeltooltip="72 V x 0-20 A input → contributes to  → solar charge controller 72 V -> 48 V → receives from  ↩" tooltip="72 V x 0-20 A input → contributes to  → solar charge controller 72 V -> 48 V → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-843,CMDBG-271)" label="contributes to " 
+<CMDBG-271> -> <BOGOI-843> [ labeltooltip="78 V x 0-20 A input → contributes to  → solar charge controller \"1\" 78 V -> 48 V → receives from  ↩" tooltip="78 V x 0-20 A input → contributes to  → solar charge controller \"1\" 78 V -> 48 V → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-843,CMDBG-271)" label="contributes to " 
  ]
-<OTHER-5> -> <BOGOI-843> [ labeltooltip="Smartsolar MPPT Charge Controller 100/20 → is blueprint for △ → solar charge controller 72 V -> 48 V → realizes blueprint  ↩" tooltip="Smartsolar MPPT Charge Controller 100/20 → is blueprint for △ → solar charge controller 72 V -> 48 V → realizes blueprint  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-843,OTHER-5)" color=blue penwidth=1 arrowhead=onormal
+<OTHER-5> -> <BOGOI-843> [ labeltooltip="Smartsolar MPPT Charge Controller 100/20 → is blueprint for △ → solar charge controller \"1\" 78 V -> 48 V → realizes blueprint  ↩" tooltip="Smartsolar MPPT Charge Controller 100/20 → is blueprint for △ → solar charge controller \"1\" 78 V -> 48 V → realizes blueprint  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-843,OTHER-5)" color=blue penwidth=1 arrowhead=onormal
  ]
 <CMDBG-272> -> <BOGOI-844> [ labeltooltip="400 W (34 A) peak input → serves  → Inverter 12 V -> 230 V → requires  ↩" tooltip="400 W (34 A) peak input → serves  → Inverter 12 V -> 230 V → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-844,CMDBG-272)" label="serves " 
  ]
@@ -4804,15 +5030,15 @@ _Max. PV Input Power_
  ]
 <OTHER-48> -> <BOGOI-855> [ labeltooltip="IC-M94DE (handheld AIS VHF radio) → is blueprint for △ → iCom AIS radio → realizes blueprint  ↩" tooltip="IC-M94DE (handheld AIS VHF radio) → is blueprint for △ → iCom AIS radio → realizes blueprint  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-855,OTHER-48)" color=blue penwidth=1 arrowhead=onormal
  ]
-<MARU-384> -> <BOGOI-857> [ labeltooltip="0 - 50 W → contributes to  → solar charge controller 36-72 V -> 12 V → receives from  ↩" tooltip="0 - 50 W → contributes to  → solar charge controller 36-72 V -> 12 V → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-857,MARU-384)" label="contributes to " 
+<MARU-384> -> <BOGOI-857> [ labeltooltip="0 - 50 W → contributes to  → solar charge controller \"2\" 39-78 V -> 12 V → receives from  ↩" tooltip="0 - 50 W → contributes to  → solar charge controller \"2\" 39-78 V -> 12 V → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-857,MARU-384)" label="contributes to " 
  ]
-<MARU-385> -> <BOGOI-857> [ labeltooltip="0 - 50 W → contributes to  → solar charge controller 36-72 V -> 12 V → receives from  ↩" tooltip="0 - 50 W → contributes to  → solar charge controller 36-72 V -> 12 V → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-857,MARU-385)" label="contributes to " 
+<MARU-385> -> <BOGOI-857> [ labeltooltip="0 - 50 W → contributes to  → solar charge controller \"2\" 39-78 V -> 12 V → receives from  ↩" tooltip="0 - 50 W → contributes to  → solar charge controller \"2\" 39-78 V -> 12 V → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-857,MARU-385)" label="contributes to " 
  ]
-<MARU-386> -> <BOGOI-857> [ labeltooltip="0 - 50 W → contributes to  → solar charge controller 36-72 V -> 12 V → receives from  ↩" tooltip="0 - 50 W → contributes to  → solar charge controller 36-72 V -> 12 V → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-857,MARU-386)" label="contributes to " 
+<MARU-386> -> <BOGOI-857> [ labeltooltip="0 - 50 W → contributes to  → solar charge controller \"2\" 39-78 V -> 12 V → receives from  ↩" tooltip="0 - 50 W → contributes to  → solar charge controller \"2\" 39-78 V -> 12 V → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-857,MARU-386)" label="contributes to " 
  ]
-<MARU-387> -> <BOGOI-857> [ labeltooltip="0 - 50 W → contributes to  → solar charge controller 36-72 V -> 12 V → receives from  ↩" tooltip="0 - 50 W → contributes to  → solar charge controller 36-72 V -> 12 V → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-857,MARU-387)" label="contributes to " 
+<MARU-387> -> <BOGOI-857> [ labeltooltip="0 - 50 W → contributes to  → solar charge controller \"2\" 39-78 V -> 12 V → receives from  ↩" tooltip="0 - 50 W → contributes to  → solar charge controller \"2\" 39-78 V -> 12 V → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-857,MARU-387)" label="contributes to " 
  ]
-<OTHER-5> -> <BOGOI-857> [ labeltooltip="Smartsolar MPPT Charge Controller 100/20 → is blueprint for △ → solar charge controller 36-72 V -> 12 V → realizes blueprint  ↩" tooltip="Smartsolar MPPT Charge Controller 100/20 → is blueprint for △ → solar charge controller 36-72 V -> 12 V → realizes blueprint  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-857,OTHER-5)" color=blue penwidth=1 arrowhead=onormal
+<OTHER-5> -> <BOGOI-857> [ labeltooltip="Smartsolar MPPT Charge Controller 100/20 → is blueprint for △ → solar charge controller \"2\" 39-78 V -> 12 V → realizes blueprint  ↩" tooltip="Smartsolar MPPT Charge Controller 100/20 → is blueprint for △ → solar charge controller \"2\" 39-78 V -> 12 V → realizes blueprint  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(BOGOI-857,OTHER-5)" color=blue penwidth=1 arrowhead=onormal
  ]
 <BOGOI-430> -> <CMDBG-138> [ labeltooltip="Yoga Book YB1-X90L → hostet  → Android 7.1.1 auf Yogabook → runs on  ↩" tooltip="Yoga Book YB1-X90L → hostet  → Android 7.1.1 auf Yogabook → runs on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(CMDBG-138,BOGOI-430)" label="hostet " 
  ]
@@ -4832,11 +5058,11 @@ _Max. PV Input Power_
  ]
 <BOGOI-478> -> <CMDBG-265> [ labeltooltip="ThinkPad X1 Carbon 3rd → contains (and supports) ◆  → accas (Ubuntu 20.04 LTS) → part of (and depends on) ◆  ↩" tooltip="ThinkPad X1 Carbon 3rd → contains (and supports) ◆  → accas (Ubuntu 20.04 LTS) → part of (and depends on) ◆  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(CMDBG-265,BOGOI-478)" arrowtail=diamond arrowhead=none
  ]
-<MARU-378> -> <CMDBG-271> [ labeltooltip="72 V 0-3 A → contributes to  → 72 V x 0-20 A input → receives from  ↩" tooltip="72 V 0-3 A → contributes to  → 72 V x 0-20 A input → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(CMDBG-271,MARU-378)" label="contributes to " 
+<MARU-378> -> <CMDBG-271> [ labeltooltip="78 V 0-2.5 A → contributes to  → 78 V x 0-20 A input → receives from  ↩" tooltip="78 V 0-2.5 A → contributes to  → 78 V x 0-20 A input → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(CMDBG-271,MARU-378)" label="contributes to " 
  ]
-<MARU-379> -> <CMDBG-271> [ labeltooltip="72 V 0-3 A → contributes to  → 72 V x 0-20 A input → receives from  ↩" tooltip="72 V 0-3 A → contributes to  → 72 V x 0-20 A input → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(CMDBG-271,MARU-379)" label="contributes to " 
+<MARU-379> -> <CMDBG-271> [ labeltooltip="78 V 0-2.5 A → contributes to  → 78 V x 0-20 A input → receives from  ↩" tooltip="78 V 0-2.5 A → contributes to  → 78 V x 0-20 A input → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(CMDBG-271,MARU-379)" label="contributes to " 
  ]
-<MARU-380> -> <CMDBG-271> [ labeltooltip="72 V 0-3 A → contributes to  → 72 V x 0-20 A input → receives from  ↩" tooltip="72 V 0-3 A → contributes to  → 72 V x 0-20 A input → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(CMDBG-271,MARU-380)" label="contributes to " 
+<MARU-380> -> <CMDBG-271> [ labeltooltip="78 V 0-3 A → contributes to  → 78 V x 0-20 A input → receives from  ↩" tooltip="78 V 0-3 A → contributes to  → 78 V x 0-20 A input → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(CMDBG-271,MARU-380)" label="contributes to " 
  ]
 <MARU-135> -> <CMDBG-272> [ labeltooltip="12 Volt consumer backbone → serves  → 400 W (34 A) peak input → requires  ↩" tooltip="12 Volt consumer backbone → serves  → 400 W (34 A) peak input → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(CMDBG-272,MARU-135)" label="serves " 
  ]
@@ -4878,7 +5104,11 @@ _Max. PV Input Power_
  ]
 <MARU-117> -> <MARU-116> [ labeltooltip="mount engine hold → supplies  → engine hold → supplied by  ↩" tooltip="mount engine hold → supplies  → engine hold → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-116,MARU-117)" label="supplies " 
  ]
-<CMDBG-259> -> <MARU-117> [ labeltooltip="Blacksmith → serves  → mount engine hold → requires  ↩" tooltip="Blacksmith → serves  → mount engine hold → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-117,CMDBG-259)" label="serves " 
+<OTHER-102> -> <MARU-117> [ labeltooltip="Dry Dock → serves  → mount engine hold → requires  ↩" tooltip="Dry Dock → serves  → mount engine hold → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-117,OTHER-102)" label="serves " 
+ ]
+<OTHER-97> -> <MARU-117> [ labeltooltip="Blacksmith → serves  → mount engine hold → requires  ↩" tooltip="Blacksmith → serves  → mount engine hold → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-117,OTHER-97)" label="serves " 
+ ]
+<OTHER-96> -> <MARU-117> [ labeltooltip="Hanstholm Skibssmedie → supplies  → mount engine hold → supplied by  ↩" tooltip="Hanstholm Skibssmedie → supplies  → mount engine hold → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-117,OTHER-96)" label="supplies " 
  ]
 <MARU-119> -> <MARU-118> [ labeltooltip="| → serves  → self-steering → requires  ↩" tooltip="| → serves  → self-steering → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-118,MARU-119)" label="serves " 
  ]
@@ -4901,8 +5131,6 @@ _Max. PV Input Power_
 <MARU-79> -> <MARU-120> [ labeltooltip="Genoa Cleat Block [x2] → serves  → single-handed sailing → requires  ↩" tooltip="Genoa Cleat Block [x2] → serves  → single-handed sailing → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-120,MARU-79)" label="serves " 
  ]
 <MARU-80> -> <MARU-120> [ labeltooltip="Jib Cleat Block [x2] → serves  → single-handed sailing → requires  ↩" tooltip="Jib Cleat Block [x2] → serves  → single-handed sailing → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-120,MARU-80)" label="serves " 
- ]
-<CMDBG-260> -> <MARU-124> [ labeltooltip="Carpenter → serves  → build battery shelter → requires  ↩" tooltip="Carpenter → serves  → build battery shelter → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-124,CMDBG-260)" label="serves " 
  ]
 <MARU-46> -> <MARU-125> [ labeltooltip="recuperating → contributes to  → 0 - 1 kW → receives from  ↩" tooltip="recuperating → contributes to  → 0 - 1 kW → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-125,MARU-46)" label="contributes to " 
  ]
@@ -4942,8 +5170,6 @@ _Max. PV Input Power_
  ]
 <MARU-285> -> <MARU-135> [ labeltooltip="12V 640Wh → contributes to  → 12 Volt consumer backbone → receives from  ↩" tooltip="12V 640Wh → contributes to  → 12 Volt consumer backbone → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-135,MARU-285)" label="contributes to " 
  ]
-<MARU-78> -> <MARU-135> [ labeltooltip="12V Lead Battery → contributes to  → 12 Volt consumer backbone → receives from  ↩" tooltip="12V Lead Battery → contributes to  → 12 Volt consumer backbone → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-135,MARU-78)" label="contributes to " 
- ]
 <MARU-190> -> <MARU-136> [ labeltooltip="2 → serves  → 100 W (7 A) max input → requires  ↩" tooltip="2 → serves  → 100 W (7 A) max input → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-136,MARU-190)" label="serves " 
  ]
 <MARU-149> -> <MARU-139> [ labeltooltip="working sail (area...) → contributes to  → sailing → receives from  ↩" tooltip="working sail (area...) → contributes to  → sailing → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-139,MARU-149)" label="contributes to " 
@@ -4951,8 +5177,6 @@ _Max. PV Input Power_
 <MARU-395> -> <MARU-139> [ labeltooltip="total sail (area...) → contributes to  → sailing → receives from  ↩" tooltip="total sail (area...) → contributes to  → sailing → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-139,MARU-395)" label="contributes to " 
  ]
 <MARU-55> -> <MARU-139> [ labeltooltip="conch shell → contributes to  → sailing → receives from  ↩" tooltip="conch shell → contributes to  → sailing → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-139,MARU-55)" label="contributes to " 
- ]
-<MARU-4> -> <MARU-140> [ labeltooltip="E80 batteries [x2] NOT RECOMMENDED! → contributes to  → 8 kW (160 A) max combined output → receives from  ↩" tooltip="E80 batteries [x2] NOT RECOMMENDED! → contributes to  → 8 kW (160 A) max combined output → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-140,MARU-4)" label="contributes to " 
  ]
 <MARU-369> -> <MARU-141> [ labeltooltip="^ → serves  → driving (by engine) → requires  ↩" tooltip="^ → serves  → driving (by engine) → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-141,MARU-369)" label="serves " 
  ]
@@ -5023,8 +5247,6 @@ _Max. PV Input Power_
 <MARU-157> -> <MARU-158> [ labeltooltip="Boom → supports  → Outhaul → based on  ↩" tooltip="Boom → supports  → Outhaul → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-158,MARU-157)" label="supports " 
  ]
 <MARU-371> -> <MARU-160> [ labeltooltip="E40 battery → supports  → battery communication cable → based on  ↩" tooltip="E40 battery → supports  → battery communication cable → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-160,MARU-371)" label="supports " 
- ]
-<MARU-4> -> <MARU-160> [ labeltooltip="E80 batteries [x2] NOT RECOMMENDED! → supports  → battery communication cable → based on  ↩" tooltip="E80 batteries [x2] NOT RECOMMENDED! → supports  → battery communication cable → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-160,MARU-4)" label="supports " 
  ]
 <OTHER-34> -> <MARU-160> [ labeltooltip="ePropulsion Technology Ltd. → supplies  → battery communication cable → supplied by  ↩" tooltip="ePropulsion Technology Ltd. → supplies  → battery communication cable → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-160,OTHER-34)" label="supplies " 
  ]
@@ -5124,19 +5346,17 @@ _Max. PV Input Power_
  ]
 <MARU-202> -> <MARU-201> [ labeltooltip="Skipper → contributes to  → paddling (?) → receives from  ↩" tooltip="Skipper → contributes to  → paddling (?) → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-201,MARU-202)" label="contributes to " 
  ]
-<MARU-203> -> <MARU-201> [ labeltooltip="Crew #2 → contributes to  → paddling (?) → receives from  ↩" tooltip="Crew #2 → contributes to  → paddling (?) → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-201,MARU-203)" label="contributes to " 
+<MARU-203> -> <MARU-201> [ labeltooltip="Crew #2 (optional) → contributes to  → paddling (?) → receives from  ↩" tooltip="Crew #2 (optional) → contributes to  → paddling (?) → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-201,MARU-203)" label="contributes to " 
  ]
 <BOGOI-847> -> <MARU-202> [ labeltooltip="Paddle → serves  → Skipper → requires  ↩" tooltip="Paddle → serves  → Skipper → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-202,BOGOI-847)" label="serves " 
  ]
-<MARU-202> -> <MARU-203> [ labeltooltip="Skipper → serves  → Crew #2 → requires  ↩" tooltip="Skipper → serves  → Crew #2 → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-203,MARU-202)" label="serves " 
+<MARU-202> -> <MARU-203> [ labeltooltip="Skipper → serves  → Crew #2 (optional) → requires  ↩" tooltip="Skipper → serves  → Crew #2 (optional) → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-203,MARU-202)" label="serves " 
  ]
 <MARU-206> -> <MARU-205> [ labeltooltip="Main Halyard Clutch → supports  → Main Halyard → based on  ↩" tooltip="Main Halyard Clutch → supports  → Main Halyard → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-205,MARU-206)" label="supports " 
  ]
 <MARU-207> -> <MARU-206> [ labeltooltip="main halyard clutch slipping → impacts  → Main Halyard Clutch → impacted by  ↩" tooltip="main halyard clutch slipping → impacts  → Main Halyard Clutch → impacted by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-206,MARU-207)" label="impacts "  colorscheme=ylorrd5 color=4
  ]
 <MARU-226> -> <MARU-207> [ labeltooltip="Main Halyard Clutch 2022 → solves  → main halyard clutch slipping → solved by  ↩" tooltip="Main Halyard Clutch 2022 → solves  → main halyard clutch slipping → solved by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-207,MARU-226)" label="solves " 
- ]
-<MARU-209> -> <MARU-208> [ labeltooltip="close gap between hatch top and front covers  → solves  → water entering hulls → solved by  ↩" tooltip="close gap between hatch top and front covers  → solves  → water entering hulls → solved by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-208,MARU-209)" label="solves " 
  ]
 <MARU-90> -> <MARU-211> [ labeltooltip="Beam #0 → supports  → Front Anchor → based on  ↩" tooltip="Beam #0 → supports  → Front Anchor → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-211,MARU-90)" label="supports " 
  ]
@@ -5148,15 +5368,13 @@ _Max. PV Input Power_
  ]
 <MARU-99> -> <MARU-213> [ labeltooltip="Main Sail → serves  → MSD ST → requires  ↩" tooltip="Main Sail → serves  → MSD ST → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-213,MARU-99)" label="serves " 
  ]
+<OTHER-102> -> <MARU-218> [ labeltooltip="Dry Dock → contributes to  → wire batteries with engine → receives from  ↩" tooltip="Dry Dock → contributes to  → wire batteries with engine → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-218,OTHER-102)" label="contributes to " 
+ ]
 <MARU-116> -> <MARU-221> [ labeltooltip="engine hold → supports  → Engine setup 2022 → based on  ↩" tooltip="engine hold → supports  → Engine setup 2022 → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-221,MARU-116)" label="supports " 
  ]
 <MARU-5> -> <MARU-221> [ labeltooltip="Navy 6.0 EVO L → preceeds  → Engine setup 2022 → follows  ↩" tooltip="Navy 6.0 EVO L → preceeds  → Engine setup 2022 → follows  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-221,MARU-5)" arrowhead=onormalonormal penwidth=1 color=""
  ]
 <MARU-87> -> <MARU-221> [ labeltooltip="move engine to the back → supplies  → Engine setup 2022 → supplied by  ↩" tooltip="move engine to the back → supplies  → Engine setup 2022 → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-221,MARU-87)" label="supplies " 
- ]
-<MARU-164> -> <MARU-222> [ labeltooltip="engine hole → contributes to  → I fell → receives from  ↩" tooltip="engine hole → contributes to  → I fell → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-222,MARU-164)" label="contributes to " 
- ]
-<MARU-222> -> <MARU-223> [ labeltooltip="I fell → contributes to  → hurt ribs + leg → receives from  ↩" tooltip="I fell → contributes to  → hurt ribs + leg → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-223,MARU-222)" label="contributes to " 
  ]
 <MARU-187> -> <MARU-225> [ labeltooltip="Cabin (portside) → supports  → analog compass ptsd → based on  ↩" tooltip="Cabin (portside) → supports  → analog compass ptsd → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-225,MARU-187)" label="supports " 
  ]
@@ -5202,9 +5420,17 @@ _Max. PV Input Power_
  ]
 <MARU-238> -> <MARU-237> [ labeltooltip="gap between hatch and slide  → causes ▲ 	 → water entered both hulls → caused (-) by  ↩" tooltip="gap between hatch and slide  → causes ▲ 	 → water entered both hulls → caused (-) by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-237,MARU-238)" label="causes ▲ 	"  colorscheme=ylorrd5 color=4
  ]
+<MARU-406> -> <MARU-237> [ labeltooltip="water entering companionway → causes ▲ 	 → water entered both hulls → caused (-) by  ↩" tooltip="water entering companionway → causes ▲ 	 → water entered both hulls → caused (-) by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-237,MARU-406)" label="causes ▲ 	"  colorscheme=ylorrd5 color=4
+ ]
 <MARU-238> -> <MARU-239> [ labeltooltip="gap between hatch and slide  → causes ▲ 	 → water entered both hulls (2nd) → caused (-) by  ↩" tooltip="gap between hatch and slide  → causes ▲ 	 → water entered both hulls (2nd) → caused (-) by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-239,MARU-238)" label="causes ▲ 	"  colorscheme=ylorrd5 color=4
  ]
+<MARU-406> -> <MARU-239> [ labeltooltip="water entering companionway → contributes to  → water entered both hulls (2nd) → receives from  ↩" tooltip="water entering companionway → contributes to  → water entered both hulls (2nd) → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-239,MARU-406)" label="contributes to " 
+ ]
 <MARU-238> -> <MARU-240> [ labeltooltip="gap between hatch and slide  → causes ▲ 	 → water entered both hulls (3rd) → caused (-) by  ↩" tooltip="gap between hatch and slide  → causes ▲ 	 → water entered both hulls (3rd) → caused (-) by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-240,MARU-238)" label="causes ▲ 	"  colorscheme=ylorrd5 color=4
+ ]
+<MARU-406> -> <MARU-240> [ labeltooltip="water entering companionway → causes ▲ 	 → water entered both hulls (3rd) → caused (-) by  ↩" tooltip="water entering companionway → causes ▲ 	 → water entered both hulls (3rd) → caused (-) by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-240,MARU-406)" label="causes ▲ 	"  colorscheme=ylorrd5 color=4
+ ]
+<MARU-416> -> <MARU-240> [ labeltooltip="water enters through ventilation hole → causes ▲ 	 → water entered both hulls (3rd) → caused (-) by  ↩" tooltip="water enters through ventilation hole → causes ▲ 	 → water entered both hulls (3rd) → caused (-) by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-240,MARU-416)" label="causes ▲ 	"  colorscheme=ylorrd5 color=4
  ]
 <MARU-95> -> <MARU-246> [ labeltooltip="Beam #6 → supports  → turbine mast stays → based on  ↩" tooltip="Beam #6 → supports  → turbine mast stays → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-246,MARU-95)" label="supports " 
  ]
@@ -5398,6 +5624,8 @@ _Max. PV Input Power_
  ]
 <UNIVERSAL-23> -> <MARU-32> [ labeltooltip="Wind → contributes to  → Swedish Flag → receives from  ↩" tooltip="Wind → contributes to  → Swedish Flag → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-32,UNIVERSAL-23)" label="contributes to " 
  ]
+<OTHER-102> -> <MARU-334> [ labeltooltip="Dry Dock → contributes to  → wire panels into starboard cabin → receives from  ↩" tooltip="Dry Dock → contributes to  → wire panels into starboard cabin → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-334,OTHER-102)" label="contributes to " 
+ ]
 <MARU-388> -> <MARU-34> [ labeltooltip="50 W (4.2 A) input → serves  → deck light → requires  ↩" tooltip="50 W (4.2 A) input → serves  → deck light → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-34,MARU-388)" label="serves " 
  ]
 <MARU-89> -> <MARU-34> [ labeltooltip="Mast → supports  → deck light → based on  ↩" tooltip="Mast → supports  → deck light → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-34,MARU-89)" label="supports " 
@@ -5420,15 +5648,11 @@ _Max. PV Input Power_
  ]
 <OTHER-76> -> <MARU-354> [ labeltooltip="US3000C → is blueprint for △ → Py Battery 1 → realizes blueprint  ↩" tooltip="US3000C → is blueprint for △ → Py Battery 1 → realizes blueprint  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-354,OTHER-76)" color=blue penwidth=1 arrowhead=onormal
  ]
-<MARU-353> -> <MARU-354> [ labeltooltip="install 2 x 3.5 kWh \"Pylontech\" → supplies  → Py Battery 1 → supplied by  ↩" tooltip="install 2 x 3.5 kWh \"Pylontech\" → supplies  → Py Battery 1 → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-354,MARU-353)" label="supplies " 
+<MARU-353> -> <MARU-354> [ labeltooltip="install 3.5 kWh \"Pylontech\" → supplies  → Py Battery 1 → supplied by  ↩" tooltip="install 3.5 kWh \"Pylontech\" → supplies  → Py Battery 1 → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-354,MARU-353)" label="supplies " 
  ]
 <MARU-366> -> <MARU-355> [ labeltooltip="48 V charger backbone → contributes to  → Py Battery 2 → receives from  ↩" tooltip="48 V charger backbone → contributes to  → Py Battery 2 → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-355,MARU-366)" label="contributes to " 
  ]
-<MARU-4> -> <MARU-355> [ labeltooltip="E80 batteries [x2] NOT RECOMMENDED! → preceeds  → Py Battery 2 → follows  ↩" tooltip="E80 batteries [x2] NOT RECOMMENDED! → preceeds  → Py Battery 2 → follows  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-355,MARU-4)" arrowhead=onormalonormal penwidth=1 color=""
- ]
 <OTHER-76> -> <MARU-355> [ labeltooltip="US3000C → is blueprint for △ → Py Battery 2 → realizes blueprint  ↩" tooltip="US3000C → is blueprint for △ → Py Battery 2 → realizes blueprint  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-355,OTHER-76)" color=blue penwidth=1 arrowhead=onormal
- ]
-<MARU-353> -> <MARU-355> [ labeltooltip="install 2 x 3.5 kWh \"Pylontech\" → supplies  → Py Battery 2 → supplied by  ↩" tooltip="install 2 x 3.5 kWh \"Pylontech\" → supplies  → Py Battery 2 → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-355,MARU-353)" label="supplies " 
  ]
 <MARU-95> -> <MARU-356> [ labeltooltip="Beam #6 → supports  → Rear Anchor → based on  ↩" tooltip="Beam #6 → supports  → Rear Anchor → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-356,MARU-95)" label="supports " 
  ]
@@ -5456,7 +5680,7 @@ _Max. PV Input Power_
  ]
 <MARU-189> -> <MARU-365> [ labeltooltip="6 → serves  → NMEA 2000 bus → requires  ↩" tooltip="6 → serves  → NMEA 2000 bus → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-365,MARU-189)" label="serves " 
  ]
-<BOGOI-843> -> <MARU-366> [ labeltooltip="solar charge controller 72 V -> 48 V → contributes to  → 48 V charger backbone → receives from  ↩" tooltip="solar charge controller 72 V -> 48 V → contributes to  → 48 V charger backbone → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-366,BOGOI-843)" label="contributes to " 
+<BOGOI-843> -> <MARU-366> [ labeltooltip="solar charge controller \"1\" 78 V -> 48 V → contributes to  → 48 V charger backbone → receives from  ↩" tooltip="solar charge controller \"1\" 78 V -> 48 V → contributes to  → 48 V charger backbone → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-366,BOGOI-843)" label="contributes to " 
  ]
 <MARU-128> -> <MARU-366> [ labeltooltip="4 A output → ?  → 48 V charger backbone → ?  ↩" tooltip="4 A output → ?  → 48 V charger backbone → ?  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-366,MARU-128)" label="? " 
  ]
@@ -5484,35 +5708,31 @@ _Max. PV Input Power_
  ]
 <MARU-374> -> <MARU-371> [ labeltooltip="E40 battery shelter → supports  → E40 battery → based on  ↩" tooltip="E40 battery shelter → supports  → E40 battery → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-371,MARU-374)" label="supports " 
  ]
-<MARU-4> -> <MARU-371> [ labeltooltip="E80 batteries [x2] NOT RECOMMENDED! → preceeds  → E40 battery → follows  ↩" tooltip="E80 batteries [x2] NOT RECOMMENDED! → preceeds  → E40 battery → follows  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-371,MARU-4)" arrowhead=onormalonormal penwidth=1 color=""
- ]
 <OTHER-34> -> <MARU-371> [ labeltooltip="ePropulsion Technology Ltd. → supplies  → E40 battery → supplied by  ↩" tooltip="ePropulsion Technology Ltd. → supplies  → E40 battery → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-371,OTHER-34)" label="supplies " 
  ]
 <MARU-125> -> <MARU-372> [ labeltooltip="0 - 1 kW → contributes to  → charging eProp (!) max 1 kW → receives from  ↩" tooltip="0 - 1 kW → contributes to  → charging eProp (!) max 1 kW → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-372,MARU-125)" label="contributes to " 
  ]
-<MARU-371> -> <MARU-373> [ labeltooltip="E40 battery → contributes to  → 2 kW (80 A) max continuous output → receives from  ↩" tooltip="E40 battery → contributes to  → 2 kW (80 A) max continuous output → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-373,MARU-371)" label="contributes to " 
- ]
-<MARU-124> -> <MARU-374> [ labeltooltip="build battery shelter → supplies  → E40 battery shelter → supplied by  ↩" tooltip="build battery shelter → supplies  → E40 battery shelter → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-374,MARU-124)" label="supplies " 
+<MARU-371> -> <MARU-373> [ labeltooltip="E40 battery → contributes to  → 2 kW (40 A) max continuous output → receives from  ↩" tooltip="E40 battery → contributes to  → 2 kW (40 A) max continuous output → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-373,MARU-371)" label="contributes to " 
  ]
 <MARU-176> -> <MARU-375> [ labeltooltip="48 V consumer backbone → contributes to  → 2 kW (40 A) throttled input → receives from  ↩" tooltip="48 V consumer backbone → contributes to  → 2 kW (40 A) throttled input → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-375,MARU-176)" label="contributes to " 
  ]
-<BOGOI-857> -> <MARU-376> [ labeltooltip="solar charge controller 36-72 V -> 12 V → serves  → 20 A max charging output → requires  ↩" tooltip="solar charge controller 36-72 V -> 12 V → serves  → 20 A max charging output → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-376,BOGOI-857)" label="serves " 
+<BOGOI-857> -> <MARU-376> [ labeltooltip="solar charge controller \"2\" 39-78 V -> 12 V → serves  → 20 A max charging output → requires  ↩" tooltip="solar charge controller \"2\" 39-78 V -> 12 V → serves  → 20 A max charging output → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-376,BOGOI-857)" label="serves " 
  ]
-<BOGOI-857> -> <MARU-377> [ labeltooltip="solar charge controller 36-72 V -> 12 V → serves  → 20 A (240 W) max load output → requires  ↩" tooltip="solar charge controller 36-72 V -> 12 V → serves  → 20 A (240 W) max load output → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-377,BOGOI-857)" label="serves " 
+<BOGOI-857> -> <MARU-377> [ labeltooltip="solar charge controller \"2\" 39-78 V -> 12 V → serves  → 20 A (240 W) max load output → requires  ↩" tooltip="solar charge controller \"2\" 39-78 V -> 12 V → serves  → 20 A (240 W) max load output → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-377,BOGOI-857)" label="serves " 
  ]
 <MARU-370> -> <MARU-377> [ labeltooltip="12 V charger backbone → contributes to  → 20 A (240 W) max load output → receives from  ↩" tooltip="12 V charger backbone → contributes to  → 20 A (240 W) max load output → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-377,MARU-370)" label="contributes to " 
  ]
-<MARU-275> -> <MARU-378> [ labeltooltip="panel portside rear deck → serves  → 72 V 0-3 A → requires  ↩" tooltip="panel portside rear deck → serves  → 72 V 0-3 A → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-378,MARU-275)" label="serves " 
+<MARU-275> -> <MARU-378> [ labeltooltip="panel portside rear deck → serves  → 78 V 0-2.5 A → requires  ↩" tooltip="panel portside rear deck → serves  → 78 V 0-2.5 A → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-378,MARU-275)" label="serves " 
  ]
-<MARU-276> -> <MARU-378> [ labeltooltip="panel starboard rear deck → serves  → 72 V 0-3 A → requires  ↩" tooltip="panel starboard rear deck → serves  → 72 V 0-3 A → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-378,MARU-276)" label="serves " 
+<MARU-276> -> <MARU-378> [ labeltooltip="panel starboard rear deck → serves  → 78 V 0-2.5 A → requires  ↩" tooltip="panel starboard rear deck → serves  → 78 V 0-2.5 A → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-378,MARU-276)" label="serves " 
  ]
-<MARU-271> -> <MARU-379> [ labeltooltip="panel portside front deck → serves  → 72 V 0-3 A → requires  ↩" tooltip="panel portside front deck → serves  → 72 V 0-3 A → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-379,MARU-271)" label="serves " 
+<MARU-271> -> <MARU-379> [ labeltooltip="panel portside front deck → serves  → 78 V 0-2.5 A → requires  ↩" tooltip="panel portside front deck → serves  → 78 V 0-2.5 A → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-379,MARU-271)" label="serves " 
  ]
-<MARU-273> -> <MARU-379> [ labeltooltip="panel starboard front deck → serves  → 72 V 0-3 A → requires  ↩" tooltip="panel starboard front deck → serves  → 72 V 0-3 A → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-379,MARU-273)" label="serves " 
+<MARU-273> -> <MARU-379> [ labeltooltip="panel starboard front deck → serves  → 78 V 0-2.5 A → requires  ↩" tooltip="panel starboard front deck → serves  → 78 V 0-2.5 A → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-379,MARU-273)" label="serves " 
  ]
-<MARU-269> -> <MARU-380> [ labeltooltip="panel portside front hull → serves  → 72 V 0-3 A → requires  ↩" tooltip="panel portside front hull → serves  → 72 V 0-3 A → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-380,MARU-269)" label="serves " 
+<MARU-269> -> <MARU-380> [ labeltooltip="panel portside front hull → serves  → 78 V 0-3 A → requires  ↩" tooltip="panel portside front hull → serves  → 78 V 0-3 A → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-380,MARU-269)" label="serves " 
  ]
-<MARU-270> -> <MARU-380> [ labeltooltip="panel starboard front hull → serves  → 72 V 0-3 A → requires  ↩" tooltip="panel starboard front hull → serves  → 72 V 0-3 A → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-380,MARU-270)" label="serves " 
+<MARU-270> -> <MARU-380> [ labeltooltip="panel starboard front hull → serves  → 78 V 0-3 A → requires  ↩" tooltip="panel starboard front hull → serves  → 78 V 0-3 A → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-380,MARU-270)" label="serves " 
  ]
 <MARU-140> -> <MARU-381> [ labeltooltip="8 kW (160 A) max combined output → contributes to  → | → receives from  ↩" tooltip="8 kW (160 A) max combined output → contributes to  → | → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-381,MARU-140)" label="contributes to "  dir=none
  ]
@@ -5520,7 +5740,7 @@ _Max. PV Input Power_
  ]
 <MARU-362> -> <MARU-381> [ labeltooltip="3.5 kW max combined continuous output  → contributes to  → | → receives from  ↩" tooltip="3.5 kW max combined continuous output  → contributes to  → | → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-381,MARU-362)" label="contributes to "  dir=none
  ]
-<MARU-373> -> <MARU-381> [ labeltooltip="2 kW (80 A) max continuous output → contributes to  → | → receives from  ↩" tooltip="2 kW (80 A) max continuous output → contributes to  → | → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-381,MARU-373)" label="contributes to "  dir=none
+<MARU-373> -> <MARU-381> [ labeltooltip="2 kW (40 A) max continuous output → contributes to  → | → receives from  ↩" tooltip="2 kW (40 A) max continuous output → contributes to  → | → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-381,MARU-373)" label="contributes to "  dir=none
  ]
 <MARU-360> -> <MARU-382> [ labeltooltip="+ → contributes to  → 7 kWh combined capacity → receives from  ↩" tooltip="+ → contributes to  → 7 kWh combined capacity → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-382,MARU-360)" label="contributes to " 
  ]
@@ -5570,10 +5790,6 @@ _Max. PV Input Power_
  ]
 <MARU-235> -> <MARU-399> [ labeltooltip="Inverter 48 V -> 230 V → serves  → 2 kW peak output → requires  ↩" tooltip="Inverter 48 V -> 230 V → serves  → 2 kW peak output → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-399,MARU-235)" label="serves " 
  ]
-<MARU-36> -> <MARU-4> [ labeltooltip="charging eProp (!) max 4 kW combined → serves  → E80 batteries [x2] NOT RECOMMENDED! → requires  ↩" tooltip="charging eProp (!) max 4 kW combined → serves  → E80 batteries [x2] NOT RECOMMENDED! → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-4,MARU-36)" label="serves " 
- ]
-<OTHER-34> -> <MARU-4> [ labeltooltip="ePropulsion Technology Ltd. → supplies  → E80 batteries [x2] NOT RECOMMENDED! → supplied by  ↩" tooltip="ePropulsion Technology Ltd. → supplies  → E80 batteries [x2] NOT RECOMMENDED! → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-4,OTHER-34)" label="supplies " 
- ]
 <MARU-397> -> <MARU-400> [ labeltooltip="electric stove → contributes to  → pan → receives from  ↩" tooltip="electric stove → contributes to  → pan → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-400,MARU-397)" label="contributes to " 
  ]
 <MARU-397> -> <MARU-401> [ labeltooltip="electric stove → contributes to  → pot → receives from  ↩" tooltip="electric stove → contributes to  → pot → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-401,MARU-397)" label="contributes to " 
@@ -5585,6 +5801,48 @@ _Max. PV Input Power_
 <MARU-188> -> <MARU-404> [ labeltooltip="navigation light (portside, LED) → ist gebündelt in ◇  → navigation lights → aggregiert ◇  ↩" tooltip="navigation light (portside, LED) → ist gebündelt in ◇  → navigation lights → aggregiert ◇  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-404,MARU-188)" arrowtail=odiamond dir=back
  ]
 <MARU-74> -> <MARU-404> [ labeltooltip="navigation light (starboard, LED) → ist gebündelt in ◇  → navigation lights → aggregiert ◇  ↩" tooltip="navigation light (starboard, LED) → ist gebündelt in ◇  → navigation lights → aggregiert ◇  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-404,MARU-74)" arrowtail=odiamond dir=back
+ ]
+<OTHER-86> -> <MARU-405> [ labeltooltip="12 Volt DC Water Maker → is blueprint for △ → Electric Desalination Device → realizes blueprint  ↩" tooltip="12 Volt DC Water Maker → is blueprint for △ → Electric Desalination Device → realizes blueprint  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-405,OTHER-86)" color=blue penwidth=1 arrowhead=onormal
+ ]
+<MARU-427> -> <MARU-405> [ labeltooltip="12 V ... A → supplies  → Electric Desalination Device → supplied by  ↩" tooltip="12 V ... A → supplies  → Electric Desalination Device → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-405,MARU-427)" label="supplies " 
+ ]
+<MARU-164> -> <MARU-406> [ labeltooltip="engine hole → contributes to  → water entering companionway → receives from  ↩" tooltip="engine hole → contributes to  → water entering companionway → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-406,MARU-164)" label="contributes to " 
+ ]
+<MARU-407> -> <MARU-406> [ labeltooltip="companionway not watertight → contributes to  → water entering companionway → receives from  ↩" tooltip="companionway not watertight → contributes to  → water entering companionway → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-406,MARU-407)" label="contributes to " 
+ ]
+<MARU-238> -> <MARU-407> [ labeltooltip="gap between hatch and slide  → contributes to  → companionway not watertight → receives from  ↩" tooltip="gap between hatch and slide  → contributes to  → companionway not watertight → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-407,MARU-238)" label="contributes to " 
+ ]
+<MARU-408> -> <MARU-407> [ labeltooltip="slide not watertight → contributes to  → companionway not watertight → receives from  ↩" tooltip="slide not watertight → contributes to  → companionway not watertight → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-407,MARU-408)" label="contributes to " 
+ ]
+<OTHER-102> -> <MARU-410> [ labeltooltip="Dry Dock → contributes to  → replace (broken) wooden beam → receives from  ↩" tooltip="Dry Dock → contributes to  → replace (broken) wooden beam → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-410,OTHER-102)" label="contributes to " 
+ ]
+<OTHER-96> -> <MARU-410> [ labeltooltip="Hanstholm Skibssmedie → supplies  → replace (broken) wooden beam → supplied by  ↩" tooltip="Hanstholm Skibssmedie → supplies  → replace (broken) wooden beam → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-410,OTHER-96)" label="supplies " 
+ ]
+<OTHER-96> -> <MARU-411> [ labeltooltip="Hanstholm Skibssmedie → supplies  → close starboard cabin companionway rim → supplied by  ↩" tooltip="Hanstholm Skibssmedie → supplies  → close starboard cabin companionway rim → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-411,OTHER-96)" label="supplies " 
+ ]
+<OTHER-102> -> <MARU-413> [ labeltooltip="Dry Dock → contributes to  → build aft bridges → receives from  ↩" tooltip="Dry Dock → contributes to  → build aft bridges → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-413,OTHER-102)" label="contributes to " 
+ ]
+<OTHER-96> -> <MARU-413> [ labeltooltip="Hanstholm Skibssmedie → supplies  → build aft bridges → supplied by  ↩" tooltip="Hanstholm Skibssmedie → supplies  → build aft bridges → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-413,OTHER-96)" label="supplies " 
+ ]
+<OTHER-96> -> <MARU-415> [ labeltooltip="Hanstholm Skibssmedie → supplies  → protect front beam for anchoring → supplied by  ↩" tooltip="Hanstholm Skibssmedie → supplies  → protect front beam for anchoring → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-415,OTHER-96)" label="supplies " 
+ ]
+<MARU-412> -> <MARU-416> [ labeltooltip="tighten ventilation holes → solves  → water enters through ventilation hole → solved by  ↩" tooltip="tighten ventilation holes → solves  → water enters through ventilation hole → solved by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-416,MARU-412)" label="solves " 
+ ]
+<OTHER-102> -> <MARU-417> [ labeltooltip="Dry Dock → serves  → remove rubber flaps → requires  ↩" tooltip="Dry Dock → serves  → remove rubber flaps → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-417,OTHER-102)" label="serves " 
+ ]
+<OTHER-96> -> <MARU-417> [ labeltooltip="Hanstholm Skibssmedie → supplies  → remove rubber flaps → supplied by  ↩" tooltip="Hanstholm Skibssmedie → supplies  → remove rubber flaps → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-417,OTHER-96)" label="supplies " 
+ ]
+<OTHER-102> -> <MARU-418> [ labeltooltip="Dry Dock → serves  → paint antifouling (2022) → requires  ↩" tooltip="Dry Dock → serves  → paint antifouling (2022) → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-418,OTHER-102)" label="serves " 
+ ]
+<OTHER-96> -> <MARU-419> [ labeltooltip="Hanstholm Skibssmedie → supplies  → replace tiller bar joints → supplied by  ↩" tooltip="Hanstholm Skibssmedie → supplies  → replace tiller bar joints → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-419,OTHER-96)" label="supplies " 
+ ]
+<OTHER-102> -> <MARU-420> [ labeltooltip="Dry Dock → contributes to  → replace wind turbine foot prototype → receives from  ↩" tooltip="Dry Dock → contributes to  → replace wind turbine foot prototype → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-420,OTHER-102)" label="contributes to " 
+ ]
+<OTHER-96> -> <MARU-420> [ labeltooltip="Hanstholm Skibssmedie → supplies  → replace wind turbine foot prototype → supplied by  ↩" tooltip="Hanstholm Skibssmedie → supplies  → replace wind turbine foot prototype → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-420,OTHER-96)" label="supplies " 
+ ]
+<OTHER-96> -> <MARU-421> [ labeltooltip="Hanstholm Skibssmedie → supplies  → replace autohelm mount prototype → supplied by  ↩" tooltip="Hanstholm Skibssmedie → supplies  → replace autohelm mount prototype → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-421,OTHER-96)" label="supplies " 
+ ]
+<MARU-135> -> <MARU-427> [ labeltooltip="12 Volt consumer backbone → serves  → 12 V ... A → requires  ↩" tooltip="12 Volt consumer backbone → serves  → 12 V ... A → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-427,MARU-135)" label="serves " 
  ]
 <MARU-186> -> <MARU-45> [ labeltooltip="Cabin (starboard) → supports  → Engine Controller → based on  ↩" tooltip="Cabin (starboard) → supports  → Engine Controller → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-45,MARU-186)" label="supports " 
  ]
@@ -5645,10 +5903,6 @@ _Max. PV Input Power_
 <MARU-364> -> <MARU-74> [ labeltooltip="3 → serves  → navigation light (starboard, LED) → requires  ↩" tooltip="3 → serves  → navigation light (starboard, LED) → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-74,MARU-364)" label="serves " 
  ]
 <MARU-186> -> <MARU-74> [ labeltooltip="Cabin (starboard) → supports  → navigation light (starboard, LED) → based on  ↩" tooltip="Cabin (starboard) → supports  → navigation light (starboard, LED) → based on  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-74,MARU-186)" label="supports " 
- ]
-<MARU-370> -> <MARU-78> [ labeltooltip="12 V charger backbone → serves  → 12V Lead Battery → requires  ↩" tooltip="12 V charger backbone → serves  → 12V Lead Battery → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-78,MARU-370)" label="serves " 
- ]
-<OTHER-62> -> <MARU-78> [ labeltooltip="EQUIPMENT GEL ES900 Battery → is blueprint for △ → 12V Lead Battery → realizes blueprint  ↩" tooltip="EQUIPMENT GEL ES900 Battery → is blueprint for △ → 12V Lead Battery → realizes blueprint  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-78,OTHER-62)" color=blue penwidth=1 arrowhead=onormal
  ]
 <UNIVERSAL-22> -> <MARU-8> [ labeltooltip="Sunshine → serves  → panel starboard rear cabin → requires  ↩" tooltip="Sunshine → serves  → panel starboard rear cabin → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-8,UNIVERSAL-22)" label="serves " 
  ]
@@ -5750,6 +6004,14 @@ _Max. PV Input Power_
  ]
 <BOGOI-804> -> <NAVIGARE-38> [ labeltooltip="solar oven Fusion → contributes to  → boiling water → receives from  ↩" tooltip="solar oven Fusion → contributes to  → boiling water → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(NAVIGARE-38,BOGOI-804)" label="contributes to " 
  ]
+<MARU-401> -> <NAVIGARE-38> [ labeltooltip="pot → contributes to  → boiling water → receives from  ↩" tooltip="pot → contributes to  → boiling water → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(NAVIGARE-38,MARU-401)" label="contributes to " 
+ ]
+<MARU-135> -> <NAVIGARE-45> [ labeltooltip="12 Volt consumer backbone → serves  → 180 W input → requires  ↩" tooltip="12 Volt consumer backbone → serves  → 180 W input → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(NAVIGARE-45,MARU-135)" label="serves " 
+ ]
+<OTHER-83> -> <OTHER-111> [ labeltooltip="130 W max input → serves  → solar charge controller \"3\" 18-60 V -> 12 V → requires  ↩" tooltip="130 W max input → serves  → solar charge controller \"3\" 18-60 V -> 12 V → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(OTHER-111,OTHER-83)" label="serves " 
+ ]
+<OTHER-72> -> <OTHER-111> [ labeltooltip="Tracer-1206RN → is blueprint for △ → solar charge controller \"3\" 18-60 V -> 12 V → realizes blueprint  ↩" tooltip="Tracer-1206RN → is blueprint for △ → solar charge controller \"3\" 18-60 V -> 12 V → realizes blueprint  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(OTHER-111,OTHER-72)" color=blue penwidth=1 arrowhead=onormal
+ ]
 <OTHER-32> -> <OTHER-33> [ labeltooltip="230 V shore power → contributes to  → 9 A input → receives from  ↩" tooltip="230 V shore power → contributes to  → 9 A input → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(OTHER-33,OTHER-32)" label="contributes to " 
  ]
 <MARU-195> -> <OTHER-37> [ labeltooltip="receiving AIS → is blueprint for △ → QK-A026-plus AIS Receiver + NMEA Multiplexer... → realizes blueprint  ↩" tooltip="receiving AIS → is blueprint for △ → QK-A026-plus AIS Receiver + NMEA Multiplexer... → realizes blueprint  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(OTHER-37,MARU-195)" color=blue penwidth=1 arrowhead=onormal
@@ -5768,6 +6030,8 @@ _Max. PV Input Power_
  ]
 <OTHER-71> -> <OTHER-72> [ labeltooltip="EPEVER → supplies  → Tracer-1206RN → supplied by  ↩" tooltip="EPEVER → supplies  → Tracer-1206RN → supplied by  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(OTHER-72,OTHER-71)" label="supplies " 
  ]
+<OTHER-111> -> <OTHER-73> [ labeltooltip="solar charge controller \"3\" 18-60 V -> 12 V → serves  → 10 A max Output → requires  ↩" tooltip="solar charge controller \"3\" 18-60 V -> 12 V → serves  → 10 A max Output → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(OTHER-73,OTHER-111)" label="serves " 
+ ]
 <OTHER-72> -> <OTHER-73> [ labeltooltip="Tracer-1206RN → serves  → 10 A max Output → requires  ↩" tooltip="Tracer-1206RN → serves  → 10 A max Output → requires  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(OTHER-73,OTHER-72)" label="serves " 
  ]
 <MARU-393> -> <OTHER-83> [ labeltooltip="| → contributes to  → 130 W max input → receives from  ↩" tooltip="| → contributes to  → 130 W max input → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(OTHER-83,MARU-393)" label="contributes to " 
@@ -5775,6 +6039,7 @@ _Max. PV Input Power_
 <MARU-341> -> <UNIVERSAL-5> [ labeltooltip="install system for fresh water → contributes to  → fresh water → receives from  ↩" tooltip="install system for fresh water → contributes to  → fresh water → receives from  ↩" href="https://knowhere.atlassian.net/issues/?jql=key+in+(UNIVERSAL-5,MARU-341)" label="contributes to " 
  ]
 <NAVIGARE-16> -> <MARU-341> [ arrowhead=diamond arrowtail=none ]
+<MARU-405> -> <MARU-341> [ arrowhead=diamond arrowtail=none ]
 <MARU-353> -> <MARU-323> [ arrowhead=diamond arrowtail=none ]
 <MARU-352> -> <MARU-100> [ arrowhead=diamond arrowtail=none ]
 <MARU-333> -> <MARU-100> [ arrowhead=diamond arrowtail=none ]
