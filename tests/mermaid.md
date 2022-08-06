@@ -1,7 +1,7 @@
 ## Mermaid Test
 
 ```mermaid
-  graph TD;
+  graph BT;
       A-->B;
       A-->C;
       B-->D;
