@@ -3,15 +3,15 @@
 ## via satellite
 = everywhere on the planet
 
-(1) Live Location Tracking (proven_)
+(1) Live Location Tracking [^proven]
 
 > [https://share.garmin.com/LoveAndLibertyLines](https://share.garmin.com/LoveAndLibertyLines)
 
 (2) Tracking / Messages (focus on messages)
 
-a) [https://share.garmin.com/Touringtest](https://share.garmin.com/touringtest) (proven_)  
-b) [MarineTraffic position updates](https://www.marinetraffic.com/en/ais/details/ships/mmsi:826501140/) (new_)  
-c) [Telegram Group: Traces of Boran](https://t.me/+GbkcT_6AZj8yMzUy) (experimental_)  
+a) [https://share.garmin.com/Touringtest](https://share.garmin.com/touringtest) [^proven]  
+b) [MarineTraffic position updates](https://www.marinetraffic.com/en/ais/details/ships/mmsi:826501140/) (new_) [^new]  
+c) [Telegram Group: Traces of Boran](https://t.me/+GbkcT_6AZj8yMzUy) [^proven]  
 
 (3) Urgent Email (160 character max!) [^proven]
 
@@ -19,7 +19,7 @@ c) [Telegram Group: Traces of Boran](https://t.me/+GbkcT_6AZj8yMzUy) (experiment
 
 (4) Blogging (rarely used)
 
-> [Twitter](https://twitter.com/boran_go) (new_)  
+> [Twitter](https://twitter.com/boran_go) (experimental_)  
 
 - - -
 
@@ -64,6 +64,7 @@ For the Explore device, I can only send out emails but not receive them. Outgoin
 
 For the Mini 2 device, I have a 2-way gateway. This means that I can send and receive Email. You can reply to Emails with the Subject "Mail from Boran". This is channel (3). Please note that only the first 160 characters of your message (including subject line) will get through to me!
 
+## Footnotes
 
 *[SAT]: communication via satellite messenger and Iridium network; very reliable; message delay up to 20 minutes
 
@@ -71,8 +72,10 @@ For the Mini 2 device, I have a 2-way gateway. This means that I can send and re
 
 *[proven_]: mature solution with a proven record of successful use
 
-[^proven]: mature solution with a proven record of successful use
+[^proven]: ***proven*** = mature solution with a proven record of successful use
 
 *[new_]: new solution that should be reliable but has not been used for long (by Boran)
+
+[^new]: ***new*** = new solution that *should* be reliable but *has not been used for long* (by Boran)
 
 *[experimental_]: new solution in test phase; could be changed or dropped in the future
