@@ -45,7 +45,6 @@ b) [Wordpress https://boran.travel.blog](https://boran.travel.blog/) (proven_)
 c) [Photo Album "Maru" (mostly about the sailboat)](https://photos.app.goo.gl/bDj5rvYgu9LCqtmG8)  
 d) [Photo Album "Touring-Test" (photo blog of my journey)](https://photos.app.goo.gl/LcyYD9ZWyWoo895Z7)  
 e) ["Love + Liberty Lines" videos at Rumble (mostly sailing)](https://rumble.com/c/c-1262163)  
-=======
 
 ## Notes
 
