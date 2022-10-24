@@ -11,3 +11,5 @@ SWIFT/BIC
 Account holder
 
 > Boran Gögetap
+
+Please use this bank account for private payments to Boran. For 'business' related payments, please use [this](/iban/) bank account.
