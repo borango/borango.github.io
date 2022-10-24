@@ -1,4 +1,4 @@
-# *private* bank account information
+# bank account information
 
 IBAN
 
