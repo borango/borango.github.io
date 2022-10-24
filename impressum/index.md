@@ -5,10 +5,6 @@
 > Stora Rådmansgatan 22  
 > SE -- 272 31 Simrishamn  
 
-VAT-ID 
-
-> SE 690221603201
-
 
 
 contact via Email
