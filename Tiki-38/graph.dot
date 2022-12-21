@@ -1,0 +1,138 @@
+digraph
+{
+    graph [
+        color=whitesmoke,
+        fontname=Helvetica,
+        labelloc=b,
+        nodesep=0.2,
+        rankdir=BT,
+        ranksep=0.2,
+        remincross=true,
+        splines=true,
+        style="filled,rounded",
+        target=details,
+        tooltip=" "
+    ];
+    node [
+        fillcolor=white,
+        fontname=Helvetica,
+        height=0,
+        id="\N",
+        margin=0.1,
+        shape=box,
+        style="filled,rounded",
+        target=details,
+        tooltip=" ",
+        width=0
+    ];
+    edge [
+        arrowtail=none,
+        color=forestgreen,
+        dir=both,
+        fontsize=10,
+        id="\T___\H",
+        penwidth=2,
+        target=details
+    ];
+ 
+ node [shape=none]
+ 
+
+ {
+  node [shape=note]
+  Plan_109 -> Plan_109_mod
+  {Plan_110 Plan_109_mod} -> Plan_110_mod
+  blog_109 [label="blog *" tooltip="STRG+click (open in new tab)" URL="http://web.archive.org/web/20080527060029/http://tiki38.blogspot.com/"]
+  blog_110 [label="blog *" tooltip="STRG+click (open in new tab)" URL="http://web.archive.org/web/20131126033402/http://naturalhigh-adventures.com/warren-blog/month/august-2009"]
+  blog_110_begins [label="Construction begins... *" tooltip="STRG+click (open in new tab) - In June 2008 construction of the hulls commenced. Unlike the 'normal' Tiki 38 which is in ply 'Natural High' is being built in cedar strip planking the same as Creed O'Hanlons 'Ahmad Bin Majid'" URL="http://web.archive.org/web/20100604023103/http://naturalhigh-adventures.com/warren-blog/2008/10/30/construction-begins.html"]
+  warning [label="warning *" tooltip="STRG+click (open in new tab)" URL="https://www.wharram.com/news/2009/dodgy-professional-builders"]
+  endorsement [label="endorsement *" tooltip="STRG+click (open in new tab) + see bottom of linked page" URL="https://www.wharram.com/professionally-built-boats"]
+  post_rb_tiki38 [label="Sailing catamaran TIKI 38' *" tooltip="STRG+click (open in new tab)" URL="http://www.powerandsailing.com/boats-catamarans/catamaran-sailing-tiki-38.html"]
+  post_rb_different [label="A Different Kind of Catamaran *" tooltip="STRG+click (open in new tab)" URL="http://raoul-bianchetti.blogspot.com/2009/01/different-kind-of-catamaran.html"]
+  post_tiki_wrecked [label="Wharram Tiki wrecked in Thailand *" tooltip="STRG+click (open in new tab)" URL="https://www.boatdesign.net/threads/wharram-tiki-wrecked-in-thailand.29022/"]
+ }
+
+ cedar_planking -> Plan_109_mod
+
+ New_Zealand -> Warren_Matthews [label="Warren Matthews"]
+ 
+ COH [label="Creed O'Hanlon"]
+ 
+ Tristan
+
+ {
+  node [shape=circle]
+  boat_109_owner_1 [label="owner 1"]
+  noname_owner_1 [label="owner 1"] 
+  noname_owner_2 [label="owner 2"]
+ }
+ 
+ {
+  node [shape=triangle style=""]
+  Boat_109 [tooltip="name is likely: Ahmad Bin Majid"]
+  Boat_110 [label="Boat 110 *" tooltip="unfinished version"]
+  boat_110_2 [label="Natural High *" tooltip="finished version"]
+  Plan_109_mod -> Boat_109 -> boat_109_owner_1 -> COH -> blog_109
+  Plan_110_mod -> Boat_110 -> boat_110_2 -> Warren_Matthews -> blog_110_begins -> blog_110
+  Kinship
+  Pumpkin
+  boat_100 [label="White-Red" tooltip="white and red hulls; number 100 on aft sail"]
+  unknown_tiki38 [label="unknown"]
+  noname_tiki38 [label="no name"]
+ }
+
+ {Thailand unknown_tiki38} -> post_tiki_wrecked
+ 
+ unknown_tiki38 -> blog_110
+
+ noname_tiki38 -> noname_owner_1 -> noname_owner_2 -> Tristan
+ 
+ unknown_noname_owner_1 [label="unknown person"]
+ 
+ noname_owner_1 -> unknown_noname_owner_1
+ 
+ RB [label="RB *" tooltip="STRG+click (open in new tab)" URL="http://www.powerandsailing.com/about-us.html"]
+ 
+ Thailand -> RB -> {Plan_109_mod post_rb_tiki38 post_rb_different}
+ 
+ Boat_109 -> {post_rb_tiki38 post_rb_different}
+ 
+ {blog_109 COH} -> post_rb_different
+ 
+ {
+  edge [label=builds]
+  RB -> {Boat_109 Boat_110}
+  Davie_Norris -> boat_110_2
+ }
+ 
+ Boat_109 -> blog_109
+
+ JWD ->Tiki38 -> {Plan_109 Plan_110}
+ 
+ JWD -> endorsement -> {Andy_Smith_Boatworks Boatsmith}
+ 
+ JWD -> warning
+ 
+ {
+  edge [color=red]
+  warning -> RB 
+ {beaching_accident disintegration_accident} -> unknown_tiki38
+ }
+ 
+ USA -> Florida -> Boatsmith
+ 
+ Philippines -> Bohoi -> Andy_Smith_Boatworks -> {Kinship Pumpkin boat_100}
+ 
+ New_Zealand -> Christchurch -> Davie_Norris
+
+ Belgium -> Antwerp -> noname_tiki38
+ Belgium -> Tristan
+ 
+ {
+  edge [label="== (presumably)" arrowhead=none color=grey]
+  
+  unknown_noname_owner_1 -> COH
+  Boat_109 -> unknown_tiki38 -> noname_tiki38
+ }
+
+}
