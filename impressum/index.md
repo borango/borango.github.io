@@ -3,7 +3,7 @@
 
 > Boran Gögetap  
 > Castle Pier  
-> St Peter Port
+> St Peter Port  
 > Guernsey  
 
 _Since 2022 I am constantly travelling. Above street address can only serve for formal matters. I cannot receive physical mail there. Let us rather us electronic communication:_
