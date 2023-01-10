@@ -20,7 +20,7 @@
 <title>PANBESY&#45;1</title>
 <g id="a_PANBESY&#45;1"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-1" xlink:title=" " target="details">
 <path fill="white" stroke="black" d="M457,-427.02C457,-427.02 270,-427.02 270,-427.02 264.5,-427.02 259,-421.52 259,-416.02 259,-416.02 259,-405.02 259,-405.02 259,-399.52 264.5,-394.02 270,-394.02 270,-394.02 457,-394.02 457,-394.02 462.5,-394.02 468,-399.52 468,-405.02 468,-405.02 468,-416.02 468,-416.02 468,-421.52 462.5,-427.02 457,-427.02"/>
-<g id="a_PANBESY&#45;1_0"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_PANBESY&#45;1_0"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10601+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="../img/avatar--10303.png" width="18px" height="19px" preserveAspectRatio="xMinYMin meet" x="266.5" y="-420.518"/>
 </a>
 </g>
@@ -33,7 +33,7 @@
 <title>PANBESY&#45;4</title>
 <g id="a_PANBESY&#45;4"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-4" xlink:title="a.k.a. “Corona Denier”" target="details">
 <path fill="white" stroke="black" d="M563.5,-551.02C563.5,-551.02 331.5,-551.02 331.5,-551.02 326,-551.02 320.5,-545.52 320.5,-540.02 320.5,-540.02 320.5,-529.02 320.5,-529.02 320.5,-523.52 326,-518.02 331.5,-518.02 331.5,-518.02 563.5,-518.02 563.5,-518.02 569,-518.02 574.5,-523.52 574.5,-529.02 574.5,-529.02 574.5,-540.02 574.5,-540.02 574.5,-545.52 569,-551.02 563.5,-551.02"/>
-<g id="a_PANBESY&#45;4_1"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary" xlink:title="a.k.a. “Corona Denier”" target="details">
+<g id="a_PANBESY&#45;4_1"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10628+ORDER+BY+summary" xlink:title="a.k.a. “Corona Denier”" target="details">
 <image xlink:href="../img/avatar--11491.png" width="16px" height="12px" preserveAspectRatio="xMinYMin meet" x="328.5" y="-544.524"/>
 </a>
 </g>
@@ -59,7 +59,7 @@
 <title>PANBESY&#45;60</title>
 <g id="a_PANBESY&#45;60"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-60" xlink:title=" " target="details">
 <path fill="white" stroke="black" d="M908,-491.02C908,-491.02 757,-491.02 757,-491.02 751.5,-491.02 746,-485.52 746,-480.02 746,-480.02 746,-469.02 746,-469.02 746,-463.52 751.5,-458.02 757,-458.02 757,-458.02 908,-458.02 908,-458.02 913.5,-458.02 919,-463.52 919,-469.02 919,-469.02 919,-480.02 919,-480.02 919,-485.52 913.5,-491.02 908,-491.02"/>
-<g id="a_PANBESY&#45;60_2"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_PANBESY&#45;60_2"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10601+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="../img/avatar--10303.png" width="18px" height="19px" preserveAspectRatio="xMinYMin meet" x="753.5" y="-484.524"/>
 </a>
 </g>
@@ -81,7 +81,7 @@
 <title>UNIVERSAL&#45;16</title>
 <g id="a_UNIVERSAL&#45;16"><a xlink:href="https://knowhere.atlassian.net/browse/UNIVERSAL-16" xlink:title=" " target="details">
 <path fill="white" stroke="black" d="M621,-611.02C621,-611.02 554,-611.02 554,-611.02 548.5,-611.02 543,-605.52 543,-600.02 543,-600.02 543,-589.02 543,-589.02 543,-583.52 548.5,-578.02 554,-578.02 554,-578.02 621,-578.02 621,-578.02 626.5,-578.02 632,-583.52 632,-589.02 632,-589.02 632,-600.02 632,-600.02 632,-605.52 626.5,-611.02 621,-611.02"/>
-<g id="a_UNIVERSAL&#45;16_3"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Value%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_UNIVERSAL&#45;16_3"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10667+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="../img/avatar--10309.png" width="18px" height="19px" preserveAspectRatio="xMinYMin meet" x="550.5" y="-604.524"/>
 </a>
 </g>
@@ -107,7 +107,7 @@
 <title>UNIVERSAL&#45;19</title>
 <g id="a_UNIVERSAL&#45;19"><a xlink:href="https://knowhere.atlassian.net/browse/UNIVERSAL-19" xlink:title=" " target="details">
 <path fill="white" stroke="black" d="M988,-611.02C988,-611.02 897,-611.02 897,-611.02 891.5,-611.02 886,-605.52 886,-600.02 886,-600.02 886,-589.02 886,-589.02 886,-583.52 891.5,-578.02 897,-578.02 897,-578.02 988,-578.02 988,-578.02 993.5,-578.02 999,-583.52 999,-589.02 999,-589.02 999,-600.02 999,-600.02 999,-605.52 993.5,-611.02 988,-611.02"/>
-<g id="a_UNIVERSAL&#45;19_4"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Value%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_UNIVERSAL&#45;19_4"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10667+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="../img/avatar--10309.png" width="18px" height="19px" preserveAspectRatio="xMinYMin meet" x="893.5" y="-604.524"/>
 </a>
 </g>
@@ -133,7 +133,7 @@
 <title>UNIVERSAL&#45;20</title>
 <g id="a_UNIVERSAL&#45;20"><a xlink:href="https://knowhere.atlassian.net/browse/UNIVERSAL-20" xlink:title=" " target="details">
 <path fill="white" stroke="black" d="M712,-611.02C712,-611.02 657,-611.02 657,-611.02 651.5,-611.02 646,-605.52 646,-600.02 646,-600.02 646,-589.02 646,-589.02 646,-583.52 651.5,-578.02 657,-578.02 657,-578.02 712,-578.02 712,-578.02 717.5,-578.02 723,-583.52 723,-589.02 723,-589.02 723,-600.02 723,-600.02 723,-605.52 717.5,-611.02 712,-611.02"/>
-<g id="a_UNIVERSAL&#45;20_5"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Value%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_UNIVERSAL&#45;20_5"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10667+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="../img/avatar--10309.png" width="18px" height="19px" preserveAspectRatio="xMinYMin meet" x="653.5" y="-604.524"/>
 </a>
 </g>
@@ -159,7 +159,7 @@
 <title>PANBESY&#45;3</title>
 <g id="a_PANBESY&#45;3"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-3" xlink:title="a.k.a. “Conspiracy Denier”" target="details">
 <path fill="white" stroke="black" d="M989.5,-551.02C989.5,-551.02 769.5,-551.02 769.5,-551.02 764,-551.02 758.5,-545.52 758.5,-540.02 758.5,-540.02 758.5,-529.02 758.5,-529.02 758.5,-523.52 764,-518.02 769.5,-518.02 769.5,-518.02 989.5,-518.02 989.5,-518.02 995,-518.02 1000.5,-523.52 1000.5,-529.02 1000.5,-529.02 1000.5,-540.02 1000.5,-540.02 1000.5,-545.52 995,-551.02 989.5,-551.02"/>
-<g id="a_PANBESY&#45;3_6"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary" xlink:title="a.k.a. “Conspiracy Denier”" target="details">
+<g id="a_PANBESY&#45;3_6"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10628+ORDER+BY+summary" xlink:title="a.k.a. “Conspiracy Denier”" target="details">
 <image xlink:href="../img/avatar--11491.png" width="16px" height="12px" preserveAspectRatio="xMinYMin meet" x="766.5" y="-544.524"/>
 </a>
 </g>
@@ -185,7 +185,7 @@
 <title>PANBESY&#45;14</title>
 <g id="a_PANBESY&#45;14"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-14" xlink:title="World Health Organization" target="details">
 <path fill="white" stroke="black" d="M908,-295C908,-295 853,-295 853,-295 847.5,-295 842,-289.5 842,-284 842,-284 842,-273 842,-273 842,-267.5 847.5,-262 853,-262 853,-262 908,-262 908,-262 913.5,-262 919,-267.5 919,-273 919,-273 919,-284 919,-284 919,-289.5 913.5,-295 908,-295"/>
-<g id="a_PANBESY&#45;14_7"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Org-Einheit%22+ORDER+BY+summary" xlink:title="World Health Organization" target="details">
+<g id="a_PANBESY&#45;14_7"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10656+ORDER+BY+summary" xlink:title="World Health Organization" target="details">
 <image xlink:href="../img/avatar--11504.png" width="18px" height="19px" preserveAspectRatio="xMinYMin meet" x="849.5" y="-288.5"/>
 </a>
 </g>
@@ -198,7 +198,7 @@
 <title>PANBESY&#45;72</title>
 <g id="a_PANBESY&#45;72"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-72" xlink:title="{quote}WHO Director&#45;General&#39;s opening remarks at the media briefing on COVID&#45;19 &#45; 11 March 2020{quote}" target="details">
 <path fill="white" stroke="black" d="M1038.5,-359.01C1038.5,-359.01 722.5,-359.01 722.5,-359.01 717,-359.01 711.5,-353.51 711.5,-348.01 711.5,-348.01 711.5,-337.01 711.5,-337.01 711.5,-331.51 717,-326.01 722.5,-326.01 722.5,-326.01 1038.5,-326.01 1038.5,-326.01 1044,-326.01 1049.5,-331.51 1049.5,-337.01 1049.5,-337.01 1049.5,-348.01 1049.5,-348.01 1049.5,-353.51 1044,-359.01 1038.5,-359.01"/>
-<g id="a_PANBESY&#45;72_8"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Dokument%22+ORDER+BY+summary" xlink:title="{quote}WHO Director&#45;General&#39;s opening remarks at the media briefing on COVID&#45;19 &#45; 11 March 2020{quote}" target="details">
+<g id="a_PANBESY&#45;72_8"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10608+ORDER+BY+summary" xlink:title="{quote}WHO Director&#45;General&#39;s opening remarks at the media briefing on COVID&#45;19 &#45; 11 March 2020{quote}" target="details">
 <image xlink:href="../img/avatar--11472.png" width="18px" height="19px" preserveAspectRatio="xMinYMin meet" x="718.5" y="-352.506"/>
 </a>
 </g>
@@ -224,7 +224,7 @@
 <title>PANBESY&#45;71</title>
 <g id="a_PANBESY&#45;71"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-71" xlink:title=" " target="details">
 <path fill="white" stroke="black" d="M1063.5,-427.02C1063.5,-427.02 687.5,-427.02 687.5,-427.02 682,-427.02 676.5,-421.52 676.5,-416.02 676.5,-416.02 676.5,-405.02 676.5,-405.02 676.5,-399.52 682,-394.02 687.5,-394.02 687.5,-394.02 1063.5,-394.02 1063.5,-394.02 1069,-394.02 1074.5,-399.52 1074.5,-405.02 1074.5,-405.02 1074.5,-416.02 1074.5,-416.02 1074.5,-421.52 1069,-427.02 1063.5,-427.02"/>
-<g id="a_PANBESY&#45;71_9"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_PANBESY&#45;71_9"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="../img/avatar--10308.png" width="18px" height="19px" preserveAspectRatio="xMinYMin meet" x="683.5" y="-420.518"/>
 </a>
 </g>
@@ -250,7 +250,7 @@
 <title>PANBESY&#45;15</title>
 <g id="a_PANBESY&#45;15"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-15" xlink:title="{quote}*An influenza pandemic*&#10;&#10;An influenza pandemic occurs when a new influenza virus appears against which the human population has *no immunity*, resulting in epidemics worldwide with *enormous numbers of deaths and illness*. With the increase in global transport, as well as urbanization and overcrowded conditions, epidemics due the new influenza virus are likely to quickly take hold around the world.{quote}" target="details">
 <path fill="white" stroke="#bd0026" stroke-dasharray="5,2" d="M324,-295C324,-295 11,-295 11,-295 5.5,-295 0,-289.5 0,-284 0,-284 0,-273 0,-273 0,-267.5 5.5,-262 11,-262 11,-262 324,-262 324,-262 329.5,-262 335,-267.5 335,-273 335,-273 335,-284 335,-284 335,-289.5 329.5,-295 324,-295"/>
-<g id="a_PANBESY&#45;15_10"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary" xlink:title="{quote}*An influenza pandemic*&#10;&#10;An influenza pandemic occurs when a new influenza virus appears against which the human population has *no immunity*, resulting in epidemics worldwide with *enormous numbers of deaths and illness*. With the increase in global transport, as well as urbanization and overcrowded conditions, epidemics due the new influenza virus are likely to quickly take hold around the world.{quote}" target="details">
+<g id="a_PANBESY&#45;15_10"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary" xlink:title="{quote}*An influenza pandemic*&#10;&#10;An influenza pandemic occurs when a new influenza virus appears against which the human population has *no immunity*, resulting in epidemics worldwide with *enormous numbers of deaths and illness*. With the increase in global transport, as well as urbanization and overcrowded conditions, epidemics due the new influenza virus are likely to quickly take hold around the world.{quote}" target="details">
 <image xlink:href="../img/avatar--10308.png" width="18px" height="19px" preserveAspectRatio="xMinYMin meet" x="7.5" y="-288.5"/>
 </a>
 </g>
@@ -263,7 +263,7 @@
 <title>PANBESY&#45;18</title>
 <g id="a_PANBESY&#45;18"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-18" xlink:title="{quote}What is an influenza pandemic?&#10;&#10;A disease epidemic occurs when there are *more cases* of that disease *than normal*. A pandemic is a worldwide epidemic of a disease. An influenza pandemic may occur when a new influenza virus appears against which the human population has no immunity. With the increase in global transport, as well as urbanization and overcrowded conditions in some areas, epidemics due to a new influenza virus are likely to take hold around the world, and become a pandemic faster than before. WHO has defined the phases of a pandemic to provide a global framework to aid countries in pandemic preparedness and response planning. Pandemics *can be either mild or severe* in the illness and death they cause, and the severity of a pandemic can change over the course of that pandemic.{quote}" target="details">
 <path fill="white" stroke="#fd8d3c" d="M314,-359.01C314,-359.01 43,-359.01 43,-359.01 37.5,-359.01 32,-353.51 32,-348.01 32,-348.01 32,-337.01 32,-337.01 32,-331.51 37.5,-326.01 43,-326.01 43,-326.01 314,-326.01 314,-326.01 319.5,-326.01 325,-331.51 325,-337.01 325,-337.01 325,-348.01 325,-348.01 325,-353.51 319.5,-359.01 314,-359.01"/>
-<g id="a_PANBESY&#45;18_11"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Statement%22+ORDER+BY+summary" xlink:title="{quote}What is an influenza pandemic?&#10;&#10;A disease epidemic occurs when there are *more cases* of that disease *than normal*. A pandemic is a worldwide epidemic of a disease. An influenza pandemic may occur when a new influenza virus appears against which the human population has no immunity. With the increase in global transport, as well as urbanization and overcrowded conditions in some areas, epidemics due to a new influenza virus are likely to take hold around the world, and become a pandemic faster than before. WHO has defined the phases of a pandemic to provide a global framework to aid countries in pandemic preparedness and response planning. Pandemics *can be either mild or severe* in the illness and death they cause, and the severity of a pandemic can change over the course of that pandemic.{quote}" target="details">
+<g id="a_PANBESY&#45;18_11"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10679+ORDER+BY+summary" xlink:title="{quote}What is an influenza pandemic?&#10;&#10;A disease epidemic occurs when there are *more cases* of that disease *than normal*. A pandemic is a worldwide epidemic of a disease. An influenza pandemic may occur when a new influenza virus appears against which the human population has no immunity. With the increase in global transport, as well as urbanization and overcrowded conditions in some areas, epidemics due to a new influenza virus are likely to take hold around the world, and become a pandemic faster than before. WHO has defined the phases of a pandemic to provide a global framework to aid countries in pandemic preparedness and response planning. Pandemics *can be either mild or severe* in the illness and death they cause, and the severity of a pandemic can change over the course of that pandemic.{quote}" target="details">
 <image xlink:href="../img/avatar--10308.png" width="18px" height="19px" preserveAspectRatio="xMinYMin meet" x="39.5" y="-352.506"/>
 </a>
 </g>
@@ -354,7 +354,7 @@
 <title>PANBESY&#45;2</title>
 <g id="a_PANBESY&#45;2"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-2" xlink:title=" " target="details">
 <path fill="white" stroke="black" d="M596,-491.02C596,-491.02 439,-491.02 439,-491.02 433.5,-491.02 428,-485.52 428,-480.02 428,-480.02 428,-469.02 428,-469.02 428,-463.52 433.5,-458.02 439,-458.02 439,-458.02 596,-458.02 596,-458.02 601.5,-458.02 607,-463.52 607,-469.02 607,-469.02 607,-480.02 607,-480.02 607,-485.52 601.5,-491.02 596,-491.02"/>
-<g id="a_PANBESY&#45;2_12"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_PANBESY&#45;2_12"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10654+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="../img/avatar--11505.png" width="16px" height="12px" preserveAspectRatio="xMinYMin meet" x="436.5" y="-484.524"/>
 </a>
 </g>
@@ -419,7 +419,7 @@
 <title>PANBESY&#45;41</title>
 <g id="a_PANBESY&#45;41"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-41" xlink:title=" " target="details">
 <path fill="white" stroke="black" d="M501.5,-93C501.5,-93 413.5,-93 413.5,-93 408,-93 402.5,-87.5 402.5,-82 402.5,-82 402.5,-71 402.5,-71 402.5,-65.5 408,-60 413.5,-60 413.5,-60 501.5,-60 501.5,-60 507,-60 512.5,-65.5 512.5,-71 512.5,-71 512.5,-82 512.5,-82 512.5,-87.5 507,-93 501.5,-93"/>
-<g id="a_PANBESY&#45;41_13"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Ding%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_PANBESY&#45;41_13"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10627+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="../img/avatar--11502.png" width="16px" height="12px" preserveAspectRatio="xMinYMin meet" x="410.5" y="-86.5"/>
 </a>
 </g>
@@ -432,7 +432,7 @@
 <title>PANBESY&#45;6</title>
 <g id="a_PANBESY&#45;6"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-6" xlink:title=" " target="details">
 <path fill="white" stroke="#f03b20" d="M500,-153C500,-153 415,-153 415,-153 409.5,-153 404,-147.5 404,-142 404,-142 404,-131 404,-131 404,-125.5 409.5,-120 415,-120 415,-120 500,-120 500,-120 505.5,-120 511,-125.5 511,-131 511,-131 511,-142 511,-142 511,-147.5 505.5,-153 500,-153"/>
-<g id="a_PANBESY&#45;6_14"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Ding%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_PANBESY&#45;6_14"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10627+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="../img/avatar--11502.png" width="16px" height="12px" preserveAspectRatio="xMinYMin meet" x="412.5" y="-146.5"/>
 </a>
 </g>
@@ -458,7 +458,7 @@
 <title>PANBESY&#45;61</title>
 <g id="a_PANBESY&#45;61"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-61" xlink:title=" " target="details">
 <path fill="white" stroke="#f03b20" d="M506,-213C506,-213 397,-213 397,-213 391.5,-213 386,-207.5 386,-202 386,-202 386,-191 386,-191 386,-185.5 391.5,-180 397,-180 397,-180 506,-180 506,-180 511.5,-180 517,-185.5 517,-191 517,-191 517,-202 517,-202 517,-207.5 511.5,-213 506,-213"/>
-<g id="a_PANBESY&#45;61_15"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_PANBESY&#45;61_15"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10654+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="../img/avatar--11505.png" width="16px" height="12px" preserveAspectRatio="xMinYMin meet" x="394.5" y="-206.5"/>
 </a>
 </g>
@@ -484,7 +484,7 @@
 <title>PANBESY&#45;65</title>
 <g id="a_PANBESY&#45;65"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-65" xlink:title=" " target="details">
 <path fill="white" stroke="#f03b20" d="M684.5,-213C684.5,-213 542.5,-213 542.5,-213 537,-213 531.5,-207.5 531.5,-202 531.5,-202 531.5,-191 531.5,-191 531.5,-185.5 537,-180 542.5,-180 542.5,-180 684.5,-180 684.5,-180 690,-180 695.5,-185.5 695.5,-191 695.5,-191 695.5,-202 695.5,-202 695.5,-207.5 690,-213 684.5,-213"/>
-<g id="a_PANBESY&#45;65_16"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Ding%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_PANBESY&#45;65_16"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10627+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="../img/avatar--11502.png" width="16px" height="12px" preserveAspectRatio="xMinYMin meet" x="539.5" y="-206.5"/>
 </a>
 </g>
@@ -506,7 +506,7 @@
 <title>PANBESY&#45;7</title>
 <g id="a_PANBESY&#45;7"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-7" xlink:title="Exponential growth in the number of infected people causes a pandemic.&#10;&#10;Growth is exponential exactly when the [https://en.wikipedia.org/wiki/Basic_reproduction_number|https://en.wikipedia.org/wiki/Basic_reproduction_number|smart&#45;link] &#160;is significantly greater than 1." target="details">
 <path fill="white" stroke="#f03b20" d="M448,-254C448,-254 279,-254 279,-254 273.5,-254 268,-248.5 268,-243 268,-243 268,-232 268,-232 268,-226.5 273.5,-221 279,-221 279,-221 448,-221 448,-221 453.5,-221 459,-226.5 459,-232 459,-232 459,-243 459,-243 459,-248.5 453.5,-254 448,-254"/>
-<g id="a_PANBESY&#45;7_17"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Prozess%22+ORDER+BY+summary" xlink:title="Exponential growth in the number of infected people causes a pandemic.&#10;&#10;Growth is exponential exactly when the [https://en.wikipedia.org/wiki/Basic_reproduction_number|https://en.wikipedia.org/wiki/Basic_reproduction_number|smart&#45;link] &#160;is significantly greater than 1." target="details">
+<g id="a_PANBESY&#45;7_17"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10650+ORDER+BY+summary" xlink:title="Exponential growth in the number of infected people causes a pandemic.&#10;&#10;Growth is exponential exactly when the [https://en.wikipedia.org/wiki/Basic_reproduction_number|https://en.wikipedia.org/wiki/Basic_reproduction_number|smart&#45;link] &#160;is significantly greater than 1." target="details">
 <image xlink:href="../img/avatar--10700.png" width="18px" height="19px" preserveAspectRatio="xMinYMin meet" x="275.5" y="-247.5"/>
 </a>
 </g>
@@ -532,7 +532,7 @@
 <title>PANBESY&#45;42</title>
 <g id="a_PANBESY&#45;42"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-42" xlink:title="see [https://en.wikipedia.org/wiki/Immune_system|https://en.wikipedia.org/wiki/Immune_system|smart&#45;link] " target="details">
 <path fill="white" stroke="black" d="M527,-33C527,-33 388,-33 388,-33 382.5,-33 377,-27.5 377,-22 377,-22 377,-11 377,-11 377,-5.5 382.5,0 388,0 388,0 527,0 527,0 532.5,0 538,-5.5 538,-11 538,-11 538,-22 538,-22 538,-27.5 532.5,-33 527,-33"/>
-<g id="a_PANBESY&#45;42_18"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Ding%22+ORDER+BY+summary" xlink:title="see [https://en.wikipedia.org/wiki/Immune_system|https://en.wikipedia.org/wiki/Immune_system|smart&#45;link] " target="details">
+<g id="a_PANBESY&#45;42_18"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10627+ORDER+BY+summary" xlink:title="see [https://en.wikipedia.org/wiki/Immune_system|https://en.wikipedia.org/wiki/Immune_system|smart&#45;link] " target="details">
 <image xlink:href="../img/avatar--11502.png" width="16px" height="12px" preserveAspectRatio="xMinYMin meet" x="385.5" y="-26.5"/>
 </a>
 </g>
@@ -558,7 +558,7 @@
 <title>PANBESY&#45;5</title>
 <g id="a_PANBESY&#45;5"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-5" xlink:title=" " target="details">
 <path fill="white" stroke="#bd0026" d="M616,-93C616,-93 561,-93 561,-93 555.5,-93 550,-87.5 550,-82 550,-82 550,-71 550,-71 550,-65.5 555.5,-60 561,-60 561,-60 616,-60 616,-60 621.5,-60 627,-65.5 627,-71 627,-71 627,-82 627,-82 627,-87.5 621.5,-93 616,-93"/>
-<g id="a_PANBESY&#45;5_19"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Ding%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_PANBESY&#45;5_19"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10627+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="../img/avatar--11502.png" width="16px" height="12px" preserveAspectRatio="xMinYMin meet" x="558.5" y="-86.5"/>
 </a>
 </g>
@@ -584,7 +584,7 @@
 <title>PANBESY&#45;66</title>
 <g id="a_PANBESY&#45;66"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-66" xlink:title=" " target="details">
 <path fill="white" stroke="#bd0026" d="M667.5,-153C667.5,-153 555.5,-153 555.5,-153 550,-153 544.5,-147.5 544.5,-142 544.5,-142 544.5,-131 544.5,-131 544.5,-125.5 550,-120 555.5,-120 555.5,-120 667.5,-120 667.5,-120 673,-120 678.5,-125.5 678.5,-131 678.5,-131 678.5,-142 678.5,-142 678.5,-147.5 673,-153 667.5,-153"/>
-<g id="a_PANBESY&#45;66_20"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Ding%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_PANBESY&#45;66_20"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10627+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="../img/avatar--11502.png" width="16px" height="12px" preserveAspectRatio="xMinYMin meet" x="552.5" y="-146.5"/>
 </a>
 </g>
@@ -619,7 +619,7 @@
 <title>PANBESY&#45;9</title>
 <g id="a_PANBESY&#45;9"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-9" xlink:title=" " target="details">
 <path fill="white" stroke="#f03b20" d="M523,-295C523,-295 462,-295 462,-295 456.5,-295 451,-289.5 451,-284 451,-284 451,-273 451,-273 451,-267.5 456.5,-262 462,-262 462,-262 523,-262 523,-262 528.5,-262 534,-267.5 534,-273 534,-273 534,-284 534,-284 534,-289.5 528.5,-295 523,-295"/>
-<g id="a_PANBESY&#45;9_21"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_PANBESY&#45;9_21"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10654+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="../img/avatar--11505.png" width="16px" height="12px" preserveAspectRatio="xMinYMin meet" x="459.5" y="-288.5"/>
 </a>
 </g>
@@ -645,7 +645,7 @@
 <title>PANBESY&#45;63</title>
 <g id="a_PANBESY&#45;63"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-63" xlink:title="one hospitalized person who had been tested corona&#45;positive, independent of other potential or actual causes for this person’s hospitalization" target="details">
 <path fill="white" stroke="#f03b20" d="M686,-359.01C686,-359.01 517,-359.01 517,-359.01 511.5,-359.01 506,-353.51 506,-348.01 506,-348.01 506,-337.01 506,-337.01 506,-331.51 511.5,-326.01 517,-326.01 517,-326.01 686,-326.01 686,-326.01 691.5,-326.01 697,-331.51 697,-337.01 697,-337.01 697,-348.01 697,-348.01 697,-353.51 691.5,-359.01 686,-359.01"/>
-<g id="a_PANBESY&#45;63_22"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary" xlink:title="one hospitalized person who had been tested corona&#45;positive, independent of other potential or actual causes for this person’s hospitalization" target="details">
+<g id="a_PANBESY&#45;63_22"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10654+ORDER+BY+summary" xlink:title="one hospitalized person who had been tested corona&#45;positive, independent of other potential or actual causes for this person’s hospitalization" target="details">
 <image xlink:href="../img/avatar--11505.png" width="16px" height="12px" preserveAspectRatio="xMinYMin meet" x="514.5" y="-352.506"/>
 </a>
 </g>
@@ -695,7 +695,7 @@
 <title>PANBESY&#45;62</title>
 <g id="a_PANBESY&#45;62"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-62" xlink:title=" " target="details">
 <path fill="white" stroke="#fd8d3c" d="M650,-427.02C650,-427.02 589,-427.02 589,-427.02 583.5,-427.02 578,-421.52 578,-416.02 578,-416.02 578,-405.02 578,-405.02 578,-399.52 583.5,-394.02 589,-394.02 589,-394.02 650,-394.02 650,-394.02 655.5,-394.02 661,-399.52 661,-405.02 661,-405.02 661,-416.02 661,-416.02 661,-421.52 655.5,-427.02 650,-427.02"/>
-<g id="a_PANBESY&#45;62_23"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_PANBESY&#45;62_23"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10654+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="../img/avatar--11505.png" width="16px" height="12px" preserveAspectRatio="xMinYMin meet" x="586.5" y="-420.518"/>
 </a>
 </g>
@@ -746,7 +746,7 @@
 <title>UNIVERSAL&#45;12</title>
 <g id="a_UNIVERSAL&#45;12"><a xlink:href="https://knowhere.atlassian.net/browse/UNIVERSAL-12" xlink:title=" " target="details">
 <path fill="white" stroke="black" d="M705.5,-491.02C705.5,-491.02 635.5,-491.02 635.5,-491.02 630,-491.02 624.5,-485.52 624.5,-480.02 624.5,-480.02 624.5,-469.02 624.5,-469.02 624.5,-463.52 630,-458.02 635.5,-458.02 635.5,-458.02 705.5,-458.02 705.5,-458.02 711,-458.02 716.5,-463.52 716.5,-469.02 716.5,-469.02 716.5,-480.02 716.5,-480.02 716.5,-485.52 711,-491.02 705.5,-491.02"/>
-<g id="a_UNIVERSAL&#45;12_24"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_UNIVERSAL&#45;12_24"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10628+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="../img/avatar--11491.png" width="16px" height="12px" preserveAspectRatio="xMinYMin meet" x="632.5" y="-484.524"/>
 </a>
 </g>

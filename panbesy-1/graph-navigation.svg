@@ -18,7 +18,7 @@
 <title>PANBESY&#45;1</title>
 <g id="a_PANBESY&#45;1"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-1" xlink:title=" " target="details">
 <path fill="white" stroke="black" d="M586,-33C586,-33 399,-33 399,-33 393.5,-33 388,-27.5 388,-22 388,-22 388,-11 388,-11 388,-5.5 393.5,0 399,0 399,0 586,0 586,0 591.5,0 597,-5.5 597,-11 597,-11 597,-22 597,-22 597,-27.5 591.5,-33 586,-33"/>
-<g id="a_PANBESY&#45;1_0"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_PANBESY&#45;1_0"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10601+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="https://knowhere.atlassian.net/secure/viewavatar?size=small&amp;avatarId=10303&amp;avatarType=issuetype" width="18px" height="19px" preserveAspectRatio="xMinYMin meet" x="395.5" y="-26.5"/>
 </a>
 </g>
@@ -31,7 +31,7 @@
 <title>PANBESY&#45;4</title>
 <g id="a_PANBESY&#45;4"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-4" xlink:title="a.k.a. “Corona Denier”" target="details">
 <path fill="white" stroke="black" d="M684.5,-143C684.5,-143 452.5,-143 452.5,-143 447,-143 441.5,-137.5 441.5,-132 441.5,-132 441.5,-121 441.5,-121 441.5,-115.5 447,-110 452.5,-110 452.5,-110 684.5,-110 684.5,-110 690,-110 695.5,-115.5 695.5,-121 695.5,-121 695.5,-132 695.5,-132 695.5,-137.5 690,-143 684.5,-143"/>
-<g id="a_PANBESY&#45;4_1"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary" xlink:title="a.k.a. “Corona Denier”" target="details">
+<g id="a_PANBESY&#45;4_1"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10628+ORDER+BY+summary" xlink:title="a.k.a. “Corona Denier”" target="details">
 <image xlink:href="https://knowhere.atlassian.net/secure/viewavatar?size=small&amp;avatarId=11491&amp;avatarType=issuetype" width="16px" height="12px" preserveAspectRatio="xMinYMin meet" x="449.5" y="-136.5"/>
 </a>
 </g>
@@ -57,7 +57,7 @@
 <title>PANBESY&#45;60</title>
 <g id="a_PANBESY&#45;60"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-60" xlink:title=" " target="details">
 <path fill="white" stroke="black" d="M315,-83C315,-83 164,-83 164,-83 158.5,-83 153,-77.5 153,-72 153,-72 153,-61 153,-61 153,-55.5 158.5,-50 164,-50 164,-50 315,-50 315,-50 320.5,-50 326,-55.5 326,-61 326,-61 326,-72 326,-72 326,-77.5 320.5,-83 315,-83"/>
-<g id="a_PANBESY&#45;60_2"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Feststellung / Finding%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_PANBESY&#45;60_2"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10601+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="https://knowhere.atlassian.net/secure/viewavatar?size=small&amp;avatarId=10303&amp;avatarType=issuetype" width="18px" height="19px" preserveAspectRatio="xMinYMin meet" x="160.5" y="-76.5"/>
 </a>
 </g>
@@ -79,7 +79,7 @@
 <title>UNIVERSAL&#45;16</title>
 <g id="a_UNIVERSAL&#45;16"><a xlink:href="https://knowhere.atlassian.net/browse/UNIVERSAL-16" xlink:title=" " target="details">
 <path fill="white" stroke="black" d="M422,-203C422,-203 355,-203 355,-203 349.5,-203 344,-197.5 344,-192 344,-192 344,-181 344,-181 344,-175.5 349.5,-170 355,-170 355,-170 422,-170 422,-170 427.5,-170 433,-175.5 433,-181 433,-181 433,-192 433,-192 433,-197.5 427.5,-203 422,-203"/>
-<g id="a_UNIVERSAL&#45;16_3"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Value%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_UNIVERSAL&#45;16_3"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10667+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="https://knowhere.atlassian.net/secure/viewavatar?size=small&amp;avatarId=10309&amp;avatarType=issuetype" width="18px" height="19px" preserveAspectRatio="xMinYMin meet" x="351.5" y="-196.5"/>
 </a>
 </g>
@@ -105,7 +105,7 @@
 <title>UNIVERSAL&#45;19</title>
 <g id="a_UNIVERSAL&#45;19"><a xlink:href="https://knowhere.atlassian.net/browse/UNIVERSAL-19" xlink:title=" " target="details">
 <path fill="white" stroke="black" d="M102,-203C102,-203 11,-203 11,-203 5.5,-203 0,-197.5 0,-192 0,-192 0,-181 0,-181 0,-175.5 5.5,-170 11,-170 11,-170 102,-170 102,-170 107.5,-170 113,-175.5 113,-181 113,-181 113,-192 113,-192 113,-197.5 107.5,-203 102,-203"/>
-<g id="a_UNIVERSAL&#45;19_4"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Value%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_UNIVERSAL&#45;19_4"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10667+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="https://knowhere.atlassian.net/secure/viewavatar?size=small&amp;avatarId=10309&amp;avatarType=issuetype" width="18px" height="19px" preserveAspectRatio="xMinYMin meet" x="7.5" y="-196.5"/>
 </a>
 </g>
@@ -131,7 +131,7 @@
 <title>UNIVERSAL&#45;20</title>
 <g id="a_UNIVERSAL&#45;20"><a xlink:href="https://knowhere.atlassian.net/browse/UNIVERSAL-20" xlink:title=" " target="details">
 <path fill="white" stroke="black" d="M596,-203C596,-203 541,-203 541,-203 535.5,-203 530,-197.5 530,-192 530,-192 530,-181 530,-181 530,-175.5 535.5,-170 541,-170 541,-170 596,-170 596,-170 601.5,-170 607,-175.5 607,-181 607,-181 607,-192 607,-192 607,-197.5 601.5,-203 596,-203"/>
-<g id="a_UNIVERSAL&#45;20_5"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Value%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_UNIVERSAL&#45;20_5"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10667+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="https://knowhere.atlassian.net/secure/viewavatar?size=small&amp;avatarId=10309&amp;avatarType=issuetype" width="18px" height="19px" preserveAspectRatio="xMinYMin meet" x="537.5" y="-196.5"/>
 </a>
 </g>
@@ -157,7 +157,7 @@
 <title>PANBESY&#45;3</title>
 <g id="a_PANBESY&#45;3"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-3" xlink:title="a.k.a. “Conspiracy Denier”" target="details">
 <path fill="white" stroke="black" d="M348.5,-143C348.5,-143 128.5,-143 128.5,-143 123,-143 117.5,-137.5 117.5,-132 117.5,-132 117.5,-121 117.5,-121 117.5,-115.5 123,-110 128.5,-110 128.5,-110 348.5,-110 348.5,-110 354,-110 359.5,-115.5 359.5,-121 359.5,-121 359.5,-132 359.5,-132 359.5,-137.5 354,-143 348.5,-143"/>
-<g id="a_PANBESY&#45;3_6"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary" xlink:title="a.k.a. “Conspiracy Denier”" target="details">
+<g id="a_PANBESY&#45;3_6"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10628+ORDER+BY+summary" xlink:title="a.k.a. “Conspiracy Denier”" target="details">
 <image xlink:href="https://knowhere.atlassian.net/secure/viewavatar?size=small&amp;avatarId=11491&amp;avatarType=issuetype" width="16px" height="12px" preserveAspectRatio="xMinYMin meet" x="125.5" y="-136.5"/>
 </a>
 </g>
@@ -183,7 +183,7 @@
 <title>PANBESY&#45;2</title>
 <g id="a_PANBESY&#45;2"><a xlink:href="https://knowhere.atlassian.net/browse/PANBESY-2" xlink:title=" " target="details">
 <path fill="white" stroke="black" d="M893,-83C893,-83 736,-83 736,-83 730.5,-83 725,-77.5 725,-72 725,-72 725,-61 725,-61 725,-55.5 730.5,-50 736,-50 736,-50 893,-50 893,-50 898.5,-50 904,-55.5 904,-61 904,-61 904,-72 904,-72 904,-77.5 898.5,-83 893,-83"/>
-<g id="a_PANBESY&#45;2_7"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Konzept%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_PANBESY&#45;2_7"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10654+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="https://knowhere.atlassian.net/secure/viewavatar?size=small&amp;avatarId=11505&amp;avatarType=issuetype" width="16px" height="12px" preserveAspectRatio="xMinYMin meet" x="733.5" y="-76.5"/>
 </a>
 </g>
@@ -248,7 +248,7 @@
 <title>UNIVERSAL&#45;12</title>
 <g id="a_UNIVERSAL&#45;12"><a xlink:href="https://knowhere.atlassian.net/browse/UNIVERSAL-12" xlink:title=" " target="details">
 <path fill="white" stroke="black" d="M422.5,-83C422.5,-83 352.5,-83 352.5,-83 347,-83 341.5,-77.5 341.5,-72 341.5,-72 341.5,-61 341.5,-61 341.5,-55.5 347,-50 352.5,-50 352.5,-50 422.5,-50 422.5,-50 428,-50 433.5,-55.5 433.5,-61 433.5,-61 433.5,-72 433.5,-72 433.5,-77.5 428,-83 422.5,-83"/>
-<g id="a_UNIVERSAL&#45;12_8"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=%22Akteur%22+ORDER+BY+summary" xlink:title=" " target="details">
+<g id="a_UNIVERSAL&#45;12_8"><a xlink:href="https://knowhere.atlassian.net/issues/?jql=type=10628+ORDER+BY+summary" xlink:title=" " target="details">
 <image xlink:href="https://knowhere.atlassian.net/secure/viewavatar?size=small&amp;avatarId=11491&amp;avatarType=issuetype" width="16px" height="12px" preserveAspectRatio="xMinYMin meet" x="349.5" y="-76.5"/>
 </a>
 </g>
