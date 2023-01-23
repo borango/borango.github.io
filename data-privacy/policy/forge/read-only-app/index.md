@@ -13,7 +13,7 @@ distributed via the Atlassian Marketplace or via Installation Links
 
 ### 3. Contact
 If you have questions or feedback about this policy or an **app** then please don't hesitate
-to contact us via a communication channel that suits you: http://www.goegetap.name/contact/
+to contact us via a communication channel that suits you: [http://www.goegetap.name/contact/](http://www.goegetap.name/contact/)
 
 ### 4. Read-Only Apps
 Read-Only Apps read data from Jira in order to transform and display that data back to you.  
@@ -57,6 +57,8 @@ The **app** does:
 * https://cdn.jsdelivr.net/npm/@hpcc-js/wasm/dist/index.js
 * https://cdn.jsdelivr.net/npm/@hpcc-js/wasm/dist/graphviz.js
 
+All in all, Atlassian counts that as "3 domains".  
+
 Atlassian's wording of "share data with 3 domains" is a reference that it is technically possible to append information (e.g. as URL parameters)
 while requesting images or Javascript libraries. This would be a way to leak data outside of Atlassian Cloud.
 **Our app** does not do that.
@@ -81,7 +83,7 @@ This way you can very above statements, verify information security, or otherwis
 
 ### 9. Enjoy
 We honestly hope that you enjoy **our app**.
-Please contact us either way, to send feedback or to report problems with the app:
-> http://www.goegetap.name/contact/
+Please contact us either way: to send feedback *or* to report problems with the app:
+> [http://www.goegetap.name/contact/](http://www.goegetap.name/contact/)
 
 ~ Boran Gögetap & Contributors
