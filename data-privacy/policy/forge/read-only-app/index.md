@@ -58,7 +58,7 @@ The **app** does not read or otherwise use any other of your profile details.
 The **app** actually does **not share** data with anybody outside Atlassian.  
 
 The **app** does:
-1. display images (issue type icons) from **your instance** in the Atlassian Cloud,  
+1. display images (issue type icons) from **your instance** in the Atlassian Cloud (*.atlassian.net),  
 
 ... and load a Javascript library to generate SVG diagrams, which comes in two parts:  
 (*links provided as evidence, not necessarily human readable*)
