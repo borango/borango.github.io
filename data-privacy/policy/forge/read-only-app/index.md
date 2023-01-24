@@ -1,8 +1,12 @@
 # Data Privacy Policy
 ## for Read-Only Jira Cloud Apps in the Atlassian Marketplace
 
-### 1. Preface
-We take data privacy and information security very serious. Protecting your data is our highest priority.
+### 1. To begin with
+This policy explains how the app uses your information.
+
+The ultimate intention for the app is to create value.
+
+We understand that for most users, there is no value in an app without data privacy or information security. Therefore we consider data privacy and information security as requirements with highest priority.
 
 ### 2. Scope and Definitions
 This policy covers *Read-Only* Apps (**apps**)  
@@ -21,9 +25,9 @@ Data is displayed to you in the same browser window that you use to navigate Jir
 
 Read-Only Apps **never** write to Jira and **never** otherwise send data to any other server or service outside Jira Cloud.
 
-Read-Only Apps may write log entries for the purpose of debugging or performance reviews.
+Read-Only Apps **may write log entries** for the purpose of debugging or performance reviews.
 
-Read-Only Apps may store configuration information or cache Jira information inside the Atlassian Cloud platform. 
+Read-Only Apps **may store configuration information or cache generated information** inside the Atlassian Cloud platform. 
 This information is only accessible to the **app** itself, not to other apps and not to any user. Not even to **us**.
 
 This way, there is no risk to the integrity or confidentiality of your data.
@@ -32,34 +36,39 @@ This way, there is no risk to the integrity or confidentiality of your data.
 Every Atlassian Cloud app requests certain permissions so that it can work in the intended way.
 Before you start using an app you can agree to, or refuse, these permissions.
 
-Our **app** uses following Permissions for the documented purposes:
+Our **app** uses following Permissions for the documented purposes (_wording by Atlassian_):
 
-#### 5.1. View Jira issue data
+#### 5.1. _"View Jira issue data"_
 
 The **app** reads information about Jira issues  
 in order to transform and present that information back to you,  
 e.g. in form of a diagram or other analysis.
 
-#### 5.2. View active user profile
+#### 5.2. _"View active user profile"_
 
 The **app** needs to act on behalf of you, the currently logged-in user,  
 so that you see exactly the same amount of information in the app as you see in Jira (i.e. the same Jira projects and Jira issues).
 
-The **app** actually does not read or otherwise use any of your profile details.
+The **app may include your account Id** in the meta information (e.g. a legend) of a diagram, so that the diagram can be traced back to the data that it displays.  
 
-#### 5.3. Share data with 3 domains outside Atlassian
+The **app** does not read or otherwise use any other of your profile details.
+
+#### 5.3. _"Share data with 3 domains outside Atlassian"_
 
 The **app** actually does **not share** data with anybody outside Atlassian.  
 
 The **app** does:
-* display images (issue type icons) from **your instance** in the Atlassian Cloud
-* load a Javascript library to generate SVG diagrams, which comes in two parts:
-* https://cdn.jsdelivr.net/npm/@hpcc-js/wasm/dist/index.js
-* https://cdn.jsdelivr.net/npm/@hpcc-js/wasm/dist/graphviz.js
+1. display images (issue type icons) from **your instance** in the Atlassian Cloud,  
+
+... and load a Javascript library to generate SVG diagrams, which comes in two parts:  
+(*links provided as evidence, not necessarily human readable*)
+
+2. https://cdn.jsdelivr.net/npm/@hpcc-js/wasm/dist/index.js
+3. https://cdn.jsdelivr.net/npm/@hpcc-js/wasm/dist/graphviz.js
 
 All in all, Atlassian counts that as "3 domains".  
 
-Atlassian's wording of "share data with 3 domains" is a reference that it is technically possible to append information (e.g. as URL parameters)
+Atlassian's wording of _"share data with 3 domains"_ is a reference that it is technically possible to append information (e.g. as URL parameters)
 while requesting images or Javascript libraries. This would be a way to leak data outside of Atlassian Cloud.
 **Our app** does not do that.
 
