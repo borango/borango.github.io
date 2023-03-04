@@ -15,7 +15,7 @@ abstract: "Wind and Solar energy are powering Propulsion, Navigation and Cooking
       function a0()
       {
         onpress( sdoc, "e"              )
-        onpress( sdoc, "s"              )
+        onpress( sdoc, "S"              )
         onclick( sdoc, "MARU-139"       )
       }
       function a1()
