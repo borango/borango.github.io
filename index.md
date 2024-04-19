@@ -12,10 +12,11 @@ Hier möchte ich zusammenfassen wie ich beim Erreichen Ihrer Ziele helfen kann.
 
 {% include beratung-ohne-trademarks.md %}
 
-{% include ethikfilter.md %}
-
 {% include honorar.md %}
 
+## Ethikfilter
+
+Projektziele filtere ich nach ethischen Richtlinien. So können wir sicher sein, dass wir in einem vereinbarten Projekt tatsächlich am selben Strang ziehen. Siehe Details unter [Ethikfilter](/ethikfilter).
 ---
 
 {% include trademarks.html %}
