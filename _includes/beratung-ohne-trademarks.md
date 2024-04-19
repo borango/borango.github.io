@@ -10,7 +10,7 @@ Inhalt der Projekte kann z.B. sein:
 
 * Produkt- und Projektmanagement (Scrum, RUP, PMI, PRINCE)
 * Schlankes Qualitätsmanagement (Kanban, Kaizen, 3M…) oder auf Basis der  ISO 9.000 ff Normenreihe
-* Konfigurationsmanagement (CMDB, ISO 10.007)
+* Konfigurationsmanagement ([CMDB](/cmdb), ISO 10.007)
 * Wertschöpfung und Wertstromanalyse (Value Mapping)
 * Prozessmanagement (Jira, eEPK, jBPM, BPEL, UML)
 * Servicemanagement / IT-Service-Management (ISO 20.000 / ITIL)
