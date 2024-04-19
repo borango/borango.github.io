@@ -25,6 +25,7 @@ Hier folgt ein kurzer Überblick wie ich beim Erreichen Ihrer Ziele helfen kann.
 ## Ethikfilter
 
 Projektziele filtere ich nach ethischen Richtlinien. So können wir sicher sein, dass wir in einem vereinbarten Projekt tatsächlich am selben Strang ziehen. Siehe Details unter [Ethikfilter](/ethikfilter).
+
 ---
 
 {% include trademarks.html %}
