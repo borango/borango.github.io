@@ -2,7 +2,7 @@
 
 Willkomen auf meiner Webseite. Mein Name ist Boran Gögetap. Schön dass Sie reinschauen.
 
-Beruflich unterstütze ich Kunden bei allen möglichen Themen im Qualitätsmanagement (siehe unten).
+Beruflich unterstütze ich Kunden beim Management von Qualität und Wissen.
 
 Privat reise und lebe ich vergleichsweise minimalistisch und nachhaltig. Natur erlebe ich respektvoll und aus nächster Nähe: im Dachzelt, auf dem Segelboot oder unter dem Gleitschirm. Praktisch emissionsfrei.
 
@@ -10,11 +10,11 @@ Tatsächlich unterscheide ich kaum zwischen beruflichem und privatem Leben. Stet
 
 Privat wie beruflich verfolge ich –so wirksam wie möglich– gesetzte Ziele. Solo oder gemeinsam.
 
-So umfasst Qualitätsmanagement, wie ich es verstehe, *alle notwendigen Mittel* zur Zielrreichung: ***Menschen***, ***Wissen***, ***Verfahren*** und einiges mehr.
+Qualitätsmanagement ist für mich ein Werkzeug, um Ziele zu erreichen.
 
-*Meine Lieblingsrolle in Kundenprojekten ist die des [Knowledge Engineers](/de/Knowledge-Engineer).*
+Meine Spezialität im QM ist das Wissensmanagement. Mein Lieblingsprinzip ist die **Kausalität**. Meine Lieblingsrolle ist der [Knowledge Engineer](/de/Knowledge-Engineer).
 
-Hier folgt ein kurzer Überblick wie ich beim Erreichen Ihrer Ziele helfen kann.
+Hier folgt ein Überblick wie ich Ihnen beim Erreichen Ihrer Ziele helfen kann...
 
 {% include schulung-ohne-trademarks.md %}
 
@@ -24,7 +24,7 @@ Hier folgt ein kurzer Überblick wie ich beim Erreichen Ihrer Ziele helfen kann.
 
 ## Ethikfilter
 
-Projektziele filtere ich nach ethischen Richtlinien. So können wir sicher sein, dass wir in einem vereinbarten Projekt tatsächlich am selben Strang ziehen. Siehe Details unter [Ethikfilter](/ethikfilter).
+Projektziele filtere ich nach meinen persönlichen ethischen Richtlinien. So können wir sicher sein, dass wir "zusammen passen" und in einem vereinbarten Projekt am selben Strang ziehen. Mehr Details unter [Ethikfilter](/ethikfilter).
 
 ---
 

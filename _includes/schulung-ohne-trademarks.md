@@ -8,6 +8,8 @@ Häufig wiederkehrende Fragen und Anforderungen bediene ich mit einem kleinen Ka
 
 * [Qualitätsklettern](/qualitaetsklettern/)
 
-Schulungen führe ich zurzeit [auf Anfrage](https://goegetap.atlassian.net/servicedesk/customer/portal/1/group/1/create/19) zu individuell vereinbarten Terminen durch.
+Standardschulungen führe ich [auf Anfrage](https://goegetap.atlassian.net/servicedesk/customer/portal/1/group/1/create/19) zu individuell vereinbarten Terminen durch.
 
-Als zertifizierter ITIL® Expert organisiere ich für Sie auch jede Art von Schulung zum IT Service Management, z.B. ITIL Foundation oder fortgeschrittene Stufen (Intermediate bis Expert).
+Spezialschulungen gestalte ich gerne für Sie. So transportieren wir Wissen direkt zu Ihrer Zielgruppe.
+
+Als zertifizierter ITIL® Expert organisiere ich für Ihre Teams auch maßgeschneiderte Workshops im IT Service Management. Falls Sie ITIL Foundation Schulungen suchen, kann ich Ihnen gerne einen Partner empfehlen.
