@@ -1,6 +1,6 @@
 # Knowledge Engineer
 
-### (Rollenbeschreibung)
+### Rollenbeschreibung ([english version](/en/knowledge-engineer))
 
 Der Knowledge Engineer (KE) unterstützt eine Organisation mit *automatisierten Antworten* auf *Fragen zu* potenziell *komplexen Wissensbereichen*.
 

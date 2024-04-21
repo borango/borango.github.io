@@ -1,6 +1,6 @@
 # Knowledge Engineer
 
-### (Job Description)
+### Job Description ([german version](/de/knowledge-engineer))
 
 A Knowledge Engineer supports an organization by structuring information. This information will be use to **answer** potentially complex questions. Typical users of this information will be **people and machines**.
 

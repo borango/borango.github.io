@@ -12,7 +12,7 @@ Privat wie beruflich verfolge ich –so wirksam wie möglich– gesetzte Ziele. 
 
 Qualitätsmanagement ist für mich ein Werkzeug, um Ziele zu erreichen.
 
-Meine Spezialität im QM ist das Wissensmanagement. Mein Lieblingsprinzip ist die **Kausalität**. Meine Lieblingsrolle ist der [Knowledge Engineer](/de/Knowledge-Engineer).
+Meine Spezialität im QM ist das Wissensmanagement. Mein Lieblingsprinzip ist die **Kausalität**. Meine Lieblingsrolle ist der [Knowledge Engineer](/de/knowledge-engineer).
 
 Hier folgt ein Überblick wie ich Ihnen beim Erreichen Ihrer Ziele helfen kann...
 
