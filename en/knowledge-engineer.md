@@ -2,17 +2,15 @@
 
 ### Job Description ([german version](/de/knowledge-engineer))
 
-A Knowledge Engineer supports an organization by structuring information. This information will be use to **answer** potentially complex questions. Typical users of this information will be **people and machines**.
+> A Knowledge Engineer supports an organization by structuring information. This information will be used to **answer** potentially complex questions. Typical users of this information will be **people and machines**.
 
-The Knowledge Engineer is responsible or accountable for the *Knowledge Management* process (see *Knowledge Manager* role). The Knowledge Engineer shapes the structure of the **Knowledge Graph** and coordinates to load the Graph with **knowledge from various stakeholders**.
+A Knowledge Engineer shapes the structure of the **Knowledge Graph** and coordinates to load the Graph with **domain expertise from various stakeholders**.
 
-Central to the development of the Knowledge Graph's structure and content are the articulated **problem definitions** from stakeholders within the organization (also representing outside stakeholders such as users and customers).
+Internal stakeholders' **problem definitions** are essential for the development of the Knowledge Graph's structure and content.
 
-Domain experts contribute to problem definitions. The Knowledge Engineer moderates the integration of domain expertise into the Knowledge Graph.
+Constantly operating at the levels operational facts (so-called 'models') and a meta-model (abstracting models), a Knowledge Engineer collaborates with domain experts to develop such models for each knowledge domain.
 
-Constantly operating at the level of models (representing operational facts) and a meta-model (abstracting models), the Knowledge Engineer collaborates with domain experts to develop models and meta-models for each knowledge domain.
-
-The Knowledge Engineer designs technical solutions for storing knowledge in the Knowledge Graph and for analyzing it. The Knowledge Engineer proposes a format that suits the problem defintion best:
+A Knowledge Engineer designs technical solutions for loading and analyzing the Knowledge Graph. A Knowledge Engineer selects a format that suits a particular problem definition best:
 
 * simple statements (yes/no)
 * numerical values
@@ -21,4 +19,6 @@ The Knowledge Engineer designs technical solutions for storing knowledge in the 
 * diagrams
 * reports or other documents...
 
-The Knowledge Engineer designs solutions for generating these target formats.
+A Knowledge Engineer designs solutions for generating these target formats.
+
+A Knowledge Engineer can be responsible or accountable for the *Knowledge Management* process (see *Knowledge Manager* role).
