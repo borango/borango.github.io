@@ -6,8 +6,6 @@
 > St Peter Port  
 > Guernsey  
 
-_Since 2022 I am constantly travelling. Above street address can only serve for formal matters. I cannot receive physical mail there. Let us rather use electronic communication:_
-
 contact via Email
 
 > [office@goegetap.name](mailto:office@goegetap.name)
