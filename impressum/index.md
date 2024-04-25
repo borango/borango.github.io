@@ -17,7 +17,7 @@ contact via Telegram
 
 contact via ticket (connected Jira site)
 
-> [https://goegetap.atlassian.net/servicedesk/customer/portals/1](https://goegetap.atlassian.net/servicedesk/customer/portals/1)
+> [https://goegetap.atlassian.net/servicedesk/customer/portal/1](https://goegetap.atlassian.net/servicedesk/customer/portal/1)
 
 
 lookup my free / busy times
