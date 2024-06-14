@@ -6,8 +6,6 @@
 > St Peter Port  
 > Guernsey  
 
-_Since 2022 I am constantly travelling. Above street address can only serve for formal matters. I cannot receive physical mail there. Let us rather use electronic communication:_
-
 contact via Email
 
 > [office@goegetap.name](mailto:office@goegetap.name)
@@ -19,7 +17,7 @@ contact via Telegram
 
 contact via ticket (connected Jira site)
 
-> [https://goegetap.atlassian.net/servicedesk/customer/portals/1](https://goegetap.atlassian.net/servicedesk/customer/portals/1)
+> [https://goegetap.atlassian.net/servicedesk/customer/portal/1](https://goegetap.atlassian.net/servicedesk/customer/portal/1)
 
 
 lookup my free / busy times
