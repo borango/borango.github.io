@@ -20,6 +20,10 @@ Hier folgt ein Überblick wie ich Ihnen beim Erreichen Ihrer Ziele helfen kann..
 
 {% include beratung-ohne-trademarks.md %}
 
+## Lebenslauf
+
+Details zu meiner [Qualifikation und Projekterfahrung](/cv/)
+
 {% include honorar.md %}
 
 ## Ethikfilter

@@ -1,35 +1,21 @@
-Boran Goegetap
-==============
+# Boran Gögetap
 
-Alpinist,  
-ITIL Expert,  
-Scrum Master,  
-Wissenswandler
+Sailor, Alpinist, Pilot 🎓
 
-Date of Birth: February 1969 
+Knowledge Manager,<br>
+Agile Coach,<br>
+ITIL V3 Expert 🎓
 
-Languages 
+🇬🇧 English: fluent, professional<br>
+🇩🇪 German: native<br>
+🇫🇷 French, Italian, Spanish: basic
 
-Deutsch (first language)  
-English (fluent),  
-Français (basic knowledge),  
-Italiano (basic knowledge)
+### Detailed CV Documents
 
-Specialization
+* [CV Boran Gögetap (PDF, 12 pages, 3MB)](/cv/CV_Boran_Goegetap.pdf)
+* [Data-driven, interactive CV (online)](https://bogo.observablehq.cloud/1/cv)
 
-Configuration Management,  
-Knowledge Management,  
-Process Management
+### Availability
 
-Availability
-
-+ single consulting days almost any time
-+ remote projects starting 2025
-
-## CV documents
-
-Download Curriculum Vitae (CV)
-[CV Boran Gögetap (PDF, 12 pages, 3MB)](/cv/CV_Boran_Gögetap.pdf)
-
-Data-driven, interactive CV
-[CV Boran Gögetap (online)][](https://bogo.observablehq.cloud/1/cv)
++ available for single days of [consulting](https://goegetap.atlassian.net/servicedesk/customer/portal/1/group/14/create/56) or [training](https://goegetap.atlassian.net/servicedesk/customer/portal/1/group/14/create/19): almost any time
++ available for [remote projects](https://goegetap.atlassian.net/servicedesk/customer/portal/1/group/14/create/20): starting 2025
