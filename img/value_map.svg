@@ -1,0 +1,769 @@
+<svg width="910pt" height="597pt" viewBox="0.00 0.00 910.00 596.80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="max-width: 100%; height: auto;">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 592.8)">
+<title>%0</title>
+<g id="a_graph0"><a xlink:title=" ">
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-592.8 906,-592.8 906,4 -4,4"/>
+</a>
+</g>
+<g id="clust1" class="cluster">
+<title>cluster_legend_svg</title>
+<g id="a_clust1"><a xlink:title=" ">
+<polygon fill="none" stroke="#ffffff" points="8,-8 8,-50 62,-50 62,-8 8,-8"/>
+</a>
+</g>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_legend_times_and_sequences</title>
+<g id="a_clust2"><a xlink:title=" ">
+<polygon fill="#f8f8ff" stroke="#f5f5f5" points="70,-8 70,-50 349,-50 349,-8 70,-8"/>
+</a>
+</g>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_spacer</title>
+<g id="a_clust3"><a xlink:title=" ">
+</a>
+</g>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_legend_realization</title>
+<g id="a_clust6"><a xlink:title=" ">
+<polygon fill="#f8f8ff" stroke="#f5f5f5" points="683,-8 683,-50 894,-50 894,-8 683,-8"/>
+</a>
+</g>
+</g>
+<!-- svg_legend_metamodel -->
+<g id="svg_legend_metamodel" class="node">
+<title>svg_legend_metamodel</title>
+<g id="a_svg_legend_metamodel"><a xlink:href="../metamodel/" xlink:title="click for Metamodel and more legend...">
+<polygon fill="#ffffff" stroke="#ffffff" points="50.1617,-42 15.505,-42 15.505,-16 54.495,-16 54.495,-37.6667 50.1617,-42"/>
+<polyline fill="none" stroke="#ffffff" points="50.1617,-42 50.1617,-37.6667 "/>
+<polyline fill="none" stroke="#ffffff" points="54.495,-37.6667 50.1617,-37.6667 "/>
+<text text-anchor="middle" x="35" y="-26" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#ffffff">MM...</text>
+</a>
+</g>
+</g>
+<!-- future -->
+<g id="future" class="node">
+<title>future</title>
+<g id="a_future"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" stroke-dasharray="1,5" d="M331.8997,-42C331.8997,-42 310.1003,-42 310.1003,-42 305.767,-42 301.4336,-37.6667 301.4336,-33.3333 301.4336,-33.3333 301.4336,-24.6667 301.4336,-24.6667 301.4336,-20.3333 305.767,-16 310.1003,-16 310.1003,-16 331.8997,-16 331.8997,-16 336.233,-16 340.5664,-20.3333 340.5664,-24.6667 340.5664,-24.6667 340.5664,-33.3333 340.5664,-33.3333 340.5664,-37.6667 336.233,-42 331.8997,-42"/>
+<text text-anchor="middle" x="321" y="-26" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">future</text>
+</a>
+</g>
+</g>
+<!-- present -->
+<g id="present" class="node">
+<title>present</title>
+<g id="a_present"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M217.1786,-42C217.1786,-42 186.8214,-42 186.8214,-42 182.4881,-42 178.1547,-37.6667 178.1547,-33.3333 178.1547,-33.3333 178.1547,-24.6667 178.1547,-24.6667 178.1547,-20.3333 182.4881,-16 186.8214,-16 186.8214,-16 217.1786,-16 217.1786,-16 221.5119,-16 225.8453,-20.3333 225.8453,-24.6667 225.8453,-24.6667 225.8453,-33.3333 225.8453,-33.3333 225.8453,-37.6667 221.5119,-42 217.1786,-42"/>
+<text text-anchor="middle" x="202" y="-26" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">present</text>
+</a>
+</g>
+</g>
+<!-- present&#45;&gt;future -->
+<g id="present___future" class="edge">
+<title>present-&gt;future</title>
+<path fill="none" stroke="#000000" d="M225.7954,-29C241.6017,-29 262.7425,-29 281.0872,-29"/>
+<polygon fill="none" stroke="#000000" points="291.1899,-32.5 301.1899,-29 291.1898,-25.5 291.1899,-32.5"/>
+<polygon fill="none" stroke="#000000" points="281.1899,-32.5001 291.1899,-29 281.1898,-25.5001 281.1899,-32.5001"/>
+<text text-anchor="middle" x="263.445" y="-17" font-family="Times,serif" font-size="10.00" fill="#000000">presentfuture-&gt;</text>
+</g>
+<!-- past -->
+<g id="past" class="node">
+<title>past</title>
+<g id="a_past"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#c0c0c0" stroke-dasharray="5,2" d="M101.7305,-42C101.7305,-42 86.2695,-42 86.2695,-42 81.9362,-42 77.6028,-37.6667 77.6028,-33.3333 77.6028,-33.3333 77.6028,-24.6667 77.6028,-24.6667 77.6028,-20.3333 81.9362,-16 86.2695,-16 86.2695,-16 101.7305,-16 101.7305,-16 106.0638,-16 110.3972,-20.3333 110.3972,-24.6667 110.3972,-24.6667 110.3972,-33.3333 110.3972,-33.3333 110.3972,-37.6667 106.0638,-42 101.7305,-42"/>
+<text text-anchor="middle" x="94" y="-26" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#c0c0c0">past</text>
+</a>
+</g>
+</g>
+<!-- past&#45;&gt;present -->
+<g id="past___present" class="edge">
+<title>past-&gt;present</title>
+<path fill="none" stroke="#000000" d="M110.4029,-29C123.0991,-29 141.2999,-29 158.1369,-29"/>
+<polygon fill="none" stroke="#000000" points="168.2175,-32.5 178.2175,-29 168.2175,-25.5 168.2175,-32.5"/>
+<polygon fill="none" stroke="#000000" points="158.2175,-32.5001 168.2175,-29 158.2175,-25.5001 158.2175,-32.5001"/>
+<text text-anchor="middle" x="144.3883" y="-17" font-family="Times,serif" font-size="10.00" fill="#000000">pastpresent-&gt;</text>
+</g>
+<!-- spacer -->
+<!-- this_symptom -->
+<g id="this_symptom" class="node" tag1="this_symptom-going-0" colorank="0-5">
+<title>this_symptom</title>
+<g id="a_this_symptom"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M464.2774,-369.6017C464.2774,-369.6017 417.7226,-369.6017 417.7226,-369.6017 411.7226,-369.6017 405.7226,-363.6017 405.7226,-357.6017 405.7226,-357.6017 405.7226,-334.3983 405.7226,-334.3983 405.7226,-328.3983 411.7226,-322.3983 417.7226,-322.3983 417.7226,-322.3983 464.2774,-322.3983 464.2774,-322.3983 470.2774,-322.3983 476.2774,-328.3983 476.2774,-334.3983 476.2774,-334.3983 476.2774,-357.6017 476.2774,-357.6017 476.2774,-363.6017 470.2774,-369.6017 464.2774,-369.6017"/>
+<text text-anchor="middle" x="441" y="-350.2" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">this</text>
+<text text-anchor="middle" x="441" y="-333.4" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">symptom</text>
+</a>
+</g>
+</g>
+<!-- qaq3 -->
+<!-- this_symptom&#45;&gt;qaq3 -->
+<!-- qaq91 -->
+<!-- this_symptom&#45;&gt;qaq91 -->
+<!-- other_symptom -->
+<g id="other_symptom" class="node exit" distance="0" tag1="other_symptom-going-0" colorank="0-5">
+<title>other_symptom</title>
+<g id="a_other_symptom"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M60.2774,-448.2017C60.2774,-448.2017 13.7226,-448.2017 13.7226,-448.2017 7.7226,-448.2017 1.7226,-442.2017 1.7226,-436.2017 1.7226,-436.2017 1.7226,-412.9983 1.7226,-412.9983 1.7226,-406.9983 7.7226,-400.9983 13.7226,-400.9983 13.7226,-400.9983 60.2774,-400.9983 60.2774,-400.9983 66.2774,-400.9983 72.2774,-406.9983 72.2774,-412.9983 72.2774,-412.9983 72.2774,-436.2017 72.2774,-436.2017 72.2774,-442.2017 66.2774,-448.2017 60.2774,-448.2017"/>
+<text text-anchor="middle" x="37" y="-428.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">other</text>
+<text text-anchor="middle" x="37" y="-412" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">symptom</text>
+</a>
+</g>
+</g>
+<!-- qaq92 -->
+<!-- other_symptom&#45;&gt;qaq92 -->
+<!-- third_application -->
+<g id="third_application" class="node exit" distance="1" tag1="other_symptom-going-0" colorank="1-5">
+<title>third_application</title>
+<g id="a_third_application"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M156.4061,-369.6017C156.4061,-369.6017 99.5939,-369.6017 99.5939,-369.6017 93.5939,-369.6017 87.5939,-363.6017 87.5939,-357.6017 87.5939,-357.6017 87.5939,-334.3983 87.5939,-334.3983 87.5939,-328.3983 93.5939,-322.3983 99.5939,-322.3983 99.5939,-322.3983 156.4061,-322.3983 156.4061,-322.3983 162.4061,-322.3983 168.4061,-328.3983 168.4061,-334.3983 168.4061,-334.3983 168.4061,-357.6017 168.4061,-357.6017 168.4061,-363.6017 162.4061,-369.6017 156.4061,-369.6017"/>
+<text text-anchor="middle" x="128" y="-350.2" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">third</text>
+<text text-anchor="middle" x="128" y="-333.4" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">application</text>
+</a>
+</g>
+</g>
+<!-- third_application&#45;&gt;other_symptom -->
+<g id="third_application___other_symptom" class="edge" distance="0" tag1="other_symptom-going-0" colorank="1-5">
+<title>third_application-&gt;other_symptom</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M100.2025,-370.0097C91.3822,-377.6281 81.5104,-386.1547 72.2384,-394.1633"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="69.9073,-391.5519 64.6272,-400.7374 74.483,-396.8494 69.9073,-391.5519"/>
+</g>
+<!-- some_information -->
+<g id="some_information" class="node">
+<title>some_information</title>
+<g id="a_some_information"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M157.7289,-448.2017C157.7289,-448.2017 98.2711,-448.2017 98.2711,-448.2017 92.2711,-448.2017 86.2711,-442.2017 86.2711,-436.2017 86.2711,-436.2017 86.2711,-412.9983 86.2711,-412.9983 86.2711,-406.9983 92.2711,-400.9983 98.2711,-400.9983 98.2711,-400.9983 157.7289,-400.9983 157.7289,-400.9983 163.7289,-400.9983 169.7289,-406.9983 169.7289,-412.9983 169.7289,-412.9983 169.7289,-436.2017 169.7289,-436.2017 169.7289,-442.2017 163.7289,-448.2017 157.7289,-448.2017"/>
+<text text-anchor="middle" x="128" y="-428.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">some</text>
+<text text-anchor="middle" x="128" y="-412" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">information</text>
+</a>
+</g>
+</g>
+<!-- third_application&#45;&gt;some_information -->
+<g id="third_application___some_information" class="edge">
+<title>third_application-&gt;some_information</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M128,-370.0097C128,-376.4091 128,-383.4494 128,-390.2852"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="124.5001,-390.7373 128,-400.7374 131.5001,-390.7374 124.5001,-390.7373"/>
+</g>
+<!-- other_information -->
+<g id="other_information" class="node">
+<title>other_information</title>
+<g id="a_other_information"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M254.7289,-448.2017C254.7289,-448.2017 195.2711,-448.2017 195.2711,-448.2017 189.2711,-448.2017 183.2711,-442.2017 183.2711,-436.2017 183.2711,-436.2017 183.2711,-412.9983 183.2711,-412.9983 183.2711,-406.9983 189.2711,-400.9983 195.2711,-400.9983 195.2711,-400.9983 254.7289,-400.9983 254.7289,-400.9983 260.7289,-400.9983 266.7289,-406.9983 266.7289,-412.9983 266.7289,-412.9983 266.7289,-436.2017 266.7289,-436.2017 266.7289,-442.2017 260.7289,-448.2017 254.7289,-448.2017"/>
+<text text-anchor="middle" x="225" y="-428.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">other</text>
+<text text-anchor="middle" x="225" y="-412" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">information</text>
+</a>
+</g>
+</g>
+<!-- third_application&#45;&gt;other_information -->
+<g id="third_application___other_information" class="edge">
+<title>third_application-&gt;other_information</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M157.3664,-369.7959C166.9582,-377.5682 177.739,-386.304 187.8272,-394.4786"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="185.7604,-397.3086 195.7334,-400.885 190.1674,-391.87 185.7604,-397.3086"/>
+</g>
+<!-- this_service -->
+<g id="this_service" class="node">
+<title>this_service</title>
+<g id="a_this_service"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M234.3334,-526.8017C234.3334,-526.8017 199.6666,-526.8017 199.6666,-526.8017 193.6666,-526.8017 187.6666,-520.8017 187.6666,-514.8017 187.6666,-514.8017 187.6666,-491.5983 187.6666,-491.5983 187.6666,-485.5983 193.6666,-479.5983 199.6666,-479.5983 199.6666,-479.5983 234.3334,-479.5983 234.3334,-479.5983 240.3334,-479.5983 246.3334,-485.5983 246.3334,-491.5983 246.3334,-491.5983 246.3334,-514.8017 246.3334,-514.8017 246.3334,-520.8017 240.3334,-526.8017 234.3334,-526.8017"/>
+<text text-anchor="middle" x="217" y="-507.4" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">this</text>
+<text text-anchor="middle" x="217" y="-490.6" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">service</text>
+</a>
+</g>
+</g>
+<!-- some_information&#45;&gt;this_service -->
+<g id="some_information___this_service" class="edge">
+<title>some_information-&gt;this_service</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M155.1865,-448.6097C163.7267,-456.1519 173.2748,-464.5843 182.2638,-472.5229"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="180.1676,-475.3412 189.98,-479.3374 184.8014,-470.0944 180.1676,-475.3412"/>
+</g>
+<!-- privacy_requirement -->
+<g id="privacy_requirement" class="node">
+<title>privacy_requirement</title>
+<g id="a_privacy_requirement"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" stroke-dasharray="1,5" d="M160.1752,-526.8017C160.1752,-526.8017 95.8248,-526.8017 95.8248,-526.8017 89.8248,-526.8017 83.8248,-520.8017 83.8248,-514.8017 83.8248,-514.8017 83.8248,-491.5983 83.8248,-491.5983 83.8248,-485.5983 89.8248,-479.5983 95.8248,-479.5983 95.8248,-479.5983 160.1752,-479.5983 160.1752,-479.5983 166.1752,-479.5983 172.1752,-485.5983 172.1752,-491.5983 172.1752,-491.5983 172.1752,-514.8017 172.1752,-514.8017 172.1752,-520.8017 166.1752,-526.8017 160.1752,-526.8017"/>
+<text text-anchor="middle" x="128" y="-507.4" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">privacy</text>
+<text text-anchor="middle" x="128" y="-490.6" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">requirement</text>
+</a>
+</g>
+</g>
+<!-- some_information&#45;&gt;privacy_requirement -->
+<g id="some_information___privacy_requirement" class="edge">
+<title>some_information-&gt;privacy_requirement</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M128,-448.6097C128,-455.0091 128,-462.0494 128,-468.8852"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="124.5001,-469.3373 128,-479.3374 131.5001,-469.3374 124.5001,-469.3373"/>
+</g>
+<!-- other_information&#45;&gt;this_service -->
+<g id="other_information___this_service" class="edge">
+<title>other_information-&gt;this_service</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M222.5563,-448.6097C221.8894,-455.1615 221.1542,-462.3851 220.4429,-469.3731"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="216.9594,-469.0343 219.4288,-479.3374 223.9234,-469.7432 216.9594,-469.0343"/>
+</g>
+<!-- third_server -->
+<g id="third_server" class="node exit" distance="3" tag1="other_symptom-going-0" colorank="3-5">
+<title>third_server</title>
+<g id="a_third_server"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M238.3865,-201.4017C238.3865,-201.4017 209.6135,-201.4017 209.6135,-201.4017 203.6135,-201.4017 197.6135,-195.4017 197.6135,-189.4017 197.6135,-189.4017 197.6135,-166.1983 197.6135,-166.1983 197.6135,-160.1983 203.6135,-154.1983 209.6135,-154.1983 209.6135,-154.1983 238.3865,-154.1983 238.3865,-154.1983 244.3865,-154.1983 250.3865,-160.1983 250.3865,-166.1983 250.3865,-166.1983 250.3865,-189.4017 250.3865,-189.4017 250.3865,-195.4017 244.3865,-201.4017 238.3865,-201.4017"/>
+<text text-anchor="middle" x="224" y="-182" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">third</text>
+<text text-anchor="middle" x="224" y="-165.2" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">server</text>
+</a>
+</g>
+</g>
+<!-- old_software -->
+<g id="old_software" class="node exit" distance="2" tag1="other_symptom-going-0" colorank="2-5">
+<title>old_software</title>
+<g id="a_old_software"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#c0c0c0" stroke-dasharray="5,2" d="M245.3963,-280.0017C245.3963,-280.0017 202.6037,-280.0017 202.6037,-280.0017 196.6037,-280.0017 190.6037,-274.0017 190.6037,-268.0017 190.6037,-268.0017 190.6037,-244.7983 190.6037,-244.7983 190.6037,-238.7983 196.6037,-232.7983 202.6037,-232.7983 202.6037,-232.7983 245.3963,-232.7983 245.3963,-232.7983 251.3963,-232.7983 257.3963,-238.7983 257.3963,-244.7983 257.3963,-244.7983 257.3963,-268.0017 257.3963,-268.0017 257.3963,-274.0017 251.3963,-280.0017 245.3963,-280.0017"/>
+<text text-anchor="middle" x="224" y="-260.6" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#c0c0c0">old</text>
+<text text-anchor="middle" x="224" y="-243.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#c0c0c0">software</text>
+</a>
+</g>
+</g>
+<!-- third_server&#45;&gt;old_software -->
+<g id="third_server___old_software" class="edge" distance="2" tag1="other_symptom-going-0" colorank="3-5">
+<title>third_server-&gt;old_software</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M224,-201.8097C224,-208.2091 224,-215.2494 224,-222.0852"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="220.5001,-222.5373 224,-232.5374 227.5001,-222.5374 220.5001,-222.5373"/>
+</g>
+<!-- third_software_product -->
+<g id="third_software_product" class="node exit" distance="2" tag1="other_symptom-going-0" colorank="2-5">
+<title>third_software_product</title>
+<g id="a_third_software_product"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M165.0098,-280.0017C165.0098,-280.0017 90.9902,-280.0017 90.9902,-280.0017 84.9902,-280.0017 78.9902,-274.0017 78.9902,-268.0017 78.9902,-268.0017 78.9902,-244.7983 78.9902,-244.7983 78.9902,-238.7983 84.9902,-232.7983 90.9902,-232.7983 90.9902,-232.7983 165.0098,-232.7983 165.0098,-232.7983 171.0098,-232.7983 177.0098,-238.7983 177.0098,-244.7983 177.0098,-244.7983 177.0098,-268.0017 177.0098,-268.0017 177.0098,-274.0017 171.0098,-280.0017 165.0098,-280.0017"/>
+<text text-anchor="middle" x="128" y="-260.6" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">third software</text>
+<text text-anchor="middle" x="128" y="-243.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">product</text>
+</a>
+</g>
+</g>
+<!-- third_software_product&#45;&gt;third_application -->
+<g id="third_software_product___third_application" class="edge" distance="1" tag1="other_symptom-going-0" colorank="2-5">
+<title>third_software_product-&gt;third_application</title>
+<path fill="none" stroke="#0000ff" d="M128,-280.4112C128,-290.1306 128,-301.5275 128,-312.0697"/>
+<polygon fill="none" stroke="#0000ff" points="124.5001,-312.2332 128,-322.2333 131.5001,-312.2333 124.5001,-312.2332"/>
+</g>
+<!-- free_license -->
+<g id="free_license" class="node" distance="3" tag1="other_symptom-going-0" colorank="3-5">
+<title>free_license</title>
+<g id="a_free_license"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M144.5627,-201.4017C144.5627,-201.4017 111.4373,-201.4017 111.4373,-201.4017 105.4373,-201.4017 99.4373,-195.4017 99.4373,-189.4017 99.4373,-189.4017 99.4373,-166.1983 99.4373,-166.1983 99.4373,-160.1983 105.4373,-154.1983 111.4373,-154.1983 111.4373,-154.1983 144.5627,-154.1983 144.5627,-154.1983 150.5627,-154.1983 156.5627,-160.1983 156.5627,-166.1983 156.5627,-166.1983 156.5627,-189.4017 156.5627,-189.4017 156.5627,-195.4017 150.5627,-201.4017 144.5627,-201.4017"/>
+<text text-anchor="middle" x="128" y="-182" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">free</text>
+<text text-anchor="middle" x="128" y="-165.2" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">license</text>
+</a>
+</g>
+</g>
+<!-- free_license&#45;&gt;third_software_product -->
+<g id="free_license___third_software_product" class="edge" distance="2" tag1="other_symptom-going-0" colorank="3-5">
+<title>free_license-&gt;third_software_product</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M128,-201.8097C128,-208.2091 128,-215.2494 128,-222.0852"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="124.5001,-222.5373 128,-232.5374 131.5001,-222.5374 124.5001,-222.5373"/>
+</g>
+<!-- other_software -->
+<g id="other_software" class="node" tag1="this_symptom-going-0" colorank="1-5">
+<title>other_software</title>
+<g id="a_other_software"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M532.3963,-280.0017C532.3963,-280.0017 489.6037,-280.0017 489.6037,-280.0017 483.6037,-280.0017 477.6037,-274.0017 477.6037,-268.0017 477.6037,-268.0017 477.6037,-244.7983 477.6037,-244.7983 477.6037,-238.7983 483.6037,-232.7983 489.6037,-232.7983 489.6037,-232.7983 532.3963,-232.7983 532.3963,-232.7983 538.3963,-232.7983 544.3963,-238.7983 544.3963,-244.7983 544.3963,-244.7983 544.3963,-268.0017 544.3963,-268.0017 544.3963,-274.0017 538.3963,-280.0017 532.3963,-280.0017"/>
+<text text-anchor="middle" x="511" y="-260.6" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">other</text>
+<text text-anchor="middle" x="511" y="-243.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">software</text>
+</a>
+</g>
+</g>
+<!-- other_software&#45;&gt;this_symptom -->
+<g id="other_software___this_symptom" class="edge" tag1="this_symptom-going-0" colorank="1-5">
+<title>other_software-&gt;this_symptom</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M492.2413,-280.4112C484.1734,-290.7381 474.6261,-302.9586 465.9721,-314.0357"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="462.9662,-312.1982 459.5678,-322.2333 468.4823,-316.5078 462.9662,-312.1982"/>
+</g>
+<!-- b_user -->
+<g id="b_user" class="node">
+<title>b_user</title>
+<g id="a_b_user"><a xlink:title="business user role">
+<path fill="#ffffff" stroke="#000000" d="M519.7264,-369.6017C519.7264,-369.6017 502.2736,-369.6017 502.2736,-369.6017 496.2736,-369.6017 490.2736,-363.6017 490.2736,-357.6017 490.2736,-357.6017 490.2736,-334.3983 490.2736,-334.3983 490.2736,-328.3983 496.2736,-322.3983 502.2736,-322.3983 502.2736,-322.3983 519.7264,-322.3983 519.7264,-322.3983 525.7264,-322.3983 531.7264,-328.3983 531.7264,-334.3983 531.7264,-334.3983 531.7264,-357.6017 531.7264,-357.6017 531.7264,-363.6017 525.7264,-369.6017 519.7264,-369.6017"/>
+<text text-anchor="middle" x="511" y="-350.2" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">b</text>
+<text text-anchor="middle" x="511" y="-333.4" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">user</text>
+</a>
+</g>
+</g>
+<!-- other_software&#45;&gt;b_user -->
+<g id="other_software___b_user" class="edge">
+<title>other_software-&gt;b_user</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M511,-280.4112C511,-290.1306 511,-301.5275 511,-312.0697"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="507.5001,-312.2332 511,-322.2333 514.5001,-312.2333 507.5001,-312.2332"/>
+</g>
+<!-- import -->
+<g id="import" class="node">
+<title>import</title>
+<g id="a_import"><a xlink:title="happens every morning">
+<path fill="#ffffff" stroke="#000000" d="M381.1833,-361.3006C381.1833,-361.3006 348.8167,-361.3006 348.8167,-361.3006 343.7165,-361.3006 338.6163,-356.2004 338.6163,-351.1002 338.6163,-351.1002 338.6163,-340.8998 338.6163,-340.8998 338.6163,-335.7996 343.7165,-330.6994 348.8167,-330.6994 348.8167,-330.6994 381.1833,-330.6994 381.1833,-330.6994 386.2835,-330.6994 391.3837,-335.7996 391.3837,-340.8998 391.3837,-340.8998 391.3837,-351.1002 391.3837,-351.1002 391.3837,-356.2004 386.2835,-361.3006 381.1833,-361.3006"/>
+<text text-anchor="middle" x="365" y="-341.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">import</text>
+</a>
+</g>
+</g>
+<!-- other_software&#45;&gt;import -->
+<g id="other_software___import" class="edge">
+<title>other_software-&gt;import</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M477.2538,-275.2935C454.8023,-288.0901 424.8058,-305.6246 399,-322.2 397.5829,-323.1102 396.1411,-324.0526 394.691,-325.0138"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="392.7207,-322.121 386.4079,-330.6297 396.649,-327.9149 392.7207,-322.121"/>
+</g>
+<!-- other_software_planned -->
+<g id="other_software_planned" class="node">
+<title>other_software_planned</title>
+<g id="a_other_software_planned"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" stroke-dasharray="1,5" d="M657.8653,-369.6017C657.8653,-369.6017 588.1347,-369.6017 588.1347,-369.6017 582.1347,-369.6017 576.1347,-363.6017 576.1347,-357.6017 576.1347,-357.6017 576.1347,-334.3983 576.1347,-334.3983 576.1347,-328.3983 582.1347,-322.3983 588.1347,-322.3983 588.1347,-322.3983 657.8653,-322.3983 657.8653,-322.3983 663.8653,-322.3983 669.8653,-328.3983 669.8653,-334.3983 669.8653,-334.3983 669.8653,-357.6017 669.8653,-357.6017 669.8653,-363.6017 663.8653,-369.6017 657.8653,-369.6017"/>
+<text text-anchor="middle" x="623" y="-350.2" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">planned new</text>
+<text text-anchor="middle" x="623" y="-333.4" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">software</text>
+</a>
+</g>
+</g>
+<!-- other_software&#45;&gt;other_software_planned -->
+<g id="other_software___other_software_planned" class="edge">
+<title>other_software-&gt;other_software_planned</title>
+<path fill="none" stroke="#000000" d="M544.5009,-279.7078C551.3721,-284.7002 558.4912,-290.0308 565,-295.2 570.513,-299.5783 576.2087,-304.3017 581.7795,-309.0437"/>
+<polygon fill="none" stroke="#000000" points="587.0502,-318.2651 596.8929,-322.1857 591.6435,-312.9828 587.0502,-318.2651"/>
+<polygon fill="none" stroke="#000000" points="579.5041,-311.7033 589.3469,-315.6239 584.0974,-306.421 579.5041,-311.7033"/>
+</g>
+<!-- qaa7 -->
+<!-- other_software&#45;&gt;qaa7 -->
+<!-- b_user&#45;&gt;qaa7 -->
+<!-- this_software -->
+<g id="this_software" class="node">
+<title>this_software</title>
+<g id="a_this_software"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M338.3963,-448.2017C338.3963,-448.2017 295.6037,-448.2017 295.6037,-448.2017 289.6037,-448.2017 283.6037,-442.2017 283.6037,-436.2017 283.6037,-436.2017 283.6037,-412.9983 283.6037,-412.9983 283.6037,-406.9983 289.6037,-400.9983 295.6037,-400.9983 295.6037,-400.9983 338.3963,-400.9983 338.3963,-400.9983 344.3963,-400.9983 350.3963,-406.9983 350.3963,-412.9983 350.3963,-412.9983 350.3963,-436.2017 350.3963,-436.2017 350.3963,-442.2017 344.3963,-448.2017 338.3963,-448.2017"/>
+<text text-anchor="middle" x="317" y="-428.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">this</text>
+<text text-anchor="middle" x="317" y="-412" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">software</text>
+</a>
+</g>
+</g>
+<!-- import&#45;&gt;this_software -->
+<g id="import___this_software" class="edge">
+<title>import-&gt;this_software</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M355.5167,-361.5288C350.1805,-370.2669 343.3106,-381.5165 336.8536,-392.0898"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="333.7944,-390.3837 331.5696,-400.7424 339.7685,-394.0321 333.7944,-390.3837"/>
+</g>
+<!-- other_server -->
+<g id="other_server" class="node" tag1="this_symptom-going-0" colorank="2-5">
+<title>other_server</title>
+<g id="a_other_server"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M524.3865,-201.4017C524.3865,-201.4017 495.6135,-201.4017 495.6135,-201.4017 489.6135,-201.4017 483.6135,-195.4017 483.6135,-189.4017 483.6135,-189.4017 483.6135,-166.1983 483.6135,-166.1983 483.6135,-160.1983 489.6135,-154.1983 495.6135,-154.1983 495.6135,-154.1983 524.3865,-154.1983 524.3865,-154.1983 530.3865,-154.1983 536.3865,-160.1983 536.3865,-166.1983 536.3865,-166.1983 536.3865,-189.4017 536.3865,-189.4017 536.3865,-195.4017 530.3865,-201.4017 524.3865,-201.4017"/>
+<text text-anchor="middle" x="510" y="-182" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">other</text>
+<text text-anchor="middle" x="510" y="-165.2" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">server</text>
+</a>
+</g>
+</g>
+<!-- other_server&#45;&gt;other_software -->
+<g id="other_server___other_software" class="edge" tag1="this_symptom-going-0" colorank="2-5">
+<title>other_server-&gt;other_software</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M510.3055,-201.8097C510.3869,-208.2091 510.4765,-215.2494 510.5634,-222.0852"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="507.0694,-222.5827 510.6964,-232.5374 514.0688,-222.4936 507.0694,-222.5827"/>
+</g>
+<!-- other_server_model -->
+<g id="other_server_model" class="node" tag1="this_symptom-going-0" colorank="3-5">
+<title>other_server_model</title>
+<g id="a_other_server_model"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M580.3865,-122.8017C580.3865,-122.8017 551.6135,-122.8017 551.6135,-122.8017 545.6135,-122.8017 539.6135,-116.8017 539.6135,-110.8017 539.6135,-110.8017 539.6135,-87.5983 539.6135,-87.5983 539.6135,-81.5983 545.6135,-75.5983 551.6135,-75.5983 551.6135,-75.5983 580.3865,-75.5983 580.3865,-75.5983 586.3865,-75.5983 592.3865,-81.5983 592.3865,-87.5983 592.3865,-87.5983 592.3865,-110.8017 592.3865,-110.8017 592.3865,-116.8017 586.3865,-122.8017 580.3865,-122.8017"/>
+<text text-anchor="middle" x="566" y="-103.4" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">server</text>
+<text text-anchor="middle" x="566" y="-86.6" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">model</text>
+</a>
+</g>
+</g>
+<!-- other_server_model&#45;&gt;other_server -->
+<g id="other_server_model___other_server" class="edge" tag1="this_symptom-going-0" colorank="3-5">
+<title>other_server_model-&gt;other_server</title>
+<path fill="none" stroke="#0000ff" d="M548.8939,-123.2097C543.9002,-130.2186 538.3589,-137.9963 533.0612,-145.432"/>
+<polygon fill="none" stroke="#0000ff" points="529.9535,-143.7621 527.0014,-153.9374 535.6545,-147.8239 529.9535,-143.7621"/>
+</g>
+<!-- other_software_product -->
+<g id="other_software_product" class="node" tag1="this_symptom-going-0" colorank="2-5">
+<title>other_software_product</title>
+<g id="a_other_software_product"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M756.1863,-201.4017C756.1863,-201.4017 677.8137,-201.4017 677.8137,-201.4017 671.8137,-201.4017 665.8137,-195.4017 665.8137,-189.4017 665.8137,-189.4017 665.8137,-166.1983 665.8137,-166.1983 665.8137,-160.1983 671.8137,-154.1983 677.8137,-154.1983 677.8137,-154.1983 756.1863,-154.1983 756.1863,-154.1983 762.1863,-154.1983 768.1863,-160.1983 768.1863,-166.1983 768.1863,-166.1983 768.1863,-189.4017 768.1863,-189.4017 768.1863,-195.4017 762.1863,-201.4017 756.1863,-201.4017"/>
+<text text-anchor="middle" x="717" y="-182" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">other software</text>
+<text text-anchor="middle" x="717" y="-165.2" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">product</text>
+</a>
+</g>
+</g>
+<!-- other_software_product&#45;&gt;other_software -->
+<g id="other_software_product___other_software" class="edge" tag1="this_symptom-going-0" colorank="2-5">
+<title>other_software_product-&gt;other_software</title>
+<path fill="none" stroke="#0000ff" d="M665.5474,-198.6491C662.9978,-199.6528 660.4713,-200.6411 658,-201.6 623.2099,-215.0989 583.5524,-229.8455 554.2029,-240.6376"/>
+<polygon fill="none" stroke="#0000ff" points="552.8479,-237.4066 544.6667,-244.1385 555.2603,-243.9778 552.8479,-237.4066"/>
+</g>
+<!-- other_software_test -->
+<g id="other_software_test" class="node">
+<title>other_software_test</title>
+<g id="a_other_software_test"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M819.3963,-369.6017C819.3963,-369.6017 776.6037,-369.6017 776.6037,-369.6017 770.6037,-369.6017 764.6037,-363.6017 764.6037,-357.6017 764.6037,-357.6017 764.6037,-334.3983 764.6037,-334.3983 764.6037,-328.3983 770.6037,-322.3983 776.6037,-322.3983 776.6037,-322.3983 819.3963,-322.3983 819.3963,-322.3983 825.3963,-322.3983 831.3963,-328.3983 831.3963,-334.3983 831.3963,-334.3983 831.3963,-357.6017 831.3963,-357.6017 831.3963,-363.6017 825.3963,-369.6017 819.3963,-369.6017"/>
+<text text-anchor="middle" x="798" y="-350.2" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">other</text>
+<text text-anchor="middle" x="798" y="-333.4" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">software</text>
+</a>
+</g>
+</g>
+<!-- other_software_product&#45;&gt;other_software_test -->
+<g id="other_software_product___other_software_test" class="edge">
+<title>other_software_product-&gt;other_software_test</title>
+<path fill="none" stroke="#0000ff" d="M748.1712,-201.4866C757.7878,-210.2712 767.5366,-220.9583 774,-232.6 787.553,-257.0116 793.4649,-288.2733 796.0373,-311.7886"/>
+<polygon fill="none" stroke="#0000ff" points="792.5763,-312.3682 796.9996,-321.9954 799.5454,-311.711 792.5763,-312.3682"/>
+</g>
+<!-- new_software_product -->
+<g id="new_software_product" class="node">
+<title>new_software_product</title>
+<g id="a_new_software_product"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M681.4597,-280.0017C681.4597,-280.0017 608.5403,-280.0017 608.5403,-280.0017 602.5403,-280.0017 596.5403,-274.0017 596.5403,-268.0017 596.5403,-268.0017 596.5403,-244.7983 596.5403,-244.7983 596.5403,-238.7983 602.5403,-232.7983 608.5403,-232.7983 608.5403,-232.7983 681.4597,-232.7983 681.4597,-232.7983 687.4597,-232.7983 693.4597,-238.7983 693.4597,-244.7983 693.4597,-244.7983 693.4597,-268.0017 693.4597,-268.0017 693.4597,-274.0017 687.4597,-280.0017 681.4597,-280.0017"/>
+<text text-anchor="middle" x="645" y="-260.6" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">new software</text>
+<text text-anchor="middle" x="645" y="-243.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">product</text>
+</a>
+</g>
+</g>
+<!-- other_software_product&#45;&gt;new_software_product -->
+<g id="other_software_product___new_software_product" class="edge">
+<title>other_software_product-&gt;new_software_product</title>
+<path fill="none" stroke="#000000" d="M695.0064,-201.8097C690.4005,-206.8378 685.4321,-212.2616 680.477,-217.6709"/>
+<polygon fill="none" stroke="#000000" points="671.0328,-222.7993 666.8589,-232.5374 676.1945,-227.5276 671.0328,-222.7993"/>
+<polygon fill="none" stroke="#000000" points="677.7875,-215.4254 673.6136,-225.1635 682.9492,-220.1537 677.7875,-215.4254"/>
+</g>
+<!-- new_software_test -->
+<g id="new_software_test" class="node">
+<title>new_software_test</title>
+<g id="a_new_software_test"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M738.3963,-369.6017C738.3963,-369.6017 695.6037,-369.6017 695.6037,-369.6017 689.6037,-369.6017 683.6037,-363.6017 683.6037,-357.6017 683.6037,-357.6017 683.6037,-334.3983 683.6037,-334.3983 683.6037,-328.3983 689.6037,-322.3983 695.6037,-322.3983 695.6037,-322.3983 738.3963,-322.3983 738.3963,-322.3983 744.3963,-322.3983 750.3963,-328.3983 750.3963,-334.3983 750.3963,-334.3983 750.3963,-357.6017 750.3963,-357.6017 750.3963,-363.6017 744.3963,-369.6017 738.3963,-369.6017"/>
+<text text-anchor="middle" x="717" y="-350.2" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">new</text>
+<text text-anchor="middle" x="717" y="-333.4" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">software</text>
+</a>
+</g>
+</g>
+<!-- internal_qa -->
+<g id="internal_qa" class="node">
+<title>internal_qa</title>
+<g id="a_internal_qa"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M810.8949,-448.2017C810.8949,-448.2017 775.1051,-448.2017 775.1051,-448.2017 769.1051,-448.2017 763.1051,-442.2017 763.1051,-436.2017 763.1051,-436.2017 763.1051,-412.9983 763.1051,-412.9983 763.1051,-406.9983 769.1051,-400.9983 775.1051,-400.9983 775.1051,-400.9983 810.8949,-400.9983 810.8949,-400.9983 816.8949,-400.9983 822.8949,-406.9983 822.8949,-412.9983 822.8949,-412.9983 822.8949,-436.2017 822.8949,-436.2017 822.8949,-442.2017 816.8949,-448.2017 810.8949,-448.2017"/>
+<text text-anchor="middle" x="793" y="-428.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">internal</text>
+<text text-anchor="middle" x="793" y="-412" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">testing</text>
+</a>
+</g>
+</g>
+<!-- new_software_test&#45;&gt;internal_qa -->
+<g id="new_software_test___internal_qa" class="edge">
+<title>new_software_test-&gt;internal_qa</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M740.2155,-370.0097C747.2872,-377.3234 755.1683,-385.474 762.6386,-393.1999"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="760.4594,-395.9813 769.9267,-400.7374 765.4917,-391.1154 760.4594,-395.9813"/>
+</g>
+<!-- other_software_test&#45;&gt;internal_qa -->
+<g id="other_software_test___internal_qa" class="edge">
+<title>other_software_test-&gt;internal_qa</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M796.4727,-370.0097C796.0656,-376.4091 795.6177,-383.4494 795.1829,-390.2852"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="791.66,-390.5353 794.518,-400.7374 798.6459,-390.9798 791.66,-390.5353"/>
+</g>
+<!-- commercial_license -->
+<g id="commercial_license" class="node" tag1="this_symptom-going-0" colorank="3-5">
+<title>commercial_license</title>
+<g id="a_commercial_license"><a xlink:title="this license does require a fee for test installations">
+<path fill="#ffffff" stroke="#000000" d="M684.544,-122.8017C684.544,-122.8017 623.456,-122.8017 623.456,-122.8017 617.456,-122.8017 611.456,-116.8017 611.456,-110.8017 611.456,-110.8017 611.456,-87.5983 611.456,-87.5983 611.456,-81.5983 617.456,-75.5983 623.456,-75.5983 623.456,-75.5983 684.544,-75.5983 684.544,-75.5983 690.544,-75.5983 696.544,-81.5983 696.544,-87.5983 696.544,-87.5983 696.544,-110.8017 696.544,-110.8017 696.544,-116.8017 690.544,-122.8017 684.544,-122.8017"/>
+<text text-anchor="middle" x="654" y="-103.4" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">commercial</text>
+<text text-anchor="middle" x="654" y="-86.6" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">license</text>
+</a>
+</g>
+</g>
+<!-- commercial_license&#45;&gt;other_software_product -->
+<g id="commercial_license___other_software_product" class="edge" tag1="this_symptom-going-0" colorank="3-5">
+<title>commercial_license-&gt;other_software_product</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M673.2444,-123.2097C678.9844,-130.371 685.3676,-138.3348 691.4445,-145.9165"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="688.8882,-148.3234 697.8734,-153.9374 694.3502,-143.9455 688.8882,-148.3234"/>
+</g>
+<!-- other_subnet -->
+<g id="other_subnet" class="node" tag1="this_symptom-going-0" colorank="3-5" distance="4" tag2="other_symptom-going-0">
+<title>other_subnet</title>
+<g id="a_other_subnet"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M476.021,-122.8017C476.021,-122.8017 443.979,-122.8017 443.979,-122.8017 437.979,-122.8017 431.979,-116.8017 431.979,-110.8017 431.979,-110.8017 431.979,-87.5983 431.979,-87.5983 431.979,-81.5983 437.979,-75.5983 443.979,-75.5983 443.979,-75.5983 476.021,-75.5983 476.021,-75.5983 482.021,-75.5983 488.021,-81.5983 488.021,-87.5983 488.021,-87.5983 488.021,-110.8017 488.021,-110.8017 488.021,-116.8017 482.021,-122.8017 476.021,-122.8017"/>
+<text text-anchor="middle" x="460" y="-103.4" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">other</text>
+<text text-anchor="middle" x="460" y="-86.6" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">subnet</text>
+</a>
+</g>
+</g>
+<!-- other_subnet&#45;&gt;third_server -->
+<g id="other_subnet___third_server" class="edge" distance="3" tag1="other_symptom-going-0" colorank="4-5">
+<title>other_subnet-&gt;third_server</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M431.9005,-119.7073C429.6245,-120.9314 427.3104,-122.0493 425,-123 358.1884,-150.4912 330.0626,-127.0132 260.1578,-153.8002"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="258.4354,-150.7216 250.4821,-157.7213 261.0645,-157.2091 258.4354,-150.7216"/>
+</g>
+<!-- other_subnet&#45;&gt;other_server -->
+<g id="other_subnet___other_server" class="edge" tag1="this_symptom-going-0" colorank="3-5">
+<title>other_subnet-&gt;other_server</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M475.2733,-123.2097C479.7319,-130.2186 484.6796,-137.9963 489.4097,-145.432"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="486.4997,-147.3784 494.8202,-153.9374 492.4059,-143.6212 486.4997,-147.3784"/>
+</g>
+<!-- one_route -->
+<g id="one_route" class="node">
+<title>one_route</title>
+<g id="a_one_route"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M413.8991,-280.0017C413.8991,-280.0017 392.1009,-280.0017 392.1009,-280.0017 386.1009,-280.0017 380.1009,-274.0017 380.1009,-268.0017 380.1009,-268.0017 380.1009,-244.7983 380.1009,-244.7983 380.1009,-238.7983 386.1009,-232.7983 392.1009,-232.7983 392.1009,-232.7983 413.8991,-232.7983 413.8991,-232.7983 419.8991,-232.7983 425.8991,-238.7983 425.8991,-244.7983 425.8991,-244.7983 425.8991,-268.0017 425.8991,-268.0017 425.8991,-274.0017 419.8991,-280.0017 413.8991,-280.0017"/>
+<text text-anchor="middle" x="403" y="-260.6" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">one</text>
+<text text-anchor="middle" x="403" y="-243.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">route</text>
+</a>
+</g>
+</g>
+<!-- other_subnet&#45;&gt;one_route -->
+<g id="other_subnet___one_route" class="edge">
+<title>other_subnet-&gt;one_route</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M458.7799,-123.2181C457.007,-144.5224 452.6594,-176.123 442,-201.6 438.7676,-209.3258 434.2854,-217.0238 429.5073,-224.1032"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="426.3343,-222.5238 423.3688,-232.6951 432.03,-226.5931 426.3343,-222.5238"/>
+</g>
+<!-- one_route&#45;&gt;import -->
+<g id="one_route___import" class="edge">
+<title>one_route-&gt;import</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M392.8167,-280.4112C387.4738,-293.0092 380.9357,-308.4254 375.5408,-321.1458"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="372.1864,-320.0912 371.5041,-330.664 378.6308,-322.8244 372.1864,-320.0912"/>
+</g>
+<!-- a_user -->
+<g id="a_user" class="node">
+<title>a_user</title>
+<g id="a_a_user"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M290.7264,-526.8017C290.7264,-526.8017 273.2736,-526.8017 273.2736,-526.8017 267.2736,-526.8017 261.2736,-520.8017 261.2736,-514.8017 261.2736,-514.8017 261.2736,-491.5983 261.2736,-491.5983 261.2736,-485.5983 267.2736,-479.5983 273.2736,-479.5983 273.2736,-479.5983 290.7264,-479.5983 290.7264,-479.5983 296.7264,-479.5983 302.7264,-485.5983 302.7264,-491.5983 302.7264,-491.5983 302.7264,-514.8017 302.7264,-514.8017 302.7264,-520.8017 296.7264,-526.8017 290.7264,-526.8017"/>
+<text text-anchor="middle" x="282" y="-507.4" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">a</text>
+<text text-anchor="middle" x="282" y="-490.6" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">user</text>
+</a>
+</g>
+</g>
+<!-- this_software&#45;&gt;a_user -->
+<g id="this_software___a_user" class="edge">
+<title>this_software-&gt;a_user</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M306.3087,-448.6097C303.3233,-455.3139 300.0248,-462.7214 296.8459,-469.8603"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="293.4964,-468.7783 292.6259,-479.3374 299.8911,-471.6259 293.4964,-468.7783"/>
+</g>
+<!-- qaa2 -->
+<!-- this_software&#45;&gt;qaa2 -->
+<!-- qaa1 -->
+<!-- a_user&#45;&gt;qaa1 -->
+<!-- qaq5 -->
+<!-- this_service&#45;&gt;qaq5 -->
+<!-- the_router -->
+<g id="the_router" class="node">
+<title>the_router</title>
+<g id="a_the_router"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M423.0615,-201.4017C423.0615,-201.4017 396.9385,-201.4017 396.9385,-201.4017 390.9385,-201.4017 384.9385,-195.4017 384.9385,-189.4017 384.9385,-189.4017 384.9385,-166.1983 384.9385,-166.1983 384.9385,-160.1983 390.9385,-154.1983 396.9385,-154.1983 396.9385,-154.1983 423.0615,-154.1983 423.0615,-154.1983 429.0615,-154.1983 435.0615,-160.1983 435.0615,-166.1983 435.0615,-166.1983 435.0615,-189.4017 435.0615,-189.4017 435.0615,-195.4017 429.0615,-201.4017 423.0615,-201.4017"/>
+<text text-anchor="middle" x="410" y="-182" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">the</text>
+<text text-anchor="middle" x="410" y="-165.2" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">router</text>
+</a>
+</g>
+</g>
+<!-- the_router&#45;&gt;one_route -->
+<g id="the_router___one_route" class="edge">
+<title>the_router-&gt;one_route</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M407.8617,-201.8097C407.2782,-208.3615 406.6349,-215.5851 406.0126,-222.5731"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="402.5261,-222.2663 405.1252,-232.5374 409.4985,-222.8873 402.5261,-222.2663"/>
+</g>
+<!-- this_subnet -->
+<g id="this_subnet" class="node">
+<title>this_subnet</title>
+<g id="a_this_subnet"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M359.021,-201.4017C359.021,-201.4017 326.979,-201.4017 326.979,-201.4017 320.979,-201.4017 314.979,-195.4017 314.979,-189.4017 314.979,-189.4017 314.979,-166.1983 314.979,-166.1983 314.979,-160.1983 320.979,-154.1983 326.979,-154.1983 326.979,-154.1983 359.021,-154.1983 359.021,-154.1983 365.021,-154.1983 371.021,-160.1983 371.021,-166.1983 371.021,-166.1983 371.021,-189.4017 371.021,-189.4017 371.021,-195.4017 365.021,-201.4017 359.021,-201.4017"/>
+<text text-anchor="middle" x="343" y="-182" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">this</text>
+<text text-anchor="middle" x="343" y="-165.2" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">subnet</text>
+</a>
+</g>
+</g>
+<!-- this_subnet&#45;&gt;one_route -->
+<g id="this_subnet___one_route" class="edge">
+<title>this_subnet-&gt;one_route</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M361.328,-201.8097C366.7946,-208.971 372.8739,-216.9348 378.6614,-224.5165"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="375.9344,-226.7123 384.7842,-232.5374 381.4985,-222.4649 375.9344,-226.7123"/>
+</g>
+<!-- this_server -->
+<g id="this_server" class="node">
+<title>this_server</title>
+<g id="a_this_server"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M331.3865,-280.0017C331.3865,-280.0017 302.6135,-280.0017 302.6135,-280.0017 296.6135,-280.0017 290.6135,-274.0017 290.6135,-268.0017 290.6135,-268.0017 290.6135,-244.7983 290.6135,-244.7983 290.6135,-238.7983 296.6135,-232.7983 302.6135,-232.7983 302.6135,-232.7983 331.3865,-232.7983 331.3865,-232.7983 337.3865,-232.7983 343.3865,-238.7983 343.3865,-244.7983 343.3865,-244.7983 343.3865,-268.0017 343.3865,-268.0017 343.3865,-274.0017 337.3865,-280.0017 331.3865,-280.0017"/>
+<text text-anchor="middle" x="317" y="-260.6" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">this</text>
+<text text-anchor="middle" x="317" y="-243.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">server</text>
+</a>
+</g>
+</g>
+<!-- this_subnet&#45;&gt;this_server -->
+<g id="this_subnet___this_server" class="edge">
+<title>this_subnet-&gt;this_server</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M335.0579,-201.8097C332.8906,-208.3615 330.5011,-215.5851 328.1895,-222.5731"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="324.7112,-221.9441 324.8935,-232.5374 331.357,-224.1425 324.7112,-221.9441"/>
+</g>
+<!-- lab_server -->
+<g id="lab_server" class="node">
+<title>lab_server</title>
+<g id="a_lab_server"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M755.3865,-280.0017C755.3865,-280.0017 726.6135,-280.0017 726.6135,-280.0017 720.6135,-280.0017 714.6135,-274.0017 714.6135,-268.0017 714.6135,-268.0017 714.6135,-244.7983 714.6135,-244.7983 714.6135,-238.7983 720.6135,-232.7983 726.6135,-232.7983 726.6135,-232.7983 755.3865,-232.7983 755.3865,-232.7983 761.3865,-232.7983 767.3865,-238.7983 767.3865,-244.7983 767.3865,-244.7983 767.3865,-268.0017 767.3865,-268.0017 767.3865,-274.0017 761.3865,-280.0017 755.3865,-280.0017"/>
+<text text-anchor="middle" x="741" y="-260.6" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">lab</text>
+<text text-anchor="middle" x="741" y="-243.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">server</text>
+</a>
+</g>
+</g>
+<!-- lab_server&#45;&gt;new_software_test -->
+<g id="lab_server___new_software_test" class="edge">
+<title>lab_server-&gt;new_software_test</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M734.5684,-280.4112C731.9379,-290.2319 728.8486,-301.7651 726.0003,-312.3989"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="722.5727,-311.6682 723.3661,-322.2333 729.3343,-313.4794 722.5727,-311.6682"/>
+</g>
+<!-- lab_server&#45;&gt;other_software_test -->
+<g id="lab_server___other_software_test" class="edge">
+<title>lab_server-&gt;other_software_test</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M756.275,-280.4112C762.7801,-290.6368 770.4665,-302.7192 777.4581,-313.7096"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="774.5599,-315.6745 782.8805,-322.2333 780.466,-311.9172 774.5599,-315.6745"/>
+</g>
+<!-- qaa6 -->
+<!-- internal_qa&#45;&gt;qaa6 -->
+<!-- this_server&#45;&gt;this_software -->
+<g id="this_server___this_software" class="edge">
+<title>this_server-&gt;this_software</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M317,-280.1422C317,-309.0683 317,-358.1291 317,-390.9421"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="313.5001,-390.9785 317,-400.9786 320.5001,-390.9786 313.5001,-390.9785"/>
+</g>
+<!-- other_vendor -->
+<g id="other_vendor" class="node" tag1="this_symptom-going-0" colorank="3-5">
+<title>other_vendor</title>
+<g id="a_other_vendor"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M759.1824,-122.8017C759.1824,-122.8017 722.8176,-122.8017 722.8176,-122.8017 716.8176,-122.8017 710.8176,-116.8017 710.8176,-110.8017 710.8176,-110.8017 710.8176,-87.5983 710.8176,-87.5983 710.8176,-81.5983 716.8176,-75.5983 722.8176,-75.5983 722.8176,-75.5983 759.1824,-75.5983 759.1824,-75.5983 765.1824,-75.5983 771.1824,-81.5983 771.1824,-87.5983 771.1824,-87.5983 771.1824,-110.8017 771.1824,-110.8017 771.1824,-116.8017 765.1824,-122.8017 759.1824,-122.8017"/>
+<text text-anchor="middle" x="741" y="-103.4" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">other</text>
+<text text-anchor="middle" x="741" y="-86.6" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">vendor </text>
+</a>
+</g>
+</g>
+<!-- other_vendor&#45;&gt;other_software_product -->
+<g id="other_vendor___other_software_product" class="edge" tag1="this_symptom-going-0" colorank="3-5">
+<title>other_vendor-&gt;other_software_product</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M733.6688,-123.2097C731.6682,-129.7615 729.4626,-136.9851 727.3288,-143.9731"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="723.8593,-143.3511 724.2863,-153.9374 730.5541,-145.3954 723.8593,-143.3511"/>
+</g>
+<!-- new_software_product&#45;&gt;new_software_test -->
+<g id="new_software_product___new_software_test" class="edge">
+<title>new_software_product-&gt;new_software_test</title>
+<path fill="none" stroke="#0000ff" d="M664.2947,-280.4112C672.6745,-290.8393 682.6059,-303.1984 691.576,-314.3612"/>
+<polygon fill="none" stroke="#0000ff" points="688.9095,-316.6305 697.9017,-322.2333 694.3661,-312.2458 688.9095,-316.6305"/>
+</g>
+<!-- new_software_product&#45;&gt;other_software_planned -->
+<g id="new_software_product___other_software_planned" class="edge">
+<title>new_software_product-&gt;other_software_planned</title>
+<path fill="none" stroke="#0000ff" d="M639.1044,-280.4112C636.6931,-290.2319 633.8612,-301.7651 631.2503,-312.3989"/>
+<polygon fill="none" stroke="#0000ff" points="627.8211,-311.6871 628.8356,-322.2333 634.6192,-313.3563 627.8211,-311.6871"/>
+</g>
+<!-- other_manufacturer -->
+<g id="other_manufacturer" class="node" tag1="this_symptom-going-0" colorank="4-5">
+<title>other_manufacturer</title>
+<g id="a_other_manufacturer"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" d="M610.2593,-44.3006C610.2593,-44.3006 533.7407,-44.3006 533.7407,-44.3006 528.6405,-44.3006 523.5403,-39.2004 523.5403,-34.1002 523.5403,-34.1002 523.5403,-23.8998 523.5403,-23.8998 523.5403,-18.7996 528.6405,-13.6994 533.7407,-13.6994 533.7407,-13.6994 610.2593,-13.6994 610.2593,-13.6994 615.3595,-13.6994 620.4597,-18.7996 620.4597,-23.8998 620.4597,-23.8998 620.4597,-34.1002 620.4597,-34.1002 620.4597,-39.2004 615.3595,-44.3006 610.2593,-44.3006"/>
+<text text-anchor="middle" x="572" y="-24.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">manufacturer</text>
+</a>
+</g>
+</g>
+<!-- other_manufacturer&#45;&gt;other_server_model -->
+<g id="other_manufacturer___other_server_model" class="edge" tag1="this_symptom-going-0" colorank="4-5">
+<title>other_manufacturer-&gt;other_server_model</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M570.6684,-44.5797C570.1428,-50.7296 569.5169,-58.0518 568.897,-65.3053"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="565.3999,-65.1228 568.0355,-75.3845 572.3745,-65.7189 565.3999,-65.1228"/>
+</g>
+<!-- old_software&#45;&gt;third_application -->
+<g id="old_software___third_application" class="edge" distance="1" tag1="other_symptom-going-0" colorank="2-5">
+<title>old_software-&gt;third_application</title>
+<path fill="none" stroke="#000000" d="M198.5258,-280.1759C189.304,-288.7829 178.6476,-298.7289 168.4565,-308.2406"/>
+<polygon fill="none" stroke="#000000" points="158.5157,-312.7311 153.5932,-322.113 163.2919,-317.8485 158.5157,-312.7311"/>
+<polygon fill="none" stroke="#000000" points="165.8263,-305.9079 160.9038,-315.2898 170.6025,-311.0253 165.8263,-305.9079"/>
+</g>
+<!-- qaq4 -->
+<!-- privacy_requirement&#45;&gt;qaq4 -->
+<!-- c_user -->
+<g id="c_user" class="node">
+<title>c_user</title>
+<g id="a_c_user"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" stroke-dasharray="1,5" d="M631.7264,-448.2017C631.7264,-448.2017 614.2736,-448.2017 614.2736,-448.2017 608.2736,-448.2017 602.2736,-442.2017 602.2736,-436.2017 602.2736,-436.2017 602.2736,-412.9983 602.2736,-412.9983 602.2736,-406.9983 608.2736,-400.9983 614.2736,-400.9983 614.2736,-400.9983 631.7264,-400.9983 631.7264,-400.9983 637.7264,-400.9983 643.7264,-406.9983 643.7264,-412.9983 643.7264,-412.9983 643.7264,-436.2017 643.7264,-436.2017 643.7264,-442.2017 637.7264,-448.2017 631.7264,-448.2017"/>
+<text text-anchor="middle" x="623" y="-428.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">c</text>
+<text text-anchor="middle" x="623" y="-412" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">user</text>
+</a>
+</g>
+</g>
+<!-- other_software_planned&#45;&gt;c_user -->
+<g id="other_software_planned___c_user" class="edge">
+<title>other_software_planned-&gt;c_user</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M623,-370.0097C623,-376.4091 623,-383.4494 623,-390.2852"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="619.5001,-390.7373 623,-400.7374 626.5001,-390.7374 619.5001,-390.7373"/>
+</g>
+<!-- new_customer -->
+<g id="new_customer" class="node">
+<title>new_customer</title>
+<g id="a_new_customer"><a xlink:title=" ">
+<path fill="#ffffff" stroke="#000000" stroke-dasharray="1,5" d="M646.5609,-526.8017C646.5609,-526.8017 599.4391,-526.8017 599.4391,-526.8017 593.4391,-526.8017 587.4391,-520.8017 587.4391,-514.8017 587.4391,-514.8017 587.4391,-491.5983 587.4391,-491.5983 587.4391,-485.5983 593.4391,-479.5983 599.4391,-479.5983 599.4391,-479.5983 646.5609,-479.5983 646.5609,-479.5983 652.5609,-479.5983 658.5609,-485.5983 658.5609,-491.5983 658.5609,-491.5983 658.5609,-514.8017 658.5609,-514.8017 658.5609,-520.8017 652.5609,-526.8017 646.5609,-526.8017"/>
+<text text-anchor="middle" x="623" y="-507.4" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">new</text>
+<text text-anchor="middle" x="623" y="-490.6" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">customer</text>
+</a>
+</g>
+</g>
+<!-- c_user&#45;&gt;new_customer -->
+<g id="c_user___new_customer" class="edge">
+<title>c_user-&gt;new_customer</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M623,-448.6097C623,-455.0091 623,-462.0494 623,-468.8852"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="619.5001,-469.3373 623,-479.3374 626.5001,-469.3374 619.5001,-469.3373"/>
+</g>
+<!-- qaq8 -->
+<!-- new_customer&#45;&gt;qaq8 -->
+<!-- instance -->
+<g id="instance" class="node">
+<title>instance</title>
+<g id="a_instance"><a xlink:title=" ">
+<path fill="#ffffff" stroke="transparent" d="M877.0679,-42C877.0679,-42 842.9321,-42 842.9321,-42 838.5988,-42 834.2655,-37.6667 834.2655,-33.3333 834.2655,-33.3333 834.2655,-24.6667 834.2655,-24.6667 834.2655,-20.3333 838.5988,-16 842.9321,-16 842.9321,-16 877.0679,-16 877.0679,-16 881.4012,-16 885.7345,-20.3333 885.7345,-24.6667 885.7345,-24.6667 885.7345,-33.3333 885.7345,-33.3333 885.7345,-37.6667 881.4012,-42 877.0679,-42"/>
+<text text-anchor="middle" x="860" y="-26" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">instance</text>
+</a>
+</g>
+</g>
+<!-- provider -->
+<g id="provider" class="node">
+<title>provider</title>
+<g id="a_provider"><a xlink:title=" ">
+<path fill="#ffffff" stroke="transparent" d="M876.4465,-112.2C876.4465,-112.2 843.5535,-112.2 843.5535,-112.2 839.2202,-112.2 834.8869,-107.8667 834.8869,-103.5333 834.8869,-103.5333 834.8869,-94.8667 834.8869,-94.8667 834.8869,-90.5333 839.2202,-86.2 843.5535,-86.2 843.5535,-86.2 876.4465,-86.2 876.4465,-86.2 880.7798,-86.2 885.1131,-90.5333 885.1131,-94.8667 885.1131,-94.8667 885.1131,-103.5333 885.1131,-103.5333 885.1131,-107.8667 880.7798,-112.2 876.4465,-112.2"/>
+<text text-anchor="middle" x="860" y="-96.2" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">provider</text>
+</a>
+</g>
+</g>
+<!-- instance&#45;&gt;provider -->
+<!-- blueprint -->
+<g id="blueprint" class="node">
+<title>blueprint</title>
+<g id="a_blueprint"><a xlink:title=" ">
+<path fill="#ffffff" stroke="transparent" d="M734.6755,-42C734.6755,-42 699.3245,-42 699.3245,-42 694.9912,-42 690.6579,-37.6667 690.6579,-33.3333 690.6579,-33.3333 690.6579,-24.6667 690.6579,-24.6667 690.6579,-20.3333 694.9912,-16 699.3245,-16 699.3245,-16 734.6755,-16 734.6755,-16 739.0088,-16 743.3421,-20.3333 743.3421,-24.6667 743.3421,-24.6667 743.3421,-33.3333 743.3421,-33.3333 743.3421,-37.6667 739.0088,-42 734.6755,-42"/>
+<text text-anchor="middle" x="717" y="-26" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">blueprint</text>
+</a>
+</g>
+</g>
+<!-- blueprint&#45;&gt;instance -->
+<g id="blueprint___instance" class="edge">
+<title>blueprint-&gt;instance</title>
+<path fill="none" stroke="#0000ff" d="M743.2284,-29C765.805,-29 798.6116,-29 823.7071,-29"/>
+<polygon fill="none" stroke="#0000ff" points="823.9379,-32.5001 833.9379,-29 823.9378,-25.5001 823.9379,-32.5001"/>
+<text text-anchor="middle" x="788.7768" y="-17" font-family="Times,serif" font-size="10.00" fill="#000000">blueprintinstance-&gt;</text>
+</g>
+<!-- consumer -->
+<g id="consumer" class="node">
+<title>consumer</title>
+<g id="a_consumer"><a xlink:title=" ">
+<path fill="#ffffff" stroke="transparent" d="M880.2274,-516.2C880.2274,-516.2 839.7726,-516.2 839.7726,-516.2 835.4392,-516.2 831.1059,-511.8667 831.1059,-507.5333 831.1059,-507.5333 831.1059,-498.8667 831.1059,-498.8667 831.1059,-494.5333 835.4392,-490.2 839.7726,-490.2 839.7726,-490.2 880.2274,-490.2 880.2274,-490.2 884.5608,-490.2 888.8941,-494.5333 888.8941,-498.8667 888.8941,-498.8667 888.8941,-507.5333 888.8941,-507.5333 888.8941,-511.8667 884.5608,-516.2 880.2274,-516.2"/>
+<text text-anchor="middle" x="860" y="-500.2" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">consumer</text>
+</a>
+</g>
+</g>
+<!-- provider&#45;&gt;consumer -->
+<g id="provider___consumer" class="edge">
+<title>provider-&gt;consumer</title>
+<path fill="none" stroke="#228b22" stroke-width="2" d="M860,-112.273C860,-127.871 860,-154.7385 860,-177.8 860,-177.8 860,-177.8 860,-424.6 860,-443.1573 860,-464.179 860,-479.8102"/>
+<polygon fill="#228b22" stroke="#228b22" stroke-width="2" points="856.5001,-480.127 860,-490.127 863.5001,-480.127 856.5001,-480.127"/>
+<text text-anchor="middle" x="874.993" y="-298.2" font-family="Times,serif" font-size="10.00" fill="#000000">  value</text>
+</g>
+<!-- qaq1 -->
+<!-- qaq1&#45;&gt;this_server -->
+<!-- qaq2 -->
+<!-- qaq2&#45;&gt;the_router -->
+<!-- qaq6 -->
+<!-- qaq6&#45;&gt;new_software_product -->
+<!-- qaq7 -->
+<!-- qaq7&#45;&gt;commercial_license -->
+<!-- qaa4 -->
+<!-- qaa4&#45;&gt;third_application -->
+<!-- qaa8 -->
+<!-- qaa8&#45;&gt;other_server -->
+<!-- qaa8&#45;&gt;other_subnet -->
+<!-- qaa9 -->
+<!-- qaa9&#45;&gt;other_subnet -->
+</g>
+</svg>
