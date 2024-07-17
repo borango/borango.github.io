@@ -10,6 +10,8 @@ Listenpreis[^1]: € 1.200
 
 Ermäßigter Preis[^2]: € 600
 
+![diagram of an example configuration](img/configuration-map.svg)
+
 ## Zielgruppe
 
 * CMDB – Projektleiter
