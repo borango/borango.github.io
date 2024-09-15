@@ -6,7 +6,7 @@
 (2) Tracking / Messages (focus on messages)
 
 a) [https://share.garmin.com/Touringtest](https://share.garmin.com/touringtest) [^proven]  
-b) [MarineTraffic position updates](https://www.marinetraffic.com/en/ais/details/ships/mmsi:826501140/) (new_) [^new]  
+b) [MarineTraffic position updates for Blues](https://www.marinetraffic.com/en/ais/details/ships/mmsi:211121440/) (new_) [^new]  
 c) [Telegram Group: Traces of Boran](https://t.me/+GbkcT_6AZj8yMzUy) [^proven]  
 
 (3) Urgent Email (160 character max!) [^proven]
