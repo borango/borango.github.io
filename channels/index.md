@@ -3,10 +3,6 @@
 ## via satellite
 = everywhere on the planet
 
-(1) Live Location Tracking [^proven]
-
-> [https://share.garmin.com/LoveAndLibertyLines](https://share.garmin.com/LoveAndLibertyLines)
-
 (2) Tracking / Messages (focus on messages)
 
 a) [https://share.garmin.com/Touringtest](https://share.garmin.com/touringtest) [^proven]  
@@ -16,10 +12,6 @@ c) [Telegram Group: Traces of Boran](https://t.me/+GbkcT_6AZj8yMzUy) [^proven]
 (3) Urgent Email (160 character max!) [^proven]
 
 > [boran@protegear.global](mailto:boran@protegear.global)
-
-(4) Blogging (rarely used)
-
-> [Twitter](https://twitter.com/boran_go) (experimental_)  
 
 - - -
 
@@ -40,11 +32,12 @@ c) [Telegram Group: Traces of Boran](https://t.me/+GbkcT_6AZj8yMzUy) [^proven]
 
 (7) Blog, Photos and Videos (not so frequent updates)
 
-a) [Telegram Group: "Love + Liberty Lines" Blog](https://t.me/LoveAndLibertyLines_Blog) [^proven]  
-b) [Wordpress https://boran.travel.blog](https://boran.travel.blog/) (proven_)  
-c) [Photo Album "Maru" (mostly about the sailboat)](https://photos.app.goo.gl/bDj5rvYgu9LCqtmG8)  
-d) [Photo Album "Touring-Test" (photo blog of my journey)](https://photos.app.goo.gl/LcyYD9ZWyWoo895Z7)  
-e) ["Love + Liberty Lines" videos at Rumble (mostly sailing)](https://rumble.com/c/c-1262163)  
+a) [Telegram Group: "Love + Liberty Lines" Blog](https://t.me/LoveAndLibertyLines_Blog) (outdated)
+b) [Wordpress https://boran.travel.blog](https://boran.travel.blog/) (outdated)  
+c) [Photo Album "Blues" (mostly about the sailboat)](https://photos.app.goo.gl/b41YA9pMvp2Wg4u2A) (up to date)
+c) [Photo Album "Maru" (mostly about the sailboat)](https://photos.app.goo.gl/bDj5rvYgu9LCqtmG8) (history)
+d) [Photo Album "Touring-Test" (photo blog of my journey)](https://photos.app.goo.gl/LcyYD9ZWyWoo895Z7) (up to date)
+e) ["Love + Liberty Lines" videos at Rumble (mostly sailing)](https://rumble.com/c/c-1262163) (outdated)
 f) [Find-a-Crew "boat" profile (for re-crew-ting)](https://www.findacrew.net/boat/378270)  
 
 ## Notes
