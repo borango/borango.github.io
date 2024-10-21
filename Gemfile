@@ -23,7 +23,7 @@ gem "jekyll-mermaid", group: :jekyll_plugins
 
 # to cure: /home/boran/gems/gems/jekyll-3.9.2/lib/jekyll/commands/serve/servlet.rb:3:in `require': cannot load such file -- webrick (LoadError)
 # see: https://talk.jekyllrb.com/t/upgrade-to-ruby-3-tutorial/6113/4
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.8"
 
 
 # If you have any plugins, put them here!
