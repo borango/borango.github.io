@@ -1,3 +1,6 @@
+---
+layout: clean
+---
 # Blues
 
 a Tiki 38 Sailing Catamaran is the latest member of the "Love & Liberty" fleet
@@ -12,9 +15,10 @@ a Tiki 38 Sailing Catamaran is the latest member of the "Love & Liberty" fleet
 
 Design by James Wharram, built 2018 in plywood + GRP
 
-Length 11.60 meters (hull) / Width 6 meters
+Length 11.6 meters (hull) / Width 6.2 meters
 
-3 cabins (2 single, 1 double) = 4 bunks + convertible double bunk in galley + oncall bunk in cockpit = 7 bunks total
+3 cabins (2 single, 1 double) = 4 bunks with privacy  
++ convertible double bunk in galley + oncall bunk in cockpit = 7 bunks total
 
 ![design plan](../../img/Blues_Plan.jpg)
 
