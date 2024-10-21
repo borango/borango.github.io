@@ -16,12 +16,19 @@ Length 11.60 meters (hull) / Width 6 meters
 
 ## Crew
 
-+ Boran (full-time) as skipper
++ we have open crew positions to fill in November + December 2024 for sailing from Belgium to Portugal and Spain; please contact Lies or Boran
 
 + Lies (part-time)
 
-+ we have open crew positions to fill in November + December 2024 for sailing from Belgium to Portugal and Spain; contact Lies or Boran
++ Boran (full-time) as skipper
 
+## Previous Crew
 
++ Mathilde
++ Lies
++ Bart
++ Bernhard
+
+## Media
 
 [Photo Album](https://photos.app.goo.gl/b41YA9pMvp2Wg4u2A)
