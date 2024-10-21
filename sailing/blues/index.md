@@ -12,9 +12,11 @@ Length 11.60 meters (hull) / Width 6 meters
 
 3 cabins (2 single, 1 double) = 4 bunks + convertible double bunk in galley + oncall bunk in cockpit = 7 bunks total
 
+![design plan](../../img/Blues_Plan.jpg)
+
 ## Crew
 
-+ Boran (full-time)
++ Boran (full-time) as skipper
 
 + Lies (part-time)
 
