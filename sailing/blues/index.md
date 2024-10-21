@@ -31,4 +31,4 @@ Length 11.60 meters (hull) / Width 6 meters
 
 ## Media
 
-[Photo Album](https://photos.app.goo.gl/b41YA9pMvp2Wg4u2A)
++ [Photo Album](https://photos.app.goo.gl/b41YA9pMvp2Wg4u2A)
