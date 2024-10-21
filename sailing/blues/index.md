@@ -2,6 +2,10 @@
 
 a Tiki 38 Sailing Catamaran is the latest member of the "Love & Liberty" fleet
 
+## Mission
+
+> Promoting Love, Peace and Sustainability through Acts of Kindness and Fair Minimalism
+
 ![we landed in Belgium](../../img/Blues_Oostende.jpg)
 
 ## Quick Facts
@@ -24,10 +28,11 @@ Length 11.60 meters (hull) / Width 6 meters
 
 ## Previous Crew
 
-+ Mathilde
-+ Lies
-+ Bart
-+ Bernhard
++ Mathilde (2024-09)
++ Bart (2024-09)
++ Lies (2024-09)
++ Boran (2024-09)
++ Bernhard (< 2024)
 
 ## Media
 
