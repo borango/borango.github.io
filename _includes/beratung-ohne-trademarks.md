@@ -6,14 +6,15 @@ Auf dem Weg zum eigentlichen Projektziel fördere ich Mitarbeiter in Ihren Teams
 
 Inhalt der Projekte kann z.B. sein:
 
-* Produkt- und Projektmanagement (RUP, PMI, PRINCE, V-Modell, Scrum)
-* Schlankes Qualitätsmanagement (Kanban, Kaizen, TPS…) oder auf Basis der ISO 9000 ff Normenreihe
-* Konfigurationsmanagement ([CMDB](/cmdb), [ISO 10007:2017](https://www.iso.org/standard/70400.html)) SKMS, Federated CMDB
-* Prozessmanagement (UML, ARIS, eEPK, BPMN, BPEL, Jira)
-* Architekturmanagement (EAM, TOGAF, UML, ...)
 * Wertschöpfung und Wertstromanalyse (Value Mapping, ...)
 * Servicemanagement / IT-Service-Management (ISO 20000 / ITIL)
-* Kennzahlensysteme (IKS, MBO, Balanced Scorecard, Gemeinwohl-Bilanz)
+* Prozessmanagement (UML, ARIS, eEPK, BPMN, BPEL, Jira)
+* Produkt- und Projektmanagement (RUP, PMI, PRINCE, V-Modell, Scrum)
+* Schlankes Qualitätsmanagement (Kanban, Kaizen, TPS…) 
+* ... oder auf Basis der ISO 9000 ff
+* Architekturmanagement (EAM, TOGAF, UML, ...)
 * Governance, Risk & Compliance (COBIT, CRAMM, FMEA, ISO/IEC 27000:2018, ...)
+* Kennzahlensysteme (IKS, MBO, Balanced Scorecard, Gemeinwohl-Bilanz)
 * Wissensmanagement (DIKW, RDF/OWL/SPARQL, Knowledge Graphs)
 * Informationsvisualisierung (siehe [Portfolio](https://observablehq.com/collection/@bogo/portfolio))
+* Konfigurationsmanagement ([CMDB](/cmdb), [ISO 10007:2017](https://www.iso.org/standard/70400.html)) SKMS, Federated CMDB
