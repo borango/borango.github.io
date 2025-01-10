@@ -1,4 +1,4 @@
-# Mission
+# Mission Statement
 
 Helping to Know the Structure of Things
 
@@ -12,7 +12,7 @@ Most things do not create much value by themselves. Rather they are **connected 
 
 My contribution is: **helping to identify relevant things**.
 
-Becoming aware of an **essential structure** is sometimes hard. Because some connections are invisible or frequently changing.
+Becoming aware of an **essential structure** is sometimes hard. Because some connections are invisible, some are or frequently changing, and others seem to be too obvious to mention.
 
 My contribution is: **discovering such essential structures**.
 
@@ -24,4 +24,4 @@ What I typically do is to transform such pieces of knowledge into a greater body
 
 That service is what I call **knowledge transformation**.
 
-Either way, transformed knowledge shall be more useful for all stakeholders or automation in the client’s organization: for ***daily operation***, for ***strategic communication*** or for ***automated queries***.
+Either way, transformed knowledge shall be more useful for all stakeholders or automation in the client’s organization: for ***strategic planning*** and for ***daily operation***.
