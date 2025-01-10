@@ -22,4 +22,4 @@ Alle Projekte und formale Methoden basieren auf folgenden Grundlagen, die ich en
 * Wissensmanagement (DIKW, RDF/OWL/SPARQL, Knowledge Graphs)
 * Informationsvisualisierung (siehe [Portfolio](https://observablehq.com/collection/@bogo/portfolio))
 
-Siehe auch die Beschreibung zu [Knowledge Transformation](/knowledge-transformation/)
+Siehe auch die Beschreibung zu [Knowledge Transformation](/knowledge-transformation/) (Englisch)
