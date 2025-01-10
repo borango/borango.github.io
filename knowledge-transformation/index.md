@@ -1,6 +1,6 @@
-# Mission Statement
+# Knowledge Transformation
 
-Helping to Know the Structure of Things
+> Helping to Know the Structure of Things
 
 My mission is **helping** clients (people and organizations) to **become aware** of **relevant things** (all types of assets and resources) that **create value** for the **client**.
 
@@ -25,3 +25,7 @@ What I typically do is to transform such pieces of knowledge into a greater body
 That service is what I call **knowledge transformation**.
 
 Either way, transformed knowledge shall be more useful for all stakeholders or automation in the client’s organization: for ***strategic planning*** and for ***daily operation***.
+
+## Portfolio
+
+You can find examples of Knowledge Transformation in my [interactive portfolio](https://observablehq.com/collection/@bogo/portfolio)
