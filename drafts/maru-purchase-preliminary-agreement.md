@@ -6,12 +6,15 @@ layout: clean
 This Agreement is made on the 23rd of April, 2025 between:
 
 **SELLER:**
+
 Boran Gögetap, travelling, German Passport # CF2KVYY5Z
 
 (called the "Seller" in this agreement)
 
 **BUYERS:**
+
 Paolo Riva, living at [Paolo's Address]
+
 Omar [Last Name], living at [Omar's Address]
 
 (called the "Buyers" in this agreement)
@@ -32,7 +35,7 @@ Omar [Last Name], living at [Omar's Address]
 
    (called the "Boat" in this agreement)
 
-2. The Seller wants to sell and the Buyers want to buy the Boat for TWELVE THOUSAND EUROS (€12,000).
+2. The Seller wants to sell and the Buyers want to buy the Boat.
 
 3. The Buyers plan to create a company that will officially buy the Boat.
 
@@ -83,11 +86,13 @@ We sign this agreement to show we agree to everything written above.
 SELLER:
 
 
+
 (Boran)
 
 - - -
 
 BUYERS:
+
 
 
 (Paolo) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Omar)
