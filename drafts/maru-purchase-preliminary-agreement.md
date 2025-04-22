@@ -1,14 +1,19 @@
+---
+layout: clean
+---
 # BOAT SALE AGREEMENT
 
 This Agreement is made on the 23rd of April, 2025 between:
 
 **SELLER:**
 Boran Gögetap, travelling, German Passport # CF2KVYY5Z
+
 (called the "Seller" in this agreement)
 
 **BUYERS:**
 Paolo Riva, living at [Paolo's Address]
 Omar [Last Name], living at [Omar's Address]
+
 (called the "Buyers" in this agreement)
 
 ## BACKGROUND
@@ -16,14 +21,16 @@ Omar [Last Name], living at [Omar's Address]
 1. The Seller owns a boat with these details:
    - Name: MARU
    - Type/Model: Wharram Tanenui
+   - Builder Plan Number: 101
    - Registration Number: (not registered in a boat register)
    - Year Built: 1990
    - Length: 28 feet
    - Engine: (no engine)
    - Sails: used working sails (main, jib, genoa), used storm jib, used spi and used blister,
      plus brand-new working sails (main, jib, genoa)
-   (called the "Boat" in this agreement)
    - Location: Camaret-sur-Mer, France, on dry dock
+
+   (called the "Boat" in this agreement)
 
 2. The Seller wants to sell and the Buyers want to buy the Boat for TWELVE THOUSAND EUROS (€12,000).
 
@@ -37,13 +44,13 @@ Given our mutual understanding, we agree to the following:
    The Seller will sell the Boat to the company once the Buyers create it. The Buyers agree to set up this company to buy the Boat.
 
 2. **Price**
-   The price for the Boat is TWELVE THOUSAND EUROS (€12,000), to be paid in full when we sign the final sales agreement.
+   The price for the Boat is TWELVE THOUSAND EUROS (€12,000), to be paid in full when we sign the final sales agreement, and before the Buyers move the boat.
 
 3. **Setting Up the Company**
    The Buyers will take all steps needed to create the company until end of May, 2025.
 
 4. **Personal Promise**
-   If the company isn't created for any reason, or if the company doesn't complete the purchase, Paolo and Omar personally promise to buy the Boat themselves under the same terms and price in this agreement.
+   If the company isn't created for any reason, or if the company doesn't complete the purchase, Paolo and Omar personally promise to buy the Boat themselves under the same terms in this agreement.
 
 5. **Deposit**
    (no deposit)
@@ -83,4 +90,4 @@ SELLER:
 BUYERS:
 
 
-(Paolo)               (Omar)
+(Paolo) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (Omar)
