@@ -1,7 +1,7 @@
 ---
 layout: clean
 ---
-# BOAT SALE AGREEMENT
+# BOAT PURCHASE AGREEMENT
 
 This Agreement is made on the 23rd of April, 2025 between:
 
