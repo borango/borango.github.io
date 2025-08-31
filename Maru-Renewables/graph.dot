@@ -1167,6 +1167,8 @@ Vmpp) at STC
 		labeltooltip="12V LiFePo4 Battery → contributes to  → 12V 640Wh → receives from  ↩",
 		tooltip="12V LiFePo4 Battery → contributes to  → 12V 640Wh → receives from  ↩"];
 	<MARU-30>	[URL="https://knowhere.atlassian.net/browse/MARU-30",
+		color=3,
+		colorscheme=ylorrd5,
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
  <TR>
@@ -1175,7 +1177,7 @@ Vmpp) at STC
 </TD>
   <TD COLSPAN='3'><B>Tiller drive (actuator)</B></TD></TR>
 </TABLE>>,
-		style="rounded,filled",
+		style="rounded,filled,dashed",
 		tooltip="[https://drive.google.com/file/d/1Q5h7_lHzLRraVrKSk-ROVp_28EPu0bg7/view?usp=drivesdk|https://drive.google.com/file/d/1Q5h7_lHzLRraVrKSk-ROVp_\
 28EPu0bg7/view?usp=drivesdk|smart-link] "];
 	<MARU-28> -> <MARU-30>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-30,MARU-28)",
@@ -1220,16 +1222,6 @@ advertisement"];
 		label="serves ",
 		labeltooltip="Tiller drive (actuator) → serves  → | → requires  ↩",
 		tooltip="Tiller drive (actuator) → serves  → | → requires  ↩"];
-	<MARU-32>	[URL="https://knowhere.atlassian.net/browse/MARU-32",
-		label=<
-<TABLE BORDER="0" CELLSPACING="0">
- <TR>
-  <TD WIDTH="18" HEIGHT="18" FIXEDSIZE="TRUE" CELLPADDING="0" VALIGN="TOP" HREF="https://knowhere.atlassian.net/issues/?jql=type=10626+ORDER+BY+summary">
-<IMG SRC="../img/avatar--11493.png" />
-</TD>
-  <TD COLSPAN='3'><B>Swedish Flag</B></TD></TR>
-</TABLE>>,
-		style="rounded,filled"];
 	<MARU-34>	[URL="https://knowhere.atlassian.net/browse/MARU-34",
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
@@ -1255,7 +1247,7 @@ to replace"];
 </TD>
   <TD COLSPAN='3'><B>Py Battery 1</B></TD></TR>
 </TABLE>>,
-		style="rounded,filled,dotted"];
+		style="rounded,filled"];
 	<MARU-359>	[URL="https://knowhere.atlassian.net/browse/MARU-359",
 		label=<
 <TABLE BORDER="0" CELLSPACING="0">
@@ -1373,7 +1365,7 @@ cable diameter as per manufacturer’s specification"];
 </TD>
   <TD COLSPAN='3'><B>E40 battery</B></TD></TR>
 </TABLE>>,
-		style="rounded,filled,dotted",
+		style="rounded,filled",
 		tooltip="E40/E80/E175 Battery
 Type of battery Lithium iron phosphate battery
 Nominal capacity *40Ah*(E40) / 80Ah(E80) / 175Ah(E175)
@@ -1924,11 +1916,6 @@ Operating Ambient Temperature \
 		label="contributes to ",
 		labeltooltip="Wind → contributes to  → Windex → receives from  ↩",
 		tooltip="Wind → contributes to  → Windex → receives from  ↩"];
-	<UNIVERSAL-23> -> <MARU-32>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-32,UNIVERSAL-23)",
-		label="contributes to ",
-		labeltooltip="Wind → contributes to  → Swedish Flag → receives from  ↩",
-		minlen=<1>,
-		tooltip="Wind → contributes to  → Swedish Flag → receives from  ↩"];
 	<UNIVERSAL-23> -> <MARU-99>	[href="https://knowhere.atlassian.net/issues/?jql=key+in+(MARU-99,UNIVERSAL-23)",
 		label="serves ",
 		labeltooltip="Wind → serves  → Main Sail → requires  ↩",

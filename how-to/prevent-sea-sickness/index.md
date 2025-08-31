@@ -1,5 +1,6 @@
+---
 title: How to Prevent Sea-sickness
-abstract: Sea-sickness is widely known but little understood. Even less known is the fact that sea-sickness is curable. If you are affected -- here is how-to...
+abstract: Sea-sickness is widely known but little understood. Even less known is the fact that sea-sickness is curable. If you are affected -- here is how-to
 ---
 # How to Prevent Sea-sickness
 
@@ -17,7 +18,7 @@ Conflicting information between *expected* and *perceived* always makes us feel 
 
 ## Simple Cure
 
-A commonly known cure is watching the horizon. It is simple and it works without undestanding the cause of sea-sickness. Bingo.
+A commonly known cure is watching the horizon. It is simple and it works without understanding the cause of sea-sickness. Bingo.
 
 However, this cure does not apply when you can't see the horizon: at night or below deck. It also fails when you are busy with doing something that requires your full attention, like handling rope or navigating on a map. Or even worse, a combination: working at the chart desk or changing your clothes below deck.
 
