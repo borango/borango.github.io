@@ -9,6 +9,7 @@ layout: clean
 | Model          | Tiki 38|
 | manufacturer   | self-built|
 | boat type      | sailing catamaran|
+| hull number    |             209 | (building plan number)
 | sail area      |            53.2 | m²
 | length overall |            12.0 | m
 | beam/width     |             6.2 | m
@@ -31,6 +32,7 @@ layout: clean
 | number of engines  |          2 |
 | engine power each  |        1.5 | kW 
 | engine power total |        3.0 | kW 
+| engine price, serial #| € 6.000 | should not matter for 3rd party liability insurance|
 | --- |
 | boat name          |       LOVE & LIBERTY |
 | flag               |           San Marino |
