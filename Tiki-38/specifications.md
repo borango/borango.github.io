@@ -1,3 +1,6 @@
+---
+layout: clean
+---
 # Tiki 38 Specifications
 
 ||||
