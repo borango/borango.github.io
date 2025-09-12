@@ -1,5 +1,7 @@
+---
+layout: clean
+---
 # Insurances that I have tried
-
 
 |Company| |date|result|reason|notes|
 |--|--|--|--|--|--|
